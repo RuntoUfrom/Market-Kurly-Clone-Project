@@ -1,17 +1,21 @@
 @import "tailwindcss";
-/* 전체 배경은 회색, 앱 컨테이너는 흰색으로 모바일 느낌 내기 */
-body {
-  margin: 0;
-  background-color: #f4f4f4;
-  display: flex;
-  justify-content: center;
+
+@layer base {
+  html,
+  body {
+    height: 100%;
+    margin: 0;
+    overflow: hidden;
+  }
 }
 
-#root {
-  width: 100%;
-  max-width: 420px; /* 모바일 최대 너비 */
-  min-height: 100vh;
-  background-color: #fff;
-  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
-  position: relative; /* 레이어 팝업의 기준점 */
+@layer utilities {
+  .no-scrollbar {
+    -ms-overflow-style: none;
+    scrollbar-width: none;
+  }
+  .no-scrollbar::-webkit-scrollbar {
+    width: 0px;
+    height: 0px;
+  }
 }

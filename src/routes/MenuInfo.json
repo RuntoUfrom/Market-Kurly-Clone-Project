@@ -1,0 +1,39 @@
+{
+  "container": [
+    {
+      "name": "Sample_Index",
+      "urlList": [
+        {
+          "url": "/",
+          "filePath": "DEMO/INDEX",
+          "menuId": "Index"
+        },
+        {
+          "url": "/DEMO/MOVE/100",
+          "filePath": "DEMO/MOVE/MoveTestPage",
+          "menuId": "MoveTestPage100"
+        },
+        {
+          "url": "/DEMO/MOVE/1",
+          "filePath": "DEMO/MOVE/MoveSamplePage1",
+          "menuId": "MoveSamplePage1"
+        },
+        {
+          "url": "/DEMO/MOVE/2",
+          "filePath": "DEMO/MOVE/MoveSamplePage2",
+          "menuId": "MoveSamplePage2"
+        },
+        {
+          "url": "/DEMO/MOVE/3",
+          "filePath": "DEMO/MOVE/MoveSamplePage3",
+          "menuId": "MoveSamplePage3"
+        },
+        {
+          "url": "/DEMO/LAYER",
+          "filePath": "DEMO/LAYER/LayerTestPage",
+          "menuId": "LayerTestPage"
+        }
+      ]
+    }
+  ]
+}
