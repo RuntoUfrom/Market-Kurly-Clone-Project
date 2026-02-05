@@ -1,0 +1,87 @@
+<!doctype html>
+<meta charset="utf-8" />
+<title>Data URI → assets 파일 변환기</title>
+<style>
+  body {
+    font-family: system-ui;
+    max-width: 760px;
+    margin: 40px auto;
+    padding: 0 16px;
+  }
+  textarea {
+    width: 100%;
+    height: 220px;
+  }
+  .out {
+    white-space: pre-wrap;
+    background: #f7f7f7;
+    padding: 12px;
+    border: 1px solid #ddd;
+    border-radius: 8px;
+  }
+  button {
+    padding: 8px 12px;
+    border: 1px solid #ccc;
+    border-radius: 8px;
+    background: #fff;
+    cursor: pointer;
+  }
+</style>
+<h1>Data URI → File 변환</h1>
+<p>
+  여러 줄로 <code>data:image/...;base64,...</code> 를 붙여넣으세요 (한 줄에
+  하나).
+</p>
+<textarea
+  id="ta"
+  placeholder="data:image/svg+xml;base64,....&#10;data:image/png;base64,...."
+></textarea>
+<p>
+  파일명 접두어: <input id="prefix" value="img_" /> 저장 폴더명(참조용):
+  <input id="folder" value="assets" />
+</p>
+<p><button id="run">변환 &amp; 다운로드</button></p>
+<h3>치환용 HTML (복사해서 사용)</h3>
+<div class="out" id="out"></div>
+<script>
+  function extFromMime(m) {
+    if (m.includes("svg")) return "svg";
+    return (m.split("/")[1] || "bin").replace("+xml", "");
+  }
+  function download(name, blob) {
+    const a = document.createElement("a");
+    a.href = URL.createObjectURL(blob);
+    a.download = name;
+    a.click();
+  }
+  document.getElementById("run").onclick = () => {
+    const lines = document
+      .getElementById("ta")
+      .value.split(/\r?\n/)
+      .map((s) => s.trim())
+      .filter(Boolean);
+    const pref = document.getElementById("prefix").value || "img_";
+    const folder = document.getElementById("folder").value || "assets";
+    let idx = 1,
+      htmlOut = [];
+    for (const line of lines) {
+      const m = line.match(
+        /^data:(image\/[\w+\-\.]+);base64,([A-Za-z0-9+/=]+)$/,
+      );
+      if (!m) {
+        htmlOut.push(`(무시됨) ${line.slice(0, 40)}...`);
+        continue;
+      }
+      const [, mime, b64] = m;
+      const ext = extFromMime(mime);
+      const name = `${pref}${String(idx++).padStart(2, "0")}.${ext}`;
+      const blob = new Blob(
+        [Uint8Array.from(atob(b64), (c) => c.charCodeAt(0))],
+        { type: mime },
+      );
+      download(name, blob);
+      htmlOut.push(`<img src="./${folder}/${name}" alt="">`);
+    }
+    document.getElementById("out").textContent = htmlOut.join("\n");
+  };
+</script>
