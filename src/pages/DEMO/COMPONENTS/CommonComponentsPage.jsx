@@ -6,6 +6,9 @@ import FoodImage01 from "@/assets/foodmarketimages/FoodImage01.jpg";
 import DemoPreviewItem from "@/components/DEMO/DemoPreviewItem";
 import MenuCard from "@/components/common/MenuCard";
 import MenuLogo from "@/assets/menu/MenuLogoPresent.png";
+import MenuGrid from "@/components/common/MenuGrid";
+import { MENU_IMAGE_MAP } from "@/constants/menuImageMap";
+import Header from "@/components/common/Header";
 
 const CommonComponentsPage = () => {
   // 1단계: 상태 관리
@@ -77,6 +80,21 @@ const CommonComponentsPage = () => {
           }}
         />
       ),
+    },
+    {
+      id: "MenuGrid1",
+      label: "MenuGrid 1열",
+      component: <MenuGrid rowNum={1} menuList={Object.keys(MENU_IMAGE_MAP)} />,
+    },
+    {
+      id: "MenuGrid2",
+      label: "MenuGrid 2열",
+      component: <MenuGrid rowNum={2} menuList={Object.keys(MENU_IMAGE_MAP)} />,
+    },
+    {
+      id: "Header",
+      label: "Header",
+      component: <Header />,
     },
   ];
 
