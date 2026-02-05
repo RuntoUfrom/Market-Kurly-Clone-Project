@@ -21,6 +21,14 @@ const INDEX = () => {
       >
         레이어-팝업 테스트
       </button>
+      <button
+        onClick={() =>
+          moveTo({ direction: "FORWARD", menuId: "CommonComponentsPage" })
+        }
+        className="px-4 py-2 bg-blue-500 text-white rounded hover:bg-blue-600"
+      >
+        컴포넌트 리스트 페이지
+      </button>
     </div>
   );
 };

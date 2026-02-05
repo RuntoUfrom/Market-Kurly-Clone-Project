@@ -32,6 +32,11 @@
           "url": "/DEMO/LAYER",
           "filePath": "DEMO/LAYER/LayerTestPage",
           "menuId": "LayerTestPage"
+        },
+        {
+          "url": "/DEMO/COMPONENTS",
+          "filePath": "DEMO/COMPONENTS/CommonComponentsPage",
+          "menuId": "CommonComponentsPage"
         }
       ]
     }

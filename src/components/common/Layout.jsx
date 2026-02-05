@@ -8,14 +8,15 @@ import DialogComponent from "@/components/common/dialog/DialogComponent";
  */
 const Layout = ({ children }) => {
   return (
-    <div
-      id="layout-root"
-      //h-screen을 h-dvh로 변경
-      className="relative mx-auto w-full min-w-[340px] max-w-[430px] h-dvh border border-gray-100 bg-gray-100 overflow-y-auto no-scrollbar"
-    >
-      <main className="min-h-dvh">{children}</main>
-      <div id="dialog-root" />
-      <DialogComponent />
+    <div className="min-h-screen bg-gray-200">
+      <div
+        id="layout-root"
+        className="relative mx-auto w-full min-w-[340px] max-w-[400px] min-h-screen bg-white overflow-y-auto no-scrollbar"
+      >
+        <main className="min-h-screen">{children}</main>
+        <div id="dialog-root" />
+        <DialogComponent />
+      </div>
     </div>
   );
 };

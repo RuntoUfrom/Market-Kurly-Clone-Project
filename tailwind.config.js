@@ -1,7 +1,24 @@
 export default {
   content: ["./index.html", "./src/**/*.{js,ts,jsx,tsx}"],
+  safelist: ["bg-primary", "text-primary", "border-primary"],
   theme: {
-    extend: {},
+    extend: {
+      colors: {
+        primary: "#5F0080", //메인 (마켓컬리 보라색)
+      },
+      fontSize: {
+        10: "10px",
+        15: "15px",
+        17: "17px",
+      },
+      fontFamily: {
+        sans: ["Pretendard", "Roboto", "AppleSDGothicNeo", "sans-serif"],
+      },
+      screens: {
+        "max-xs": { max: "360px" },
+        "mini-mobile": { max: "400px" },
+      },
+    },
   },
   plugins: [],
 };

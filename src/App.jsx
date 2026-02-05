@@ -1,4 +1,5 @@
 import DialogComponent from "@/components/common/dialog/DialogComponent";
+import Layout from "@/components/common/Layout";
 import RootRoute from "@/routes/RootRoute";
 import { Suspense } from "react";
 //import { useEffect } from "react";
@@ -18,8 +19,10 @@ function App() {
 
   return (
     <>
-      <RootRoute />
-      <DialogComponent />
+      <Layout>
+        <RootRoute />
+        <DialogComponent />
+      </Layout>
     </>
   );
 }
