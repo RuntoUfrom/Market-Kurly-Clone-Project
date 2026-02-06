@@ -37,6 +37,11 @@
           "url": "/DEMO/COMPONENTS",
           "filePath": "DEMO/COMPONENTS/CommonComponentsPage",
           "menuId": "CommonComponentsPage"
+        },
+        {
+          "url": "/DEMO/MSW",
+          "filePath": "DEMO/MSW/MockingServerTestPage",
+          "menuId": "MockingServerTestPage"
         }
       ]
     }
