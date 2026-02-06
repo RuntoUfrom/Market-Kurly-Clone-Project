@@ -8,12 +8,12 @@ import DialogComponent from "@/components/common/dialog/DialogComponent";
  */
 const Layout = ({ children }) => {
   return (
-    <div className="min-h-screen bg-gray-200">
+    <div className="h-screen bg-gray-200">
       <div
         id="layout-root"
-        className="relative mx-auto w-full min-w-[340px] max-w-[400px] min-h-screen bg-white overflow-y-auto no-scrollbar"
+        className="relative mx-auto w-full min-w-[340px] max-w-[400px] h-screen bg-white flex flex-col"
       >
-        <main className="min-h-screen">{children}</main>
+        <main className="flex-1 overflow-y-auto no-scrollbar">{children}</main>
         <div id="dialog-root" />
         <DialogComponent />
       </div>

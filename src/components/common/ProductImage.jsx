@@ -1,4 +1,9 @@
 import ProductImageBedge from "@/assets/common/ProductImageBadge.png";
+
+/**
+ * ProductImage - 항상 부모 컨테이너 크기에 맞춤 (w-full)
+ * 크기 조절은 부모 컴포넌트에서 wrapper로 제어
+ */
 const ProductImage = ({
   productImage,
   topBadge = false,
@@ -8,14 +13,14 @@ const ProductImage = ({
   bottomBannerText = "",
 }) => {
   return (
-    <div className="relative w-2/5 overflow-hidden rounded-md ">
+    <div className="relative w-full h-full overflow-hidden rounded-md">
       <img
         src={productImage}
         alt="상품 이미지"
-        className="w-full h-auto object-cover"
+        className="w-full h-full object-cover"
       />
       {topBadge && (
-        <div className="absolute top-2 left-2 bg-secondary text-white text-xs font-semibold px-2 py-1 rounded">
+        <div className="absolute top-2 left-2 bg-secondary text-white text-xs font-medium px-2 py-1 rounded">
           {topBadgeText}
         </div>
       )}

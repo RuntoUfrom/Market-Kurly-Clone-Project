@@ -35,7 +35,7 @@ const DialogBottomPopup = ({ layerIndex, callbackFunc, data, children }) => {
   return (
     <div
       ref={dialogRef}
-      className={`fixed mx-auto w-full max-w-[430px] inset-0 bg-black/20 flex justify-center items-end z-[1000] overflow-hidden 
+      className={`fixed mx-auto w-full max-w-[400px] inset-0 bg-black/20 flex justify-center items-end z-[1000] overflow-hidden
         ${
           layerIndex === lastIndex
             ? "pointer-events-auto"

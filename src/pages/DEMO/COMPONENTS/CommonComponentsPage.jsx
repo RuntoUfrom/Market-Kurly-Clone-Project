@@ -1,5 +1,5 @@
 import { useState } from "react";
-import BasicSubmitButton from "@/components/common/BasicSubmitButton";
+import BasicSubmitButton from "@/components/common/button/BasicSubmitButton";
 import ProductImage from "@/components/common/ProductImage";
 import SectionHeader from "@/components/common/SectionHeader";
 import FoodImage01 from "@/assets/foodmarketimages/FoodImage01.jpg";
@@ -8,11 +8,33 @@ import MenuCard from "@/components/common/MenuCard";
 import MenuLogo from "@/assets/menu/MenuLogoPresent.png";
 import MenuGrid from "@/components/common/MenuGrid";
 import { MENU_IMAGE_MAP } from "@/constants/menuImageMap";
-import Header from "@/components/common/Header";
+import HomHeader from "@/components/common/layout/HomHeader";
+import CustomTabBtns from "@/components/common/layout/CustomTabBtns";
+import IconButton from "@/components/common/button/IconButton";
+import productImage from "@/assets/foodmarketimages/FoodImage01.jpg";
+import ProductCard from "@/components/common/ProductCard";
+
+const product = {
+  productImage: productImage,
+  topBadge: true,
+  topBadgeText: "+12% 쿠폰",
+  eventBadge: true,
+  bottomBanner: true,
+  bottomBannerText: "최대혜택가25987원",
+  // ProductInfo용
+  isDawnDelivery: true,
+  productName: "설향딸기 500g",
+  originalPrice: 10000,
+  discountPrice: 8000,
+  discountRate: 20,
+  reviewCount: 150,
+  isKurlyOnly: true,
+};
 
 const CommonComponentsPage = () => {
   // 1단계: 상태 관리
   const [activeId, setActiveId] = useState(null);
+  const [tab, setTab] = useState("추천");
 
   const handleToggle = (id) => {
     setActiveId((prev) => (prev === id ? null : id));
@@ -54,20 +76,20 @@ const CommonComponentsPage = () => {
         />
       ),
     },
-    {
-      id: "product-image",
-      label: "ProductImage",
-      component: (
-        <ProductImage
-          productImage={FoodImage01}
-          topBadge={true}
-          topBadgeText="+12%쿠폰"
-          eventBadge={true}
-          bottomBanner={true}
-          bottomBannerText="최대혜택가 78526원"
-        />
-      ),
-    },
+    // {
+    //   id: "product-image",
+    //   label: "ProductImage",
+    //   component: (
+    //     <ProductImage
+    //       productImage={FoodImage01}
+    //       topBadge={true}
+    //       topBadgeText="+12%쿠폰"
+    //       eventBadge={true}
+    //       bottomBanner={true}
+    //       bottomBannerText="최대혜택가 78526원"
+    //     />
+    //   ),
+    // },
     {
       id: "menuCard",
       label: "menuCard 개별",
@@ -94,7 +116,65 @@ const CommonComponentsPage = () => {
     {
       id: "Header",
       label: "Header",
-      component: <Header />,
+      component: <HomHeader />,
+    },
+    {
+      id: "TabBar7",
+      label: "TabBar7",
+      component: (
+        <CustomTabBtns
+          variant={7}
+          labels={[
+            "추천",
+            "베스트",
+            "세일",
+            "패션",
+            "리빙",
+            "신상",
+            "특가/혜택",
+          ]}
+          active={tab}
+          onChange={setTab}
+        />
+      ),
+    },
+    {
+      id: "TabBar2",
+      label: "TabBar2",
+      component: (
+        <CustomTabBtns
+          variant={2}
+          labels={["마켓컬리", "뷰티컬리"]}
+          active={tab}
+          onChange={setTab}
+        />
+      ),
+    },
+    {
+      id: "CartButton",
+      label: "CartButton",
+      component: (
+        <IconButton
+          alt="장바구니"
+          onClick={() => console.log("장바구니 버튼 클릭")}
+          label="담기"
+        />
+      ),
+    },
+    {
+      id: "ProductCardVertical",
+      label: "ProductCard (Vertical)",
+      component: <ProductCard product={product} layout="vertical" />,
+    },
+    {
+      id: "ProductCardHorizontal",
+      label: "ProductCard (Horizontal)",
+      component: <ProductCard product={product} layout="horizontal" />,
+    },
+    {
+      id: "ProductCardHorizontalSimple",
+      label: "ProductCard (Horizontal Simple)",
+      component: <ProductCard product={product} layout="simple-horizontal" />,
     },
   ];
 

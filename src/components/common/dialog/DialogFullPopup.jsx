@@ -25,7 +25,7 @@ const DialogFullPopup = ({ layerIndex, callbackFunc, children }) => {
   return (
     <div
       ref={dialogRef}
-      className={`fixed w-full min-w-[370px] max-w-[430px] mx-auto inset-0 z-[1000] ${
+      className={`fixed w-full min-w-[340px] max-w-[400px] mx-auto inset-0 z-[1000] ${
         layerIndex === lastIndex ? "pointer-events-auto" : "pointer-events-none"
       }`}
       aria-hidden={layerIndex === lastIndex ? "false" : "true"}

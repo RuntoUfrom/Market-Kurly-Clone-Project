@@ -1,8 +1,9 @@
 import useThemeStore from "@/stores/useThemeStore";
 import NaviIcon from "@/assets/common/icons/NaviIcon.svg?react";
-import CartIcon from "@/assets/common/icons/CartIcon.svg?react";
+import CartIcon from "@/assets/common/icons/CartIcon.svg";
+import CartIconGray from "@/assets/common/icons/CartIconGray.svg";
 
-const Header = () => {
+const HomHeader = () => {
   const { theme, setTheme } = useThemeStore();
 
   const isMarket = theme === "market";
@@ -24,7 +25,7 @@ const Header = () => {
       >
         <button
           onClick={() => setTheme("market")}
-          className={`px-4 py-1.5 rounded-full text-sm font-medium transition-colors ${
+          className={`px-4 py-1.5 rounded-full text-xs font-medium transition-colors ${
             isMarket ? "bg-white text-primary" : "bg-transparent text-gray-500"
           }`}
         >
@@ -32,7 +33,7 @@ const Header = () => {
         </button>
         <button
           onClick={() => setTheme("beauty")}
-          className={`px-4 py-1.5 rounded-full text-sm font-medium transition-colors ${
+          className={`px-4 py-1.5 rounded-full text-xs font-medium transition-colors ${
             isMarket ? "bg-transparent text-white" : "bg-primary text-white"
           }`}
         >
@@ -43,14 +44,20 @@ const Header = () => {
       {/* 오른쪽: 아이콘 */}
       <div className="flex items-center gap-3">
         <button>
-          <NaviIcon className={`w-6 h-6 ${isMarket ? "text-white" : "text-gray-700"}`} />
+          <NaviIcon
+            className={`w-6 h-6 ${isMarket ? "text-white" : "text-gray-700"}`}
+          />
         </button>
         <button>
-          <CartIcon className={`w-6 h-6 ${isMarket ? "text-white" : "text-gray-700"}`} />
+          {isMarket ? (
+            <img src={CartIcon} className="w-6 h-6" />
+          ) : (
+            <img src={CartIconGray} className="w-6 h-6" />
+          )}
         </button>
       </div>
     </header>
   );
 };
 
-export default Header;
+export default HomHeader;

@@ -1,4 +1,7 @@
+import ProductCard from "@/components/common/ProductCard";
+import ProductInfo from "@/components/common/ProductInfo";
 import useHistoryController from "@/hooks/controllers/useHistoryController";
+
 const INDEX = () => {
   const { moveTo } = useHistoryController();
 
