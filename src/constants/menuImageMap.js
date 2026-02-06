@@ -1,3 +1,4 @@
+//마켓 컬리 - 기본 - 메뉴 로고 이미지
 import MenuLogoPresent from "@/assets/menu/MenuLogoPresent.png";
 import MenuLogoCurator from "@/assets/menu/MenuLogoCurator.png";
 import MenuLogoDiet from "@/assets/menu/MenuLogoDiet.png";
@@ -12,10 +13,14 @@ import MenuLogoChallenge from "@/assets/menu/MenuLogoChallenge.png";
 import MenuLogoSull from "@/assets/menu/MenuLogoSull.png";
 import MenuLogoOnly from "@/assets/menu/MenuLogoOnly.png";
 import MenuLogoMost from "@/assets/menu/MenuLogoMost.png";
+import MenuLogoEvent from "@/assets/menu/MenuLogoEvent.png";
 
 export const MENU_IMAGE_MAP = {
+  //15 - 컬리 멤버스 이미지 다운이 안됨.
+  자주산상품: MenuLogoMost,
+  단독특가: MenuLogoOnly,
   선물추천: MenuLogoPresent,
-  컬리추천: MenuLogoCurator,
+  컬리큐레이터: MenuLogoCurator,
   다이어트: MenuLogoDiet,
   AI스튜디오: MenuLogoAI,
   월신상품: MenuLogoNew,
@@ -25,9 +30,8 @@ export const MENU_IMAGE_MAP = {
   라이브커머스: MenuLogoLive,
   멤버스특가: MenuLogoMembers,
   최저가도전: MenuLogoChallenge,
-  설선물: MenuLogoSull,
-  단독특가: MenuLogoOnly,
-  자주산상품: MenuLogoMost,
+  설선물특가: MenuLogoSull,
+  이벤트: MenuLogoEvent,
 };
 
 export const MENU_IMAGES = {
@@ -45,4 +49,5 @@ export const MENU_IMAGES = {
   MenuLogoSull,
   MenuLogoOnly,
   MenuLogoMost,
+  MenuLogoEvent,
 };

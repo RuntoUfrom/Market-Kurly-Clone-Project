@@ -1,7 +1,7 @@
 import MenuCard from "@/components/common/MenuCard";
 import { MENU_IMAGE_MAP } from "@/constants/menuImageMap";
 
-const MenuGrid = ({ isBar = true, rowNum = 1, menuList = {} }) => {
+const MenuGrid = ({ isBar = false, rowNum = 1, menuList = {}, imageMap }) => {
   // rowNum에 따라 grid 행 개수 결정
   const gridRowsClass = rowNum === 2 ? "grid-rows-2" : "grid-rows-1";
 

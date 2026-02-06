@@ -1,11 +1,7 @@
 import { useState } from "react";
 import BasicSubmitButton from "@/components/common/button/BasicSubmitButton";
-import ProductImage from "@/components/common/ProductImage";
 import SectionHeader from "@/components/common/SectionHeader";
-import FoodImage01 from "@/assets/foodmarketimages/FoodImage01.jpg";
 import DemoPreviewItem from "@/components/DEMO/DemoPreviewItem";
-import MenuCard from "@/components/common/MenuCard";
-import MenuLogo from "@/assets/menu/MenuLogoPresent.png";
 import MenuGrid from "@/components/common/MenuGrid";
 import { MENU_IMAGE_MAP } from "@/constants/menuImageMap";
 import HomHeader from "@/components/common/layout/HomHeader";
@@ -13,6 +9,10 @@ import CustomTabBtns from "@/components/common/layout/CustomTabBtns";
 import IconButton from "@/components/common/button/IconButton";
 import productImage from "@/assets/foodmarketimages/FoodImage01.jpg";
 import ProductCard from "@/components/common/ProductCard";
+import NaviBar from "@/components/common/layout/NaviBar";
+import MoveBanner from "@/components/common/MoveBanner";
+import { MARKET_BANNER_LIST } from "@/constants/marketbannerMap";
+import FilterBtn from "@/components/common/button/FilterBtn";
 
 const product = {
   productImage: productImage,
@@ -21,7 +21,6 @@ const product = {
   eventBadge: true,
   bottomBanner: true,
   bottomBannerText: "최대혜택가25987원",
-  // ProductInfo용
   isDawnDelivery: true,
   productName: "설향딸기 500g",
   originalPrice: 10000,
@@ -76,33 +75,7 @@ const CommonComponentsPage = () => {
         />
       ),
     },
-    // {
-    //   id: "product-image",
-    //   label: "ProductImage",
-    //   component: (
-    //     <ProductImage
-    //       productImage={FoodImage01}
-    //       topBadge={true}
-    //       topBadgeText="+12%쿠폰"
-    //       eventBadge={true}
-    //       bottomBanner={true}
-    //       bottomBannerText="최대혜택가 78526원"
-    //     />
-    //   ),
-    // },
-    {
-      id: "menuCard",
-      label: "menuCard 개별",
-      component: (
-        <MenuCard
-          LogoImage={MenuLogo}
-          label="선물추천"
-          onClick={() => {
-            console.log("메뉴버튼 클릭 ");
-          }}
-        />
-      ),
-    },
+
     {
       id: "MenuGrid1",
       label: "MenuGrid 1열",
@@ -175,6 +148,21 @@ const CommonComponentsPage = () => {
       id: "ProductCardHorizontalSimple",
       label: "ProductCard (Horizontal Simple)",
       component: <ProductCard product={product} layout="simple-horizontal" />,
+    },
+    {
+      id: "NaviBar",
+      label: "NaviBar",
+      component: <NaviBar currentPage="home" />,
+    },
+    {
+      id: "MoveBanner",
+      label: "MoveBanner",
+      component: <MoveBanner bannerList={MARKET_BANNER_LIST} />,
+    },
+    {
+      id: "FilterBtn",
+      label: "FilterBtn",
+      component: <FilterBtn label="필터" />,
     },
   ];
 
