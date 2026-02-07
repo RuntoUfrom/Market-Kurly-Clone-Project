@@ -13,6 +13,7 @@ import NaviBar from "@/components/common/layout/NaviBar";
 import MoveBanner from "@/components/common/MoveBanner";
 import { MARKET_BANNER_LIST } from "@/constants/marketbannerMap";
 import FilterBtn from "@/components/common/button/FilterBtn";
+import FilterBar from "@/components/common/layout/FilterBar";
 
 const product = {
   productImage: productImage,
@@ -108,6 +109,7 @@ const CommonComponentsPage = () => {
           ]}
           active={tab}
           onChange={setTab}
+          color={"purple"}
         />
       ),
     },
@@ -120,6 +122,7 @@ const CommonComponentsPage = () => {
           labels={["마켓컬리", "뷰티컬리"]}
           active={tab}
           onChange={setTab}
+          color={"black"}
         />
       ),
     },
@@ -163,6 +166,18 @@ const CommonComponentsPage = () => {
       id: "FilterBtn",
       label: "FilterBtn",
       component: <FilterBtn label="필터" />,
+    },
+    {
+      id: "FilterBar",
+      label: "FilterBar",
+      component: (
+        <FilterBar
+          isKurlyOnly={true}
+          isNew={true}
+          isWonderHotDeal={true}
+          isBeautyFest={false}
+        />
+      ),
     },
   ];
 

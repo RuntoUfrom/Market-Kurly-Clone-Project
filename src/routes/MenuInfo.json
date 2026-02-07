@@ -42,6 +42,31 @@
           "url": "/DEMO/MSW",
           "filePath": "DEMO/MSW/MockingServerTestPage",
           "menuId": "MockingServerTestPage"
+        },
+        {
+          "url": "/DEMO/Page",
+          "filePath": "DEMO/PAGE/PageTestPage",
+          "menuId": "PageTestPage"
+        },
+        {
+          "url": "/DEMO/Page",
+          "filePath": "DEMO/PAGE/PageTestPage",
+          "menuId": "PageTestPage"
+        }
+      ]
+    },
+    {
+      "name": "Page_Index",
+      "urlList": [
+        {
+          "url": "/LGN",
+          "filePath": "LGN/LGN001",
+          "menuId": "LGN001"
+        },
+        {
+          "url": "/HOM",
+          "filePath": "HOM/HOM001",
+          "menuId": "HOM001"
         }
       ]
     }

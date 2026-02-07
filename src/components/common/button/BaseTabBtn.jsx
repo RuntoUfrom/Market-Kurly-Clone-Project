@@ -6,27 +6,34 @@
  * @param {boolean} props.active - 현재 활성 상태 여부
  * @param {() => void} props.onClick - 클릭 핸들러
  */
-const BaseTabBtn = ({ label, active = true, onClick }) => {
-  let variant = "primary";
-  if (label === "마켓컬리" || label === "뷰티컬리") {
-    variant = "black";
+const BaseTabBtn = ({
+  label,
+  active = true,
+  onClick,
+  color = "purple",
+  stretch = false,
+}) => {
+  const fontsize = stretch ? "text-sm" : "text-xs";
+  let textColor = "";
+  let bgColor = "";
+  if (color === "purple") {
+    textColor = "text-primary";
+    bgColor = "bg-primary";
+  } else {
+    textColor = "text-black";
+    bgColor = "bg-black";
   }
-  let fontsize = "text-xs";
-  if (label.length > 5) {
-    fontsize = "text-[10px]";
-  }
-
   return (
     <button
       type="button"
       onClick={onClick}
-      className={`relative flex flex-1 flex-col items-center justify-center  py-1 ${fontsize} transition-colors ${
-        active ? `text-${variant} font-semibold` : "text-gray-400"
+      className={`relative flex ${stretch ? "flex-1" : "shrink-0"} flex-col items-center justify-center px-3 pb-2 ${fontsize} transition-colors ${
+        active ? `${textColor} font-semibold` : "text-gray-400"
       }`}
     >
       <span className="relative inline-block">{label}</span>
       <span
-        className={`absolute left-1/2 -translate-x-1/2 -bottom-3 h-0.5 bg-${variant} transition-all duration-200 ${
+        className={`absolute left-1/2 -translate-x-1/2 bottom-0 h-0.5 ${bgColor} transition-all duration-200 ${
           active ? "w-full" : "w-0"
         }`}
       />
