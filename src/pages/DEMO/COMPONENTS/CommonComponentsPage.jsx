@@ -15,6 +15,10 @@ import { MARKET_BANNER_LIST } from "@/constants/marketbannerMap";
 import FilterBtn from "@/components/common/button/FilterBtn";
 import FilterBar from "@/components/common/layout/FilterBar";
 import Footer from "@/components/common/layout/Footer";
+import ProductScrollSection from "@/components/common/ProductScrollSection";
+import MarketProductsMockData from "@/mocks/data/HOM/MarketProducts";
+import ProductRankSection from "@/components/common/ProductRankSection";
+
 const product = {
   productImage: productImage,
   topBadge: true,
@@ -195,6 +199,16 @@ const CommonComponentsPage = () => {
       id: "Footer",
       label: "Footter",
       component: <Footer />,
+    },
+    {
+      id: "ProductScrollSection",
+      label: "ProductScrollSection",
+      component: <ProductScrollSection products={MarketProductsMockData} />,
+    },
+    {
+      id: "ProductRankSection",
+      label: "ProductRankSection",
+      component: <ProductRankSection products={MarketProductsMockData} />,
     },
   ];
 

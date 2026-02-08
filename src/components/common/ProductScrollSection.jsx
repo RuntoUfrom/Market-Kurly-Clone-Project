@@ -1,5 +1,5 @@
 import ProductCard from "@/components/common/ProductCard";
-import marketProductImageMap from "@/constants/marketProductImageMap";
+import ImageMappingHelper from "@/constants/ImageMappingHelper";
 
 const ProductScrollSection = ({ products = [], onClickMore }) => {
   const displayProducts = products.slice(0, 10);
@@ -11,7 +11,7 @@ const ProductScrollSection = ({ products = [], onClickMore }) => {
           key={product.productId}
           product={{
             ...product,
-            productImage: marketProductImageMap[product.productImage],
+            productImage: ImageMappingHelper[product.productImage],
           }}
           layout="vertical"
         />

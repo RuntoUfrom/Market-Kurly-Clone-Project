@@ -1,14 +1,25 @@
+import { useRef, useState } from "react";
 import MenuCard from "@/components/common/MenuCard";
 import { MENU_IMAGE_MAP } from "@/constants/menuImageMap";
 
 const MenuGrid = ({ isBar = false, rowNum = 1, menuList = {}, imageMap, activeMenu, onMenuClick }) => {
-  // rowNum에 따라 grid 행 개수 결정
   const gridRowsClass = rowNum === 2 ? "grid-rows-2" : "grid-rows-1";
+  const scrollRef = useRef(null);
+  const [scrollRatio, setScrollRatio] = useState(0);
+
+  const handleScroll = () => {
+    const el = scrollRef.current;
+    if (!el) return;
+    const maxScroll = el.scrollWidth - el.clientWidth;
+    setScrollRatio(maxScroll > 0 ? el.scrollLeft / maxScroll : 0);
+  };
 
   return (
     <div className="w-full">
       {/* 스크롤 컨테이너 */}
       <div
+        ref={scrollRef}
+        onScroll={handleScroll}
         className={`grid ${gridRowsClass} grid-flow-col whitespace-nowrap auto-cols-[64px] gap-2 overflow-x-auto scroll-snap-x-mandatory no-scrollbar px-2 py-2`}
       >
         {menuList.map((item) => (
@@ -27,6 +38,16 @@ const MenuGrid = ({ isBar = false, rowNum = 1, menuList = {}, imageMap, activeMe
             )}
           </div>
         ))}
+      </div>
+
+      {/* 스크롤 인디케이터 */}
+      <div className="flex justify-center py-2">
+        <div className="relative w-16 h-1 bg-gray-200 rounded-full overflow-hidden">
+          <div
+            className="absolute top-0 left-0 h-full w-1/3 bg-gray-800 rounded-full transition-transform duration-100"
+            style={{ transform: `translateX(${scrollRatio * 200}%)` }}
+          />
+        </div>
       </div>
     </div>
   );

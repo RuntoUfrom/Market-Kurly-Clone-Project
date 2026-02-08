@@ -1,13 +1,10 @@
 import CustomTabBtns from "@/components/common/layout/CustomTabBtns";
 import HomHeader from "@/components/common/layout/HomHeader";
-import MoveBanner from "@/components/common/MoveBanner";
 import { useState } from "react";
-import { MARKET_BANNER_LIST } from "@/constants/marketbannerMap";
-import SectionHeader from "@/components/common/SectionHeader";
-import ProductScrollSection from "@/components/common/ProductScrollSection";
-import MarketProductsMockData from "@/mocks/data/HOM/MarketProducts";
-import MenuGrid from "@/components/common/MenuGrid";
+
 import NaviBar from "@/components/common/layout/NaviBar";
+import HOMBestTab from "./HOMBestTab";
+import HOMRecommandTab from "./HOMRecommandTab";
 
 const HOM001 = () => {
   const MarketKurlyTabList = [
@@ -22,11 +19,22 @@ const HOM001 = () => {
   const [selectedTab, setSelectedTab] = useState("추천");
   const handleTabChange = (selectTab) => {
     setSelectedTab(selectTab);
+    console.log(selectTab);
+  };
+  const renderTab = () => {
+    switch (selectedTab) {
+      case "추천":
+        return <HOMRecommandTab />;
+      case "베스트":
+        return <HOMBestTab />;
+      default:
+        return null;
+    }
   };
   return (
-    <div className="flex flex-col h-full">
+    <div className="h-full">
       {/* 상단 고정 영역 */}
-      <div className="shrink-0">
+      <div className="fixed top-0 left-1/2 -translate-x-1/2 w-full min-w-85 max-w-100 z-10 bg-white">
         <HomHeader />
         <CustomTabBtns
           variant={7}
@@ -37,25 +45,11 @@ const HOM001 = () => {
       </div>
 
       {/* 스크롤 영역 */}
-      <div className="flex-1 overflow-y-auto no-scrollbar">
-        <MoveBanner bannerList={MARKET_BANNER_LIST} />
-        <SectionHeader
-          main={"최대 혜택으로 준비하는 설선물"}
-          description={"헬스부터 뷰티 선물까지 12%쿠폰 추가 지급"}
-          onClickMore={() => {
-            console.log("전체 보기 클릭");
-          }}
-        />
-        <ProductScrollSection
-          products={MarketProductsMockData}
-          onClickMore={() => {
-            console.log("전체 보기 클릭");
-          }}
-        />
+      <div className="h-full overflow-y-auto no-scrollbar pt-20 pb-14">
+        {renderTab()}
       </div>
-
       {/* 하단 고정 영역 */}
-      <div className="shrink-0">
+      <div className="fixed bottom-0 left-1/2 -translate-x-1/2 w-full min-w-85 max-w-100 z-10 bg-white">
         <NaviBar />
       </div>
     </div>

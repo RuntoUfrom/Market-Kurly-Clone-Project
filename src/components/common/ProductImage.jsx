@@ -18,7 +18,7 @@ const ProductImage = ({
         className="w-full h-full object-cover"
       />
       {topBadgeText && (
-        <div className="absolute top-2 left-2 bg-secondary text-white text-xs font-medium px-2 py-1 rounded">
+        <div className="absolute top-2 left-2 bg-secondary text-white text-sm font-medium px-2 py-1 rounded">
           {topBadgeText}
         </div>
       )}
@@ -30,7 +30,7 @@ const ProductImage = ({
         />
       )}
       {bottomBannerText && (
-        <div className="absolute bottom-0 left-0 right-0 bg-gray-800/40 text-white text-xs font-medium text-center py-2">
+        <div className="absolute bottom-0 left-0 right-0 bg-gray-800/40 text-white text-sm font-medium text-center py-2">
           {bottomBannerText}
         </div>
       )}

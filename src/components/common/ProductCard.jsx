@@ -7,7 +7,7 @@ import CartIconGray from "@/assets/common/icons/CartIconGray.svg";
 /**
  * @param {string} layout - "vertical" | "horizontal" | "simple-horizontal"
  */
-const ProductCard = ({ product, layout = "vertical" }) => {
+const ProductCard = ({ product, layout = "vertical", rank = 1 }) => {
   const { productImage, topBadgeText, eventBadge, bottomBannerText } = product;
 
   // vertical 레이아웃 (가로 160px)
@@ -36,31 +36,32 @@ const ProductCard = ({ product, layout = "vertical" }) => {
 
   // horizontal 레이아웃 (260x160px)
   if (layout === "horizontal") {
-    const { rank } = product; //추후에 추가
     return (
-      <div className="flex flex-row w-65 h-40 bg-white rounded-md">
-        {/* 이미지 영역 (정사각형 160x160) */}
-        <div className="w-30 h-[37.5] shrink m-2">
-          <ProductImage
-            productImage={productImage}
-            topBadgeText={topBadgeText}
-            eventBadge={eventBadge}
-            bottomBannerText={bottomBannerText}
-          />
-        </div>
-
-        {/* 오른쪽 정보 영역 */}
-        <div className="flex-1 flex flex-col justify-between p-2">
-          {/* 상단: 순위 + 상품정보 */}
-          <div>
-            <span className="text-lg font-bold text-gray-800 mb-1 block">
-              {/* {rank} */}7
-            </span>
-
-            <ProductInfo product={product} layout={layout} />
+      <div className="p-2 bg-white flex flex-row justify-center">
+        <div className="flex flex-row w-68 h-46 bg-white rounded-md  p-2 justify-center">
+          {/* 이미지 영역 (정사각형 160x160) */}
+          <div className="w-30 h-[37.5] shrink-0 m-2">
+            <ProductImage
+              productImage={productImage}
+              topBadgeText={topBadgeText}
+              eventBadge={eventBadge}
+              bottomBannerText={bottomBannerText}
+            />
           </div>
 
-          <IconButton icon={CartIconGray} alt="담기 버튼" label="담기" />
+          {/* 오른쪽 정보 영역 */}
+          <div className="flex-1 flex flex-col justify-between p-2">
+            {/* 상단: 순위 + 상품정보 */}
+            <div>
+              <span className="text-lg font-bold text-gray-800 mb-1 block">
+                {rank}
+              </span>
+
+              <ProductInfo product={product} layout={layout} />
+            </div>
+
+            <IconButton icon={CartIconGray} alt="담기 버튼" label="담기" />
+          </div>
         </div>
       </div>
     );

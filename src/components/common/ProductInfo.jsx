@@ -22,7 +22,13 @@ const ProductInfo = ({ product, layout = "vertical" }) => {
       )}
 
       {/* 상품명 */}
-      <p className="text-gray-800 text-sm font-medium">{productName}</p>
+      <p className="text-gray-800 text-sm font-medium">
+        {layout === "horizontal" || layout === "simple-horizontal"
+          ? productName?.length > 16
+            ? productName.slice(0, 16) + "..."
+            : productName
+          : productName}
+      </p>
 
       {/* 원가(취소선) - vertical에서만 표시 */}
       {layout === "vertical" ||
