@@ -6,10 +6,8 @@ import ProductImageBedge from "@/assets/common/ProductImageBadge.png";
  */
 const ProductImage = ({
   productImage,
-  topBadge = false,
   topBadgeText = "",
   eventBadge = false,
-  bottomBanner = false,
   bottomBannerText = "",
 }) => {
   return (
@@ -19,7 +17,7 @@ const ProductImage = ({
         alt="상품 이미지"
         className="w-full h-full object-cover"
       />
-      {topBadge && (
+      {topBadgeText && (
         <div className="absolute top-2 left-2 bg-secondary text-white text-xs font-medium px-2 py-1 rounded">
           {topBadgeText}
         </div>
@@ -31,7 +29,7 @@ const ProductImage = ({
           className="absolute bottom-10 left-1 w-16 h-16"
         />
       )}
-      {bottomBanner && (
+      {bottomBannerText && (
         <div className="absolute bottom-0 left-0 right-0 bg-gray-800/40 text-white text-xs font-medium text-center py-2">
           {bottomBannerText}
         </div>

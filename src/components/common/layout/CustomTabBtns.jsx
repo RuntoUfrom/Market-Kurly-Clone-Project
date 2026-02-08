@@ -20,13 +20,13 @@ const CustomTabBtns = ({
   const options = labels.slice(0, variant);
 
   return (
-    <div className="flex w-full overflow-x-auto scrollbar-hide">
+    <div className="flex w-full overflow-x-auto scrollbar-hide pt-3 px-4">
       {options.map((label, idx) => (
         <BaseTabBtn
           key={idx}
           label={label}
           active={active === label}
-          onClick={() => onChange(label)}
+          onClick={onChange}
           color={color}
           stretch={variant <= 5}
         />

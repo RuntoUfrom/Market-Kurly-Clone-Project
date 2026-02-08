@@ -14,7 +14,7 @@ const LGN001 = () => {
   const isDisabled = !userId.trim() || !password.trim();
 
   const handleLoginClick = () => {
-    if (userId === "user" && password === "1234") {
+    if (userId === "user001" && password === "001229") {
       login();
       moveTo({ direction: "FORWARD", menuId: "HOM001", options: -1 });
     } else {
@@ -28,7 +28,7 @@ const LGN001 = () => {
 
   return (
     <div className="flex flex-col items-center justify-center h-full px-6">
-      <div className="w-full flex flex-col mb-5 rounded-lg overflow-hidden border border-gray-300">
+      <div className="w-full flex flex-col mb-5  overflow-hidden border border-gray-300">
         <input
           type="text"
           placeholder="아이디 입력"

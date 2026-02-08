@@ -12,25 +12,25 @@ const PageTestPage = () => {
         로그인
       </button>
       <button
-        onClick={() => moveTo({ direction: "FORWARD", menuId: "LGN001" })}
+        onClick={() => moveTo({ direction: "FORWARD", menuId: "HOM001" })}
         className="px-4 py-2 bg-blue-500 text-white rounded hover:bg-blue-600"
       >
         홈
       </button>
       <button
-        onClick={() => moveTo({ direction: "FORWARD", menuId: "LGN001" })}
+        onClick={() => moveTo({ direction: "FORWARD", menuId: "LST001" })}
         className="px-4 py-2 bg-blue-500 text-white rounded hover:bg-blue-600"
       >
         제품 리스트
       </button>
       <button
-        onClick={() => moveTo({ direction: "FORWARD", menuId: "LGN001" })}
+        onClick={() => moveTo({ direction: "FORWARD", menuId: "DTI001" })}
         className="px-4 py-2 bg-blue-500 text-white rounded hover:bg-blue-600"
       >
         상세 제품
       </button>
       <button
-        onClick={() => moveTo({ direction: "FORWARD", menuId: "LGN001" })}
+        onClick={() => moveTo({ direction: "FORWARD", menuId: "MEN001" })}
         className="px-4 py-2 bg-blue-500 text-white rounded hover:bg-blue-600"
       >
         전체 메뉴

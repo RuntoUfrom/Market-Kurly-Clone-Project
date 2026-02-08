@@ -67,6 +67,21 @@
           "url": "/HOM",
           "filePath": "HOM/HOM001",
           "menuId": "HOM001"
+        },
+        {
+          "url": "/LST",
+          "filePath": "LST/LST001",
+          "menuId": "LST001"
+        },
+        {
+          "url": "/DTI",
+          "filePath": "DTI/DTI001",
+          "menuId": "DTI001"
+        },
+        {
+          "url": "/MEN",
+          "filePath": "MEN/MEN001",
+          "menuId": "MEN001"
         }
       ]
     }

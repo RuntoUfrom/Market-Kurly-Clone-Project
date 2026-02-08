@@ -8,35 +8,28 @@ import CartIconGray from "@/assets/common/icons/CartIconGray.svg";
  * @param {string} layout - "vertical" | "horizontal" | "simple-horizontal"
  */
 const ProductCard = ({ product, layout = "vertical" }) => {
-  const {
-    productImage,
-    topBadge,
-    topBadgeText,
-    eventBadge,
-    bottomBanner,
-    bottomBannerText,
-  } = product;
+  const { productImage, topBadgeText, eventBadge, bottomBannerText } = product;
 
   // vertical 레이아웃 (가로 160px)
   if (layout === "vertical") {
     return (
-      <div className="flex flex-col gap-2 w-40 p-1 bg-white rounded-md m-2">
-        {/* 상품 이미지 (4px 마진 효과) */}
-        <ProductImage
-          productImage={productImage}
-          topBadge={topBadge}
-          topBadgeText={topBadgeText}
-          eventBadge={eventBadge}
-          bottomBanner={bottomBanner}
-          bottomBannerText={bottomBannerText}
-        />
-        <IconButton
-          icon={CartIconGray}
-          alt="담기 버튼"
-          className=" top-2 bg-white rounded-full p-1 shadow-md"
-          label="담기"
-        />
-        <ProductInfo product={product} layout={layout} />
+      <div className="w-full w-2/3">
+        <div className="flex flex-col gap-2 w-40 p-1 bg-white rounded-md m-2">
+          {/* 상품 이미지 (4px 마진 효과) */}
+          <ProductImage
+            productImage={productImage}
+            topBadgeText={topBadgeText}
+            eventBadge={eventBadge}
+            bottomBannerText={bottomBannerText}
+          />
+          <IconButton
+            icon={CartIconGray}
+            alt="담기 버튼"
+            className=" top-2 bg-white rounded-full p-1 shadow-md"
+            label="담기"
+          />
+          <ProductInfo product={product} layout={layout} />
+        </div>
       </div>
     );
   }
@@ -50,10 +43,8 @@ const ProductCard = ({ product, layout = "vertical" }) => {
         <div className="w-30 h-[37.5] shrink m-2">
           <ProductImage
             productImage={productImage}
-            topBadge={topBadge}
             topBadgeText={topBadgeText}
             eventBadge={eventBadge}
-            bottomBanner={bottomBanner}
             bottomBannerText={bottomBannerText}
           />
         </div>

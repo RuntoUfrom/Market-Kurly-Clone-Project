@@ -26,12 +26,12 @@ const BaseTabBtn = ({
   return (
     <button
       type="button"
-      onClick={onClick}
+      onClick={() => onClick(label)}
       className={`relative flex ${stretch ? "flex-1" : "shrink-0"} flex-col items-center justify-center px-3 pb-2 ${fontsize} transition-colors ${
         active ? `${textColor} font-semibold` : "text-gray-400"
       }`}
     >
-      <span className="relative inline-block">{label}</span>
+      <span className="relative inline-block text-xs">{label}</span>
       <span
         className={`absolute left-1/2 -translate-x-1/2 bottom-0 h-0.5 ${bgColor} transition-all duration-200 ${
           active ? "w-full" : "w-0"

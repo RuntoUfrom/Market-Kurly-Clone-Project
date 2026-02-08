@@ -7,14 +7,14 @@ import { MENU_IMAGE_MAP } from "@/constants/menuImageMap";
 import HomHeader from "@/components/common/layout/HomHeader";
 import CustomTabBtns from "@/components/common/layout/CustomTabBtns";
 import IconButton from "@/components/common/button/IconButton";
-import productImage from "@/assets/foodmarketimages/FoodImage01.jpg";
+import productImage from "@/assets/foodmarketimages/MarketImage01.jpg";
 import ProductCard from "@/components/common/ProductCard";
 import NaviBar from "@/components/common/layout/NaviBar";
 import MoveBanner from "@/components/common/MoveBanner";
 import { MARKET_BANNER_LIST } from "@/constants/marketbannerMap";
 import FilterBtn from "@/components/common/button/FilterBtn";
 import FilterBar from "@/components/common/layout/FilterBar";
-
+import Footer from "@/components/common/layout/Footer";
 const product = {
   productImage: productImage,
   topBadge: true,
@@ -80,12 +80,24 @@ const CommonComponentsPage = () => {
     {
       id: "MenuGrid1",
       label: "MenuGrid 1열",
-      component: <MenuGrid rowNum={1} menuList={Object.keys(MENU_IMAGE_MAP)} />,
+      component: (
+        <MenuGrid
+          rowNum={1}
+          menuList={Object.keys(MENU_IMAGE_MAP)}
+          isBar={true}
+        />
+      ),
     },
     {
       id: "MenuGrid2",
       label: "MenuGrid 2열",
-      component: <MenuGrid rowNum={2} menuList={Object.keys(MENU_IMAGE_MAP)} />,
+      component: (
+        <MenuGrid
+          rowNum={2}
+          menuList={Object.keys(MENU_IMAGE_MAP)}
+          isBar={true}
+        />
+      ),
     },
     {
       id: "Header",
@@ -178,6 +190,11 @@ const CommonComponentsPage = () => {
           isBeautyFest={false}
         />
       ),
+    },
+    {
+      id: "Footer",
+      label: "Footter",
+      component: <Footer />,
     },
   ];
 
