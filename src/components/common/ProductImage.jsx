@@ -9,9 +9,14 @@ const ProductImage = ({
   topBadgeText = "",
   eventBadge = false,
   bottomBannerText = "",
+  rounded = true,
 }) => {
+  let roundvar = "rounded-md";
+  if (rounded === false) {
+    roundvar = "";
+  }
   return (
-    <div className="relative w-full h-full overflow-hidden rounded-md">
+    <div className={`relative w-full h-full overflow-hidden ${roundvar}`}>
       <img
         src={productImage}
         alt="상품 이미지"

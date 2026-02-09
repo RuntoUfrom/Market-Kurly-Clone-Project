@@ -6,15 +6,7 @@ import ImageMappingHelper from "@/constants/ImageMappingHelper";
 const ProductSimpleSection = ({ products = [] }) => {
   const displayedProducts = products.slice(0, 4); // 최대 4개 상품만 표시
   return (
-    <div className="flex flex-col mb-6 bg-white w-full">
-      <SectionHeader
-        main="다른 고객이 함께 본 상품"
-        isButtonMore={true}
-        onClick={() => {
-          console.log("다음 상품 버튼 클릭");
-        }}
-      />
-
+    <div className="flex flex-col mb-4 bg-white w-full">
       {displayedProducts.map((product, index) => (
         <ProductCard
           key={index}

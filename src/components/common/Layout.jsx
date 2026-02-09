@@ -11,7 +11,7 @@ const Layout = ({ children }) => {
     <div className="h-screen bg-gray-200">
       <div
         id="layout-root"
-        className="relative mx-auto w-full min-w-[340px] max-w-[400px] h-screen bg-white flex flex-col"
+        className="relative mx-auto w-full min-w-[340px] max-w-100 h-screen bg-white flex flex-col"
       >
         <main className="flex-1 overflow-y-auto no-scrollbar">{children}</main>
         <div id="dialog-root" />

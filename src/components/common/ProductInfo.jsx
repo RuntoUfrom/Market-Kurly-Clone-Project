@@ -30,7 +30,7 @@ const ProductInfo = ({ product, layout = "vertical" }) => {
           : productName}
       </p>
 
-      {/* 원가(취소선) - vertical에서만 표시 */}
+      {/* 원가(취소선)  */}
       {layout === "vertical" ||
         (layout === "horizontal" && originalPrice > discountPrice && (
           <span className="text-sm text-gray-400 line-through">

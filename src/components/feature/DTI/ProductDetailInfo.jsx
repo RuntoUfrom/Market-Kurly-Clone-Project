@@ -1,122 +1,113 @@
 import ShareIcon from "@/assets/common/icons/ShareIcon.svg";
-import BasicSubmitButton from "../../common/button/BasicSubmitButton";
-//후에 삭제 및 확인 필요
+
+/**
+const mockProduct = {
+  ranking: 1,
+  rankingCategory: "채소",
+  // 2. 샛별 배송 여부
+  isDawnDelivery: true,
+  // 3. 브랜드명
+  brandName: "농부의 아침",
+  // 4. 상품 이름
+  productName: "[실속] 유기농 파프리카 2입",
+  // 5. 상품 설명 (상세 요약)
+  shortDescription: "아삭한 식감과 풍부한 영양을 담은 친환경 파프리카",
+  // 6. 상품 원산지
+  origin: "국산",
+  // 7. 할인율 (%)
+  discountRate: 20,
+  // 8. 할인 후 가격 (판매가)
+  salesPrice: 3200,
+  // 9. 원가
+  originalPrice: 4000,
+  // 10. 첫 구매 시 할인율 (%)
+  firstPurchaseDiscountRate: 90,
+  // 11. 첫 구매 시 할인가
+  firstPurchasePrice: 400,
+  productImage: "MarketImage01",
+};
+ */
+
 const ProductDetailInfo = ({ product }) => {
   const {
+    ranking,
+    rankingCategory,
     isDawnDelivery,
+    brandName,
     productName,
-    originalPrice,
-    discountPrice,
+    shortDescription,
+    origin,
     discountRate,
+    salesPrice,
+    originalPrice,
+    firstPurchaseDiscountRate,
+    firstPurchasePrice,
   } = product;
 
-  const formatPrice = (price) => price?.toLocaleString();
-
-  // 브랜드명 추출: [브랜드] 형태에서 추출, 없으면 빈 문자열
-  const brandMatch = productName?.match(/\[(.+?)\]/);
-  const brandName = brandMatch ? brandMatch[1] : "";
-
   return (
-    <div className="px-4 py-3 flex flex-col gap-3">
-      {/* 배송 + 브랜드 */}
-      <div className="flex items-center justify-between">
-        <div className="flex items-center gap-1 text-xs text-gray-500">
-          {isDawnDelivery && <span>샛별배송</span>}
-          {isDawnDelivery && brandName && <span>|</span>}
-          {brandName && (
-            <span>
-              {brandName} <span className="text-gray-400">{">"}</span>
-            </span>
-          )}
-        </div>
-        <img src={ShareIcon} alt="공유" className="w-5 h-5" />
+    <div className="w-full px-4 py-3 bg-white">
+      {/* 카테고리 랭킹 + 후기 */}
+      <div className="flex items-center justify-between mb-2">
+        <span className="text-xs text-primary font-semibold bg-secondary/20 p-1 px-3 rounded-2xl">
+          {rankingCategory} {ranking}위 &gt;
+        </span>
+        <span className="text-xs text-gray-500">후기 5,199건</span>
       </div>
 
-      {/* 상품명 */}
-      <h1 className="text-lg font-bold text-gray-900 leading-snug">
-        {productName}
-      </h1>
+      {/* 샛별배송 + 브랜드명 */}
+      <div className="flex items-center gap-1 text-xs text-gray-500 mb-1">
+        {isDawnDelivery && <span>샛별배송</span>}
+        {isDawnDelivery && brandName && <span>|</span>}
+        <span>{brandName} &gt;</span>
+      </div>
+
+      {/* 상품명 + 공유 버튼 */}
+      <div className="flex items-start justify-between gap-2 mb-1">
+        <h2 className="text-base font-semibold text-gray-900 leading-snug">
+          {productName}
+        </h2>
+        <button
+          className="shrink-0 mt-1"
+          onClick={() => {
+            console.log("공유 버튼 클릭");
+          }}
+        >
+          <img src={ShareIcon} alt="공유" className="w-5 h-5" />
+        </button>
+      </div>
 
       {/* 상품 설명 */}
-      <p className="text-sm text-gray-500">바질과 치즈의 고소한 풍미</p>
+      <p className="text-xs text-gray-500 mb-1">{shortDescription}</p>
 
       {/* 원산지 */}
-      <p className="text-xs text-gray-400">원산지: 상품설명/상세정보 참조</p>
+      <p className="text-xs text-gray-400 mb-3">원산지: {origin}</p>
 
-      {/* 가격 영역 */}
-      <div className="flex flex-col gap-1">
-        {/* 할인율 + 할인가 + 원가 */}
-        <div className="flex items-baseline gap-2">
-          {discountRate > 0 && (
-            <span className="text-xl font-bold text-status">
-              {discountRate}%
-            </span>
-          )}
-          <span className="text-xl font-bold text-gray-900">
-            {formatPrice(discountPrice)}원
-          </span>
-          {originalPrice > discountPrice && (
-            <span className="text-sm text-gray-400 line-through">
-              {formatPrice(originalPrice)}원
-            </span>
-          )}
-        </div>
-
-        {/* 첫구매 최대혜택가 */}
-        <div className="flex items-baseline gap-2">
-          <span className="text-lg font-bold text-status">55%</span>
-          <span className="text-lg font-bold text-gray-900">6,290원</span>
-          <span className="text-xs text-gray-500">
-            첫구매 최대혜택가 <span className="text-gray-400">{">"}</span>
-          </span>
-        </div>
-      </div>
-
-      {/* 앱 전용 가격 배너 */}
-      <div className="border border-gray-200 rounded-lg p-3 flex flex-col gap-1">
-        <div className="flex items-center gap-1">
-          <span className="bg-primary text-white text-xs font-bold px-1.5 py-0.5 rounded">
-            %
-          </span>
-          <span className="text-sm text-gray-800">
-            앱에서 <span className="font-bold text-primary">6,290원</span>에
-            첫구매하고 무료배송받기
-          </span>
-        </div>
-        <span className="text-sm font-semibold text-primary">
-          앱 열기 {">"}
+      {/* 할인율 + 판매가 + 원가 */}
+      <div className="flex items-baseline gap-1 mb-1">
+        <span className="text-lg font-bold text-status">{discountRate}%</span>
+        <span className="text-lg font-bold text-gray-900">
+          {salesPrice.toLocaleString()}원
+        </span>
+        <span className="text-xs text-gray-400 line-through ml-1">
+          {originalPrice.toLocaleString()}원
         </span>
       </div>
 
-      {/* 쿠폰 버튼 */}
-
-      <BasicSubmitButton text="20% 쿠폰 받기" variant="unfill" />
-
-      {/* 구분선 */}
-      <hr className="border-gray-100" />
-
-      {/* 배송 / 판매자 정보 */}
-      <div className="flex flex-col gap-3 text-sm">
-        <div className="flex">
-          <span className="w-16 shrink-0 text-gray-500">배송</span>
-          <div className="flex flex-col">
-            <span className="font-semibold text-gray-900">
-              {isDawnDelivery ? "샛별배송" : "일반배송"}
-            </span>
-            <span className="text-xs text-gray-400 mt-1">
-              {isDawnDelivery
-                ? "23시 전 주문 시 수도권/충청 내일 아침 7시 전 도착\n(그 외 지역 아침 8시 전 도착)"
-                : "배송 일정은 주문 시 확인"}
-            </span>
-          </div>
+      {/* 첫구매 혜택가 */}
+      {firstPurchaseDiscountRate !== null && firstPurchasePrice !== null && (
+        <div className="flex items-baseline gap-1">
+          <span className="text-lg font-bold text-primary">
+            {firstPurchaseDiscountRate}%
+          </span>
+          <span className="text-lg font-bold text-gray-900">
+            {firstPurchasePrice.toLocaleString()}원
+          </span>
+          <span className="text-xs text-primary mx-2 font-medium">
+            첫구매 최대혜택가
+          </span>
         </div>
-        <div className="flex">
-          <span className="w-16 shrink-0 text-gray-500">판매자</span>
-          <span className="font-semibold text-gray-900">컬리</span>
-        </div>
-      </div>
+      )}
     </div>
   );
 };
-
 export default ProductDetailInfo;

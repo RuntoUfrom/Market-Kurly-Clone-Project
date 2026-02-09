@@ -38,9 +38,9 @@ const ProductCard = ({ product, layout = "vertical", rank = 1 }) => {
   if (layout === "horizontal") {
     return (
       <div className="p-2 bg-white flex flex-row justify-center">
-        <div className="flex flex-row w-68 h-46 bg-white rounded-md  p-2 justify-center">
+        <div className="flex flex-row w-68 h-46 bg-white rounded-md p-2 justify-center">
           {/* 이미지 영역 (정사각형 160x160) */}
-          <div className="w-30 h-[37.5] shrink-0 m-2">
+          <div className="w-30 h-[37.5] shrink-0 mx-2">
             <ProductImage
               productImage={productImage}
               topBadgeText={topBadgeText}
@@ -70,13 +70,11 @@ const ProductCard = ({ product, layout = "vertical", rank = 1 }) => {
   // simple-horizontal 레이아웃 (w-full, h-70px, 마진 8px)
   if (layout === "simple-horizontal") {
     return (
-      <div className="flex flex-row items-center w-80 h-18 p-2 gap-3 bg-white rounded-md m-2 justify-center">
-        {/* 이미지 영역 (정사각형 60x60) */}
-        <div className="w-10 h-10 shrink-0">
+      <div className="flex flex-row items-center w-94 h-18 p-2 gap-4 bg-white rounded-md m-2 justify-center">
+        <div className="w-14 h-14 shrink-0">
           <ProductImage productImage={productImage} />
         </div>
 
-        {/* 상품 정보 (상품명 + 할인율/가격) */}
         <div className="flex-1">
           <ProductInfo product={product} layout={layout} />
         </div>

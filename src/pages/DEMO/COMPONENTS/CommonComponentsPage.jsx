@@ -23,6 +23,8 @@ import ProductSimpleSection from "@/components/common/ProductSimpleSection";
 import RoundMenuList from "@/components/common/layout/RoundMenuList";
 import MenuNavBtn from "@/components/feature/MEN/MenuNavBtn";
 import SortSelectBtn from "@/components/common/button/SortSelectBtn";
+import FullDealComponent from "@/components/feature/HOM/FullDealComponent";
+import ProductDetailInfo from "@/components/feature/DTI/ProductDetailInfo";
 
 const product = {
   productImage: productImage,
@@ -38,6 +40,31 @@ const product = {
   discountRate: 20,
   reviewCount: 150,
   isKurlyOnly: true,
+};
+const mockProduct = {
+  ranking: 1,
+  rankingCategory: "채소",
+  // 2. 샛별 배송 여부
+  isDawnDelivery: true,
+  // 3. 브랜드명
+  brandName: "농부의 아침",
+  // 4. 상품 이름
+  productName: "[실속] 유기농 파프리카 2입",
+  // 5. 상품 설명 (상세 요약)
+  shortDescription: "아삭한 식감과 풍부한 영양을 담은 친환경 파프리카",
+  // 6. 상품 원산지
+  origin: "국산",
+  // 7. 할인율 (%)
+  discountRate: 20,
+  // 8. 할인 후 가격 (판매가)
+  salesPrice: 3200,
+  // 9. 원가
+  originalPrice: 4000,
+  // 10. 첫 구매 시 할인율 (%)
+  firstPurchaseDiscountRate: 90,
+  // 11. 첫 구매 시 할인가
+  firstPurchasePrice: 400,
+  productImage: "MarketImage01",
 };
 
 const CommonComponentsPage = () => {
@@ -260,6 +287,16 @@ const CommonComponentsPage = () => {
       id: "SortSelectButton",
       label: "SortSelectButton",
       component: <SortSelectBtn />,
+    },
+    {
+      id: "FullDealComponent",
+      label: "FullDealComponent",
+      component: <FullDealComponent product={product} />,
+    },
+    {
+      id: "ProductDetailInfo",
+      label: "ProductDetailInfo",
+      component: <ProductDetailInfo product={mockProduct} />,
     },
   ];
 
