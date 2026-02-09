@@ -4,7 +4,7 @@ import ProductImage from "@/components/common/ProductImage";
 import MarketProductsMockData from "@/mocks/data/HOM/MarketProducts";
 import ImageMappingHelper from "@/constants/ImageMappingHelper";
 import DetailProductButton from "@/components/common/layout/DetailProductButton";
-import ProductDetailInfo from "@/components/common/ProductDetailInfo";
+import ProductDetailInfo from "@/components/feature/DTI/ProductDetailInfo";
 import SectionHeader from "@/components/common/SectionHeader";
 import ProductScrollSection from "@/components/common/ProductScrollSection";
 import ProductCard from "@/components/common/ProductCard";
@@ -45,7 +45,11 @@ const DTI001 = ({}) => {
         <SectionHeader main="다른 고객이 함께 본 상품" />
 
         {MarketProductsMockData.slice(0, 5).map((item) => (
-          <ProductCard key={item.productId} product={item} layout="simple-horizontal" />
+          <ProductCard
+            key={item.productId}
+            product={item}
+            layout="simple-horizontal"
+          />
         ))}
       </div>
 

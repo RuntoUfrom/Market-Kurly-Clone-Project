@@ -13,15 +13,14 @@ import NaviBar from "@/components/common/layout/NaviBar";
 import MoveBanner from "@/components/common/MoveBanner";
 import { MARKET_BANNER_LIST } from "@/constants/marketbannerMap";
 import FilterBtn from "@/components/common/button/FilterBtn";
-<<<<<<< HEAD
 import BackHeader from "@/components/common/layout/BackHeader";
-=======
 import FilterBar from "@/components/common/layout/FilterBar";
 import Footer from "@/components/common/layout/Footer";
 import ProductScrollSection from "@/components/common/ProductScrollSection";
 import MarketProductsMockData from "@/mocks/data/HOM/MarketProducts";
 import ProductRankSection from "@/components/common/ProductRankSection";
->>>>>>> fad3a727859ce53e9f42b386a6cf9d92aee53d1b
+import ProductSimpleSection from "@/components/common/ProductSimpleSection";
+import RoundMenuList from "@/components/common/layout/RoundMenuList";
 
 const product = {
   productImage: productImage,
@@ -81,10 +80,23 @@ const CommonComponentsPage = () => {
         <SectionHeader
           main="최대 혜택으로 준비하는 설선물"
           description="헬스부터 뷰티선물 까지 12% 쿠폰 추가 지급"
+          isButtonAll={true}
+          onClick={() => console.log("전체보기 클릭")}
+          imogi={"💜"}
         />
       ),
     },
-
+    {
+      id: "section-header",
+      label: "SectionHeader",
+      component: (
+        <SectionHeader
+          main="다른 고객이 함께 본 상품"
+          isButtonMore={true}
+          onClick={() => console.log("전체보기 클릭")}
+        />
+      ),
+    },
     {
       id: "MenuGrid1",
       label: "MenuGrid 1열",
@@ -188,7 +200,6 @@ const CommonComponentsPage = () => {
       component: <FilterBtn label="필터" />,
     },
     {
-<<<<<<< HEAD
       id: "BackHeader",
       label: "BackHeader",
       component: (
@@ -199,7 +210,7 @@ const CommonComponentsPage = () => {
         />
       ),
     },
-=======
+    {
       id: "FilterBar",
       label: "FilterBar",
       component: (
@@ -226,7 +237,16 @@ const CommonComponentsPage = () => {
       label: "ProductRankSection",
       component: <ProductRankSection products={MarketProductsMockData} />,
     },
->>>>>>> fad3a727859ce53e9f42b386a6cf9d92aee53d1b
+    {
+      id: "ProductSimpleSection",
+      label: "ProductSimpleSection",
+      component: <ProductSimpleSection products={MarketProductsMockData} />,
+    },
+    {
+      id: "RoundMenuList",
+      label: "RoundMenuList",
+      component: <RoundMenuList />,
+    },
   ];
 
   return (

@@ -1,8 +1,15 @@
 import { useRef, useState } from "react";
-import MenuCard from "@/components/common/MenuCard";
+import MenuCard from "@/components/common/button/MenuCard";
 import { MENU_IMAGE_MAP } from "@/constants/menuImageMap";
 
-const MenuGrid = ({ isBar = false, rowNum = 1, menuList = {}, imageMap, activeMenu, onMenuClick }) => {
+const MenuGrid = ({
+  isBar = false,
+  rowNum = 1,
+  menuList = {},
+  imageMap,
+  activeMenu,
+  onMenuClick,
+}) => {
   const gridRowsClass = rowNum === 2 ? "grid-rows-2" : "grid-rows-1";
   const scrollRef = useRef(null);
   const [scrollRatio, setScrollRatio] = useState(0);
@@ -16,14 +23,16 @@ const MenuGrid = ({ isBar = false, rowNum = 1, menuList = {}, imageMap, activeMe
 
   return (
     <div className="w-full">
-      {/* 스크롤 컨테이너 */}
       <div
         ref={scrollRef}
         onScroll={handleScroll}
         className={`grid ${gridRowsClass} grid-flow-col whitespace-nowrap auto-cols-[64px] gap-2 overflow-x-auto scroll-snap-x-mandatory no-scrollbar px-2 py-2`}
       >
         {menuList.map((item) => (
-          <div key={item} className="scroll-snap-start flex flex-col items-center">
+          <div
+            key={item}
+            className="scroll-snap-start flex flex-col items-center"
+          >
             <MenuCard
               LogoImage={MENU_IMAGE_MAP[item]}
               label={item}
@@ -40,7 +49,6 @@ const MenuGrid = ({ isBar = false, rowNum = 1, menuList = {}, imageMap, activeMe
         ))}
       </div>
 
-      {/* 스크롤 인디케이터 */}
       <div className="flex justify-center py-2">
         <div className="relative w-16 h-1 bg-gray-200 rounded-full overflow-hidden">
           <div

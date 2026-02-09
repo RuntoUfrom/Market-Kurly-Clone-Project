@@ -1,19 +1,19 @@
 //마켓 컬리 - 기본 - 메뉴 로고 이미지
-import MenuLogoPresent from "@/assets/menu/MenuLogoPresent.png";
-import MenuLogoCurator from "@/assets/menu/MenuLogoCurator.png";
-import MenuLogoDiet from "@/assets/menu/MenuLogoDiet.png";
-import MenuLogoAI from "@/assets/menu/MenuLogoAI.png";
-import MenuLogoNew from "@/assets/menu/MenuLogoNew.jpg";
-import MenuLogoFresh from "@/assets/menu/MenuLogoFresh.png";
-import MenuLogoHome from "@/assets/menu/MenuLogoHome.png";
-import MenuLogoFashion from "@/assets/menu/MenuLogoFashion.png";
-import MenuLogoLive from "@/assets/menu/MenuLogoLive.png";
-import MenuLogoMembers from "@/assets/menu/MenuLogoMembers.png";
-import MenuLogoChallenge from "@/assets/menu/MenuLogoChallenge.png";
-import MenuLogoSull from "@/assets/menu/MenuLogoSull.png";
-import MenuLogoOnly from "@/assets/menu/MenuLogoOnly.png";
-import MenuLogoMost from "@/assets/menu/MenuLogoMost.png";
-import MenuLogoEvent from "@/assets/menu/MenuLogoEvent.png";
+import MenuLogoPresent from "@/assets/menu/squaremenuicons/MenuLogoPresent.png";
+import MenuLogoCurator from "@/assets/menu/squaremenuicons/MenuLogoCurator.png";
+import MenuLogoDiet from "@/assets/menu/squaremenuicons/MenuLogoDiet.png";
+import MenuLogoAI from "@/assets/menu/squaremenuicons/MenuLogoAI.png";
+import MenuLogoNew from "@/assets/menu/squaremenuicons/MenuLogoNew.jpg";
+import MenuLogoFresh from "@/assets/menu/squaremenuicons/MenuLogoFresh.png";
+import MenuLogoHome from "@/assets/menu/squaremenuicons/MenuLogoHome.png";
+import MenuLogoFashion from "@/assets/menu/squaremenuicons/MenuLogoFashion.png";
+import MenuLogoLive from "@/assets/menu/squaremenuicons/MenuLogoLive.png";
+import MenuLogoMembers from "@/assets/menu/squaremenuicons/MenuLogoMembers.png";
+import MenuLogoChallenge from "@/assets/menu/squaremenuicons/MenuLogoChallenge.png";
+import MenuLogoSull from "@/assets/menu/squaremenuicons/MenuLogoSull.png";
+import MenuLogoOnly from "@/assets/menu/squaremenuicons/MenuLogoOnly.png";
+import MenuLogoMost from "@/assets/menu/squaremenuicons/MenuLogoMost.png";
+import MenuLogoEvent from "@/assets/menu/squaremenuicons/MenuLogoEvent.png";
 
 export const MENU_IMAGE_MAP = {
   //15 - 컬리 멤버스 이미지 다운이 안됨.

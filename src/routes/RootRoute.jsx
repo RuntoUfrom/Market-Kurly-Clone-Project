@@ -10,7 +10,7 @@ const RootRoute = () => (
     {MenuDataJson["container"]?.flatMap((item) =>
       item?.urlList?.map((item1, index1) => {
         const { url: path, filePath, menuId } = item1;
-        const isPublic = path?.startsWith("/LGN") || path?.startsWith("/DEMO");
+        //const isPublic = path?.startsWith("/LGN") || path?.startsWith("/DEMO");
         const pageElement = (
           <RouteComponent url={path} filePath={filePath} menuId={menuId} />
         );

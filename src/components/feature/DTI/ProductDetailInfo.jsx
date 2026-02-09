@@ -1,5 +1,5 @@
 import ShareIcon from "@/assets/common/icons/ShareIcon.svg";
-import BasicSubmitButton from "./button/BasicSubmitButton";
+import BasicSubmitButton from "../../common/button/BasicSubmitButton";
 //후에 삭제 및 확인 필요
 const ProductDetailInfo = ({ product }) => {
   const {
