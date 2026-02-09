@@ -10,17 +10,29 @@ import BaseTabBtn from "@/components/common/button/BaseTabBtn";
  * @param {(label: string) => void} props.onChange - 탭 클릭 시 실행할 핸들러
  */
 
-const CustomTabBtns = ({ variant = 2, labels, active, onChange }) => {
+const CustomTabBtns = ({
+  variant = 2,
+  labels,
+  active,
+  onChange,
+  color = "purple",
+}) => {
   const options = labels.slice(0, variant);
 
   return (
+<<<<<<< HEAD
     <div className="flex w-full gap-1 overflow-x-auto overflow-y-visible whitespace-nowrap no-scrollbar">
+=======
+    <div className="flex w-full overflow-x-auto scrollbar-hide pt-3 px-4">
+>>>>>>> fad3a727859ce53e9f42b386a6cf9d92aee53d1b
       {options.map((label, idx) => (
         <BaseTabBtn
           key={idx}
           label={label}
           active={active === label}
-          onClick={() => onChange(label)}
+          onClick={onChange}
+          color={color}
+          stretch={variant <= 5}
         />
       ))}
     </div>

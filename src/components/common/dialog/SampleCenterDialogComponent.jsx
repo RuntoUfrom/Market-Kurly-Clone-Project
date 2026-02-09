@@ -10,7 +10,7 @@ const SampleCenterDialogComponent = ({ dialogClose, data }) => {
   };
 
   return (
-    <div className="flex flex-col items-center text-center">
+    <div className="flex flex-col items-center text-center h-10">
       <h2 className="text-xl font-bold text-gray-900 mb-3">
         {data?.title || "알림"}
       </h2>

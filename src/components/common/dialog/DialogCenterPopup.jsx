@@ -23,10 +23,11 @@ const modalContent = {
   transform: "translate(-50%,-50%)",
   background: "white",
   width: "80%",
-  height: "40%" /* 화면의 높이의 절반까지만 늘어나도록 설정 */,
+  height: "20%" /* 화면의 높이의 절반까지만 늘어나도록 설정 */,
   overflowY: "auto" /* 내용이 넘칠 경우 스크롤 허용 */,
   padding: "20px",
   boxSizing: "border-box",
+  borderRadius: "12px",
 };
 
 // 센터 팝업을 감싸는 컴포넌트

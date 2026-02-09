@@ -4,18 +4,26 @@ import { Route, Routes } from "react-router-dom";
 import MenuDataJson from "@/routes/MenuInfo.json";
 import RouteComponent from "@/routes/RouteComponent";
 import ErrorPage from "@/pages/common/ErrorPage";
+import ProtectedRoute from "./ProtectedRoute";
 const RootRoute = () => (
   <Routes>
     {MenuDataJson["container"]?.flatMap((item) =>
       item?.urlList?.map((item1, index1) => {
         const { url: path, filePath, menuId } = item1;
-
+        const isPublic = path?.startsWith("/LGN") || path?.startsWith("/DEMO");
         const pageElement = (
           <RouteComponent url={path} filePath={filePath} menuId={menuId} />
         );
 
         return (
-          <Route key={menuId + index1} path={path} element={pageElement} />
+          <Route
+            key={menuId + index1}
+            path={path}
+            // element={ 로그인 분기 처리 후
+            //   isPublic ? pageElement : <ProtectedRoute children={pageElement} />
+            // }
+            element={pageElement}
+          />
         );
       }),
     )}
@@ -26,3 +34,4 @@ const RootRoute = () => (
 );
 
 export default RootRoute;
+//ProtectedRoute

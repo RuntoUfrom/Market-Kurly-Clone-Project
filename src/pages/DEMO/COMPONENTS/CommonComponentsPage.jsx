@@ -7,13 +7,21 @@ import { MENU_IMAGE_MAP } from "@/constants/menuImageMap";
 import HomHeader from "@/components/common/layout/HomHeader";
 import CustomTabBtns from "@/components/common/layout/CustomTabBtns";
 import IconButton from "@/components/common/button/IconButton";
-import productImage from "@/assets/foodmarketimages/FoodImage01.jpg";
+import productImage from "@/assets/foodmarketimages/MarketImage01.jpg";
 import ProductCard from "@/components/common/ProductCard";
 import NaviBar from "@/components/common/layout/NaviBar";
 import MoveBanner from "@/components/common/MoveBanner";
 import { MARKET_BANNER_LIST } from "@/constants/marketbannerMap";
 import FilterBtn from "@/components/common/button/FilterBtn";
+<<<<<<< HEAD
 import BackHeader from "@/components/common/layout/BackHeader";
+=======
+import FilterBar from "@/components/common/layout/FilterBar";
+import Footer from "@/components/common/layout/Footer";
+import ProductScrollSection from "@/components/common/ProductScrollSection";
+import MarketProductsMockData from "@/mocks/data/HOM/MarketProducts";
+import ProductRankSection from "@/components/common/ProductRankSection";
+>>>>>>> fad3a727859ce53e9f42b386a6cf9d92aee53d1b
 
 const product = {
   productImage: productImage,
@@ -80,12 +88,24 @@ const CommonComponentsPage = () => {
     {
       id: "MenuGrid1",
       label: "MenuGrid 1열",
-      component: <MenuGrid rowNum={1} menuList={Object.keys(MENU_IMAGE_MAP)} />,
+      component: (
+        <MenuGrid
+          rowNum={1}
+          menuList={Object.keys(MENU_IMAGE_MAP)}
+          isBar={true}
+        />
+      ),
     },
     {
       id: "MenuGrid2",
       label: "MenuGrid 2열",
-      component: <MenuGrid rowNum={2} menuList={Object.keys(MENU_IMAGE_MAP)} />,
+      component: (
+        <MenuGrid
+          rowNum={2}
+          menuList={Object.keys(MENU_IMAGE_MAP)}
+          isBar={true}
+        />
+      ),
     },
     {
       id: "Header",
@@ -109,6 +129,7 @@ const CommonComponentsPage = () => {
           ]}
           active={tab}
           onChange={setTab}
+          color={"purple"}
         />
       ),
     },
@@ -121,6 +142,7 @@ const CommonComponentsPage = () => {
           labels={["마켓컬리", "뷰티컬리"]}
           active={tab}
           onChange={setTab}
+          color={"black"}
         />
       ),
     },
@@ -166,6 +188,7 @@ const CommonComponentsPage = () => {
       component: <FilterBtn label="필터" />,
     },
     {
+<<<<<<< HEAD
       id: "BackHeader",
       label: "BackHeader",
       component: (
@@ -176,6 +199,34 @@ const CommonComponentsPage = () => {
         />
       ),
     },
+=======
+      id: "FilterBar",
+      label: "FilterBar",
+      component: (
+        <FilterBar
+          isKurlyOnly={true}
+          isNew={true}
+          isWonderHotDeal={true}
+          isBeautyFest={false}
+        />
+      ),
+    },
+    {
+      id: "Footer",
+      label: "Footter",
+      component: <Footer />,
+    },
+    {
+      id: "ProductScrollSection",
+      label: "ProductScrollSection",
+      component: <ProductScrollSection products={MarketProductsMockData} />,
+    },
+    {
+      id: "ProductRankSection",
+      label: "ProductRankSection",
+      component: <ProductRankSection products={MarketProductsMockData} />,
+    },
+>>>>>>> fad3a727859ce53e9f42b386a6cf9d92aee53d1b
   ];
 
   return (

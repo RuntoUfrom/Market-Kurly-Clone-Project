@@ -13,7 +13,7 @@ const BasicSubmitButton = ({
   onClick,
 }) => {
   const baseStyle =
-    "w-4/5 h-[52px] rounded font-semibold text-base transition-colors";
+    "w-full h-[52px] rounded font-semibold text-base transition-colors";
 
   const variantStyles = {
     fill: disabled
