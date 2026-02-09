@@ -13,6 +13,7 @@ import NaviBar from "@/components/common/layout/NaviBar";
 import MoveBanner from "@/components/common/MoveBanner";
 import { MARKET_BANNER_LIST } from "@/constants/marketbannerMap";
 import FilterBtn from "@/components/common/button/FilterBtn";
+import BackHeader from "@/components/common/layout/BackHeader";
 
 const product = {
   productImage: productImage,
@@ -163,6 +164,17 @@ const CommonComponentsPage = () => {
       id: "FilterBtn",
       label: "FilterBtn",
       component: <FilterBtn label="필터" />,
+    },
+    {
+      id: "BackHeader",
+      label: "BackHeader",
+      component: (
+        <BackHeader
+          isSearch={true}
+          isHome={true}
+          label="[베키아에누보] 바질모짜모짜"
+        />
+      ),
     },
   ];
 

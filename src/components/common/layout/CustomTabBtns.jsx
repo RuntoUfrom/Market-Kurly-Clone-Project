@@ -14,7 +14,7 @@ const CustomTabBtns = ({ variant = 2, labels, active, onChange }) => {
   const options = labels.slice(0, variant);
 
   return (
-    <div className="flex w-full justify-around gap-1">
+    <div className="flex w-full gap-1 overflow-x-auto overflow-y-visible whitespace-nowrap no-scrollbar">
       {options.map((label, idx) => (
         <BaseTabBtn
           key={idx}

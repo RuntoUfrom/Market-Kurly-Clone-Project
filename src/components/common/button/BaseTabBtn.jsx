@@ -11,7 +11,7 @@ const BaseTabBtn = ({ label, active = true, onClick }) => {
   if (label === "마켓컬리" || label === "뷰티컬리") {
     variant = "black";
   }
-  let fontsize = "text-xs";
+  let fontsize = "text-sm";
   if (label.length > 5) {
     fontsize = "text-[10px]";
   }
@@ -20,13 +20,13 @@ const BaseTabBtn = ({ label, active = true, onClick }) => {
     <button
       type="button"
       onClick={onClick}
-      className={`relative flex flex-1 flex-col items-center justify-center  py-1 ${fontsize} transition-colors ${
+      className={`relative flex flex-1 flex-col items-center justify-center py-1 ${fontsize} transition-colors ${
         active ? `text-${variant} font-semibold` : "text-gray-400"
       }`}
     >
       <span className="relative inline-block">{label}</span>
       <span
-        className={`absolute left-1/2 -translate-x-1/2 -bottom-3 h-0.5 bg-${variant} transition-all duration-200 ${
+        className={`absolute left-1/2 -translate-x-1/2 -bottom-2 h-0.5 bg-${variant} transition-all duration-200 ${
           active ? "w-full" : "w-0"
         }`}
       />
