@@ -65,8 +65,8 @@
         },
         {
           "url": "/HOM",
-          "filePath": "HOM/HOM001",
-          "menuId": "HOM001"
+          "filePath": "HOM/HOM",
+          "menuId": "HOM"
         },
         {
           "url": "/LST",

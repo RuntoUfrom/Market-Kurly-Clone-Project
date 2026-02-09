@@ -19,17 +19,19 @@ const RoundMenuList = ({
     menulist.includes(label),
   );
   return (
-    <div className="flex gap-4 whitespace-nowrap auto-cols-[64px]  overflow-x-auto scroll-snap-x-mandatory no-scrollbar ">
-      {selectmenus.map(([label, image]) => (
-        <MenuCard
-          LogoImage={image}
-          key={label}
-          label={label}
-          isRounded={true}
-          isSelected={selectmenu === label}
-          onClick={() => setSelectMenu(label)}
-        />
-      ))}
+    <div className="border-b border-gray-200 bg-white">
+      <div className="flex px-4 py-4 gap-5 whitespace-nowrap auto-cols-[64px] overflow-x-auto scroll-snap-x-mandatory no-scrollbar">
+        {selectmenus.map(([label, image]) => (
+          <MenuCard
+            LogoImage={image}
+            key={label}
+            label={label}
+            isRounded={true}
+            isSelected={selectmenu === label}
+            onClick={() => setSelectMenu(label)}
+          />
+        ))}
+      </div>
     </div>
   );
 };

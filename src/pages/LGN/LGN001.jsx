@@ -27,35 +27,47 @@ const LGN001 = () => {
   };
 
   return (
-    <div className="flex flex-col items-center justify-center h-full px-6">
-      <div className="w-full flex flex-col mb-5  overflow-hidden border border-gray-300">
-        <input
-          type="text"
-          placeholder="아이디 입력"
-          value={userId}
-          onChange={(e) => setUserId(e.target.value)}
-          className="w-full h-[52px] px-4 border border-gray-300 text-sm outline-none placeholder:text-gray-400  focus:border-primary transition-colors"
-        />
-        <input
-          type="password"
-          placeholder="비밀번호 입력"
-          value={password}
-          onChange={(e) => setPassword(e.target.value)}
-          className="w-full h-[52px] px-4 border border-gray-300 text-sm outline-none placeholder:text-gray-400  focus:border-primary transition-colors"
-        />
+    <div className="flex flex-col h-full">
+      <div className="flex items-center justify-between px-4 py-3 bg-white">
+        <button
+          onClick={() => moveTo({ direction: "BACK" })}
+          className="text-lg text-gray-600"
+        >
+          &times;
+        </button>
+        <span className="text-sm font-semibold">로그인</span>
+        <span className="w-5" />
       </div>
+      <div className="flex flex-col items-center justify-center flex-1 px-6">
+        <div className="w-full flex flex-col mb-5  overflow-hidden border border-gray-300">
+          <input
+            type="text"
+            placeholder="아이디 입력"
+            value={userId}
+            onChange={(e) => setUserId(e.target.value)}
+            className="w-full h-13 px-4 border border-gray-300 text-sm outline-none placeholder:text-gray-400  focus:border-primary transition-colors"
+          />
+          <input
+            type="password"
+            placeholder="비밀번호 입력"
+            value={password}
+            onChange={(e) => setPassword(e.target.value)}
+            className="w-full h-13 px-4 border border-gray-300 text-sm outline-none placeholder:text-gray-400  focus:border-primary transition-colors"
+          />
+        </div>
 
-      <BasicSubmitButton
-        text="로그인"
-        disabled={isDisabled}
-        variant="fill"
-        onClick={handleLoginClick}
-      />
+        <BasicSubmitButton
+          text="로그인"
+          disabled={isDisabled}
+          variant="fill"
+          onClick={handleLoginClick}
+        />
 
-      <div className="flex items-center gap-2 mt-4 text-xs text-gray-500">
-        <span className="cursor-pointer">아이디 찾기</span>
-        <span>·</span>
-        <span className="cursor-pointer">비밀번호 찾기</span>
+        <div className="flex items-center gap-2 mt-4 text-xs text-gray-500">
+          <span className="cursor-pointer">아이디 찾기</span>
+          <span>·</span>
+          <span className="cursor-pointer">비밀번호 찾기</span>
+        </div>
       </div>
     </div>
   );

@@ -12,7 +12,7 @@ const PageTestPage = () => {
         로그인
       </button>
       <button
-        onClick={() => moveTo({ direction: "FORWARD", menuId: "HOM001" })}
+        onClick={() => moveTo({ direction: "FORWARD", menuId: "HOM" })}
         className="px-4 py-2 bg-blue-500 text-white rounded hover:bg-blue-600"
       >
         홈

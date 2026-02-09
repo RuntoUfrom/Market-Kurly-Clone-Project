@@ -1,5 +1,7 @@
 import ProductCard from "@/components/common/ProductCard";
 import ImageMappingHelper from "@/constants/ImageMappingHelper";
+import NextPurpleIcon from "@/assets/common/icons/NextPurpleIcon.svg";
+import MenuCard from "@/components/common/button/MenuCard";
 
 const ProductScrollSection = ({ products = [], onClickMore }) => {
   const displayProducts = products.slice(0, 10);
@@ -17,12 +19,17 @@ const ProductScrollSection = ({ products = [], onClickMore }) => {
         />
       ))}
       {products.length > 10 && (
-        <button
-          onClick={onClickMore}
-          className="flex items-center justify-center min-w-30 text-sm text-primary font-semibold"
-        >
-          전체보기 &gt;
-        </button>
+        <div className="flex flex-col justify-center ml-2 w-[16vw] shrink-0">
+          <button
+            onClick={onClickMore}
+            className="flex flex-col items-center justify-center"
+          >
+            <div className="w-8 h-8 rounded-full bg-white border border-gray-300 flex items-center justify-center">
+              <img src={NextPurpleIcon} alt="다음" className="w-3 h-3" />
+            </div>
+            <div className="text-xs mt-3 font-medium ">전체보기</div>
+          </button>
+        </div>
       )}
     </div>
   );

@@ -5,14 +5,16 @@ const SectionHeader = ({
   isButtonAll = false,
   isButtonMore = false,
   onClick,
-  imogi = "",
+  emoji = "",
 }) => {
-  //두개가 있네, 전체 보기, 다음 상품 보기
   return (
     <div className="w-full px-4 py-3 bg-white">
       <div className="flex items-center justify-between">
-        {imogi && <span>{imogi}</span>}
-        <span className="text-base font-bold text-gray-900">{main}</span>
+        <div>
+          {emoji && <span>{emoji}</span>}
+          <span className="text-base font-bold text-gray-900">{main}</span>
+        </div>
+
         {isButtonAll && (
           <button
             onClick={onClick}
@@ -22,7 +24,6 @@ const SectionHeader = ({
             <span className="ml-1">&gt;</span>
           </button>
         )}
-
         {isButtonMore && (
           <button
             onClick={onClick}
@@ -33,6 +34,7 @@ const SectionHeader = ({
           </button>
         )}
       </div>
+
       {description && (
         <p className="mt-1 text-sm text-gray-500">{description}</p>
       )}

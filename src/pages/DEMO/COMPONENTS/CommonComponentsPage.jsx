@@ -21,6 +21,8 @@ import MarketProductsMockData from "@/mocks/data/HOM/MarketProducts";
 import ProductRankSection from "@/components/common/ProductRankSection";
 import ProductSimpleSection from "@/components/common/ProductSimpleSection";
 import RoundMenuList from "@/components/common/layout/RoundMenuList";
+import MenuNavBtn from "@/components/feature/MEN/MenuNavBtn";
+import SortSelectBtn from "@/components/common/button/SortSelectBtn";
 
 const product = {
   productImage: productImage,
@@ -246,6 +248,18 @@ const CommonComponentsPage = () => {
       id: "RoundMenuList",
       label: "RoundMenuList",
       component: <RoundMenuList />,
+    },
+    {
+      id: "MenuNavBtn",
+      label: "MenuNavBtn",
+      component: (
+        <MenuNavBtn label="2월의 원더컬리" emoji="🔥" mainTab={true} />
+      ),
+    },
+    {
+      id: "SortSelectButton",
+      label: "SortSelectButton",
+      component: <SortSelectBtn />,
     },
   ];
 
