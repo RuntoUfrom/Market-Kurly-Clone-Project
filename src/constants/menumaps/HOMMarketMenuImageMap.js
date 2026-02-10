@@ -15,7 +15,7 @@ import MenuLogoOnly from "@/assets/menu/squaremenuicons/MenuLogoOnly.png";
 import MenuLogoMost from "@/assets/menu/squaremenuicons/MenuLogoMost.png";
 import MenuLogoEvent from "@/assets/menu/squaremenuicons/MenuLogoEvent.png";
 
-export const MENU_IMAGE_MAP = {
+export const HOM_MARKET_MENU_IMAGE_MAP = {
   //15 - 컬리 멤버스 이미지 다운이 안됨.
   자주산상품: MenuLogoMost,
   단독특가: MenuLogoOnly,

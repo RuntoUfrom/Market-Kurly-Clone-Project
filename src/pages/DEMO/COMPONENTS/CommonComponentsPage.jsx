@@ -3,7 +3,7 @@ import BasicSubmitButton from "@/components/common/button/BasicSubmitButton";
 import SectionHeader from "@/components/common/SectionHeader";
 import DemoPreviewItem from "@/components/DEMO/DemoPreviewItem";
 import MenuGrid from "@/components/common/MenuGrid";
-import { MENU_IMAGE_MAP } from "@/constants/menuImageMap";
+import { HOM_MARKET_MENU_IMAGE_MAP } from "@/constants/menumaps/HOMMarketMenuImageMap";
 import HomHeader from "@/components/common/layout/HomHeader";
 import CustomTabBtns from "@/components/common/layout/CustomTabBtns";
 import IconButton from "@/components/common/button/IconButton";
@@ -132,7 +132,7 @@ const CommonComponentsPage = () => {
       component: (
         <MenuGrid
           rowNum={1}
-          menuList={Object.keys(MENU_IMAGE_MAP)}
+          menuList={Object.keys(HOM_MARKET_MENU_IMAGE_MAP)}
           isBar={true}
         />
       ),
@@ -143,7 +143,7 @@ const CommonComponentsPage = () => {
       component: (
         <MenuGrid
           rowNum={2}
-          menuList={Object.keys(MENU_IMAGE_MAP)}
+          menuList={Object.keys(HOM_MARKET_MENU_IMAGE_MAP)}
           isBar={true}
         />
       ),

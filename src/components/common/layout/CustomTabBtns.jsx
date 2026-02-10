@@ -28,7 +28,8 @@ const CustomTabBtns = ({
           active={active === label}
           onClick={onChange}
           color={color}
-          stretch={variant <= 5}
+          stretch={variant < 7}
+          small={variant >= 5}
         />
       ))}
     </div>

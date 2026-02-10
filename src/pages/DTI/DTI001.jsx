@@ -57,7 +57,7 @@ const DTI001 = () => {
     }
   };
   return (
-    <div className="h-screen min-w-85 max-w-100 mx-auto flex flex-col">
+    <div className="h-full flex flex-col">
       {/* 상단 고정 영역 */}
       <header className="shrink-0 bg-white">
         <BackHeader

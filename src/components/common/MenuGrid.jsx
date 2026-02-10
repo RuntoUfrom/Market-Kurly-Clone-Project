@@ -1,7 +1,7 @@
 import { useRef, useState } from "react";
 import MenuCard from "@/components/common/button/MenuCard";
-import { MENU_IMAGE_MAP } from "@/constants/menuImageMap";
-
+import { HOM_MARKET_MENU_IMAGE_MAP } from "@/constants/menumaps/HOMMarketMenuImageMap";
+//코드 검토 필요
 const MenuGrid = ({
   isBar = false,
   rowNum = 1,
@@ -34,7 +34,7 @@ const MenuGrid = ({
             className="scroll-snap-start flex flex-col items-center"
           >
             <MenuCard
-              LogoImage={MENU_IMAGE_MAP[item]}
+              LogoImage={HOM_MARKET_MENU_IMAGE_MAP[item]}
               label={item}
               onClick={() => onMenuClick?.(item)}
             />
@@ -49,14 +49,16 @@ const MenuGrid = ({
         ))}
       </div>
 
-      <div className="flex justify-center py-2">
-        <div className="relative w-16 h-1 bg-gray-200 rounded-full overflow-hidden">
-          <div
-            className="absolute top-0 left-0 h-full w-1/3 bg-gray-800 rounded-full transition-transform duration-100"
-            style={{ transform: `translateX(${scrollRatio * 200}%)` }}
-          />
+      {isBar && (
+        <div className="flex justify-center py-2">
+          <div className="relative w-16 h-1 bg-gray-200 rounded-full overflow-hidden">
+            <div
+              className="absolute top-0 left-0 h-full w-1/3 bg-gray-800 rounded-full transition-transform duration-100"
+              style={{ transform: `translateX(${scrollRatio * 200}%)` }}
+            />
+          </div>
         </div>
-      </div>
+      )}
     </div>
   );
 };

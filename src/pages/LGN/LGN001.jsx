@@ -16,7 +16,7 @@ const LGN001 = () => {
   const handleLoginClick = () => {
     if (userId === "user001" && password === "001229") {
       login();
-      moveTo({ direction: "FORWARD", menuId: "HOM001", options: -1 });
+      moveTo({ direction: "FORWARD", menuId: "HOM", options: -1 });
     } else {
       LayerUtils.showCenterPopup(AlertComponent, {
         data: {

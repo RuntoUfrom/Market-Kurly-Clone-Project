@@ -1,7 +1,7 @@
 import MoveBanner from "@/components/common/MoveBanner";
 import { MARKET_BANNER_LIST } from "@/constants/marketbannerMap";
 import MenuGrid from "@/components/common/MenuGrid";
-import { MENU_IMAGE_MAP } from "@/constants/menuImageMap";
+import { HOM_MARKET_MENU_IMAGE_MAP } from "@/constants/menumaps/HOMMarketMenuImageMap";
 import SectionHeader from "@/components/common/SectionHeader";
 import ProductScrollSection from "@/components/common/ProductScrollSection";
 import MarketProductsMockData from "@/mocks/data/HOM/MarketProducts";
@@ -16,7 +16,7 @@ const HOMBeautyRecommandContent = () => {
         <MenuGrid
           isBar={true}
           rowNum={1}
-          menuList={Object.keys(MENU_IMAGE_MAP)}
+          menuList={Object.keys(HOM_MARKET_MENU_IMAGE_MAP)}
         />
       </div>
 

@@ -11,9 +11,10 @@ const BaseTabBtn = ({
   active = true,
   onClick,
   color = "purple",
-  stretch = false,
+  stretch = true,
+  small = false,
 }) => {
-  const fontsize = stretch ? "text-sm" : "text-xs";
+  const fontsize = small ? "text-xs" : "text-sm";
   let textColor = "";
   let bgColor = "";
   if (color === "purple") {

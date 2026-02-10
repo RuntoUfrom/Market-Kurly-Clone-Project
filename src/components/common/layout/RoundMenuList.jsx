@@ -1,5 +1,5 @@
 import MenuCard from "@/components/common/button/MenuCard";
-import { ROUND_MENU_IMAGE_MAP } from "@/constants/roundMenuMap";
+import { ROUND_MENU_IMAGE_MAP } from "@/constants/menumaps/roundMenuMap";
 import { useState } from "react";
 const RoundMenuList = ({
   menulist = [
