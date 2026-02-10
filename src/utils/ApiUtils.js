@@ -8,8 +8,15 @@ const ApiUtils = {
 
     return instance
       .post(finalUrl, params, config)
-      .then((response) => response.data);
-    // 에러는 axiosInstance 인터셉터에서 처리됨
+      .then((response) => {
+        return response.data;
+      })
+      .catch((error) => {
+        const statusCode = error.response?.status || 500;
+        const data = error.response?.data || {};
+        return { statusCode, data }; 
+      });
+    
   },
 
   // URL 조립

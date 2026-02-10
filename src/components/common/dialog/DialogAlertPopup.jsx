@@ -23,15 +23,14 @@ const modalContent = {
   transform: "translate(-50%,-50%)",
   background: "white",
   width: "80%",
-  height: "50%" /* 내용에 맞게 자동 조절, 최대 화면 절반 */,
-  overflowY: "auto" /* 내용이 넘칠 경우 스크롤 허용 */,
+  height: "24%" /* 내용에 맞게 자동 조절, 최대 화면 절반 */,
   padding: "20px",
   boxSizing: "border-box",
   borderRadius: "10px",
 };
 
 // 센터 팝업을 감싸는 컴포넌트
-function DialogCenterPopup({ layerIndex, callbackFunc, children }) {
+function DialogAlertPopup({ layerIndex, callbackFunc, children }) {
   const { layerList, removeLayerList } = useLayerStore();
   const isClosedRef = useRef(false);
   const dialogRef = useRef();
@@ -72,4 +71,4 @@ function DialogCenterPopup({ layerIndex, callbackFunc, children }) {
   );
 }
 
-export default DialogCenterPopup;
+export default DialogAlertPopup;

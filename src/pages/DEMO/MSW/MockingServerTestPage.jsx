@@ -2,39 +2,29 @@ import { useState } from "react";
 import { testService, testErrorService } from "@/api/services/test/testService";
 
 const MockingServerTestPage = () => {
-  const [loading, setLoading] = useState(false);
   const [result, setResult] = useState(null);
 
-  // API 호출 함수
+  // API 호출 함수 //testService 호출 → ApiUtils → axiosInstance → MSW가 가로챔
   const handleApiCall = async () => {
-    setLoading(true);
     setResult(null);
-    try {
-      // testService 호출 → ApiUtils → axiosInstance → MSW가 가로챔
-      const response = await testService({ message: "테스트 요청" });
-      console.log("MSW 응답:", response);
+    const response = await testService({ message: "테스트 요청" });
+    if (response.statusCode === 200) {
       setResult(response);
-    } catch (error) {
-      console.error("이건 발생하지 말라고 세팅해놓은 에런데", error);
-      setResult({ error: error.message });
-    } finally {
-      setLoading(false);
+    } else {
+      console.error("에러 State 코드는!! ", response.statusCode);
     }
   };
 
   const handleApiErrorCall = async () => {
-    setLoading(true);
     setResult(null);
-    try {
-      // testService 호출 → ApiUtils → axiosInstance → MSW가 가로챔
-      const response = await testErrorService({ message: "테스트 요청" });
-      console.log("MSW 응답:", response);
+    // testService 호출 → ApiUtils → axiosInstance → MSW가 가로챔
+    const response = await testErrorService({ message: "테스트 요청" });
+    console.log("MSW 응답:", response);
+    if (response.statusCode === 200) {
       setResult(response);
-    } catch (error) {
-      console.error("아런이런 문제가 발생해 버렸어 경로가 이상해", error);
-      setResult({ error: error.message });
-    } finally {
-      setLoading(false);
+    } else {
+      console.error("에러 State 코드는!! ", response.statusCode);
+      setResult(response.statusCode);
     }
   };
   return (
@@ -43,17 +33,15 @@ const MockingServerTestPage = () => {
 
       <button
         onClick={handleApiCall}
-        disabled={loading}
         className="px-4 py-2 bg-purple-600 text-white rounded hover:bg-purple-700 disabled:bg-gray-400"
       >
-        {loading ? "로딩 중..." : "API 호출 테스트"}
+        {"API 호출 테스트"}
       </button>
       <button
         onClick={handleApiErrorCall}
-        disabled={loading}
         className="px-4 py-2 bg-purple-600 text-white rounded hover:bg-purple-700 disabled:bg-gray-400"
       >
-        {loading ? "로딩 중..." : "API 오류 테스트"}
+        {"API 오류 테스트"}
       </button>
       {/* 결과 표시 */}
       {result && (

@@ -3,7 +3,6 @@ import useHistoryController from "@/hooks/controllers/useHistoryController";
 import LayerUtils from "@/utils/LayerUtils";
 import useAuthStore from "@/stores/useAuthStore";
 import { useState } from "react";
-import AlertComponent from "@/components/common/dialog/AlertComponent";
 
 const LGN001 = () => {
   const [userId, setUserId] = useState("");
@@ -18,11 +17,7 @@ const LGN001 = () => {
       login();
       moveTo({ direction: "FORWARD", menuId: "HOM", options: -1 });
     } else {
-      LayerUtils.showCenterPopup(AlertComponent, {
-        data: {
-          title: "아이디, 비밀번호를 확인해주세요.",
-        },
-      });
+      LayerUtils.showAlert("아이디, 비밀번호를 확인해주세요.");
     }
   };
 

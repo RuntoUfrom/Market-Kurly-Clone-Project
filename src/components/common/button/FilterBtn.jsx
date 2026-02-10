@@ -7,7 +7,7 @@ const FilterBtn = ({ label = "필터", icon = true }) => {
     <button
       className="inline-flex shrink-0 items-center gap-1 py-1.5 px-3 bg-white border border-gray-300 font-medium text-sm rounded-full text-gray-500 hover:bg-gray-100"
       onClick={() =>
-        LayerUtils.showBottomPopup(SampleBottomComponent, {
+        LayerUtils.showPopup("BOTTOM", SampleBottomComponent, {
           data: {
             title: "필터 팝업 ",
             menulist: ["필터필터필터"],

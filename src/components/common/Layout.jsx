@@ -1,6 +1,6 @@
 import React from "react";
 import DialogComponent from "@/components/common/dialog/DialogComponent";
-
+import LoadingSpinner from "@/components/common/layout/LoadingSpinner";
 /**
  * 앱의 전체 페이지에 적용될 공통 레이아웃 컴포넌트
  * @param {object} props
@@ -16,6 +16,7 @@ const Layout = ({ children }) => {
         <main className="flex-1 overflow-y-auto no-scrollbar">{children}</main>
         <div id="dialog-root" />
         <DialogComponent />
+        <LoadingSpinner />
       </div>
     </div>
   );
