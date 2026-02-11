@@ -1,7 +1,29 @@
+import { fixDealBannerService } from "@/api/services/bannerService";
+import { useEffect, useState } from "react";
+import ImageMappingHelper from "@/constants/ImageMappingHelper";
+
 const HOMDealsContent = () => {
+  const [bannerList, setBannerList] = useState([]);
+
+  useEffect(() => {
+    const fetchBanners = async () => {
+      const response = await fixDealBannerService();
+      setBannerList(response);
+    };
+    fetchBanners();
+  }, []);
+
   return (
-    <div className="flex items-center justify-center h-full text-gray-400 text-lg">
-      특가/혜택 탭
+    <div className="">
+      <div className="flex flex-col items-center gap-4">
+        {bannerList.map((item) => (
+          <img
+            key={item.bannerId}
+            src={ImageMappingHelper[item.bannerImage]}
+            alt={item.title}
+          />
+        ))}
+      </div>
     </div>
   );
 };

@@ -7,7 +7,7 @@ import { HOM_MARKET_MENU_IMAGE_MAP } from "@/constants/menumaps/HOMMarketMenuIma
 import HomHeader from "@/components/common/layout/HomHeader";
 import CustomTabBtns from "@/components/common/layout/CustomTabBtns";
 import IconButton from "@/components/common/button/IconButton";
-import productImage from "@/assets/foodmarketimages/MarketImage01.jpg";
+import productImage from "@/assets/productimages/foodmarketimages/MarketImage01.jpg";
 import ProductCard from "@/components/common/ProductCard";
 import NaviBar from "@/components/common/layout/NaviBar";
 import MoveBanner from "@/components/common/MoveBanner";
@@ -25,6 +25,8 @@ import MenuNavBtn from "@/components/feature/MEN/MenuNavBtn";
 import SortSelectBtn from "@/components/common/button/SortSelectBtn";
 import FullDealComponent from "@/components/feature/HOM/FullDealComponent";
 import ProductDetailInfo from "@/components/feature/DTI/ProductDetailInfo";
+import RoundIconBtn from "@/components/common/button/RoundIconBtn";
+import CheckBox from "@/components/common/button/CheckBox";
 
 const product = {
   productImage: productImage,
@@ -191,11 +193,15 @@ const CommonComponentsPage = () => {
       id: "CartButton",
       label: "CartButton",
       component: (
-        <IconButton
-          alt="장바구니"
-          onClick={() => console.log("장바구니 버튼 클릭")}
-          label="담기"
-        />
+        <IconButton icon="CART" alt="CART" label="담기" fontSize="text-xs" />
+        // <IconButton icon = "UNDO" alt = "UNDO" label = "초기화" fontSize = "text-sm"/>
+      ),
+    },
+    {
+      id: "CartButton",
+      label: "UndoButton",
+      component: (
+        <IconButton icon="UNDO" alt="UNDO" label="초기화" fontSize="text-sm" />
       ),
     },
     {
@@ -297,6 +303,16 @@ const CommonComponentsPage = () => {
       id: "ProductDetailInfo",
       label: "ProductDetailInfo",
       component: <ProductDetailInfo product={mockProduct} />,
+    },
+    {
+      id: "RoundIconBtn",
+      label: "RoundIconBtn",
+      component: <RoundIconBtn product={mockProduct} />,
+    },
+    {
+      id: "CheckBox",
+      label: "CheckBox",
+      component: <CheckBox isCheck={true} label="~10000원" number={100} />,
     },
   ];
 

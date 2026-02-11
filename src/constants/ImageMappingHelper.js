@@ -1,18 +1,17 @@
-//동적 이미지 매핑을 위한 코드
-const imageModules = import.meta.glob(
-  "@/assets/foodmarketimages/MarketImage*.*",
+//동적 이미지 매핑을 위한 코드 - assets 하위 모든 이미지를 자동으로 매핑
+const allModules = import.meta.glob(
+  "@/assets/**/*.{jpg,jpeg,png,gif,svg,webp}",
   { eager: true },
 );
 
-// { "MarketImage01": "/src/assets/foodmarketimages/MarketImage01.jpg", ... }
 const ImageMappingHelper = {};
 
-for (const path in imageModules) {
+for (const path in allModules) {
   const fileName = path
     .split("/")
     .pop()
     .replace(/\.[^.]+$/, "");
-  ImageMappingHelper[fileName] = imageModules[path].default;
+  ImageMappingHelper[fileName] = allModules[path].default;
 }
 
 export default ImageMappingHelper;

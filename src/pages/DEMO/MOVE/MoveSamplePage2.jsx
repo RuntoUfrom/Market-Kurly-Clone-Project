@@ -1,9 +1,9 @@
 import useHistoryController from "@/hooks/controllers/useHistoryController";
-import {useState} from "react";
+import { useState } from "react";
 
 const MoveSamplePage2 = () => {
   const { moveTo, getPageParams } = useHistoryController();
-  const { params } = getPageParams();
+  const { params, preParams } = getPageParams();
 
   return (
     <div className="flex flex-col items-center justify-center h-full">
@@ -14,11 +14,10 @@ const MoveSamplePage2 = () => {
         }
         className="px-4 py-2 bg-blue-500 text-white rounded hover:bg-blue-600"
       >
-        goForward(1)  
+        goForward(1)
       </button>
-      <div>
-       {params?.number} 
-      </div>
+      <div>{`MovePageSample1 에서 넘어온 숫자 : ${params?.number}`}</div>
+      <div>{`MovePageSample3에서 고른 메뉴 : ${preParams.menu}`}</div>
     </div>
   );
 };

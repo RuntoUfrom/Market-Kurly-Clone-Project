@@ -1,6 +1,6 @@
 import ProductImage from "@/components/common/ProductImage";
 import ProductDetailInfo from "@/components/feature/DTI/ProductDetailInfo";
-import MarketImage01 from "@/assets/foodmarketimages/MarketImage01.jpg";
+import MarketImage01 from "@/assets/productimages/foodmarketimages/MarketImage01.jpg";
 import ImageMappingHelper from "@/constants/ImageMappingHelper";
 import BasicSubmitButton from "@/components/common/button/BasicSubmitButton";
 import SectionHeader from "@/components/common/SectionHeader";

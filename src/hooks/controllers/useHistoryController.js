@@ -85,7 +85,8 @@ const useHistoryController = () => {
     navigate(lastUrl || "/");
   };
 
-  const getPageParams = () => { //Store에 넣어둔 nowPageParam의 데이터를 가져여오는 함수 
+  const getPageParams = () => {
+    //Store에 넣어둔 nowPageParam의 데이터를 가져여오는 함수
     return nowPageParams;
   };
 
