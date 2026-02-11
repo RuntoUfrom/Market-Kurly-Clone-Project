@@ -1,5 +1,5 @@
 /**
- * Alert 전용 컨텐츠 컴포넌트
+ * Alert 전용 컨텐츠 컴포넌트 = 공통 Alert 레이아웃
  * @param {object} props
  * @param {Function} props.dialogClose - 팝업 닫기 함수
  * @param {string} props.title - Alert 제목

@@ -17,7 +17,7 @@ const BackHeader = ({ isSearch = false, isHome = false, label = "" }) => {
       </button>
 
       {label && (
-        <span className="text-sm font-medium text-center">
+        <span className="text-base font-medium text-center">
           {label.length > 9 ? label.slice(0, 10) + "..." : label}
         </span>
       )}

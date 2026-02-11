@@ -23,7 +23,7 @@ const ProductCard = ({ product, layout = "vertical", rank = 1 }) => {
             bottomBannerText={bottomBannerText}
           />
           <IconButton
-            icon={CartIconGray}
+            icon="CART"
             alt="담기 버튼"
             className=" top-2 bg-white rounded-full p-1 shadow-md"
             label="담기"
@@ -60,7 +60,7 @@ const ProductCard = ({ product, layout = "vertical", rank = 1 }) => {
               <ProductInfo product={product} layout={layout} />
             </div>
 
-            <IconButton icon={CartIconGray} alt="담기 버튼" label="담기" />
+            <IconButton icon="CART" alt="담기 버튼" label="담기" />
           </div>
         </div>
       </div>
@@ -80,7 +80,7 @@ const ProductCard = ({ product, layout = "vertical", rank = 1 }) => {
         </div>
 
         <div className="w-20">
-          <IconButton icon={CartIconGray} alt="담기 버튼" label="담기" />
+          <IconButton icon="CART"alt="담기 버튼" label="담기" />
         </div>
       </div>
     );
