@@ -1,4 +1,4 @@
-import BrandImageData from "@/assets/productimages/foodmarketimages/MarketImage04.jpg";
+import BrandImageData from "@/assets/productimages/foodmarket/thumbnail/PM0004-Thumb.jpg";
 /**
  * 브랜드 이미지 카드 컴포넌트
  *

@@ -7,7 +7,7 @@ import { HOM_MARKET_MENU_IMAGE_MAP } from "@/constants/menumaps/HOMMarketMenuIma
 import HomHeader from "@/components/common/layout/HomHeader";
 import CustomTabBtns from "@/components/common/layout/CustomTabBtns";
 import IconButton from "@/components/common/button/IconButton";
-import productImage from "@/assets/productimages/foodmarketimages/MarketImage01.jpg";
+import productImage from "@/assets/productimages/foodmarket/thumbnail/PM0001-Thumb.jpg";
 import ProductCard from "@/components/common/ProductCard";
 import NaviBar from "@/components/common/layout/NaviBar";
 import MoveBanner from "@/components/common/MoveBanner";
@@ -36,6 +36,7 @@ import CartAmount from "@/components/feature/CART/CartAmount";
 import ProductQuestion from "@/components/feature/DTI/ProductQuestion";
 import BrandImage from "@/components/feature/HOM/BrandImage";
 import BrandImageList from "@/components/feature/HOM/BrandImageList";
+import BeautyBrandSection from "@/components/feature/HOM/BeautyBrandSection";
 
 const product = {
   productImage: productImage,
@@ -497,6 +498,17 @@ const CommonComponentsPage = () => {
       id: "BrandImageList",
       label: "BrandImageList",
       component: <BrandImageList brandImageList={mockbrand} />,
+    },
+    {
+      id: "BeautyBrandSection",
+      label: "BeautyBrandSection",
+      component: (
+        <BeautyBrandSection
+          brandImageList={mockbrand}
+          main="설화수"
+          description={"아름다운 설화수를 먹어봐요"}
+        />
+      ),
     },
   ];
 

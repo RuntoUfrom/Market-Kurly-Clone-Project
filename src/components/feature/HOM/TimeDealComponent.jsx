@@ -1,7 +1,7 @@
 import SectionHeader from "@/components/common/SectionHeader";
 import DealTimer from "@/components/feature/HOM/DealTimer";
 import ProductImage from "@/components/common/ProductImage";
-import BeautyImage01 from "@/assets/productimages/beautymarketimages/BeautyImage01.jpg";
+import BeautyImage01 from "@/assets/productimages/beautymarket/BeautyImage01.jpg";
 import IconButton from "@/components/common/button/IconButton";
 import ChatIcon from "@/assets/common/icons/ChatIcon.svg";
 
