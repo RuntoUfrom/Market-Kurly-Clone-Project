@@ -5,7 +5,16 @@ import IconButton from "@/components/common/button/IconButton";
 import CartIconGray from "@/assets/common/icons/CartIconGray.svg";
 
 /**
- * @param {string} layout - "vertical" | "horizontal" | "simple-horizontal"
+ * 상품 정보를 보여주는 카드 컴포넌트
+ *
+ * @param {Object} props
+ * @param {Object} props.product - 상품 정보 객체
+ * @param {string} props.product.productImage - 상품 이미지 키
+ * @param {string} [props.product.topBadgeText] - 상단 뱃지 텍스트
+ * @param {boolean} [props.product.eventBadge] - 이벤트 뱃지 표시 여부
+ * @param {string} [props.product.bottomBannerText] - 하단 배너 텍스트
+ * @param {"vertical" | "horizontal" | "simple-horizontal"} [props.layout="vertical"] - 레이아웃 타입
+ * @param {number} [props.rank=1] - 순위 (horizontal 레이아웃에서 사용)
  */
 const ProductCard = ({ product, layout = "vertical", rank = 1 }) => {
   const { productImage, topBadgeText, eventBadge, bottomBannerText } = product;
@@ -80,7 +89,7 @@ const ProductCard = ({ product, layout = "vertical", rank = 1 }) => {
         </div>
 
         <div className="w-20">
-          <IconButton icon="CART"alt="담기 버튼" label="담기" />
+          <IconButton icon="CART" alt="담기 버튼" label="담기" />
         </div>
       </div>
     );

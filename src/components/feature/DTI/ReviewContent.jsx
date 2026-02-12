@@ -1,10 +1,20 @@
 import ImageMappingHelper from "@/constants/ImageMappingHelper";
 
+/**
+ * 리뷰 컨텐츠 컴포넌트
+ *
+ * @param {Object} props
+ * @param {boolean} [props.isBest=false] - 베스트 리뷰 여부
+ * @param {boolean} [props.isMembers=false] - 멤버스 리뷰 여부
+ * @param {string} [props.userName=""] - 작성자 이름
+ * @param {string[]} [props.reviewImages=[]] - 리뷰 이미지 키 목록
+ * @param {string} props.content - 리뷰 본문 내용
+ */
 const ReviewContent = ({
   isBest = false,
   isMembers = false,
   userName = "",
-  imageList = [],
+  reviewImages = [],
   content,
 }) => {
   let lastName = userName.slice(0, 1);
@@ -25,7 +35,7 @@ const ReviewContent = ({
         <div className="text-gray-800 font-bol text-xs">{`${lastName}**`}</div>
       </div>
       <div className="flex flex-row gap-2 overflow-x-auto whitespace-nowrap scrollbar-hide">
-        {imageList.map((item) => (
+        {reviewImages.map((item) => (
           <img
             src={ImageMappingHelper[item]}
             key={item}

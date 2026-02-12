@@ -1,6 +1,14 @@
 import React, { useEffect, useRef } from "react";
 import useLayerStore from "@/stores/useLayerStore";
 
+/**
+ * 전체 화면 팝업 래퍼 컴포넌트
+ *
+ * @param {Object} props
+ * @param {number} props.layerIndex - 레이어 인덱스
+ * @param {function} [props.callbackFunc] - 팝업 닫힘 시 호출되는 콜백
+ * @param {React.ReactNode} props.children - 팝업 내부 컨텐츠
+ */
 const DialogFullPopup = ({ layerIndex, callbackFunc, children }) => {
   const { layerList, removeLayerList } = useLayerStore();
   const lastIndex = layerList.length - 1;

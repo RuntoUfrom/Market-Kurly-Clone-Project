@@ -31,6 +31,14 @@ const modalContent = {
 };
 
 // 센터 팝업을 감싸는 컴포넌트
+/**
+ * 중앙 컨텐츠 팝업 래퍼 컴포넌트 (스크롤 가능)
+ *
+ * @param {Object} props
+ * @param {number} props.layerIndex - 레이어 인덱스
+ * @param {function} [props.callbackFunc] - 팝업 닫힘 시 호출되는 콜백
+ * @param {React.ReactNode} props.children - 팝업 내부 컨텐츠
+ */
 function DialogCenterPopup({ layerIndex, callbackFunc, children }) {
   const { layerList, removeLayerList } = useLayerStore();
   const isClosedRef = useRef(false);

@@ -1,7 +1,13 @@
 import { useEffect, useRef } from "react";
 import { createPortal } from "react-dom";
 
-// 다이얼로그를 감싸는 컴포넌트
+/**
+ * 다이얼로그를 감싸는 포털 래퍼 컴포넌트.
+ * 모달이 열릴 때 포커스를 관리하고, 배경 스크롤을 막음.
+ *
+ * @param {Object} props
+ * @param {React.ReactNode} props.children - 렌더링할 다이얼로그 컴포넌트
+ */
 const DialogWrapper = ({ children }) => {
   const lastFocusRef = useRef(null); //팝업을 열기 전 포커스 위치 기록할 Ref 변수
   const wrapperRef = useRef(); //팝업 전체를 감싸는 껍데기를 가리키는 리모콘

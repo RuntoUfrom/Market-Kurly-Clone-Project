@@ -1,33 +1,21 @@
 import ShareIcon from "@/assets/common/icons/ShareIcon.svg";
 
 /**
-const mockProduct = {
-  ranking: 1,
-  rankingCategory: "채소",
-  // 2. 샛별 배송 여부
-  isDawnDelivery: true,
-  // 3. 브랜드명
-  brandName: "농부의 아침",
-  // 4. 상품 이름
-  productName: "[실속] 유기농 파프리카 2입",
-  // 5. 상품 설명 (상세 요약)
-  shortDescription: "아삭한 식감과 풍부한 영양을 담은 친환경 파프리카",
-  // 6. 상품 원산지
-  origin: "국산",
-  // 7. 할인율 (%)
-  discountRate: 20,
-  // 8. 할인 후 가격 (판매가)
-  salesPrice: 3200,
-  // 9. 원가
-  originalPrice: 4000,
-  // 10. 첫 구매 시 할인율 (%)
-  firstPurchaseDiscountRate: 90,
-  // 11. 첫 구매 시 할인가
-  firstPurchasePrice: 400,
-  productImage: "MarketImage01",
-};
+ * 상품 상세 정보 컴포넌트
+ *
+ * @param {Object} props
+ * @param {Object} props.product - 상품 정보 객체
+ * @param {number} props.product.ranking - 랭킹 순위
+ * @param {string} props.product.rankingCategory - 랭킹 카테고리
+ * @param {boolean} props.product.isDawnDelivery - 샛별배송 여부
+ * @param {string} props.product.brandName - 브랜드명
+ * @param {string} props.product.productName - 상품명
+ * @param {string} props.product.shortDescription - 상품 짧은 설명
+ * @param {string} props.product.origin - 원산지 정보
+ * @param {number} props.product.discountRate - 할인율
+ * @param {number} props.product.originalPrice - 원가
+ * @param {number} [props.product.firstDiscountRate] - 첫 구매 혜택률
  */
-
 const ProductDetailInfo = ({ product }) => {
   const {
     ranking,
@@ -38,10 +26,8 @@ const ProductDetailInfo = ({ product }) => {
     shortDescription,
     origin,
     discountRate,
-    salesPrice,
     originalPrice,
-    firstPurchaseDiscountRate,
-    firstPurchasePrice,
+    firstDiscountRate,
   } = product;
 
   return (
@@ -86,7 +72,7 @@ const ProductDetailInfo = ({ product }) => {
       <div className="flex items-baseline gap-1 mb-1">
         <span className="text-lg font-bold text-status">{discountRate}%</span>
         <span className="text-lg font-bold text-gray-900">
-          {salesPrice.toLocaleString()}원
+          {(originalPrice * (1 - discountRate / 100)).toLocaleString()}원
         </span>
         <span className="text-xs text-gray-400 line-through ml-1">
           {originalPrice.toLocaleString()}원
@@ -94,13 +80,13 @@ const ProductDetailInfo = ({ product }) => {
       </div>
 
       {/* 첫구매 혜택가 */}
-      {firstPurchaseDiscountRate !== null && firstPurchasePrice !== null && (
+      {firstDiscountRate > 0 && (
         <div className="flex items-baseline gap-1">
           <span className="text-lg font-bold text-primary">
-            {firstPurchaseDiscountRate}%
+            {firstDiscountRate}%
           </span>
           <span className="text-lg font-bold text-gray-900">
-            {firstPurchasePrice.toLocaleString()}원
+            {(originalPrice * (1 - firstDiscountRate / 100)).toLocaleString()}원
           </span>
           <span className="text-xs text-primary mx-2 font-medium">
             첫구매 최대혜택가

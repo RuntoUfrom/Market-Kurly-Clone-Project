@@ -2,6 +2,14 @@ import CheckedIcon from "@/assets/common/icons/CheckPurpleIcon.svg";
 import UnCheckIcon from "@/assets/common/icons/CheckUnfillIcon.svg";
 import { useState } from "react";
 
+/**
+ * 체크박스 컴포넌트
+ *
+ * @param {Object} props
+ * @param {boolean} [props.isCheck=false] - 초기 체크 상태
+ * @param {string} [props.label=""] - 체크박스 옆 라벨 텍스트
+ * @param {number|string} [props.number=null] - 라벨 옆에 표시할 숫자 (옵션)
+ */
 const CheckBox = ({ isCheck = false, label = "", number = null }) => {
   const [check, setCheck] = useState(isCheck);
   return (

@@ -1,10 +1,22 @@
 import ChatIcon from "@/assets/common/icons/ChatIcon.svg";
+/**
+ * 상품의 상세 정보(이름, 가격, 할인율, 리뷰 등)를 표시하는 컴포넌트
+ *
+ * @param {Object} props
+ * @param {Object} props.product - 상품 정보 객체
+ * @param {boolean} [props.product.isDawnDelivery] - 샛별배송 여부
+ * @param {string} props.product.productName - 상품명
+ * @param {number} props.product.originalPrice - 원가
+ * @param {number} props.product.discountRate - 할인율
+ * @param {number} [props.product.reviewCount] - 리뷰 수
+ * @param {boolean} [props.product.isKurlyOnly] - 컬리 온리 상품 여부
+ * @param {"vertical" | "horizontal" | "simple-horizontal"} [props.layout="vertical"] - 레이아웃 모드
+ */
 const ProductInfo = ({ product, layout = "vertical" }) => {
   const {
     isDawnDelivery,
     productName,
     originalPrice,
-    discountPrice,
     discountRate,
     reviewCount,
     isKurlyOnly,
@@ -32,7 +44,7 @@ const ProductInfo = ({ product, layout = "vertical" }) => {
 
       {/* 원가(취소선)  */}
       {layout === "vertical" ||
-        (layout === "horizontal" && originalPrice > discountPrice && (
+        (layout === "horizontal" && discountRate > 0 && (
           <span className="text-sm text-gray-400 line-through">
             {formatPrice(originalPrice)}
           </span>
@@ -44,7 +56,7 @@ const ProductInfo = ({ product, layout = "vertical" }) => {
           <span className="text-status font-bold">{discountRate}%</span>
         )}
         <span className="text-gray-900 font-bold">
-          {formatPrice(discountPrice)}
+          {formatPrice(originalPrice * (1 - discountRate / 100))}
         </span>
       </div>
 

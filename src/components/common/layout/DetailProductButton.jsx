@@ -1,5 +1,8 @@
 import BasicSubmitButton from "../button/BasicSubmitButton";
 import HeartIcon from "@/assets/common/icons/HeartIcon.png";
+/**
+ * 상품 상세 페이지 하단 구매 버튼 컴포넌트
+ */
 const DetailProductButton = () => {
   return (
     <div className="flex flex-row w-full">

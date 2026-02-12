@@ -4,6 +4,14 @@ import HomeIcon from "@/assets/common/icons/HomeUnFillIcon.svg";
 import CartIcon from "@/assets/common/icons/CartIconGray.svg";
 import useHistoryController from "@/hooks/controllers/useHistoryController";
 
+/**
+ * 뒤로가기 버튼이 있는 공통 헤더 컴포넌트
+ *
+ * @param {Object} props
+ * @param {boolean} [props.isSearch=false] - 검색 아이콘 표시 여부
+ * @param {boolean} [props.isHome=false] - 홈 아이콘 표시 여부
+ * @param {string} [props.label=""] - 헤더 중앙 타이틀
+ */
 const BackHeader = ({ isSearch = false, isHome = false, label = "" }) => {
   const { moveTo } = useHistoryController();
   return (

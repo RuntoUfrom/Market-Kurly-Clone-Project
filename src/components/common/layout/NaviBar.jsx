@@ -6,6 +6,9 @@ import MenuIcon from "@/assets/common/icons/MenuIcon.svg?react";
 import MenuFillIcon from "@/assets/common/icons/MenuFillIcon.svg?react";
 
 import { useState } from "react";
+/**
+ * 하단 네비게이션 바 컴포넌트
+ */
 const NaviBar = () => {
   const [currentPage, setCurrentPage] = useState("home");
   const navItems = [

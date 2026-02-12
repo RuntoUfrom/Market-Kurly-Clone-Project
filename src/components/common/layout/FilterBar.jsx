@@ -2,6 +2,15 @@
 
 import FilterBtn from "../button/FilterBtn";
 
+/**
+ * 검색 필터 옵션 바 컴포넌트 (가로 스크롤)
+ *
+ * @param {Object} props
+ * @param {boolean} [props.isKurlyOnly=true] - Kurly Only 필터 표시 여부
+ * @param {boolean} [props.isNew=false] - 신상품 필터 표시 여부
+ * @param {boolean} [props.isWonderHotDeal=false] - 원더핫딜 필터 표시 여부
+ * @param {boolean} [props.isBeautyFest=false] - 뷰컬페 필터 표시 여부
+ */
 const FilterBar = ({
   isKurlyOnly = true,
   isNew = false,

@@ -1,5 +1,8 @@
 import BasicSubmitButton from "@/components/common/button/BasicSubmitButton";
 import HeartIcon from "@/assets/common/icons/HeartIcon.png";
+/**
+ * 하단 고정 구매하기 바 컴포넌트 (찜하기 버튼 포함)
+ */
 const PurChaseBar = () => {
   return (
     <div className="flex items-center gap-3 px-4 py-3 border-t border-gray-200 bg-white">

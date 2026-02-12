@@ -14,6 +14,12 @@ const calcRemaining = (endTime) => {
 
 const pad = (num) => String(num).padStart(2, "0");
 
+/**
+ * 타임 딜 남은 시간 타이머 컴포넌트
+ *
+ * @param {Object} props
+ * @param {string|Date} props.endTime - 종료 시간
+ */
 const DealTimer = ({ endTime }) => {
   const [remaining, setRemaining] = useState(() => calcRemaining(endTime));
 

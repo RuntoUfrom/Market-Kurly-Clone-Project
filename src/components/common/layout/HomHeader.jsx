@@ -3,6 +3,9 @@ import NaviIcon from "@/assets/common/icons/NaviIcon.svg?react";
 import CartIcon from "@/assets/common/icons/CartIcon.svg";
 import CartIconGray from "@/assets/common/icons/CartIconGray.svg";
 
+/**
+ * 메인 홈 헤더 컴포넌트 (마켓컬리/뷰티컬리 탭 포함)
+ */
 const HomHeader = () => {
   const { theme, setTheme } = useThemeStore();
 

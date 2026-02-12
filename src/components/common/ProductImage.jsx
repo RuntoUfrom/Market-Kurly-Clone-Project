@@ -1,8 +1,15 @@
 import ProductImageBedge from "@/assets/common/ProductImageBadge.png";
 
 /**
- * ProductImage - 항상 부모 컨테이너 크기에 맞춤 (w-full)
- * 크기 조절은 부모 컴포넌트에서 wrapper로 제어
+ * 상품 이미지를 렌더링하는 컴포넌트.
+ * 항상 부모 컨테이너 크기에 맞춤 (w-full). 크기 조절은 부모 컴포넌트에서 wrapper로 제어.
+ *
+ * @param {Object} props
+ * @param {string} props.productImage - 이미지 소스 URL 또는 경로
+ * @param {string} [props.topBadgeText=""] - 이미지 좌상단 뱃지 텍스트
+ * @param {boolean} [props.eventBadge=false] - 좌하단 이벤트 뱃지 이미지 표시 여부
+ * @param {string} [props.bottomBannerText=""] - 하단 배너 텍스트
+ * @param {boolean} [props.rounded=true] - 테두리 둥글게 처리 여부
  */
 const ProductImage = ({
   productImage,

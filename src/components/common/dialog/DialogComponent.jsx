@@ -2,12 +2,8 @@ import DialogWrapper from "@/components/common/dialog/DialogWrapper";
 import useLayerStore from "@/stores/useLayerStore";
 
 /**
- * DialogFullPopup
- * 전체 화면을 덮는 풀팝업 다이얼로그 컴포넌트
- * @param {object}   props
- * @param {number}   props.layerIndex   레이어 스택 인덱스
- * @param {Function} props.callbackFunc 팝업 닫힘 시 호출되는 콜백
- * @param {ReactNode} props.children    팝업 내부에 렌더링할 자식 컴포넌트
+ * 전역 다이얼로그 관리 컴포넌트 (Layer System Root)
+ * store에 저장된 layerList를 순회하며 팝업을 렌더링함.
  */
 
 const DialogComponent = () => {

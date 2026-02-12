@@ -5,14 +5,20 @@ import BeautyImage01 from "@/assets/productimages/beautymarketimages/BeautyImage
 import IconButton from "@/components/common/button/IconButton";
 import ChatIcon from "@/assets/common/icons/ChatIcon.svg";
 
+/**
+ * 타임 딜 섹션 컴포넌트
+ * 타이머와 상품 정보를 표시함.
+ *
+ * @param {Object} props
+ * @param {Object} props.product - 상품 정보 객체
+ * @param {string|Date} props.endTime - 타임 딜 종료 시간
+ */
 const TimeDealComponent = ({ product, endTime }) => {
   const {
     productName,
     productImage,
     topBadgeText,
     eventBadge,
-    bottomBannerText,
-    discountPrice,
     discountRate,
     originalPrice,
     reviewCount,
@@ -30,8 +36,8 @@ const TimeDealComponent = ({ product, endTime }) => {
         {/**endTime 작성 예시 :2026-02-10T18:00:00 */}
         <ProductImage
           productImage={BeautyImage01}
-          topBadgeText="+15%할인"
-          eventBadge={false}
+          topBadgeText={topBadgeText}
+          eventBadge={eventBadge}
         />
         <div className="my-2">
           <IconButton icon="CART" alt="담기 버튼" label="담기" />
@@ -47,10 +53,10 @@ const TimeDealComponent = ({ product, endTime }) => {
             <span className="text-status font-bold">{discountRate}%</span>
           )}
           <span className="text-gray-900 font-bold mx-2">
-            {formatPrice(discountPrice)}
+            {formatPrice(originalPrice * (1 - discountRate / 100))}
           </span>
 
-          {originalPrice > discountPrice && (
+          {discountRate > 0 && (
             <span className="text-sm text-gray-400 line-through">
               {formatPrice(originalPrice)}
             </span>

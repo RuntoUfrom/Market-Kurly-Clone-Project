@@ -1,6 +1,13 @@
 import MenuCard from "@/components/common/button/MenuCard";
 import { ROUND_MENU_IMAGE_MAP } from "@/constants/menumaps/roundMenuMap";
 import { useState } from "react";
+/**
+ * 둥근 메뉴 리스트 컴포넌트 (가로 스크롤)
+ *
+ * @param {Object} props
+ * @param {string[]} [props.menulist] - 표시할 메뉴 라벨 목록
+ * @param {string} [props.selectedSubMenu] - 초기 선택된 메뉴 라벨
+ */
 const RoundMenuList = ({
   menulist = [
     "베스트",

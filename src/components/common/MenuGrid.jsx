@@ -2,6 +2,17 @@ import { useRef, useState } from "react";
 import MenuCard from "@/components/common/button/MenuCard";
 import { HOM_MARKET_MENU_IMAGE_MAP } from "@/constants/menumaps/HOMMarketMenuImageMap";
 //코드 검토 필요
+/**
+ * 메뉴 그리드 리스트를 보여주는 컴포넌트
+ *
+ * @param {Object} props
+ * @param {boolean} [props.isBar=false] - 하단 스크롤 바 표시 여부
+ * @param {number} [props.rowNum=1] - 행 개수 (1 or 2)
+ * @param {string[]} [props.menuList=[]] - 메뉴 이름 목록
+ * @param {Object} props.imageMap - 메뉴 이름에 대응하는 이미지 매핑 객체
+ * @param {string} props.activeMenu - 현재 활성화된 메뉴
+ * @param {function} props.onMenuClick - 메뉴 클릭 시 호출되는 핸들러
+ */
 const MenuGrid = ({
   isBar = false,
   rowNum = 1,

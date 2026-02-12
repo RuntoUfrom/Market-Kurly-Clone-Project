@@ -11,7 +11,7 @@ import productImage from "@/assets/productimages/foodmarketimages/MarketImage01.
 import ProductCard from "@/components/common/ProductCard";
 import NaviBar from "@/components/common/layout/NaviBar";
 import MoveBanner from "@/components/common/MoveBanner";
-import { MARKET_BANNER_LIST } from "@/constants/marketbannerMap";
+import MARKET_BANNER_MAP from "@/mocks/data/HOM/MoveMarketBannerImages.json";
 import FilterBtn from "@/components/common/button/FilterBtn";
 import BackHeader from "@/components/common/layout/BackHeader";
 import FilterBar from "@/components/common/layout/FilterBar";
@@ -33,6 +33,9 @@ import CheckBox from "@/components/common/button/CheckBox";
 import ProductCartCount from "@/components/feature/CART/ProductCartCount";
 import ProductCartContent from "@/components/feature/CART/ProductCartContent";
 import CartAmount from "@/components/feature/CART/CartAmount";
+import ProductQuestion from "@/components/feature/DTI/ProductQuestion";
+import BrandImage from "@/components/feature/HOM/BrandImage";
+import BrandImageList from "@/components/feature/HOM/BrandImageList";
 
 const product = {
   productImage: productImage,
@@ -74,7 +77,36 @@ const mockProduct = {
   firstPurchasePrice: 400,
   productImage: "MarketImage01",
 };
-
+const mockbrand = [
+  {
+    image: "BeautyImage01",
+    text: "설화수로 채우는\n촉촉한 피부",
+  },
+  {
+    image: "BeautyImage02",
+    text: "라네즈 워터뱅크\n수분 충전",
+  },
+  {
+    image: "BeautyImage03",
+    text: "이니스프리\n그린티 진정 케어",
+  },
+  {
+    image: "BeautyImage04",
+    text: "헤라 블랙쿠션\n완벽 커버력",
+  },
+  {
+    image: "BeautyImage05",
+    text: "에스티로더\n나이트 세럼",
+  },
+  {
+    image: "BeautyImage06",
+    text: "아이오페 레티놀\n탄력 집중 관리",
+  },
+  {
+    image: "BeautyImage07",
+    text: "마몽드 로즈워터\n톤업 에센스",
+  },
+];
 const CommonComponentsPage = () => {
   // 1단계: 상태 관리
   const [activeId, setActiveId] = useState(null);
@@ -233,7 +265,7 @@ const CommonComponentsPage = () => {
     {
       id: "MoveBanner",
       label: "MoveBanner",
-      component: <MoveBanner bannerList={MARKET_BANNER_LIST} />,
+      component: <MoveBanner bannerList={MARKET_BANNER_MAP} />,
     },
     {
       id: "FilterBtn",
@@ -421,6 +453,50 @@ const CommonComponentsPage = () => {
           감사합니다."
         />
       ),
+    },
+    {
+      id: "ProductQuestion",
+      label: "ProductQuestion",
+      component: (
+        <ProductQuestion
+          isSecret={false}
+          isAnswer={true}
+          title="배송관련 문의합니다."
+          userName="홍길동"
+          date="2024-01-01"
+          content={{
+            question: "배송은 언제 되나요?",
+            answer: "내일 도착 예정입니다.",
+          }}
+        />
+      ),
+    },
+    {
+      id: "ProductQuestion2",
+      label: "ProductQuestion2",
+      component: (
+        <ProductQuestion
+          isSecret={true}
+          isAnswer={false}
+          title="배송관련 문의합니다."
+          userName="홍길동"
+          date="2024-01-01"
+          content={{
+            question: "배송은 언제 되나요?",
+            answer: "내일 도착 예정입니다.",
+          }}
+        />
+      ),
+    },
+    {
+      id: "BrandImage",
+      label: "BrandImage",
+      component: <BrandImage text="설화수로 채우는 촉촉한 피부" />,
+    },
+    {
+      id: "BrandImageList",
+      label: "BrandImageList",
+      component: <BrandImageList brandImageList={mockbrand} />,
     },
   ];
 

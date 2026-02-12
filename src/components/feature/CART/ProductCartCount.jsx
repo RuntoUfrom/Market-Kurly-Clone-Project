@@ -1,6 +1,10 @@
 import SubtractionIcon from "@/assets/common/icons/SubtractionIcon.svg";
 import PlusIcon from "@/assets/common/icons/PlusIcon.svg";
 import { useState } from "react";
+/**
+ * 장바구니 상품 수량 조절 컴포넌트
+ * 현재는 내부 state로 count를 관리함.
+ */
 const ProductCartCount = () => {
   const [count, setCount] = useState(0);
   return (

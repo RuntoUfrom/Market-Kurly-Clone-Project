@@ -2,6 +2,19 @@ import ProductCartCount from "@/components/feature/CART/ProductCartCount";
 import CheckIcon from "@/assets/common/icons/CheckPurpleIcon.svg";
 import CheckFilledIcon from "@/assets/common/icons/CheckUnfillIcon.svg";
 import { useState } from "react";
+/**
+ * 장바구니 상품 카드 컴포넌트
+ *
+ * @param {Object} props
+ * @param {Object} props.product - 상품 정보 객체
+ * @param {string} props.product.productName - 상품 이름
+ * @param {string} props.product.productImage - 상품 이미지 URL
+ * @param {string} props.product.productDescription - 상품 설명
+ * @param {number|string} props.product.productOriginalPrice - 상품 원가
+ * @param {number|string} props.product.productFinalPrice - 상품 최종 가격
+ * @param {number} props.product.productQuantityLeft - 남은 재고 수량
+ * @param {boolean} props.product.productChecked - 상품 선택 여부
+ */
 const ProductCartContent = ({ product }) => {
   const {
     productName,

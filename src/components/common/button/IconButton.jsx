@@ -1,9 +1,14 @@
 import CartIcon from "@/assets/common/icons/CartIconGray.svg";
 import UndoIcon from "@/assets/common/icons/UndoIcon.svg";
 /**
+ * 아이콘 버튼 컴포넌트
  *
- * @param {icon:CART|UNDO}
- * @returns
+ * @param {Object} props
+ * @param {"CART" | "UNDO"} [props.icon="CART"] - 표시할 아이콘 타입
+ * @param {string} props.alt - 아이콘 대체 텍스트
+ * @param {function} props.onClick - 클릭 핸들러
+ * @param {string} props.label - 버튼 라벨
+ * @param {string} [props.fontSize="text-xs"] - 텍스트 크기 클래스
  */
 const IconButton = ({
   icon = "CART",

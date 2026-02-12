@@ -1,6 +1,9 @@
 import NaviIcon from "@/assets/common/icons/NaviIcon.svg";
 import CartIconGray from "@/assets/common/icons/CartIconGray.svg";
 
+/**
+ * 전체 메뉴 페이지 헤더 컴포넌트
+ */
 const MenuHeader = () => {
   return (
     <div className="p-4 flex flex-row justify-between">

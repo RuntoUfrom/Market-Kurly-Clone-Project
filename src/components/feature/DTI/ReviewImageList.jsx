@@ -1,5 +1,11 @@
 import ImageMappingHelper from "@/constants/ImageMappingHelper";
 
+/**
+ * 리뷰 이미지 리스트 컴포넌트 (최대 4개 표시, 마지막 이미지는 오버레이)
+ *
+ * @param {Object} props
+ * @param {string[]} [props.imageList=[]] - 표시할 이미지 키 목록
+ */
 const ReviewImageList = ({ imageList = [] }) => {
   // 최대 4개만 표시
   const displayImages = imageList.slice(0, 4);

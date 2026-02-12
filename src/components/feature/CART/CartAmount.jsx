@@ -1,3 +1,13 @@
+/**
+ * 장바구니 결제 예상 금액 정보 컴포넌트
+ *
+ * @param {Object} props
+ * @param {number} props.totalProductAmount - 총 상품 금액
+ * @param {number} props.productDiscountAmount - 상품 할인 금액
+ * @param {number} props.couponDiscountAmount - 쿠폰 할인 금액
+ * @param {number} props.deliveryFee - 배송비
+ * @param {number} props.finalPaymentAmount - 최종 결제 예정 금액
+ */
 const CartAmount = ({
   totalProductAmount,
   productDiscountAmount,

@@ -1,3 +1,13 @@
+/**
+ * 메뉴 아이콘과 라벨을 보여주는 카드 컴포넌트
+ *
+ * @param {Object} props
+ * @param {string} props.LogoImage - 이미지 소스
+ * @param {string} props.label - 메뉴 라벨
+ * @param {function} props.onClick - 클릭 핸들러
+ * @param {boolean} [props.isRounded=false] - 둥근 모서리 스타일 여부 (원형 이미지)
+ * @param {boolean} [props.isSelected=false] - 선택된 상태 여부 (테두리 강조)
+ */
 const MenuCard = ({
   LogoImage,
   label,
