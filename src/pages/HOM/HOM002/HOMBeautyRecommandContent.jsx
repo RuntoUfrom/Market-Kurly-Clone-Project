@@ -1,17 +1,26 @@
 import MoveBanner from "@/components/common/MoveBanner";
-import { MARKET_BANNER_LIST } from "@/constants/marketbannerMap";
 import MenuGrid from "@/components/common/MenuGrid";
 import { HOM_MARKET_MENU_IMAGE_MAP } from "@/constants/menumaps/HOMMarketMenuImageMap";
 import SectionHeader from "@/components/common/SectionHeader";
 import ProductScrollSection from "@/components/common/ProductScrollSection";
 import MarketProductsMockData from "@/mocks/data/HOM/MarketProducts";
-import RoundMenuList from "@/components/common/layout/RoundMenuList";
 import ProductRankSection from "@/components/common/ProductRankSection";
+import { useEffect, useState } from "react";
+import { moveBannerService } from "@/api/services/HOM/bannerService";
 
 const HOMBeautyRecommandContent = () => {
+  const [bannerList, setBannerList] = useState([]);
+
+  useEffect(() => {
+    const fetchBanners = async () => {
+      const response = await moveBannerService({ type: "BEAUTY" });
+      setBannerList(response);
+    };
+    fetchBanners();
+  }, []);
   return (
     <div>
-      <MoveBanner bannerList={MARKET_BANNER_LIST} />
+      <MoveBanner bannerList={bannerList} />
       <div className="mt-2">
         <MenuGrid
           isBar={true}

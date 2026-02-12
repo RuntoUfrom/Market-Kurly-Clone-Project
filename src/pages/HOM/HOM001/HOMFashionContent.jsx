@@ -1,7 +1,24 @@
+import { moveBannerService } from "@/api/services/HOM/bannerService";
+import MoveBanner from "@/components/common/MoveBanner";
+import { useEffect, useState } from "react";
+import Footer from "@/components/common/layout/Footer";
+
 const HOMFashionContent = () => {
+  const [bannerList, setBannerList] = useState([]);
+
+  useEffect(() => {
+    const fetchBanners = async () => {
+      const response = await moveBannerService({ type: "FASHION" });
+      setBannerList(response);
+    };
+    fetchBanners();
+  }, []);
   return (
-    <div className="flex items-center justify-center h-full text-gray-400 text-lg">
-      패션 탭
+    <div className="flex flex-col gap-2">
+      <div className="flex-1 overflow-y-auto no-scrollbar">
+        <MoveBanner bannerList={bannerList} />
+      </div>
+      <Footer />
     </div>
   );
 };

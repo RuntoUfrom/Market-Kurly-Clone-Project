@@ -8,7 +8,7 @@ const SectionHeader = ({
   emoji = "",
 }) => {
   return (
-    <div className="w-full px-4 py-3 bg-white">
+    <div className="w-full px-4 py-1 bg-white">
       <div className="flex items-center justify-between">
         <div>
           {emoji && <span>{emoji}</span>}

@@ -1,0 +1,62 @@
+[
+  {
+    "bannerId": "BL0001",
+    "bannerImage": "LivingBanner01",
+    "linkUrl": "/event/400001",
+    "title": "리빙컬리 홈 배너 01"
+  },
+  {
+    "bannerId": "BL0002",
+    "bannerImage": "LivingBanner02",
+    "linkUrl": "/event/400002",
+    "title": "리빙컬리 홈 배너 02"
+  },
+  {
+    "bannerId": "BL0003",
+    "bannerImage": "LivingBanner03",
+    "linkUrl": "/event/400003",
+    "title": "리빙컬리 홈 배너 03"
+  },
+  {
+    "bannerId": "BL0004",
+    "bannerImage": "LivingBanner04",
+    "linkUrl": "/event/400004",
+    "title": "리빙컬리 홈 배너 04"
+  },
+  {
+    "bannerId": "BL0005",
+    "bannerImage": "LivingBanner05",
+    "linkUrl": "/event/400005",
+    "title": "리빙컬리 홈 배너 05"
+  },
+  {
+    "bannerId": "BL0006",
+    "bannerImage": "LivingBanner06",
+    "linkUrl": "/event/400006",
+    "title": "리빙컬리 홈 배너 06"
+  },
+  {
+    "bannerId": "BL0007",
+    "bannerImage": "LivingBanner07",
+    "linkUrl": "/event/400007",
+    "title": "리빙컬리 홈 배너 07"
+  },
+  {
+    "bannerId": "BL0008",
+    "bannerImage": "LivingBanner08",
+    "linkUrl": "/event/400008",
+    "title": "리빙컬리 홈 배너 08"
+  },
+  {
+    "bannerId": "BL0009",
+    "bannerImage": "LivingBanner09",
+    "linkUrl": "/event/400009",
+    "title": "리빙컬리 홈 배너 09"
+  },
+  {
+    "bannerId": "BL0010",
+    "bannerImage": "LivingBanner10",
+    "linkUrl": "/event/400010",
+    "title": "리빙컬리 홈 배너 10"
+  }
+]

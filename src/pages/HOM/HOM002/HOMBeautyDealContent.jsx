@@ -1,4 +1,4 @@
-import { fixDealBannerService } from "@/api/services/bannerService";
+import { fixDealBannerService } from "@/api/services/HOM/bannerService";
 import { useEffect, useState } from "react";
 import ImageMappingHelper from "@/constants/ImageMappingHelper";
 

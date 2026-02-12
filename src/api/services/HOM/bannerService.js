@@ -7,9 +7,8 @@ export async function fixDealBannerService(request) {
   const response = await ApiUtils.sendPost("/banner/fixed", request);
   return response;
 }
-
-export async function testErrorService(request) {
-  const response = await ApiUtils.sendPost("/sample/test/error", request);
-  // 반환값은 statusCode, code, data를 그대로 사용 가능
+/** 홈의 각 탭마다 존재하는 움직이는 배너 */
+export async function moveBannerService(request) {
+  const response = await ApiUtils.sendPost("/banner/move", request);
   return response;
 }

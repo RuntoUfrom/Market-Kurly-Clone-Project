@@ -1,5 +1,6 @@
 import { useState, useEffect, useRef } from "react";
 import NextDirection from "@/assets/common/icons/NextDirectionIcon.svg";
+import ImageMappingHelper from "@/constants/ImageMappingHelper";
 
 const MoveBanner = ({ bannerList = [] }) => {
   const [currentIndex, setCurrentIndex] = useState(0);
@@ -58,8 +59,8 @@ const MoveBanner = ({ bannerList = [] }) => {
       onTouchEnd={handleTouchEnd}
     >
       <img
-        src={bannerList[currentIndex]}
-        alt={`배너 ${currentIndex + 1}`}
+        src={ImageMappingHelper[bannerList[currentIndex].bannerImage]}
+        alt={bannerList[currentIndex].title}
         className="w-full h-auto object-cover"
       />
 

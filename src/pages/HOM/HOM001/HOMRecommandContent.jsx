@@ -1,17 +1,28 @@
 import MoveBanner from "@/components/common/MoveBanner";
-import { MARKET_BANNER_LIST } from "@/constants/marketbannerMap";
+import { moveBannerService } from "@/api/services/HOM/bannerService";
 import SectionHeader from "@/components/common/SectionHeader";
 import ProductScrollSection from "@/components/common/ProductScrollSection";
 import MarketProductsMockData from "@/mocks/data/HOM/MarketProducts";
 import MenuGrid from "@/components/common/MenuGrid";
 import { HOM_MARKET_MENU_IMAGE_MAP } from "@/constants/menumaps/HOMMarketMenuImageMap";
 import Footer from "@/components/common/layout/Footer";
+import { useEffect, useState } from "react";
 
 const HOMRecommandTab = () => {
+  const [bannerList, setBannerList] = useState([]);
+
+  useEffect(() => {
+    const fetchBanners = async () => {
+      const response = await moveBannerService({ type: "MARKET" });
+      setBannerList(response);
+    };
+    fetchBanners();
+  }, []);
+
   return (
     <div className="flex flex-col gap-2">
       <div className="flex-1 overflow-y-auto no-scrollbar">
-        <MoveBanner bannerList={MARKET_BANNER_LIST} />
+        <MoveBanner bannerList={bannerList} />
         <SectionHeader
           main={"최대 혜택으로 준비하는 설선물"}
           description={"헬스부터 뷰티 선물까지 12% 쿠폰 추가 지급"}
