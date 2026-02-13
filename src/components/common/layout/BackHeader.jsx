@@ -15,7 +15,7 @@ import useHistoryController from "@/hooks/controllers/useHistoryController";
 const BackHeader = ({ isSearch = false, isHome = false, label = "" }) => {
   const { moveTo } = useHistoryController();
   return (
-    <div className="flex items-center p-4 gap-2">
+    <div className="flex items-center px-4 pt-4 gap-2">
       <button
         onClick={() => {
           moveTo({ direction: "BACK", num: 1 });
@@ -25,8 +25,8 @@ const BackHeader = ({ isSearch = false, isHome = false, label = "" }) => {
       </button>
 
       {label && (
-        <span className="text-base font-medium text-center">
-          {label.length > 9 ? label.slice(0, 10) + "..." : label}
+        <span className="text-lg font-medium text-center">
+          {label.length > 11 ? label.slice(0, 11) + "..." : label}
         </span>
       )}
       <div className="ml-auto flex gap-4">

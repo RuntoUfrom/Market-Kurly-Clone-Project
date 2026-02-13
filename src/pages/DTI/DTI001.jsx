@@ -1,5 +1,3 @@
-import { useState } from "react";
-import MarketProductsMockData from "@/mocks/data/HOM/MarketProducts";
 import DTIDescriptionContent from "@/pages/DTI/DTIDescriptionContent";
 import DTIDetailsContent from "@/pages/DTI/DTIDetailsContent";
 import DTIReviewsContent from "@/pages/DTI/DTIReviewsContent";
@@ -8,46 +6,34 @@ import BackHeader from "@/components/common/layout/BackHeader";
 import CustomTabBtns from "@/components/common/layout/CustomTabBtns";
 import NaviBar from "@/components/common/layout/NaviBar";
 import PurChaseBar from "@/components/feature/DTI/PurChaseBar";
-
+import { useState, useEffect } from "react";
+import { productDetailService } from "@/api/services/DTI/productDetailService";
 const DTI001 = () => {
-  const mockProduct = {
-    ranking: 1,
-    rankingCategory: "채소",
-    // 2. 샛별 배송 여부
-    isDawnDelivery: true,
-    // 3. 브랜드명
-    brandName: "농부의 아침",
-    // 4. 상품 이름
-    productName: "[실속] 유기농 파프리카 2입",
-    // 5. 상품 설명 (상세 요약)
-    shortDescription: "아삭한 식감과 풍부한 영양을 담은 친환경 파프리카",
-    // 6. 상품 원산지
-    origin: "국산",
-    // 7. 할인율 (%)
-    discountRate: 20,
-    // 8. 할인 후 가격 (판매가)
-    salesPrice: 3200,
-    // 9. 원가
-    originalPrice: 4000,
-    // 10. 첫 구매 시 할인율 (%)
-    firstPurchaseDiscountRate: 90,
-    // 11. 첫 구매 시 할인가
-    firstPurchasePrice: 400,
-    productImage: "MarketImage01",
-  };
-  //Mock 데이터 테스트
-  const productTest = MarketProductsMockData[0];
+  const [selectproduct, setSelectProduct] = useState(null);
   const ProductDetailTabList = ["상품설명", "상세정보", "후기", "문의"];
   const [selectedTab, setSelectedTab] = useState("상품설명");
+
+  useEffect(() => {
+    const fetchProduct = async () => {
+      const response = await productDetailService({ productId: "PM0001" });
+      setSelectProduct(response);
+    };
+    fetchProduct();
+  }, []);
+
   const handleTabChange = (label) => {
     setSelectedTab(label);
   };
   const renderTab = () => {
     switch (selectedTab) {
       case "상품설명":
-        return <DTIDescriptionContent product={mockProduct} />;
+        return <DTIDescriptionContent product={selectproduct} />;
       case "상세정보":
-        return <DTIDetailsContent />;
+        return (
+          <DTIDetailsContent
+            detailDescription={selectproduct.detailDescription}
+          />
+        );
       case "후기":
         return <DTIReviewsContent />;
       case "문의":
@@ -63,7 +49,7 @@ const DTI001 = () => {
         <BackHeader
           isSearch={true}
           isHome={true}
-          label={productTest.productName}
+          label={selectproduct?.productName}
         />
         <CustomTabBtns
           variant={4}
@@ -74,7 +60,9 @@ const DTI001 = () => {
       </header>
 
       {/* 스크롤 영역 */}
-      <main className="flex-1 overflow-y-auto no-scrollbar">{renderTab()}</main>
+      <main className="flex-1 overflow-y-auto no-scrollbar">
+        {selectproduct && renderTab()}
+      </main>
 
       {/* 하단 고정 영역 */}
       <footer className="shrink-0 bg-white">

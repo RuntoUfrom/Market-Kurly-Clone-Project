@@ -24,7 +24,9 @@ const ReviewListToggle = ({ label = "공지", title, content }) => {
         <div className="text-xs font-medium p-1 text-gray-800">{title}</div>
       </div>
       {isOpen && (
-        <div className="text-xs whitespace-pre-line mt-2">{content}</div>
+        <div className="text-xs whitespace-pre-line mt-2 whitespace-pre-line">
+          {content}
+        </div>
       )}
     </div>
   );

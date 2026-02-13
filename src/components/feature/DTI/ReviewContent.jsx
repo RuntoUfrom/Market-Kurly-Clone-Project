@@ -16,10 +16,11 @@ const ReviewContent = ({
   userName = "",
   reviewImages = [],
   content,
+  productName = "",
 }) => {
   let lastName = userName.slice(0, 1);
   return (
-    <div className="flex flex-col  gap-2">
+    <div className="flex flex-col gap-1 p-2">
       <div className="flex flex-row items-center gap-1">
         {isBest && (
           <div className="p-1 text-white font-bold bg-primary text-[8px] rounded-sm">
@@ -44,7 +45,8 @@ const ReviewContent = ({
           />
         ))}
       </div>
-      <div className="text-xs whitespace-pre-line mt-1">{content}</div>
+      <div className="text-gray-400 text-xs">{productName}</div>
+      <div className="text-xs whitespace-pre-line">{content}</div>
     </div>
   );
 };

@@ -1,0 +1,659 @@
+[
+  {
+    "productId": "PM0001",
+    "productName": "고랭지사과 1.3kg",
+    "productImage": "PM0001-Thumb",
+    "questions": [
+      {
+        "isSecret": false,
+        "questionId": "PM0001-Q01",
+        "title": "당도 확인 문의",
+        "userName": "김철수",
+        "date": "2026-02-13",
+        "content": {
+          "question": "이번에 들어온 사과 당도가 어떤가요? 지난번보다 알이 좀 작아 보이는데 맛은 동일한지 궁금합니다.",
+          "answer": "안녕하세요 고객님! 이번 차수 상품은 일조량이 풍부하여 크기는 다소 작아졌으나 당도는 평균 14브릭스로 매우 높게 측정되었습니다."
+        }
+      },
+      {
+        "isSecret": true,
+        "questionId": "PM0001-Q02",
+        "title": "배송지 변경 요청",
+        "userName": "이영희",
+        "date": "2026-02-12",
+        "content": {
+          "question": "주문번호 20260212-00123인데 배송지를 옆집으로 잘못 입력했어요. 혹시 지금 수정 가능한가요?",
+          "answer": "안녕하세요 고객님, 현재 상품 준비 중 단계로 확인되어 배송지 변경이 완료되었습니다. 감사합니다."
+        }
+      },
+      {
+        "isSecret": false,
+        "questionId": "PM0001-Q03",
+        "title": "보관 방법 및 유통기한",
+        "userName": "박지성",
+        "date": "2026-02-11",
+        "content": {
+          "question": "사과를 씻어서 보관해도 되나요? 아니면 먹기 직전에 씻는 게 좋은가요?",
+          "answer": "사과는 씻지 않은 상태로 키친타월에 싸서 냉장 보관하시는 것이 가장 오래 신선도를 유지하는 방법입니다. 가급적 먹기 직전에 세척해 주세요."
+        }
+      },
+      {
+        "isSecret": false,
+        "questionId": "PM0001-Q04",
+        "title": "재입고 문의",
+        "userName": "최민지",
+        "date": "2026-02-10",
+        "content": {
+          "question": "방금 주문하려고 보니 품절이네요. 내일 아침 샛별배송으로 받고 싶은데 재입고 언제 되나요?",
+          "answer": "불편을 드려 죄송합니다. 해당 상품은 금일 오후 6시 전후로 재입고 예정입니다. 알림 설정을 하시면 더 빠르게 확인 가능합니다."
+        }
+      },
+      {
+        "isSecret": true,
+        "questionId": "PM0001-Q05",
+        "title": "상품 상태 불만족",
+        "userName": "정현우",
+        "date": "2026-02-09",
+        "content": {
+          "question": "사과 5알 중에 2알이 멍이 들어서 왔습니다. 교환보다는 그냥 포인트로 환불받고 싶은데 처리 부탁드려요.",
+          "answer": "죄송합니다 고객님. 사진 확인 후 즉시 부분 환불(적립금) 처리를 도와드렸습니다. 다음 배송에는 더 신경 쓰겠습니다."
+        }
+      },
+      {
+        "isSecret": false,
+        "questionId": "PM0001-Q06",
+        "title": "친환경 인증 문의",
+        "userName": "강동원",
+        "date": "2026-02-08",
+        "content": {
+          "question": "이 제품 무농약 인증받은 제품인가요? 아이 이유식용으로 쓰려고 합니다.",
+          "answer": "본 상품은 GAP(농산물우수관리) 인증을 받은 상품으로, 저농약 공법을 통해 안전하게 재배되었습니다. 상세 페이지 하단의 인증번호를 확인해 주세요."
+        }
+      }
+    ]
+  },
+  {
+    "productId": "PM0002",
+    "productName": "프리미엄 티 컬렉션 10종 선물세트",
+    "productImage": "PM0002-Thumb",
+    "questions": [
+      {
+        "isSecret": false,
+        "questionId": "PM0002-Q01",
+        "title": "선물 포장 문의",
+        "userName": "박진영",
+        "date": "2026-02-12",
+        "content": {
+          "question": "쇼핑백이 포함되어 있나요? 선물용으로 쓰려고 합니다.",
+          "answer": "안녕하세요 고객님. 해당 상품은 선물 전용 패키지로 쇼핑백이 동봉되어 발송됩니다."
+        }
+      },
+      {
+        "isSecret": false,
+        "questionId": "PM0002-Q02",
+        "title": "유통기한 문의",
+        "userName": "김미소",
+        "date": "2026-02-10",
+        "content": {
+          "question": "유통기한이 얼마나 남은 제품으로 오나요?",
+          "answer": "안녕하세요. 현재 출고 상품은 2026년 12월 31일까지인 상품으로 넉넉한 기간이 남아있습니다."
+        }
+      },
+      {
+        "isSecret": true,
+        "questionId": "PM0002-Q03",
+        "title": "배송 문의",
+        "userName": "이수호",
+        "date": "2026-02-08",
+        "content": {
+          "question": "지방인데 배송이 며칠 걸리나요?",
+          "answer": "안녕하세요. 택배 배송 지역은 출고일로부터 평균 1~2일 정도 소요됩니다."
+        }
+      }
+    ]
+  },
+  {
+    "productId": "PM0003",
+    "productName": "청양고추 80g",
+    "productImage": "PM0003-Thumb",
+    "questions": [
+      {
+        "isSecret": true,
+        "questionId": "PM0003-Q01",
+        "title": "맵기 정도 문의",
+        "userName": "김미영",
+        "date": "2026-02-10",
+        "content": {
+          "question": "많이 매운가요? 아이들 음식에 살짝 넣으려구요.",
+          "answer": "안녕하세요. 청양고추 특유의 알싸한 매운맛이 강한 편이니, 소량만 사용하시는 것을 권장드립니다."
+        }
+      },
+      {
+        "isSecret": false,
+        "questionId": "PM0003-Q02",
+        "title": "보관 방법",
+        "userName": "최지훈",
+        "date": "2026-02-05",
+        "content": {
+          "question": "냉동 보관해도 되나요?",
+          "answer": "네, 세척 후 물기를 제거하여 밀폐용기에 담아 냉동 보관하시면 오래 두고 드실 수 있습니다."
+        }
+      }
+    ]
+  },
+  {
+    "productId": "PM0004",
+    "productName": "포항초 시금치 250g",
+    "productImage": "PM0004-Thumb",
+    "questions": [
+      {
+        "isSecret": false,
+        "questionId": "PM0004-Q01",
+        "title": "손질 여부",
+        "userName": "박나래",
+        "date": "2026-02-11",
+        "content": {
+          "question": "손질되어 있는 상품인가요?",
+          "answer": "안녕하세요. 흙이 묻어있는 원물 상태로 배송되므로 세척 후 섭취하시기 바랍니다."
+        }
+      },
+      {
+        "isSecret": true,
+        "questionId": "PM0004-Q02",
+        "title": "신선도 불만",
+        "userName": "장도연",
+        "date": "2026-02-09",
+        "content": {
+          "question": "잎이 시들어서 왔어요. 교환해주세요.",
+          "answer": "죄송합니다 고객님. 1:1 문의로 사진 남겨주시면 확인 후 신속히 처리 도와드리겠습니다."
+        }
+      }
+    ]
+  },
+  {
+    "productId": "PM0005",
+    "productName": "로얄바인 한입 포도 500g",
+    "productImage": "PM0005-Thumb",
+    "questions": [
+      {
+        "isSecret": false,
+        "questionId": "PM0005-Q01",
+        "title": "씨 유무 문의",
+        "userName": "최수진",
+        "date": "2026-02-11",
+        "content": {
+          "question": "씨가 전혀 없는 건가요?",
+          "answer": "안녕하세요. 씨 없는 품종이나 간혹 작은 씨가 있을 수 있으나 섭취에는 무방합니다."
+        }
+      },
+      {
+        "isSecret": false,
+        "questionId": "PM0005-Q02",
+        "title": "원산지 문의",
+        "userName": "김우빈",
+        "date": "2026-02-07",
+        "content": {
+          "question": "수입산인가요 국산인가요?",
+          "answer": "안녕하세요. 해당 상품은 국산(상주) 상품입니다."
+        }
+      }
+    ]
+  },
+  {
+    "productId": "PM0006",
+    "productName": "소불고기 전골",
+    "productImage": "PM0006-Thumb",
+    "questions": [
+      {
+        "isSecret": true,
+        "questionId": "PM0006-Q01",
+        "title": "유통기한 문의",
+        "userName": "이철수",
+        "date": "2026-02-09",
+        "content": {
+          "question": "오늘 주문하면 유통기한 언제까지인 거 오나요?",
+          "answer": "안녕하세요 고객님. 현재 출고 상품은 2026년 10월 15일까지인 상품으로 순차 발송되고 있습니다."
+        }
+      },
+      {
+        "isSecret": false,
+        "questionId": "PM0006-Q02",
+        "title": "양 조절",
+        "userName": "박신혜",
+        "date": "2026-02-02",
+        "content": {
+          "question": "성인 3명이 먹기에 적당한가요?",
+          "answer": "600g으로 약 2인분 양입니다. 3분이서 드시기에는 다소 부족할 수 있어 2팩 구매를 추천드립니다."
+        }
+      }
+    ]
+  },
+  {
+    "productId": "PM0007",
+    "productName": "프랑스 오렌지 음료",
+    "productImage": "PM0007-Thumb",
+    "questions": [
+      {
+        "isSecret": false,
+        "questionId": "PM0007-Q01",
+        "title": "탄산 유무",
+        "userName": "김다미",
+        "date": "2026-02-12",
+        "content": {
+          "question": "탄산이 들어있는 건가요?",
+          "answer": "네, 약한 탄산이 들어있는 스파클링 주스입니다."
+        }
+      },
+      {
+        "isSecret": false,
+        "questionId": "PM0007-Q02",
+        "title": "카페인",
+        "userName": "최우식",
+        "date": "2026-02-10",
+        "content": {
+          "question": "카페인이 들어있나요?",
+          "answer": "아니요, 카페인은 포함되어 있지 않습니다."
+        }
+      }
+    ]
+  },
+  {
+    "productId": "PM0008",
+    "productName": "양배추 1통",
+    "productImage": "PM0008-Thumb",
+    "questions": [
+      {
+        "isSecret": false,
+        "questionId": "PM0008-Q01",
+        "title": "크기 문의",
+        "userName": "김영희",
+        "date": "2026-02-13",
+        "content": {
+          "question": "크기가 어느 정도 되나요? 너무 클까봐 걱정되네요.",
+          "answer": "안녕하세요. 중량 1.5kg 내외로 일반적인 양배추 크기입니다. 상세페이지 사진을 참고해 주세요."
+        }
+      },
+      {
+        "isSecret": true,
+        "questionId": "PM0008-Q02",
+        "title": "속 상태",
+        "userName": "이광수",
+        "date": "2026-02-11",
+        "content": {
+          "question": "지난번에 샀을 때 속이 검게 변해있었어요. 이번엔 괜찮을까요?",
+          "answer": "죄송합니다 고객님. 신선한 상품으로 선별하여 보내드리겠습니다."
+        }
+      },
+      {
+        "isSecret": false,
+        "questionId": "PM0008-Q03",
+        "title": "무농약 여부",
+        "userName": "송지효",
+        "date": "2026-02-08",
+        "content": {
+          "question": "유기농인가요?",
+          "answer": "해당 상품은 유기농 인증 상품은 아닙니다. 상세정보를 참조해주세요."
+        }
+      }
+    ]
+  },
+  {
+    "productId": "PM0009",
+    "productName": "2026 앰엔앰즈 발렌타인데이 유리컵 기획 세트 2종",
+    "productImage": "PM0009-Thumb",
+    "questions": [
+      {
+        "isSecret": false,
+        "questionId": "PM0009-Q01",
+        "title": "유리컵 내열 여부",
+        "userName": "박민수",
+        "date": "2026-02-08",
+        "content": {
+          "question": "유리컵에 뜨거운 물 부어도 되나요?",
+          "answer": "안녕하세요. 해당 유리컵은 내열 유리가 아니므로 급격한 온도 변화에 파손될 수 있습니다. 미온수 사용을 권장드립니다."
+        }
+      },
+      {
+        "isSecret": false,
+        "questionId": "PM0009-Q02",
+        "title": "초콜릿 유통기한",
+        "userName": "하하",
+        "date": "2026-02-05",
+        "content": {
+          "question": "초콜릿 유통기한 알려주세요.",
+          "answer": "초콜릿 유통기한은 2027년 2월 14일까지입니다."
+        }
+      }
+    ]
+  },
+  {
+    "productId": "PM0010",
+    "productName": "갑오징어 볶음 2종 택1",
+    "productImage": "PM0010-Thumb",
+    "questions": [
+      {
+        "isSecret": false,
+        "questionId": "PM0010-Q01",
+        "title": "조리 방법",
+        "userName": "양세찬",
+        "date": "2026-02-12",
+        "content": {
+          "question": "야채도 들어있나요?",
+          "answer": "대파와 양파가 소량 포함되어 있으나, 기호에 따라 추가 야채를 넣어 드시면 더욱 맛있습니다."
+        }
+      },
+      {
+        "isSecret": false,
+        "questionId": "PM0010-Q02",
+        "title": "해동 방법",
+        "userName": "전소민",
+        "date": "2026-02-10",
+        "content": {
+          "question": "자연해동 해야하나요?",
+          "answer": "네, 냉장 해동 또는 흐르는 물에 유수 해동 후 조리하시는 것을 권장합니다."
+        }
+      }
+    ]
+  },
+  {
+    "productId": "PM0011",
+    "productName": "용궁에서 온 잉어빵 3종 택1",
+    "productImage": "PM0011-Thumb",
+    "questions": [
+      {
+        "isSecret": true,
+        "questionId": "PM0011-Q01",
+        "title": "조리법 문의",
+        "userName": "최지우",
+        "date": "2026-02-07",
+        "content": {
+          "question": "전자레인지 조리 가능한가요?",
+          "answer": "안녕하세요. 전자레인지 조리도 가능하지만, 에어프라이어 조리 시 더욱 바삭하게 즐기실 수 있습니다."
+        }
+      },
+      {
+        "isSecret": false,
+        "questionId": "PM0011-Q02",
+        "title": "알레르기",
+        "userName": "김지수",
+        "date": "2026-02-01",
+        "content": {
+          "question": "계란 포함되어 있나요?",
+          "answer": "네, 계란, 우유, 밀이 함유되어 있으니 알레르기가 있으신 경우 섭취에 주의 부탁드립니다."
+        }
+      }
+    ]
+  },
+  {
+    "productId": "PM0012",
+    "productName": "호주산 목초 LA 꽃갈비 500g",
+    "productImage": "PM0012-Thumb",
+    "questions": [
+      {
+        "isSecret": false,
+        "questionId": "PM0012-Q01",
+        "title": "양념 포함 여부",
+        "userName": "강호동",
+        "date": "2026-02-11",
+        "content": {
+          "question": "양념된 고기인가요?",
+          "answer": "아니요, 양념 되지 않은 생고기(냉동) 상품입니다."
+        }
+      },
+      {
+        "isSecret": true,
+        "questionId": "PM0012-Q02",
+        "title": "두께 문의",
+        "userName": "이수근",
+        "date": "2026-02-09",
+        "content": {
+          "question": "구이용으로 적당한 두께인가요?",
+          "answer": "네, 약 8~10mm 두께로 절단되어 구이용 또는 찜용으로 적합합니다."
+        }
+      }
+    ]
+  },
+  {
+    "productId": "PM0013",
+    "productName": "전통 소갈비찜",
+    "productImage": "PM0013-Thumb",
+    "questions": [
+      {
+        "isSecret": false,
+        "questionId": "PM0013-Q01",
+        "title": "보관 문의",
+        "userName": "김하늘",
+        "date": "2026-02-06",
+        "content": {
+          "question": "김치냉장고에 보관해도 되나요?",
+          "answer": "안녕하세요. 냉동 보관 상품이므로 -18도 이하 냉동실에 보관해 주시기 바랍니다."
+        }
+      },
+      {
+        "isSecret": false,
+        "questionId": "PM0013-Q02",
+        "title": "뼈 포함 여부",
+        "userName": "김종국",
+        "date": "2026-02-03",
+        "content": {
+          "question": "뼈가 붙어있는 갈비인가요?",
+          "answer": "네, 뼈가 붙어있는 갈비찜용 고기입니다."
+        }
+      }
+    ]
+  },
+  {
+    "productId": "PM0014",
+    "productName": "담아본 한라봉 3kg",
+    "productImage": "PM0014-Thumb",
+    "questions": [
+      {
+        "isSecret": false,
+        "questionId": "PM0014-Q01",
+        "title": "개수 문의",
+        "userName": "지석진",
+        "date": "2026-02-13",
+        "content": {
+          "question": "한 박스에 몇 개 들어있나요?",
+          "answer": "3kg 기준 8~12과 내외로 구성되어 있습니다."
+        }
+      },
+      {
+        "isSecret": false,
+        "questionId": "PM0014-Q02",
+        "title": "후숙",
+        "userName": "송지효",
+        "date": "2026-02-10",
+        "content": {
+          "question": "바로 먹어도 되나요?",
+          "answer": "수령 후 2~3일 정도 서늘한 곳에서 후숙하시면 신맛은 줄고 단맛이 더욱 풍부해집니다."
+        }
+      }
+    ]
+  },
+  {
+    "productId": "PM0015",
+    "productName": "테일러 블루베리쥬스",
+    "productImage": "PM0015-Thumb",
+    "questions": [
+      {
+        "isSecret": false,
+        "questionId": "PM0015-Q01",
+        "title": "첨가물",
+        "userName": "유재석",
+        "date": "2026-02-12",
+        "content": {
+          "question": "설탕 들어갔나요?",
+          "answer": "설탕 무첨가 100% 과즙 주스입니다."
+        }
+      },
+      {
+        "isSecret": false,
+        "questionId": "PM0015-Q02",
+        "title": "보관",
+        "userName": "정준하",
+        "date": "2026-02-08",
+        "content": {
+          "question": "개봉 후 보관 어떻게 하나요?",
+          "answer": "개봉 전에는 실온 보관 가능하나, 개봉 후에는 냉장 보관하시고 가급적 빨리 드시기 바랍니다."
+        }
+      }
+    ]
+  },
+  {
+    "productId": "PM0016",
+    "productName": "유기농 엑스트라버진 올리브오일",
+    "productImage": "PM0016-Thumb",
+    "questions": [
+      {
+        "isSecret": false,
+        "questionId": "PM0016-Q01",
+        "title": "산도 문의",
+        "userName": "이영애",
+        "date": "2026-02-05",
+        "content": {
+          "question": "산도가 0.8% 이하인가요?",
+          "answer": "안녕하세요. 엑스트라버진 등급으로 산도 0.8% 이하의 최상급 오일입니다."
+        }
+      },
+      {
+        "isSecret": false,
+        "questionId": "PM0016-Q02",
+        "title": "사용 용도",
+        "userName": "김태희",
+        "date": "2026-01-20",
+        "content": {
+          "question": "튀김용으로 써도 되나요?",
+          "answer": "발연점이 낮아 튀김용보다는 샐러드 드레싱이나 가벼운 볶음 요리에 적합합니다."
+        }
+      }
+    ]
+  },
+  {
+    "productId": "PM0017",
+    "productName": "콩나물 200g",
+    "productImage": "PM0017-Thumb",
+    "questions": [
+      {
+        "isSecret": false,
+        "questionId": "PM0017-Q01",
+        "title": "원산지",
+        "userName": "박보검",
+        "date": "2026-02-12",
+        "content": {
+          "question": "국산 콩인가요?",
+          "answer": "네, 100% 국산 콩으로 재배한 콩나물입니다."
+        }
+      },
+      {
+        "isSecret": false,
+        "questionId": "PM0017-Q02",
+        "title": "세척 여부",
+        "userName": "아이유",
+        "date": "2026-02-10",
+        "content": {
+          "question": "씻어서 조리해야 하나요?",
+          "answer": "세척되어 있으나 조리 전 한 번 더 헹궈 사용하시기를 권장합니다."
+        }
+      }
+    ]
+  },
+  {
+    "productId": "PM0018",
+    "productName": "미미네 옛날 떡볶이 1봉",
+    "productImage": "PM0018-Thumb",
+    "questions": [
+      {
+        "isSecret": true,
+        "questionId": "PM0018-Q01",
+        "title": "구성품 문의",
+        "userName": "박신혜",
+        "date": "2026-02-04",
+        "content": {
+          "question": "어묵도 들어있나요?",
+          "answer": "네, 고객님. 떡과 어묵, 소스가 모두 포함된 구성입니다."
+        }
+      },
+      {
+        "isSecret": false,
+        "questionId": "PM0018-Q02",
+        "title": "맵기",
+        "userName": "김종민",
+        "date": "2026-02-01",
+        "content": {
+          "question": "많이 매운 편인가요? 신라면이랑 비교하면 어떤가요?",
+          "answer": "신라면 정도의 맵기로 아이들도 먹을 수 있는 달콤하고 매콤한 맛입니다."
+        }
+      },
+      {
+        "isSecret": true,
+        "questionId": "PM0018-Q03",
+        "title": "떡 종류",
+        "userName": "차은우",
+        "date": "2026-01-25",
+        "content": {
+          "question": "밀떡인가요 쌀떡인가요?",
+          "answer": "해당 상품은 쫄깃한 식감의 밀떡입니다."
+        }
+      }
+    ]
+  },
+  {
+    "productId": "PM0019",
+    "productName": "더벨로 무화과 통밀빵",
+    "productImage": "PM0019-Thumb",
+    "questions": [
+      {
+        "isSecret": false,
+        "questionId": "PM0019-Q01",
+        "title": "비건 여부",
+        "userName": "이효리",
+        "date": "2026-02-11",
+        "content": {
+          "question": "버터나 우유 들어가나요?",
+          "answer": "버터, 우유, 계란이 들어가지 않은 비건 빵입니다."
+        }
+      },
+      {
+        "isSecret": false,
+        "questionId": "PM0019-Q02",
+        "title": "커팅 여부",
+        "userName": "이상순",
+        "date": "2026-02-08",
+        "content": {
+          "question": "잘라져서 오나요?",
+          "answer": "아니요, 통으로 배송되는 상품으로 기호에 맞게 직접 잘라 드셔야 합니다."
+        }
+      }
+    ]
+  },
+  {
+    "productId": "PM0020",
+    "productName": "제주 목초 우유 무항생제 750ML",
+    "productImage": "PM0020-Thumb",
+    "questions": [
+      {
+        "isSecret": false,
+        "questionId": "PM0020-Q01",
+        "title": "멸균 우유인가요?",
+        "userName": "김동현",
+        "date": "2026-02-03",
+        "content": {
+          "question": "상온 보관 가능한 멸균 우유인지 궁금합니다.",
+          "answer": "안녕하세요. 해당 상품은 살균 우유로 냉장 보관이 필수인 신선 제품입니다."
+        }
+      },
+      {
+        "isSecret": false,
+        "questionId": "PM0020-Q02",
+        "title": "유통기한",
+        "userName": "추성훈",
+        "date": "2026-02-01",
+        "content": {
+          "question": "유통기한 짧나요?",
+          "answer": "수령일로부터 7일 이상 남은 상품으로 보내드립니다."
+        }
+      }
+    ]
+  }
+]

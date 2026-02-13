@@ -37,6 +37,7 @@ import ProductQuestion from "@/components/feature/DTI/ProductQuestion";
 import BrandImage from "@/components/feature/HOM/BrandImage";
 import BrandImageList from "@/components/feature/HOM/BrandImageList";
 import BeautyBrandSection from "@/components/feature/HOM/BeautyBrandSection";
+import ProductDetailNotice from "@/components/feature/DTI/ProductDetailNotice";
 
 const product = {
   productImage: productImage,
@@ -509,6 +510,11 @@ const CommonComponentsPage = () => {
           description={"아름다운 설화수를 먹어봐요"}
         />
       ),
+    },
+    {
+      id: "ProductDetailNotice",
+      label: "ProductDetailNotice",
+      component: <ProductDetailNotice />,
     },
   ];
 

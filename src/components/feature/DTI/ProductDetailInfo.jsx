@@ -24,10 +24,11 @@ const ProductDetailInfo = ({ product }) => {
     brandName,
     productName,
     shortDescription,
-    origin,
+    detailDescription,
     discountRate,
     originalPrice,
     firstDiscountRate,
+    reviewCount,
   } = product;
 
   return (
@@ -37,7 +38,7 @@ const ProductDetailInfo = ({ product }) => {
         <span className="text-xs text-primary font-semibold bg-secondary/20 p-1 px-3 rounded-2xl">
           {rankingCategory} {ranking}위 &gt;
         </span>
-        <span className="text-xs text-gray-500">후기 5,199건</span>
+        <span className="text-xs text-gray-500">{`후기${reviewCount}건`}</span>
       </div>
 
       {/* 샛별배송 + 브랜드명 */}
@@ -66,7 +67,9 @@ const ProductDetailInfo = ({ product }) => {
       <p className="text-xs text-gray-500 mb-1">{shortDescription}</p>
 
       {/* 원산지 */}
-      <p className="text-xs text-gray-400 mb-3">원산지: {origin}</p>
+      <p className="text-xs text-gray-400 mb-3">
+        원산지: {detailDescription.origin}
+      </p>
 
       {/* 할인율 + 판매가 + 원가 */}
       <div className="flex items-baseline gap-1 mb-1">
