@@ -1,6 +1,9 @@
 import ReviewListToggle from "@/components/feature/DTI/ReviewListToggle";
 import ReviewImageList from "@/components/feature/DTI/ReviewImageList";
 import ReviewContent from "@/components/feature/DTI/ReviewContent";
+import { useQuery } from "@tanstack/react-query";
+import { productDetailReviewService } from "@/api/services/DTI/productDetailService";
+
 const PRODUCT_IMAGE_REVIEW_LIST = [
   "PM0001-Review",
   "PM0002-Review",
@@ -8,7 +11,12 @@ const PRODUCT_IMAGE_REVIEW_LIST = [
   "PM0004-Review",
 ];
 
-const DTIReviewsContent = ({ productReviews = [] }) => {
+const DTIReviewsContent = ({ productId }) => {
+  const { data } = useQuery({
+    queryKey: ["productDetailReview", productId],
+    queryFn: () => productDetailReviewService({ productId }),
+  });
+
   return (
     <div>
       <div className="bg-white px-4 p-2 flex flex-col gap-2">
@@ -39,15 +47,16 @@ const DTIReviewsContent = ({ productReviews = [] }) => {
         <ReviewImageList imageList={PRODUCT_IMAGE_REVIEW_LIST} />
       </div>
       <div className="px-4 pb-2 bg-white">
-        <ReviewContent
-          isBest={true}
-          isMembers={true}
-          userName={"김남길"}
-          content={
-            "상품 후기 게시판 정보는 적립금 혜택입니다\n이게 말이 되는 일입니까? \n혜택 나도 받고 싶다.로또 되고 싶다."
-          }
-          productName="치킨치킨치킨"
-        />
+        {data?.reviews?.map((item) => (
+          <ReviewContent
+            key={item.reviewId}
+            isBest={item.isBest}
+            isMembers={item.isMembers}
+            userName={item.userName}
+            content={item.content}
+            productName={data.productName}
+          />
+        ))}
       </div>
     </div>
   );

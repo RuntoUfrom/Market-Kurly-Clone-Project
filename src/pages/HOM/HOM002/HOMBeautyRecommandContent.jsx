@@ -1,6 +1,6 @@
 import MoveBanner from "@/components/common/MoveBanner";
 import MenuGrid from "@/components/common/MenuGrid";
-import { HOM_MARKET_MENU_IMAGE_MAP } from "@/constants/menumaps/HOMMarketMenuImageMap";
+import { HOM_MARKET_MENU_IMAGE_MAP } from "@/constants/HOMMarketMenuImageMap";
 import SectionHeader from "@/components/common/SectionHeader";
 import ProductScrollSection from "@/components/common/ProductScrollSection";
 import MarketProductsMockData from "@/mocks/data/HOM/MarketProducts";

@@ -3,7 +3,7 @@ import BasicSubmitButton from "@/components/common/button/BasicSubmitButton";
 import SectionHeader from "@/components/common/SectionHeader";
 import DemoPreviewItem from "@/components/DEMO/DemoPreviewItem";
 import MenuGrid from "@/components/common/MenuGrid";
-import { HOM_MARKET_MENU_IMAGE_MAP } from "@/constants/menumaps/HOMMarketMenuImageMap";
+import { HOM_MARKET_MENU_IMAGE_MAP } from "@/constants/HOMMarketMenuImageMap";
 import HomHeader from "@/components/common/layout/HomHeader";
 import CustomTabBtns from "@/components/common/layout/CustomTabBtns";
 import IconButton from "@/components/common/button/IconButton";

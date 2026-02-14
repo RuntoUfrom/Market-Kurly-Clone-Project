@@ -1,4 +1,4 @@
-// 마켓 컬리 - 메인 배너 이미지
+// 마켓 컬리 - 메인 배너 이미지 - Component테스트 페이지를 위한 데이터/ api 연동 후 필요 없음
 import MarketBanner01 from "@/assets/banners/marketbanner/MarketBanner01.jpg";
 import MarketBanner02 from "@/assets/banners/marketbanner/MarketBanner02.jpg";
 import MarketBanner03 from "@/assets/banners/marketbanner/MarketBanner03.png";

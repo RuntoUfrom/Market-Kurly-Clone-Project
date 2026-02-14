@@ -41,7 +41,7 @@ const ProductQuestion = ({
           <img src={LockIcon} className="w-3 h-3" />
         </div>
       ) : (
-        <div className="text-sm text-gray-900 font-medium">{title}</div>
+        <div className="text-sm text-gray-800 font-normal">{title}</div>
       )}
 
       <div className="flex flex-row gap-2">
@@ -60,7 +60,7 @@ const ProductQuestion = ({
             <p className="bg-primary/60 p-1 px-2 text-xs font-bold text-white rounded-2xl shrink-0">
               Q
             </p>
-            <p className="text-xs text-gray-900 font-medium">
+            <p className="text-xs text-gray-800 font-normal">
               {content.question}
             </p>
           </div>
@@ -69,7 +69,7 @@ const ProductQuestion = ({
               <p className="bg-primary p-1 px-2 text-xs font-bold text-white rounded-2xl shrink-0">
                 A
               </p>
-              <p className="text-xs text-gray-900 font-medium">
+              <p className="text-xs text-gray-800 font-normal">
                 {content.answer}
               </p>
             </div>

@@ -1,5 +1,5 @@
 import MenuCard from "@/components/common/button/MenuCard";
-import { ROUND_MENU_IMAGE_MAP } from "@/constants/menumaps/roundMenuMap";
+import { ROUND_MENU_IMAGE_MAP } from "@/constants/roundMenuMap";
 import { useState } from "react";
 /**
  * 둥근 메뉴 리스트 컴포넌트 (가로 스크롤)

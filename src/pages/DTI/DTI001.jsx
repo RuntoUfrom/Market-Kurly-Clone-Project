@@ -4,22 +4,38 @@ import DTIReviewsContent from "@/pages/DTI/DTIReviewsContent";
 import DTIInquiryContent from "@/pages/DTI/DTIInquiryContent";
 import BackHeader from "@/components/common/layout/BackHeader";
 import CustomTabBtns from "@/components/common/layout/CustomTabBtns";
-import NaviBar from "@/components/common/layout/NaviBar";
 import PurChaseBar from "@/components/feature/DTI/PurChaseBar";
 import { useState, useEffect } from "react";
-import { productDetailService } from "@/api/services/DTI/productDetailService";
+import {
+  productDetailService,
+  productDetailReviewService,
+  productDetailInquiryService,
+} from "@/api/services/DTI/productDetailService";
+import { useQuery, useQueryClient } from "@tanstack/react-query";
+
 const DTI001 = () => {
-  const [selectproduct, setSelectProduct] = useState(null);
+  const queryClient = useQueryClient();
+  const [productId] = useState("PM0001");
   const ProductDetailTabList = ["상품설명", "상세정보", "후기", "문의"];
   const [selectedTab, setSelectedTab] = useState("상품설명");
 
+  const { data } = useQuery({
+    queryKey: ["productDetail", productId],
+    queryFn: () => productDetailService({ productId }),
+  });
+  //Prefetching 적용으로 상품 설명에 들어오면 후기/문의 탭 안눌러도 바로 정보를 우선 가져온다. staleTime 3분
   useEffect(() => {
-    const fetchProduct = async () => {
-      const response = await productDetailService({ productId: "PM0001" });
-      setSelectProduct(response);
-    };
-    fetchProduct();
-  }, []);
+    if (data) {
+      queryClient.prefetchQuery({
+        queryKey: ["productDetailReview", productId],
+        queryFn: () => productDetailReviewService({ productId }),
+      });
+      queryClient.prefetchQuery({
+        queryKey: ["productDetailInquiry", productId],
+        queryFn: () => productDetailInquiryService({ productId }),
+      });
+    }
+  }, [data, productId, queryClient]);
 
   const handleTabChange = (label) => {
     setSelectedTab(label);
@@ -27,17 +43,13 @@ const DTI001 = () => {
   const renderTab = () => {
     switch (selectedTab) {
       case "상품설명":
-        return <DTIDescriptionContent product={selectproduct} />;
+        return <DTIDescriptionContent product={data} />;
       case "상세정보":
-        return (
-          <DTIDetailsContent
-            detailDescription={selectproduct.detailDescription}
-          />
-        );
+        return <DTIDetailsContent detailDescription={data.detailDescription} />;
       case "후기":
-        return <DTIReviewsContent />;
+        return <DTIReviewsContent productId={productId} />;
       case "문의":
-        return <DTIInquiryContent />;
+        return <DTIInquiryContent productId={productId} />;
       default:
         return null;
     }
@@ -46,11 +58,7 @@ const DTI001 = () => {
     <div className="h-full flex flex-col">
       {/* 상단 고정 영역 */}
       <header className="shrink-0 bg-white">
-        <BackHeader
-          isSearch={true}
-          isHome={true}
-          label={selectproduct?.productName}
-        />
+        <BackHeader isSearch={true} isHome={true} label={data?.productName} />
         <CustomTabBtns
           variant={4}
           active={selectedTab}
@@ -61,7 +69,7 @@ const DTI001 = () => {
 
       {/* 스크롤 영역 */}
       <main className="flex-1 overflow-y-auto no-scrollbar">
-        {selectproduct && renderTab()}
+        {data && renderTab()}
       </main>
 
       {/* 하단 고정 영역 */}

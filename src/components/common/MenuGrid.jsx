@@ -1,6 +1,6 @@
 import { useRef, useState } from "react";
 import MenuCard from "@/components/common/button/MenuCard";
-import { HOM_MARKET_MENU_IMAGE_MAP } from "@/constants/menumaps/HOMMarketMenuImageMap";
+import { HOM_MARKET_MENU_IMAGE_MAP } from "@/constants/HOMMarketMenuImageMap";
 //코드 검토 필요
 /**
  * 메뉴 그리드 리스트를 보여주는 컴포넌트
