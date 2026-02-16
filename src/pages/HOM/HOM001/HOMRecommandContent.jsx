@@ -1,13 +1,11 @@
 import MoveBanner from "@/components/common/MoveBanner";
 import { moveBannerService } from "@/api/services/HOM/bannerService";
-import SectionHeader from "@/components/common/SectionHeader";
-import ProductScrollSection from "@/components/common/ProductScrollSection";
-import MarketProductsMockData from "@/mocks/data/HOM/MarketProducts";
 import MenuGrid from "@/components/common/MenuGrid";
 import { HOM_MARKET_MENU_IMAGE_MAP } from "@/constants/HOMMarketMenuImageMap";
 import Footer from "@/components/common/layout/Footer";
 import { useEffect, useState } from "react";
-
+import ProductScrollSectionContainer from "@/components/common/ProductScrollSectionContainer";
+import TimeDealContainer from "@/components/feature/HOM/TimeDealContainer";
 const HOMRecommandTab = () => {
   const [bannerList, setBannerList] = useState([]);
 
@@ -20,23 +18,18 @@ const HOMRecommandTab = () => {
   }, []);
 
   return (
-    <div className="flex flex-col gap-2">
+    <div className="flex flex-col gap-2 bg-white ">
       <div className="flex-1 overflow-y-auto no-scrollbar">
         <MoveBanner bannerList={bannerList} />
-        <SectionHeader
-          main={"최대 혜택으로 준비하는 설선물"}
-          description={"헬스부터 뷰티 선물까지 12% 쿠폰 추가 지급"}
-          isButtonAll={true}
-          emoji={"🎁"}
+        <ProductScrollSectionContainer
+          category="market"
+          title="최대 혜택으로 준비하는 설선물"
+          description="헬스부터 뷰티 선물까지 12% 쿠폰 추가 지급"
+          emoji="🎁"
           onClickMore={() => {
-            console.log("전체 보기 클릭");
+            console.log("전체 보기 클릭 ");
           }}
-        />
-        <ProductScrollSection
-          products={MarketProductsMockData}
-          onClickMore={() => {
-            console.log("전체 보기 클릭");
-          }}
+          page={1}
         />
         <MenuGrid
           isBar={true}
@@ -44,20 +37,26 @@ const HOMRecommandTab = () => {
           menuList={Object.keys(HOM_MARKET_MENU_IMAGE_MAP)}
           className="mx-2"
         />
-        <SectionHeader
-          main={"오늘의 최저가 도전!"}
-          description={"베스트템 부터 SNS 핫템까지 ~63%"}
-          isButtonAll={true}
-          emoji={"🔥"}
+        <ProductScrollSectionContainer
+          category="market"
+          page={2}
+          title="오늘의 최저가 도전"
+          description="베스트템부터 SNS핫템까지!!"
+          emoji="🔥"
           onClickMore={() => {
-            console.log("전체 보기 클릭");
+            console.log("전체 보기 클릭 ");
           }}
         />
-        <ProductScrollSection
-          products={MarketProductsMockData}
+        <TimeDealContainer category={"market"} />
+        <ProductScrollSectionContainer
+          category="market"
+          title="최대 혜택으로 준비하는 설선물"
+          description="헬스부터 뷰티 선물까지 12% 쿠폰 추가 지급"
+          emoji="🎁"
           onClickMore={() => {
-            console.log("전체 보기 클릭");
+            console.log("전체 보기 클릭 ");
           }}
+          page={1}
         />
       </div>
       <Footer />

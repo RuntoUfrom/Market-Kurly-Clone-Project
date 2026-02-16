@@ -43,12 +43,11 @@ const ProductInfo = ({ product, layout = "vertical" }) => {
       </p>
 
       {/* 원가(취소선)  */}
-      {layout === "vertical" ||
-        (layout === "horizontal" && discountRate > 0 && (
-          <span className="text-sm text-gray-400 line-through">
-            {formatPrice(originalPrice)}
-          </span>
-        ))}
+      {discountRate > 0 && (layout === "vertical" || layout === "horizontal") && (
+        <span className="text-sm text-gray-400 line-through">
+          {formatPrice(originalPrice)}
+        </span>
+      )}
 
       {/* 할인율 + 할인가 */}
       <div className="flex items-center gap-1">

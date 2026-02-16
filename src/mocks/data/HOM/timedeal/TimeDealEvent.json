@@ -1,0 +1,32 @@
+[
+  {
+    "productId": "PM0010",
+    "productName": "갑오징어 볶음 2종 택1",
+    "productImage": "PM0010-Thumb",
+    "topBadgeText": "최대 10% 할인",
+    "bottomBannerText": "",
+    "originalPrice": 9900,
+    "discountRate": 10,
+    "isKurlyOnly": true,
+    "category": ["밀키트", "간편식사"],
+    "shortDescription": "쫄깃한 갑오징어와 매콤한 양념",
+    "reviewCount": 3,
+    "eventBadge": false,
+    "endTime": "2026-02-17T18:00:00"
+  },
+  {
+    "productId": "PB0010",
+    "productName": "[헤라] 리플렉션 스킨 글로우 파운데이션",
+    "productImage": "PB0010-Thumb",
+    "topBadgeText": "신상품",
+    "bottomBannerText": "최대혜택가 42500원",
+    "originalPrice": 55000,
+    "discountRate": 18,
+    "isKurlyOnly": true,
+    "category": ["메이크업", "베이스메이크업"],
+    "shortDescription": "피부 속부터 빛나는 글로우 파운데이션",
+    "reviewCount": 2,
+    "eventBadge": true,
+    "endTime": "2026-02-17T18:00:00"
+  }
+]

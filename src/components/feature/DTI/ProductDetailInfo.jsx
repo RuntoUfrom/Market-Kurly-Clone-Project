@@ -68,7 +68,7 @@ const ProductDetailInfo = ({ product }) => {
 
       {/* 원산지 */}
       <p className="text-xs text-gray-400 mb-3">
-        원산지: {detailDescription.origin}
+        원산지: {detailDescription.origin || "국산"}
       </p>
 
       {/* 할인율 + 판매가 + 원가 */}

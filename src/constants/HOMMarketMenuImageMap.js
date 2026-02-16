@@ -15,6 +15,8 @@ import MenuLogoOnly from "@/assets/menu/squaremenuicons/MenuLogoOnly.png";
 import MenuLogoMost from "@/assets/menu/squaremenuicons/MenuLogoMost.png";
 import MenuLogoEvent from "@/assets/menu/squaremenuicons/MenuLogoEvent.png";
 
+import MenuLogoBest from "@/assets/menu/squaremenuicons/MenuBestRank.png";
+
 export const HOM_MARKET_MENU_IMAGE_MAP = {
   //15 - 컬리 멤버스 이미지 다운이 안됨.
   자주산상품: MenuLogoMost,
@@ -34,20 +36,18 @@ export const HOM_MARKET_MENU_IMAGE_MAP = {
   이벤트: MenuLogoEvent,
 };
 
-export const MENU_IMAGES = {
-  MenuLogoPresent,
-  MenuLogoCurator,
-  MenuLogoDiet,
-  MenuLogoAI,
-  MenuLogoNew,
-  MenuLogoFresh,
-  MenuLogoHome,
-  MenuLogoFashion,
-  MenuLogoLive,
-  MenuLogoMembers,
-  MenuLogoChallenge,
-  MenuLogoSull,
-  MenuLogoOnly,
-  MenuLogoMost,
-  MenuLogoEvent,
+export const MEN_MARKET_IMAGE_MAP = {
+  월신상품: MenuLogoNew,
+  더퍼플셀렉션: MenuLogoFresh,
+  선물추천: MenuLogoPresent,
+  "홈&데코": MenuLogoHome,
+  패션: MenuLogoFashion,
+  다이어트: MenuLogoDiet,
+};
+export const MEN_BEAUTY_IMAGE_MAP = {
+  베스트랭킹: MenuLogoBest,
+  이주의특가: MenuLogoMembers,
+  브랜드관: MenuLogoEvent,
+  선물추천: MenuLogoPresent,
+  취향찾기: MenuLogoOnly,
 };

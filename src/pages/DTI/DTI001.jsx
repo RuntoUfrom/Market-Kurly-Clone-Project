@@ -12,13 +12,14 @@ import {
   productDetailInquiryService,
 } from "@/api/services/DTI/productDetailService";
 import { useQuery, useQueryClient } from "@tanstack/react-query";
-
+import useHistoryController from "@/hooks/controllers/useHistoryController";
 const DTI001 = () => {
+  const { getPageParams } = useHistoryController();
+  const { params } = getPageParams();
   const queryClient = useQueryClient();
-  const [productId] = useState("PM0001");
+  const productId = params?.productId || "PM0001"; // fallback for direct access
   const ProductDetailTabList = ["상품설명", "상세정보", "후기", "문의"];
   const [selectedTab, setSelectedTab] = useState("상품설명");
-
   const { data } = useQuery({
     queryKey: ["productDetail", productId],
     queryFn: () => productDetailService({ productId }),

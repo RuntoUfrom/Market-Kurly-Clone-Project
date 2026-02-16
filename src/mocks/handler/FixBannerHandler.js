@@ -1,5 +1,5 @@
 import { http, HttpResponse } from "msw";
-import FixDealBannerData from "@/mocks/data/HOM/FixBannerImages.json";
+import FixDealBannerData from "@/mocks/data/HOM/banner/FixBannerImages.json";
 
 export const FixBannerHandler = [
   http.post("/banner/fixed", async () => {

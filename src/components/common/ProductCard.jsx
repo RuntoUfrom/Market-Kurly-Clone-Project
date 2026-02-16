@@ -3,7 +3,7 @@ import ProductInfo from "@/components/common/ProductInfo";
 import ProductImage from "@/components/common/ProductImage";
 import IconButton from "@/components/common/button/IconButton";
 import CartIconGray from "@/assets/common/icons/CartIconGray.svg";
-
+import useHistoryController from "@/hooks/controllers/useHistoryController";
 /**
  * 상품 정보를 보여주는 카드 컴포넌트
  *
@@ -17,12 +17,35 @@ import CartIconGray from "@/assets/common/icons/CartIconGray.svg";
  * @param {number} [props.rank=1] - 순위 (horizontal 레이아웃에서 사용)
  */
 const ProductCard = ({ product, layout = "vertical", rank = 1 }) => {
-  const { productImage, topBadgeText, eventBadge, bottomBannerText } = product;
+  const { moveTo } = useHistoryController();
+  const {
+    productId,
+    productImage,
+    topBadgeText,
+    eventBadge,
+    bottomBannerText,
+  } = product;
+  const handleProductClick = () => {
+    moveTo({
+      direction: "FORWARD",
+      menuId: "DTI001",
+      params: { productId },
+    });
+  };
+  const handleCartClick = (e) => {
+    e.stopPropagation(); // 🔑 부모 클릭 이벤트 차단
+    console.log(`장바구니에 추가: ${productId}`);
+    // TODO: 장바구니 페이지 구현 후 활성화
+    // moveTo({ direction: "FORWARD", menuId: "CART001" });
+  };
 
   // vertical 레이아웃 (가로 160px)
   if (layout === "vertical") {
     return (
-      <div className="w-full w-2/3">
+      <div
+        className=" w-2/3"
+        onClick={handleProductClick}
+      >
         <div className="flex flex-col gap-2 w-40 p-1 bg-white rounded-md m-2">
           {/* 상품 이미지 (4px 마진 효과) */}
           <ProductImage
@@ -36,6 +59,7 @@ const ProductCard = ({ product, layout = "vertical", rank = 1 }) => {
             alt="담기 버튼"
             className=" top-2 bg-white rounded-full p-1 shadow-md"
             label="담기"
+            onClick={handleCartClick}
           />
           <ProductInfo product={product} layout={layout} />
         </div>
@@ -46,7 +70,10 @@ const ProductCard = ({ product, layout = "vertical", rank = 1 }) => {
   // horizontal 레이아웃 (260x160px)
   if (layout === "horizontal") {
     return (
-      <div className="p-2 bg-white flex flex-row justify-center">
+      <div
+        className="p-2 bg-white flex flex-row justify-center"
+        onClick={handleProductClick}
+      >
         <div className="flex flex-row w-68 h-46 bg-white rounded-md p-2 justify-center">
           {/* 이미지 영역 (정사각형 160x160) */}
           <div className="w-30 h-[37.5] shrink-0 mx-2">
@@ -69,7 +96,12 @@ const ProductCard = ({ product, layout = "vertical", rank = 1 }) => {
               <ProductInfo product={product} layout={layout} />
             </div>
 
-            <IconButton icon="CART" alt="담기 버튼" label="담기" />
+            <IconButton
+              icon="CART"
+              alt="담기 버튼"
+              label="담기"
+              onClick={handleCartClick}
+            />
           </div>
         </div>
       </div>
@@ -79,7 +111,10 @@ const ProductCard = ({ product, layout = "vertical", rank = 1 }) => {
   // simple-horizontal 레이아웃 (w-full, h-70px, 마진 8px)
   if (layout === "simple-horizontal") {
     return (
-      <div className="flex flex-row items-center w-94 h-18 p-2 gap-4 bg-white rounded-md m-2 justify-center">
+      <div
+        onClick={handleProductClick}
+        className="flex flex-row items-center w-94 h-18 p-2 gap-4 bg-white rounded-md m-2 justify-center"
+      >
         <div className="w-14 h-14 shrink-0">
           <ProductImage productImage={productImage} />
         </div>
@@ -89,7 +124,12 @@ const ProductCard = ({ product, layout = "vertical", rank = 1 }) => {
         </div>
 
         <div className="w-20">
-          <IconButton icon="CART" alt="담기 버튼" label="담기" />
+          <IconButton
+            icon="CART"
+            alt="담기 버튼"
+            label="담기"
+            onClick={handleCartClick}
+          />
         </div>
       </div>
     );

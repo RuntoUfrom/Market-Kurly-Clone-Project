@@ -14,7 +14,7 @@ const MenuNavBtn = ({ emoji = "", label, isMainTab = false }) => {
           {emoji && <span>{emoji}</span>}
           <span
             className={
-              isMainTab ? "text-lg font-bold" : "text-base text-gray-600"
+              isMainTab ? "text-lg font-bold" : "text-sm text-gray-600"
             }
           >
             {label}

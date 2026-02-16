@@ -1,7 +1,7 @@
 import { http, HttpResponse } from "msw";
-import productDetailInfoData from "@/mocks/data/DTI/productDetailInfo.json";
-import productDetailQuestionData from "@/mocks/data/DTI/productDetailQuestion.json";
-import productDetailReviewData from "@/mocks/data/DTI/productDetailReview.json";
+import productDetailInfoData from "@/mocks/data/DTI/market/productDetailInfo.json";
+import productDetailQuestionData from "@/mocks/data/DTI/market/productDetailQuestion.json";
+import productDetailReviewData from "@/mocks/data/DTI/market/productDetailReview.json";
 
 export const ProductDetailHandler = [
   http.post("/product/detail/info", async ({ request }) => {

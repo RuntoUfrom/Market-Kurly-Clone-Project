@@ -1,0 +1,1162 @@
+[
+  {
+    "productId": "PB0001",
+    "productName": "[헤라] New 블랙 쿠션 파운데이션 7종 택1",
+    "productImage": "PB0001-Thumb",
+    "topBadgeText": "10% 쿠폰 증정",
+    "bottomBannerText": "최대혜택가 45800원",
+    "originalPrice": 56500,
+    "discountRate": 20,
+    "firstDiscountRate": 50,
+    "isDawnDelivery": true,
+    "brandName": "헤라",
+    "isKurlyOnly": true,
+    "category": ["메이크업", "베이스메이크업"],
+    "shortDescription": "얇게 발리는 초밀착 커버 쿠션",
+    "reviewCount": 2,
+    "eventBadge": true,
+    "rankingCategory": "메이크업",
+    "ranking": 1,
+    "reviews": [
+      {
+        "reviewId": "PB0001-R01",
+        "isMembers": true,
+        "isBest": true,
+        "userName": "김남길",
+        "content": "벌써 4년째 쓰는데 좋아요",
+        "reviewImages": ["ReviewImage01-01", "ReviewImage06-02"]
+      },
+      {
+        "reviewId": "PB0001-R02",
+        "isMembers": true,
+        "isBest": false,
+        "userName": "최영원",
+        "content": "인생이 행복해지는 비결은 끊임없이 작은선물을 받는 것이다.",
+        "reviewImages": ["ReviewImage06-01", "ReviewImage06-02"]
+      }
+    ],
+    "questions": [
+      {
+        "isSecret": false,
+        "questionId": "PB0001-Q02",
+        "title": "사과가 이게 맞나요",
+        "userName": "지성준",
+        "date": "2026-02-11",
+        "content": {
+          "question": "2번째 시켰는데 왜 맨날 사과 한개를 빼먹고 그래요 섭섭하게",
+          "answer": "안녕하세요 고객님\n사과를 그만 도둑고양이가 먹어버리고 말았어요."
+        }
+      }
+    ],
+    "detailDescription": {
+      "detailProductImage": "PB0001-Detail",
+      "productTitle": "헤라 블랙 쿠션 파운데이션",
+      "manufacturer": "아모레퍼시픽",
+      "origin": "국산",
+      "volume": "15g",
+      "mainIngredients": "[13N1] 정제수, 사이클로펜타실록세인, 메틸트라이메티콘, 부틸렌글라이콜, 티타늄디옥사이드 (CI 77891), 에틸헥실메톡시신나메이트, 마이카, 사이클로헥사실록세인, 트라이메틸실록시실리케이트, 피이지-10다이메티콘, 다이메티콘, 다이스테아다이모늄헥토라이트, 폴리메틸메타크릴레이트, 징크옥사이드, 티타늄디옥사이드, 라우릴피이지-9폴리다이메틸실록시에틸다이메티콘, 아크릴레이트/다이메티콘코폴리머, 소듐클로라이드, 아크릴레이트/스테아릴아크릴레이트/다이메티콘메타크릴레이트코폴리머"
+    }
+  },
+  {
+    "productId": "PB0002",
+    "productName": "[바이오더마] H20 센시비오 클렌징 워터",
+    "productImage": "PB0002-Thumb",
+    "topBadgeText": "1+1 기획",
+    "bottomBannerText": "최대혜택가 15900원",
+    "originalPrice": 23000,
+    "discountRate": 15,
+    "firstDiscountRate": 30,
+    "isDawnDelivery": true,
+    "brandName": "바이오더마",
+    "isKurlyOnly": false,
+    "category": ["클렌징", "워터"],
+    "shortDescription": "민감 피부를 위한 순한 클렌징 워터",
+    "reviewCount": 2,
+    "eventBadge": false,
+    "rankingCategory": "클렌징",
+    "ranking": 2,
+    "reviews": [
+      {
+        "reviewId": "PB0002-R01",
+        "isMembers": true,
+        "isBest": true,
+        "userName": "이수진",
+        "content": "순하고 자극 없이 클렌징이 잘 돼요. 민감한 피부에 딱이에요.",
+        "reviewImages": ["ReviewImage02-01", "ReviewImage02-02"]
+      },
+      {
+        "reviewId": "PB0002-R02",
+        "isMembers": false,
+        "isBest": false,
+        "userName": "박지현",
+        "content": "워터프루프 메이크업도 깔끔하게 지워져서 만족합니다.",
+        "reviewImages": ["ReviewImage02-03"]
+      }
+    ],
+    "questions": [
+      {
+        "isSecret": false,
+        "questionId": "PB0002-Q01",
+        "title": "용량이 궁금해요",
+        "userName": "홍서연",
+        "date": "2026-02-08",
+        "content": {
+          "question": "500ml 맞나요? 사진이랑 용량이 다른 것 같아서요.",
+          "answer": "안녕하세요 고객님\n해당 제품은 500ml 정품입니다. 확인 부탁드립니다."
+        }
+      }
+    ],
+    "detailDescription": {
+      "detailProductImage": "PB0002-Detail",
+      "productTitle": "바이오더마 H20 센시비오 클렌징 워터",
+      "manufacturer": "바이오더마",
+      "origin": "프랑스",
+      "volume": "500ml",
+      "mainIngredients": "정제수, 헥실렌글라이콜, 폴리아미노프로필비구아나이드, 디소듐이디티에이, 세틸리모늄브로마이드, 쿠쿠미스사티부스(오이)열매추출물, 만니톨, 자일리톨, 람노오스, 프룩토올리고사카라이드"
+    }
+  },
+  {
+    "productId": "PB0003",
+    "productName": "[토리든] 다이브인 저분자 히알루로산 마스크팩",
+    "productImage": "PB0003-Thumb",
+    "topBadgeText": "한정 특가",
+    "bottomBannerText": "최대혜택가 12500원",
+    "originalPrice": 18000,
+    "discountRate": 10,
+    "firstDiscountRate": 25,
+    "isDawnDelivery": true,
+    "brandName": "토리든",
+    "isKurlyOnly": false,
+    "category": ["스킨케어", "마스크"],
+    "shortDescription": "5중 히알루론산으로 깊은 수분 충전",
+    "reviewCount": 2,
+    "eventBadge": true,
+    "rankingCategory": "스킨케어",
+    "ranking": 3,
+    "reviews": [
+      {
+        "reviewId": "PB0003-R01",
+        "isMembers": true,
+        "isBest": true,
+        "userName": "김하늘",
+        "content": "시트가 얇고 밀착력이 좋아요. 에센스 양도 넉넉합니다.",
+        "reviewImages": ["ReviewImage03-01"]
+      },
+      {
+        "reviewId": "PB0003-R02",
+        "isMembers": true,
+        "isBest": false,
+        "userName": "정유라",
+        "content": "건조한 계절에 필수템이에요. 다음날 아침까지 촉촉해요.",
+        "reviewImages": ["ReviewImage03-02", "ReviewImage03-03"]
+      }
+    ],
+    "questions": [
+      {
+        "isSecret": true,
+        "questionId": "PB0003-Q01",
+        "title": "민감성 피부에도 괜찮나요?",
+        "userName": "오민지",
+        "date": "2026-01-25",
+        "content": {
+          "question": "아토피가 있는 편인데 사용해도 될까요?",
+          "answer": "안녕하세요 고객님\n저자극 포뮬러로 민감 피부에도 사용 가능하나, 개인 피부 상태에 따라 패치 테스트를 권장드립니다."
+        }
+      }
+    ],
+    "detailDescription": {
+      "detailProductImage": "PB0003-Detail",
+      "productTitle": "토리든 다이브인 저분자 히알루로산 마스크팩",
+      "manufacturer": "토리든",
+      "origin": "국산",
+      "volume": "27ml x 10매",
+      "mainIngredients": "정제수, 부틸렌글라이콜, 글리세린, 1,2-헥산다이올, 히알루론산, 소듐히알루로네이트, 히드롤라이즈드히알루론산, 판테놀, 알란토인, 베타인"
+    }
+  },
+  {
+    "productId": "PB0004",
+    "productName": "[마녀공장] 퓨어 클렌징 오일",
+    "productImage": "PB0004-Thumb",
+    "topBadgeText": "",
+    "bottomBannerText": "최대혜택가 11900원",
+    "originalPrice": 16900,
+    "discountRate": 18,
+    "firstDiscountRate": 35,
+    "isDawnDelivery": true,
+    "brandName": "마녀공장",
+    "isKurlyOnly": false,
+    "category": ["클렌징", "밤/오일"],
+    "shortDescription": "식물성 오일 기반 저자극 딥 클렌징",
+    "reviewCount": 2,
+    "eventBadge": false,
+    "rankingCategory": "클렌징",
+    "ranking": 4,
+    "reviews": [
+      {
+        "reviewId": "PB0004-R01",
+        "isMembers": true,
+        "isBest": true,
+        "userName": "서지은",
+        "content": "클렌징 오일인데 전혀 미끌거리지 않고 깔끔해요!",
+        "reviewImages": ["ReviewImage04-01", "ReviewImage04-02"]
+      },
+      {
+        "reviewId": "PB0004-R02",
+        "isMembers": false,
+        "isBest": false,
+        "userName": "장서영",
+        "content": "3통째 재구매 중입니다. 가성비도 좋고 피부 트러블도 없어요.",
+        "reviewImages": ["ReviewImage04-03"]
+      }
+    ],
+    "questions": [
+      {
+        "isSecret": false,
+        "questionId": "PB0004-Q01",
+        "title": "유통기한 확인 부탁드려요",
+        "userName": "최민서",
+        "date": "2026-02-01",
+        "content": {
+          "question": "제조일자 혹은 유통기한이 언제까지인지 궁금합니다.",
+          "answer": "안녕하세요 고객님\n현재 입고된 제품의 유통기한은 2027년 8월입니다."
+        }
+      }
+    ],
+    "detailDescription": {
+      "detailProductImage": "PB0004-Detail",
+      "productTitle": "마녀공장 퓨어 클렌징 오일",
+      "manufacturer": "마녀공장",
+      "origin": "국산",
+      "volume": "200ml",
+      "mainIngredients": "에틸헥실팔미테이트, 스쿠알란, 해바라기씨오일, 호호바씨오일, 올리브오일, 포도씨오일, 피이지-20글리세릴트라이아이소스테아레이트, 토코페롤"
+    }
+  },
+  {
+    "productId": "PB0005",
+    "productName": "[보비브라운] 롱-웨어 브로우 펜슬",
+    "productImage": "PB0005-Thumb",
+    "topBadgeText": "베스트셀러",
+    "bottomBannerText": "최대혜택가 28900원",
+    "originalPrice": 39000,
+    "discountRate": 15,
+    "firstDiscountRate": 25,
+    "isDawnDelivery": true,
+    "brandName": "보비브라운",
+    "isKurlyOnly": true,
+    "category": ["메이크업", "아이메이크업"],
+    "shortDescription": "하루 종일 지속되는 자연스러운 눈썹 라인",
+    "reviewCount": 2,
+    "eventBadge": false,
+    "rankingCategory": "메이크업",
+    "ranking": 5,
+    "reviews": [
+      {
+        "reviewId": "PB0005-R01",
+        "isMembers": true,
+        "isBest": true,
+        "userName": "한예진",
+        "content": "번지지 않고 하루 종일 유지돼요. 색상도 자연스러워요.",
+        "reviewImages": ["ReviewImage05-01"]
+      },
+      {
+        "reviewId": "PB0005-R02",
+        "isMembers": true,
+        "isBest": false,
+        "userName": "윤지아",
+        "content": "펜슬이 가늘어서 섬세한 표현이 가능해요. 재구매 의사 있어요.",
+        "reviewImages": ["ReviewImage05-02", "ReviewImage05-03"]
+      }
+    ],
+    "questions": [
+      {
+        "isSecret": false,
+        "questionId": "PB0005-Q01",
+        "title": "색상 추천 부탁드려요",
+        "userName": "문채원",
+        "date": "2026-01-30",
+        "content": {
+          "question": "염색을 안 한 자연 검정 머리인데 어떤 색상이 어울릴까요?",
+          "answer": "안녕하세요 고객님\n자연 검정 머리에는 에스프레소 또는 다크 브라운 색상을 추천드립니다."
+        }
+      }
+    ],
+    "detailDescription": {
+      "detailProductImage": "PB0005-Detail",
+      "productTitle": "보비브라운 롱-웨어 브로우 펜슬",
+      "manufacturer": "에스티로더 컴퍼니즈",
+      "origin": "미국",
+      "volume": "0.33g",
+      "mainIngredients": "합성왁스, 트라이메틸실록시실리케이트, 하이드로제네이티드코코넛오일, C10-18트라이글리세라이드, 실리카, 카나우바왁스, 토코페롤, 철산화물"
+    }
+  },
+  {
+    "productId": "PB0006",
+    "productName": "[에스트라] 리제덤 365 탄력속광 캡슐세럼",
+    "productImage": "PB0006-Thumb",
+    "topBadgeText": "15% 쿠폰 증정",
+    "bottomBannerText": "최대혜택가 32000원",
+    "originalPrice": 45000,
+    "discountRate": 12,
+    "firstDiscountRate": 30,
+    "isDawnDelivery": true,
+    "brandName": "에스트라",
+    "isKurlyOnly": false,
+    "category": ["스킨케어", "세럼"],
+    "shortDescription": "콜라겐 캡슐이 톡 터지는 탄력 세럼",
+    "reviewCount": 2,
+    "eventBadge": true,
+    "rankingCategory": "스킨케어",
+    "ranking": 6,
+    "reviews": [
+      {
+        "reviewId": "PB0006-R01",
+        "isMembers": true,
+        "isBest": true,
+        "userName": "강미래",
+        "content": "캡슐이 터지면서 흡수가 빠르고 다음날 피부결이 달라져요.",
+        "reviewImages": ["ReviewImage06-01", "ReviewImage06-02"]
+      },
+      {
+        "reviewId": "PB0006-R02",
+        "isMembers": true,
+        "isBest": false,
+        "userName": "배수현",
+        "content": "끈적임 없이 산뜻하게 마무리돼요. 향도 은은해서 좋아요.",
+        "reviewImages": ["ReviewImage06-03"]
+      }
+    ],
+    "questions": [
+      {
+        "isSecret": false,
+        "questionId": "PB0006-Q01",
+        "title": "수유 중 사용 가능한가요?",
+        "userName": "임소연",
+        "date": "2026-02-05",
+        "content": {
+          "question": "수유 중인데 레티놀 성분이 있는지 궁금합니다.",
+          "answer": "안녕하세요 고객님\n해당 제품에는 레티놀 성분이 포함되어 있지 않습니다. 다만, 수유 중 사용 시 전문의 상담을 권장드립니다."
+        }
+      }
+    ],
+    "detailDescription": {
+      "detailProductImage": "PB0006-Detail",
+      "productTitle": "에스트라 리제덤 365 탄력속광 캡슐세럼",
+      "manufacturer": "아모레퍼시픽",
+      "origin": "국산",
+      "volume": "50ml",
+      "mainIngredients": "정제수, 글리세린, 부틸렌글라이콜, 나이아신아마이드, 판테놀, 하이드롤라이즈드콜라겐, 아데노신, 소듐히알루로네이트, 세라마이드엔피, 마데카소사이드"
+    }
+  },
+  {
+    "productId": "PB0007",
+    "productName": "[아베다] 인바티 울트라 어드밴스트 라이트 샴푸",
+    "productImage": "PB0007-Thumb",
+    "topBadgeText": "",
+    "bottomBannerText": "최대혜택가 38500원",
+    "originalPrice": 52000,
+    "discountRate": 10,
+    "firstDiscountRate": 20,
+    "isDawnDelivery": true,
+    "brandName": "아베다",
+    "isKurlyOnly": true,
+    "category": ["헤어케어", "샴푸"],
+    "shortDescription": "두피 강화와 탈모 케어를 위한 프리미엄 샴푸",
+    "reviewCount": 2,
+    "eventBadge": false,
+    "rankingCategory": "헤어케어",
+    "ranking": 7,
+    "reviews": [
+      {
+        "reviewId": "PB0007-R01",
+        "isMembers": true,
+        "isBest": true,
+        "userName": "조영호",
+        "content": "쓴 지 한 달 됐는데 머리카락이 확실히 힘이 생긴 느낌이에요.",
+        "reviewImages": ["ReviewImage07-01"]
+      },
+      {
+        "reviewId": "PB0007-R02",
+        "isMembers": false,
+        "isBest": false,
+        "userName": "신현우",
+        "content": "향이 자연스럽고 두피가 개운해져요. 가격이 좀 있지만 만족합니다.",
+        "reviewImages": ["ReviewImage07-02", "ReviewImage07-03"]
+      }
+    ],
+    "questions": [
+      {
+        "isSecret": false,
+        "questionId": "PB0007-Q01",
+        "title": "지성 두피에도 괜찮은가요?",
+        "userName": "김도윤",
+        "date": "2026-01-28",
+        "content": {
+          "question": "두피가 기름진 편인데 라이트 버전으로 충분할까요?",
+          "answer": "안녕하세요 고객님\n라이트 버전은 지성~중성 두피에 적합하며, 가볍고 산뜻한 마무리감을 제공합니다."
+        }
+      }
+    ],
+    "detailDescription": {
+      "detailProductImage": "PB0007-Detail",
+      "productTitle": "아베다 인바티 울트라 어드밴스트 라이트 샴푸",
+      "manufacturer": "아베다",
+      "origin": "미국",
+      "volume": "200ml",
+      "mainIngredients": "정제수, 소듐라우레스설페이트, 코카미도프로필베타인, 소듐클로라이드, 살리실산, 강황뿌리추출물, 인삼뿌리추출물, 쏘팔메토열매추출물, 판테놀, 글리세린"
+    }
+  },
+  {
+    "productId": "PB0008",
+    "productName": "[꼬달리] 비노테라피스트 핸드크림 & 립밤 듀오",
+    "productImage": "PB0008-Thumb",
+    "topBadgeText": "기획세트",
+    "bottomBannerText": "최대혜택가 19800원",
+    "originalPrice": 28000,
+    "discountRate": 20,
+    "firstDiscountRate": 35,
+    "isDawnDelivery": true,
+    "brandName": "꼬달리",
+    "isKurlyOnly": false,
+    "category": ["바디케어", "기타"],
+    "shortDescription": "포도씨 오일의 영양 가득 핸드 & 립 세트",
+    "reviewCount": 2,
+    "eventBadge": true,
+    "rankingCategory": "바디케어",
+    "ranking": 8,
+    "reviews": [
+      {
+        "reviewId": "PB0008-R01",
+        "isMembers": true,
+        "isBest": true,
+        "userName": "나윤서",
+        "content": "핸드크림 발림성이 너무 좋고 립밤도 촉촉해요. 선물용으로도 딱이에요!",
+        "reviewImages": ["ReviewImage08-01", "ReviewImage08-02"]
+      },
+      {
+        "reviewId": "PB0008-R02",
+        "isMembers": true,
+        "isBest": false,
+        "userName": "류하은",
+        "content": "패키지가 예뻐서 선물했는데 반응이 너무 좋았어요.",
+        "reviewImages": ["ReviewImage08-03"]
+      }
+    ],
+    "questions": [
+      {
+        "isSecret": false,
+        "questionId": "PB0008-Q01",
+        "title": "향이 강한 편인가요?",
+        "userName": "한소희",
+        "date": "2026-02-10",
+        "content": {
+          "question": "향에 민감한데 향이 강한 편인가요?",
+          "answer": "안녕하세요 고객님\n은은한 플로럴 향으로, 강하지 않아 향에 민감하신 분들도 편하게 사용하실 수 있습니다."
+        }
+      }
+    ],
+    "detailDescription": {
+      "detailProductImage": "PB0008-Detail",
+      "productTitle": "꼬달리 비노테라피스트 핸드크림 & 립밤 듀오",
+      "manufacturer": "꼬달리",
+      "origin": "프랑스",
+      "volume": "핸드크림 30ml + 립밤 4.5g",
+      "mainIngredients": "정제수, 글리세린, 시어버터, 포도씨오일, 스쿠알란, 비즈왁스, 토코페롤, 카놀라오일, 해바라기씨오일, 호호바씨오일"
+    }
+  },
+  {
+    "productId": "PB0009",
+    "productName": "[모로칸오일] 모로칸오일 헤어 트리트먼트",
+    "productImage": "PB0009-Thumb",
+    "topBadgeText": "",
+    "bottomBannerText": "최대혜택가 35200원",
+    "originalPrice": 49000,
+    "discountRate": 15,
+    "firstDiscountRate": 28,
+    "isDawnDelivery": true,
+    "brandName": "모로칸오일",
+    "isKurlyOnly": false,
+    "category": ["헤어케어", "트리트먼트"],
+    "shortDescription": "아르간 오일 베이스의 글로벌 베스트 헤어 오일",
+    "reviewCount": 2,
+    "eventBadge": false,
+    "rankingCategory": "헤어케어",
+    "ranking": 9,
+    "reviews": [
+      {
+        "reviewId": "PB0009-R01",
+        "isMembers": true,
+        "isBest": true,
+        "userName": "최다인",
+        "content": "머릿결이 확 살아나요. 한두 방울이면 충분해서 오래 써요.",
+        "reviewImages": ["ReviewImage09-01", "ReviewImage09-02"]
+      },
+      {
+        "reviewId": "PB0009-R02",
+        "isMembers": true,
+        "isBest": false,
+        "userName": "박현아",
+        "content": "향이 정말 좋고 바르자마자 윤기가 돌아요. 인생템이에요.",
+        "reviewImages": ["ReviewImage09-03"]
+      }
+    ],
+    "questions": [
+      {
+        "isSecret": false,
+        "questionId": "PB0009-Q01",
+        "title": "정품 여부 확인",
+        "userName": "이현서",
+        "date": "2026-02-03",
+        "content": {
+          "question": "병행수입 제품인가요 정식수입인가요?",
+          "answer": "안녕하세요 고객님\n해당 제품은 공식 수입원을 통한 정식수입 정품입니다."
+        }
+      }
+    ],
+    "detailDescription": {
+      "detailProductImage": "PB0009-Detail",
+      "productTitle": "모로칸오일 헤어 트리트먼트",
+      "manufacturer": "모로칸오일",
+      "origin": "이스라엘",
+      "volume": "100ml",
+      "mainIngredients": "사이클로메티콘, 다이메티콘, 아르간오일, 아마씨추출물, 토코페롤, 향료"
+    }
+  },
+  {
+    "productId": "PB0010",
+    "productName": "[헤라] 리플렉션 스킨 글로우 파운데이션",
+    "productImage": "PB0010-Thumb",
+    "topBadgeText": "신상품",
+    "bottomBannerText": "최대혜택가 42500원",
+    "originalPrice": 55000,
+    "discountRate": 18,
+    "firstDiscountRate": 30,
+    "isDawnDelivery": true,
+    "brandName": "헤라",
+    "isKurlyOnly": true,
+    "category": ["메이크업", "베이스메이크업"],
+    "shortDescription": "피부 속부터 빛나는 글로우 파운데이션",
+    "reviewCount": 2,
+    "eventBadge": true,
+    "rankingCategory": "메이크업",
+    "ranking": 10,
+    "reviews": [
+      {
+        "reviewId": "PB0010-R01",
+        "isMembers": true,
+        "isBest": true,
+        "userName": "송다은",
+        "content": "발림성 최고! 물광 피부 표현이 자연스럽게 돼요.",
+        "reviewImages": ["ReviewImage10-01", "ReviewImage10-02"]
+      },
+      {
+        "reviewId": "PB0010-R02",
+        "isMembers": false,
+        "isBest": false,
+        "userName": "권지영",
+        "content": "건성 피부인데 하루 종일 갈라짐 없이 촉촉해요.",
+        "reviewImages": ["ReviewImage10-03"]
+      }
+    ],
+    "questions": [
+      {
+        "isSecret": false,
+        "questionId": "PB0010-Q01",
+        "title": "호수 선택 기준이 궁금해요",
+        "userName": "민지원",
+        "date": "2026-02-12",
+        "content": {
+          "question": "21호와 23호 사이에서 고민 중인데 밝은 편이면 뭐가 좋을까요?",
+          "answer": "안녕하세요 고객님\n밝은 피부톤이시라면 21호를 추천드립니다. 자연스러운 밝은 베이지톤입니다."
+        }
+      }
+    ],
+    "detailDescription": {
+      "detailProductImage": "PB0010-Detail",
+      "productTitle": "헤라 리플렉션 스킨 글로우 파운데이션",
+      "manufacturer": "아모레퍼시픽",
+      "origin": "국산",
+      "volume": "30ml",
+      "mainIngredients": "정제수, 사이클로펜타실록세인, 다이메티콘, 글리세린, 티타늄디옥사이드, 부틸렌글라이콜, 나이아신아마이드, 히알루론산, 아데노신, 토코페롤"
+    }
+  },
+  {
+    "productId": "PB0011",
+    "productName": "[자빈드서울] 윙크 쿠션글로우 기획",
+    "productImage": "PB0011-Thumb",
+    "topBadgeText": "컬리온리",
+    "bottomBannerText": "최대혜택가 22400원",
+    "originalPrice": 32000,
+    "discountRate": 20,
+    "firstDiscountRate": 40,
+    "isDawnDelivery": true,
+    "brandName": "자빈드서울",
+    "isKurlyOnly": true,
+    "category": ["메이크업", "베이스메이크업"],
+    "shortDescription": "촉촉한 글로우 쿠션 본품+리필 기획세트",
+    "reviewCount": 2,
+    "eventBadge": true,
+    "rankingCategory": "메이크업",
+    "ranking": 11,
+    "reviews": [
+      {
+        "reviewId": "PB0011-R01",
+        "isMembers": true,
+        "isBest": true,
+        "userName": "이채린",
+        "content": "가볍게 발리는데 커버력이 있어서 너무 좋아요! 리필까지 있어 가성비 최고.",
+        "reviewImages": ["ReviewImage11-01", "ReviewImage11-02"]
+      },
+      {
+        "reviewId": "PB0011-R02",
+        "isMembers": true,
+        "isBest": false,
+        "userName": "장은서",
+        "content": "글로우 쿠션 중 제일 자연스러워요. 피부 톤도 잘 맞아요.",
+        "reviewImages": ["ReviewImage11-03"]
+      }
+    ],
+    "questions": [
+      {
+        "isSecret": true,
+        "questionId": "PB0011-Q01",
+        "title": "기획세트 구성 문의",
+        "userName": "백지호",
+        "date": "2026-02-07",
+        "content": {
+          "question": "기획세트에 퍼프도 포함되어 있나요?",
+          "answer": "안녕하세요 고객님\n본품 1개, 리필 1개, 전용 퍼프 2개가 포함된 기획세트입니다."
+        }
+      }
+    ],
+    "detailDescription": {
+      "detailProductImage": "PB0011-Detail",
+      "productTitle": "자빈드서울 윙크 쿠션글로우 기획",
+      "manufacturer": "자빈드서울",
+      "origin": "국산",
+      "volume": "15g + 리필 15g",
+      "mainIngredients": "정제수, 사이클로펜타실록세인, 티타늄디옥사이드, 부틸렌글라이콜, 글리세린, 나이아신아마이드, 히알루론산, 진주추출물, 아데노신, 판테놀"
+    }
+  },
+  {
+    "productId": "PB0012",
+    "productName": "[프레시안] 에그라이크 크림 블러셔",
+    "productImage": "PB0012-Thumb",
+    "topBadgeText": "",
+    "bottomBannerText": "최대혜택가 14200원",
+    "originalPrice": 19800,
+    "discountRate": 10,
+    "firstDiscountRate": 28,
+    "isDawnDelivery": true,
+    "brandName": "프레시안",
+    "isKurlyOnly": false,
+    "category": ["메이크업", "블러셔/하이라이트"],
+    "shortDescription": "달걀처럼 매끈한 크림 타입 블러셔",
+    "reviewCount": 2,
+    "eventBadge": false,
+    "rankingCategory": "메이크업",
+    "ranking": 12,
+    "reviews": [
+      {
+        "reviewId": "PB0012-R01",
+        "isMembers": true,
+        "isBest": true,
+        "userName": "유나영",
+        "content": "발색이 은은하고 자연스러워요. 데일리로 쓰기 좋아요.",
+        "reviewImages": ["ReviewImage12-01"]
+      },
+      {
+        "reviewId": "PB0012-R02",
+        "isMembers": false,
+        "isBest": false,
+        "userName": "오서윤",
+        "content": "크림 타입이라 건조하지 않고 촉촉하게 밀착돼요.",
+        "reviewImages": ["ReviewImage12-02", "ReviewImage12-03"]
+      }
+    ],
+    "questions": [
+      {
+        "isSecret": false,
+        "questionId": "PB0012-Q01",
+        "title": "웜톤에 어울리는 색상은?",
+        "userName": "김수아",
+        "date": "2026-01-22",
+        "content": {
+          "question": "웜톤 봄인데 어떤 색상이 잘 어울릴까요?",
+          "answer": "안녕하세요 고객님\n웜톤 봄 타입에는 코랄핑크 또는 피치 색상을 추천드립니다."
+        }
+      }
+    ],
+    "detailDescription": {
+      "detailProductImage": "PB0012-Detail",
+      "productTitle": "프레시안 에그라이크 크림 블러셔",
+      "manufacturer": "프레시안",
+      "origin": "국산",
+      "volume": "6g",
+      "mainIngredients": "다이메티콘, 글리세린, 사이클로펜타실록세인, 마이카, 티타늄디옥사이드, 적색산화철, 토코페롤, 시어버터, 호호바씨오일"
+    }
+  },
+  {
+    "productId": "PB0013",
+    "productName": "[달바] 워터풀 톤업 선크림 50ml",
+    "productImage": "PB0013-Thumb",
+    "topBadgeText": "여름 필수템",
+    "bottomBannerText": "최대혜택가 16800원",
+    "originalPrice": 24000,
+    "discountRate": 22,
+    "firstDiscountRate": 38,
+    "isDawnDelivery": true,
+    "brandName": "달바",
+    "isKurlyOnly": false,
+    "category": ["선케어", "선크림"],
+    "shortDescription": "수분감 가득 톤업 효과 자외선 차단제",
+    "reviewCount": 2,
+    "eventBadge": false,
+    "rankingCategory": "선케어",
+    "ranking": 13,
+    "reviews": [
+      {
+        "reviewId": "PB0013-R01",
+        "isMembers": true,
+        "isBest": true,
+        "userName": "정민아",
+        "content": "백탁 없이 톤업 효과가 자연스러워요. 선크림 중 최고!",
+        "reviewImages": ["ReviewImage13-01", "ReviewImage13-02"]
+      },
+      {
+        "reviewId": "PB0013-R02",
+        "isMembers": true,
+        "isBest": false,
+        "userName": "안소연",
+        "content": "촉촉해서 메이크업 베이스로도 쓰기 좋아요.",
+        "reviewImages": ["ReviewImage13-03"]
+      }
+    ],
+    "questions": [
+      {
+        "isSecret": false,
+        "questionId": "PB0013-Q01",
+        "title": "SPF가 몇인가요?",
+        "userName": "김태희",
+        "date": "2026-02-09",
+        "content": {
+          "question": "자외선 차단 지수가 SPF 몇인지 궁금합니다.",
+          "answer": "안녕하세요 고객님\nSPF50+ PA++++ 등급으로, 강력한 자외선 차단 효과를 제공합니다."
+        }
+      }
+    ],
+    "detailDescription": {
+      "detailProductImage": "PB0013-Detail",
+      "productTitle": "달바 워터풀 톤업 선크림",
+      "manufacturer": "달바",
+      "origin": "국산",
+      "volume": "50ml",
+      "mainIngredients": "정제수, 징크옥사이드, 부틸렌글라이콜, 나이아신아마이드, 글리세린, 히알루론산, 판테놀, 알란토인, 센텔라아시아티카추출물, 토코페롤"
+    }
+  },
+  {
+    "productId": "PB0014",
+    "productName": "[에스트라] 아토베리어 365클렌징 밀크 200ml",
+    "productImage": "PB0014-Thumb",
+    "topBadgeText": "",
+    "bottomBannerText": "최대혜택가 17500원",
+    "originalPrice": 25000,
+    "discountRate": 15,
+    "firstDiscountRate": 30,
+    "isDawnDelivery": true,
+    "brandName": "에스트라",
+    "isKurlyOnly": false,
+    "category": ["클렌징", "폼/젤"],
+    "shortDescription": "민감 피부를 위한 저자극 밀크 클렌저",
+    "reviewCount": 2,
+    "eventBadge": false,
+    "rankingCategory": "클렌징",
+    "ranking": 14,
+    "reviews": [
+      {
+        "reviewId": "PB0014-R01",
+        "isMembers": true,
+        "isBest": true,
+        "userName": "노은채",
+        "content": "세안 후에도 당기지 않고 촉촉해요. 민감한 피부에 안심이에요.",
+        "reviewImages": ["ReviewImage14-01"]
+      },
+      {
+        "reviewId": "PB0014-R02",
+        "isMembers": true,
+        "isBest": false,
+        "userName": "황지수",
+        "content": "밀크 타입이라 부드럽게 씻겨요. 아이들 세안에도 써요.",
+        "reviewImages": ["ReviewImage14-02", "ReviewImage14-03"]
+      }
+    ],
+    "questions": [
+      {
+        "isSecret": true,
+        "questionId": "PB0014-Q01",
+        "title": "아기 피부에도 사용 가능한가요?",
+        "userName": "최서진",
+        "date": "2026-01-19",
+        "content": {
+          "question": "24개월 아기한테 써도 괜찮을까요?",
+          "answer": "안녕하세요 고객님\n저자극 제품이나 영유아 사용 시 소아과 전문의 상담 후 사용을 권장드립니다."
+        }
+      }
+    ],
+    "detailDescription": {
+      "detailProductImage": "PB0014-Detail",
+      "productTitle": "에스트라 아토베리어 365 클렌징 밀크",
+      "manufacturer": "아모레퍼시픽",
+      "origin": "국산",
+      "volume": "200ml",
+      "mainIngredients": "정제수, 글리세린, 카프릴릭/카프릭트라이글리세라이드, 세테아릴알코올, 세라마이드엔피, 마데카소사이드, 판테놀, 알란토인, 스쿠알란, 시어버터"
+    }
+  },
+  {
+    "productId": "PB0015",
+    "productName": "[아르마니뷰티] 립 마에스트로 사틴 립글로즈",
+    "productImage": "PB0015-Thumb",
+    "topBadgeText": "인기 색상 입고",
+    "bottomBannerText": "최대혜택가 34500원",
+    "originalPrice": 46000,
+    "discountRate": 12,
+    "firstDiscountRate": 25,
+    "isDawnDelivery": true,
+    "brandName": "아르마니뷰티",
+    "isKurlyOnly": true,
+    "category": ["메이크업", "립메이크업"],
+    "shortDescription": "벨벳 같은 사틴 질감의 고발색 립글로즈",
+    "reviewCount": 2,
+    "eventBadge": true,
+    "rankingCategory": "메이크업",
+    "ranking": 15,
+    "reviews": [
+      {
+        "reviewId": "PB0015-R01",
+        "isMembers": true,
+        "isBest": true,
+        "userName": "문예린",
+        "content": "발색이 정말 예뻐요. 사틴 질감이 고급스럽고 입술이 건조하지 않아요.",
+        "reviewImages": ["ReviewImage15-01", "ReviewImage15-02"]
+      },
+      {
+        "reviewId": "PB0015-R02",
+        "isMembers": true,
+        "isBest": false,
+        "userName": "양수진",
+        "content": "지속력도 좋고 색상이 얼굴을 환하게 만들어줘요.",
+        "reviewImages": ["ReviewImage15-03"]
+      }
+    ],
+    "questions": [
+      {
+        "isSecret": false,
+        "questionId": "PB0015-Q01",
+        "title": "400번 색상 재입고 문의",
+        "userName": "조아현",
+        "date": "2026-02-13",
+        "content": {
+          "question": "400번 색상이 품절인데 재입고 예정이 있나요?",
+          "answer": "안녕하세요 고객님\n현재 입고 일정 확인 중이며, 입고 시 알림 신청을 해두시면 안내 드리겠습니다."
+        }
+      }
+    ],
+    "detailDescription": {
+      "detailProductImage": "PB0015-Detail",
+      "productTitle": "아르마니뷰티 립 마에스트로 사틴 립글로즈",
+      "manufacturer": "로레알그룹",
+      "origin": "프랑스",
+      "volume": "6.5ml",
+      "mainIngredients": "아이소도데케인, 다이메티코놀, 트라이메틸실록시실리케이트, 나일론-611/다이메티콘코폴리머, 실리카, 폴리글리세릴-2트라이아이소스테아레이트, 토코페롤, 향료"
+    }
+  },
+  {
+    "productId": "PB0016",
+    "productName": "[랑콤] 립 이돌 버터 글로우 립밤",
+    "productImage": "PB0016-Thumb",
+    "topBadgeText": "5% 쿠폰 증정",
+    "bottomBannerText": "최대혜택가 31200원",
+    "originalPrice": 42000,
+    "discountRate": 14,
+    "firstDiscountRate": 26,
+    "isDawnDelivery": true,
+    "brandName": "랑콤",
+    "isKurlyOnly": false,
+    "category": ["메이크업", "립메이크업"],
+    "shortDescription": "버터처럼 부드러운 글로우 컬러 립밤",
+    "reviewCount": 2,
+    "eventBadge": false,
+    "rankingCategory": "메이크업",
+    "ranking": 16,
+    "reviews": [
+      {
+        "reviewId": "PB0016-R01",
+        "isMembers": true,
+        "isBest": true,
+        "userName": "임하연",
+        "content": "바르는 순간 입술이 촉촉해지면서 은은한 색감이 예뻐요.",
+        "reviewImages": ["ReviewImage16-01"]
+      },
+      {
+        "reviewId": "PB0016-R02",
+        "isMembers": false,
+        "isBest": false,
+        "userName": "구민정",
+        "content": "립밤인데 발색도 되고 보습도 되니까 일석이조에요.",
+        "reviewImages": ["ReviewImage16-02", "ReviewImage16-03"]
+      }
+    ],
+    "questions": [
+      {
+        "isSecret": false,
+        "questionId": "PB0016-Q01",
+        "title": "성분 관련 문의",
+        "userName": "차유나",
+        "date": "2026-02-06",
+        "content": {
+          "question": "비건 제품인가요? 동물성 성분이 있는지 궁금합니다.",
+          "answer": "안녕하세요 고객님\n해당 제품에는 비즈왁스(밀랍)가 포함되어 있어 비건 제품은 아닙니다."
+        }
+      }
+    ],
+    "detailDescription": {
+      "detailProductImage": "PB0016-Detail",
+      "productTitle": "랑콤 립 이돌 버터 글로우 립밤",
+      "manufacturer": "로레알그룹",
+      "origin": "프랑스",
+      "volume": "3.5g",
+      "mainIngredients": "피이지-8비즈왁스, 옥틸도데칸올, 다이아이소스테아릴말레이트, 폴리에틸렌, 시어버터, 비즈왁스, 토코페롤, 로즈힙오일, 향료"
+    }
+  },
+  {
+    "productId": "PB0017",
+    "productName": "[맥] 맥 아이셰도우 19종 택1",
+    "productImage": "PB0017-Thumb",
+    "topBadgeText": "컬러 다양",
+    "bottomBannerText": "최대혜택가 21600원",
+    "originalPrice": 30000,
+    "discountRate": 18,
+    "firstDiscountRate": 28,
+    "isDawnDelivery": true,
+    "brandName": "맥",
+    "isKurlyOnly": false,
+    "category": ["메이크업", "아이메이크업"],
+    "shortDescription": "프로 아티스트가 사랑하는 시그니처 아이셰도우",
+    "reviewCount": 2,
+    "eventBadge": false,
+    "rankingCategory": "메이크업",
+    "ranking": 17,
+    "reviews": [
+      {
+        "reviewId": "PB0017-R01",
+        "isMembers": true,
+        "isBest": true,
+        "userName": "서하린",
+        "content": "발색이 진짜 좋아요. 가루 날림도 적고 지속력도 우수합니다.",
+        "reviewImages": ["ReviewImage17-01", "ReviewImage17-02"]
+      },
+      {
+        "reviewId": "PB0017-R02",
+        "isMembers": true,
+        "isBest": false,
+        "userName": "정수빈",
+        "content": "색상 선택지가 많아서 좋아요. 데일리 색상으로 코르크 추천합니다.",
+        "reviewImages": ["ReviewImage17-03"]
+      }
+    ],
+    "questions": [
+      {
+        "isSecret": false,
+        "questionId": "PB0017-Q01",
+        "title": "매트 질감 색상 추천",
+        "userName": "한소율",
+        "date": "2026-01-15",
+        "content": {
+          "question": "매트 타입 중 데일리로 쓰기 좋은 색상 추천 부탁드려요.",
+          "answer": "안녕하세요 고객님\n매트 타입 중 소프트 브라운, 코르크, 브룰레가 데일리용으로 인기가 많습니다."
+        }
+      }
+    ],
+    "detailDescription": {
+      "detailProductImage": "PB0017-Detail",
+      "productTitle": "맥 아이셰도우",
+      "manufacturer": "에스티로더 컴퍼니즈",
+      "origin": "캐나다",
+      "volume": "1.5g",
+      "mainIngredients": "탈크, 마이카, 마그네슘스테아레이트, 다이메티콘, 옥틸도데실스테아로일스테아레이트, 카올린, 실리카, 토코페롤, 철산화물"
+    }
+  },
+  {
+    "productId": "PB0018",
+    "productName": "[아르마니뷰티] 쿨링 선스틱 듀오",
+    "productImage": "PB0018-Thumb",
+    "topBadgeText": "기획세트",
+    "bottomBannerText": "최대혜택가 39800원",
+    "originalPrice": 54000,
+    "discountRate": 16,
+    "firstDiscountRate": 26,
+    "isDawnDelivery": true,
+    "brandName": "아르마니뷰티",
+    "isKurlyOnly": true,
+    "category": ["선케어", "선스틱"],
+    "shortDescription": "시원한 쿨링감의 휴대용 선스틱 2개 세트",
+    "reviewCount": 2,
+    "eventBadge": true,
+    "rankingCategory": "선케어",
+    "ranking": 18,
+    "reviews": [
+      {
+        "reviewId": "PB0018-R01",
+        "isMembers": true,
+        "isBest": true,
+        "userName": "고은별",
+        "content": "쿨링감이 시원하고 메이크업 위에 덧바르기 좋아요. 듀오라 하나는 가방에!",
+        "reviewImages": ["ReviewImage18-01", "ReviewImage18-02"]
+      },
+      {
+        "reviewId": "PB0018-R02",
+        "isMembers": true,
+        "isBest": false,
+        "userName": "배서현",
+        "content": "끈적이지 않아서 여름에 수시로 덧바르기 편해요.",
+        "reviewImages": ["ReviewImage18-03"]
+      }
+    ],
+    "questions": [
+      {
+        "isSecret": false,
+        "questionId": "PB0018-Q01",
+        "title": "차단 지수 문의",
+        "userName": "윤다혜",
+        "date": "2026-02-14",
+        "content": {
+          "question": "SPF와 PA 등급이 어떻게 되나요?",
+          "answer": "안녕하세요 고객님\nSPF50+ PA++++ 등급으로, 강한 자외선에도 효과적으로 차단해줍니다."
+        }
+      }
+    ],
+    "detailDescription": {
+      "detailProductImage": "PB0018-Detail",
+      "productTitle": "아르마니뷰티 쿨링 선스틱 듀오",
+      "manufacturer": "로레알그룹",
+      "origin": "프랑스",
+      "volume": "11g x 2개",
+      "mainIngredients": "에틸헥실메톡시신나메이트, 징크옥사이드, 티타늄디옥사이드, 부틸메톡시디벤조일메탄, 멘톨, 시어버터, 비즈왁스, 토코페롤, 알로에베라잎추출물"
+    }
+  },
+  {
+    "productId": "PB0019",
+    "productName": "[김정문알로에] 립 마에스트로 사틴 립글로즈",
+    "productImage": "PB0019-Thumb",
+    "topBadgeText": "",
+    "bottomBannerText": "최대혜택가 8900원",
+    "originalPrice": 12000,
+    "discountRate": 15,
+    "firstDiscountRate": 25,
+    "isDawnDelivery": true,
+    "brandName": "김정문알로에",
+    "isKurlyOnly": false,
+    "category": ["메이크업", "립메이크업"],
+    "shortDescription": "알로에 보습 성분이 담긴 사틴 립글로즈",
+    "reviewCount": 2,
+    "eventBadge": false,
+    "rankingCategory": "메이크업",
+    "ranking": 19,
+    "reviews": [
+      {
+        "reviewId": "PB0019-R01",
+        "isMembers": true,
+        "isBest": true,
+        "userName": "김도현",
+        "content": "알로에 성분 덕분에 입술이 건조하지 않아요. 색감도 예뻐요.",
+        "reviewImages": ["ReviewImage19-01"]
+      },
+      {
+        "reviewId": "PB0019-R02",
+        "isMembers": false,
+        "isBest": false,
+        "userName": "이서아",
+        "content": "가격 대비 품질이 정말 좋아요. 재구매 예정입니다.",
+        "reviewImages": ["ReviewImage19-02", "ReviewImage19-03"]
+      }
+    ],
+    "questions": [
+      {
+        "isSecret": false,
+        "questionId": "PB0019-Q01",
+        "title": "알로에 함량이 궁금해요",
+        "userName": "박유진",
+        "date": "2026-02-02",
+        "content": {
+          "question": "알로에 성분이 몇 퍼센트 함유되어 있나요?",
+          "answer": "안녕하세요 고객님\n알로에베라잎즙이 전체 성분 중 약 15% 함유되어 있습니다."
+        }
+      }
+    ],
+    "detailDescription": {
+      "detailProductImage": "PB0019-Detail",
+      "productTitle": "김정문알로에 립 마에스트로 사틴 립글로즈",
+      "manufacturer": "김정문알로에",
+      "origin": "국산",
+      "volume": "5ml",
+      "mainIngredients": "알로에베라잎즙, 피마자오일, 다이아이소스테아릴말레이트, 폴리부텐, 마이크로크리스탈린왁스, 토코페롤, 시어버터, 호호바씨오일, 향료"
+    }
+  },
+  {
+    "productId": "PB0020",
+    "productName": "[릴리바이레드] 러브빔 치크밤 9종 택1",
+    "productImage": "PB0020-Thumb",
+    "topBadgeText": "SNS 화제템",
+    "bottomBannerText": "최대혜택가 9800원",
+    "originalPrice": 14500,
+    "discountRate": 20,
+    "firstDiscountRate": 32,
+    "isDawnDelivery": true,
+    "brandName": "릴리바이레드",
+    "isKurlyOnly": false,
+    "category": ["메이크업", "블러셔/하이라이트"],
+    "shortDescription": "사랑스러운 혈색감을 더하는 치크밤 9색",
+    "reviewCount": 2,
+    "eventBadge": true,
+    "rankingCategory": "메이크업",
+    "ranking": 20,
+    "reviews": [
+      {
+        "reviewId": "PB0020-R01",
+        "isMembers": true,
+        "isBest": true,
+        "userName": "신예은",
+        "content": "밤 타입이라 밀착력 좋고 자연스러운 혈색감이 예뻐요!",
+        "reviewImages": ["ReviewImage20-01", "ReviewImage20-02"]
+      },
+      {
+        "reviewId": "PB0020-R02",
+        "isMembers": true,
+        "isBest": false,
+        "userName": "전지우",
+        "content": "휴대하기 편하고 색상 조합이 다양해서 기분에 따라 골라 써요.",
+        "reviewImages": ["ReviewImage20-03"]
+      }
+    ],
+    "questions": [
+      {
+        "isSecret": false,
+        "questionId": "PB0020-Q01",
+        "title": "쿨톤 추천 색상 문의",
+        "userName": "유서현",
+        "date": "2026-02-04",
+        "content": {
+          "question": "쿨톤 여름에 어울리는 색상 추천 부탁드려요.",
+          "answer": "안녕하세요 고객님\n쿨톤 여름 타입에는 03 로즈밤, 05 라일락밤 색상을 추천드립니다."
+        }
+      }
+    ],
+    "detailDescription": {
+      "detailProductImage": "PB0020-Detail",
+      "productTitle": "릴리바이레드 러브빔 치크밤",
+      "manufacturer": "릴리바이레드",
+      "origin": "국산",
+      "volume": "3.5g",
+      "mainIngredients": "다이아이소스테아릴말레이트, 피이지-8비즈왁스, 폴리에틸렌, 세레신, 마이크로크리스탈린왁스, 토코페롤, 시어버터, 해바라기씨오일, 향료, 적색산화철"
+    }
+  }
+]

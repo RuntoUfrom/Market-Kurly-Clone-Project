@@ -6,6 +6,8 @@ import {
 import { FixBannerHandler } from "@/mocks/handler/FixBannerHandler";
 import { MoveBannerHandler } from "@/mocks/handler/MoveBannerHandler";
 import { ProductDetailHandler } from "@/mocks/handler/ProductDetailHandler";
+import { ProductListHandler } from "@/mocks/handler/ProductListHandler";
+import { TimeDealHandler } from "./handler/TimeDealHandler";
 
 const worker = setupWorker(
   ...Samplehandler,
@@ -13,5 +15,7 @@ const worker = setupWorker(
   ...FixBannerHandler,
   ...MoveBannerHandler,
   ...ProductDetailHandler,
+  ...ProductListHandler,
+  ...TimeDealHandler,
 );
 export default worker;

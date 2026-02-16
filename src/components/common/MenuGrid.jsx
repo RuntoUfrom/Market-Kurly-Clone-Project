@@ -16,7 +16,7 @@ import { HOM_MARKET_MENU_IMAGE_MAP } from "@/constants/HOMMarketMenuImageMap";
 const MenuGrid = ({
   isBar = false,
   rowNum = 1,
-  menuList = {},
+  menuList = [],
   imageMap,
   activeMenu,
   onMenuClick,

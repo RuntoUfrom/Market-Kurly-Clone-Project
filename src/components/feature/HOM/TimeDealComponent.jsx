@@ -1,9 +1,9 @@
 import SectionHeader from "@/components/common/SectionHeader";
 import DealTimer from "@/components/feature/HOM/DealTimer";
 import ProductImage from "@/components/common/ProductImage";
-import BeautyImage01 from "@/assets/productimages/beautymarket/BeautyImage01.jpg";
 import IconButton from "@/components/common/button/IconButton";
 import ChatIcon from "@/assets/common/icons/ChatIcon.svg";
+import ImageMappingHelper from "@/constants/ImageMappingHelper";
 
 /**
  * 타임 딜 섹션 컴포넌트
@@ -29,16 +29,26 @@ const TimeDealComponent = ({ product, endTime }) => {
   };
 
   return (
-    <div>
-      <SectionHeader main="4시간 타임 특가" description="무조건 본품 증정!" />
+    <div
+      onClick={() => {
+        console.log("TimeDeal 클릭");
+      }}
+    >
+      <SectionHeader
+        main="기회는 왔을때 잡아야한다"
+        description="타임딜을 놓치지말고 꼭~"
+      />
       <div className="bg-white px-4">
         <DealTimer endTime={endTime} />
         {/**endTime 작성 예시 :2026-02-10T18:00:00 */}
-        <ProductImage
-          productImage={BeautyImage01}
-          topBadgeText={topBadgeText}
-          eventBadge={eventBadge}
-        />
+        <div className="h-40">
+          <ProductImage
+            productImage={ImageMappingHelper[productImage]}
+            topBadgeText={topBadgeText}
+            eventBadge={eventBadge}
+          />
+        </div>
+
         <div className="my-2">
           <IconButton icon="CART" alt="담기 버튼" label="담기" />
         </div>

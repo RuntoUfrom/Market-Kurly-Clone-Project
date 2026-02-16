@@ -2,7 +2,7 @@ import ProductCard from "@/components/common/ProductCard";
 import ImageMappingHelper from "@/constants/ImageMappingHelper";
 import NextPurpleIcon from "@/assets/common/icons/NextPurpleIcon.svg";
 import MenuCard from "@/components/common/button/MenuCard";
-
+import { useState, useEffect } from "react";
 /**
  * 가로 스크롤 가능한 상품 목록 섹션 컴포넌트
  *
@@ -11,7 +11,7 @@ import MenuCard from "@/components/common/button/MenuCard";
  * @param {function} props.onClickMore - '전체보기' 버튼 클릭 시 호출되는 핸들러
  */
 const ProductScrollSection = ({ products = [], onClickMore }) => {
-  const displayProducts = products.slice(0, 10);
+  const displayProducts = products.slice(0, 9);
 
   return (
     <div className="flex overflow-x-auto scrollbar-hide px-2">
@@ -25,7 +25,7 @@ const ProductScrollSection = ({ products = [], onClickMore }) => {
           layout="vertical"
         />
       ))}
-      {products.length > 10 && (
+      {products.length > 9 && (
         <div className="flex flex-col justify-center ml-2 w-[16vw] shrink-0">
           <button
             onClick={onClickMore}
