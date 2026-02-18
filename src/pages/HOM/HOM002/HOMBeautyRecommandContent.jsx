@@ -7,14 +7,13 @@ import MarketProductsMockData from "@/mocks/data/HOM/MarketProducts";
 import ProductRankSection from "@/components/common/ProductRankSection";
 import { useEffect, useState } from "react";
 import { moveBannerService } from "@/api/services/HOM/bannerService";
-import useNavigateToList from "@/hooks/controllers/useNavigateToList";
 import Footer from "@/components/common/layout/Footer";
 import ProductScrollSectionContainer from "@/components/common/container/ProductScrollSectionContainer";
 import TimeDealContainer from "@/components/feature/HOM/TimeDealContainer";
 import ProductRankContainer from "@/components/common/container/ProductRankContainer";
 
 const HOMBeautyRecommandContent = () => {
-  const { goToList } = useNavigateToList();
+  const { goToList } = useNavigateToPlace();
   const [bannerList, setBannerList] = useState([]);
 
   useEffect(() => {

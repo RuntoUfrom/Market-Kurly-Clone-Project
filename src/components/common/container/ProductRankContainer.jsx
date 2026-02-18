@@ -3,7 +3,7 @@ import { productListService } from "@/api/services/HOM/productListService";
 import SectionHeader from "@/components/common/SectionHeader";
 import FilterBtn from "../button/FilterBtn";
 import ProductRankSection from "../ProductRankSection";
-import useNavigateToList from "@/hooks/controllers/useNavigateToList";
+import useNavigateToPlace from "@/hooks/controllers/useNavigateToPlace";
 
 const ProductRankContainer = ({
   category,
@@ -14,7 +14,7 @@ const ProductRankContainer = ({
   emoji = "👑",
   filterList = ["주얼리", "원피스/셋업", "상의", "하의"],
 }) => {
-  const { goToList } = useNavigateToList();
+  const { goToList } = useNavigateToPlace();
   const handleClickAll = () => goToList(title, category);
 
   const { data } = useQuery({

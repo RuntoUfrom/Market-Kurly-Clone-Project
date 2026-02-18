@@ -2,12 +2,13 @@ import useThemeStore from "@/stores/useThemeStore";
 import NaviIcon from "@/assets/common/icons/NaviIcon.svg?react";
 import CartIcon from "@/assets/common/icons/CartIcon.svg";
 import CartIconGray from "@/assets/common/icons/CartIconGray.svg";
-
+import useNavigateToPlace from "@/hooks/controllers/useNavigateToPlace";
 /**
  * 메인 홈 헤더 컴포넌트 (마켓컬리/뷰티컬리 탭 포함)
  */
 const HomHeader = () => {
   const { theme, setTheme } = useThemeStore();
+  const { goToCart } = useNavigateToPlace();
 
   const isMarket = theme === "market";
 
@@ -51,7 +52,7 @@ const HomHeader = () => {
             className={`w-6 h-6 ${isMarket ? "text-white" : "text-gray-700"}`}
           />
         </button>
-        <button>
+        <button onClick={goToCart}>
           {isMarket ? (
             <img src={CartIcon} className="w-6 h-6" />
           ) : (

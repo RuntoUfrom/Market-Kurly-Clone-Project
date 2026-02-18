@@ -8,12 +8,11 @@ import MarketProductsMockData from "@/mocks/data/HOM/MarketProducts";
 import ProductSimpleSection from "@/components/common/ProductSimpleSection";
 import Footer from "@/components/common/layout/Footer";
 import ProductDetailNotice from "@/components/feature/DTI/ProductDetailNotice";
-import useNavigateToList from "@/hooks/controllers/useNavigateToList";
 import ProductScrollSectionContainer from "@/components/common/container/ProductScrollSectionContainer";
 
 //상품 설명 탭
 const DTIDescriptionContent = ({ product }) => {
-  const { goToList } = useNavigateToList();
+  const { goToList } = useNavigateToPlace();
   let category = "";
   if (product.productId.charAt(1) === "M") {
     category = "market";

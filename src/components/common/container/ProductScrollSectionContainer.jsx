@@ -2,7 +2,7 @@ import SectionHeader from "../SectionHeader";
 import ProductScrollSection from "@/components/common/ProductScrollSection";
 import { useQuery } from "@tanstack/react-query";
 import { productListService } from "@/api/services/HOM/productListService";
-import useNavigateToList from "@/hooks/controllers/useNavigateToList";
+import useNavigateToPlace from "@/hooks/controllers/useNavigateToPlace";
 
 /**
  * 상품 목록을 페칭하여 ProductScrollSection에 전달하는 Container
@@ -22,7 +22,7 @@ const ProductScrollSectionContainer = ({
   description = "",
   emoji = "🎁",
 }) => {
-  const { goToList } = useNavigateToList();
+  const { goToList } = useNavigateToPlace();
   const handleClickAll = () => goToList(title, category);
 
   const { data } = useQuery({
