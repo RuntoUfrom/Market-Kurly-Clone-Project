@@ -16,6 +16,12 @@ import MenuLogoMost from "@/assets/menu/squaremenuicons/MenuLogoMost.png";
 import MenuLogoEvent from "@/assets/menu/squaremenuicons/MenuLogoEvent.png";
 
 import MenuLogoBest from "@/assets/menu/squaremenuicons/MenuBestRank.png";
+import MenuLogoDelivery from "@/assets/menu/squaremenuicons/MenuLogoDelivery.png";
+import MenuLogoKurlyCard from "@/assets/menu/squaremenuicons/MenuLogoKurlyCard.png";
+import MenuLogoLipBam from "@/assets/menu/squaremenuicons/MenuLogoLipBam.png";
+import MenuLogoMakeUp from "@/assets/menu/squaremenuicons/MenuLogoMakeUp.png";
+import MenuLogoMan from "@/assets/menu/squaremenuicons/MenuLogoMan.png";
+import MenuLogoSkin from "@/assets/menu/squaremenuicons/MenuLogoSkin.png";
 
 //마켓 컬리 - 패션 - 메뉴 로고 이미지
 import MenuLogoFashionBag from "@/assets/menu/fashionmenuicons/MenuLogoFashionBag.png";
@@ -32,6 +38,7 @@ import MenuLogoFashionOuter from "@/assets/menu/fashionmenuicons/MenuLogoFashion
 import MenuLogoFashionSeason from "@/assets/menu/fashionmenuicons/MenuLogoFashionSeason.png";
 import MenuLogoFashionUnder from "@/assets/menu/fashionmenuicons/MenuLogoFashionUnder.png";
 
+/*********** 홈 페이지 메뉴 로고 ***********/
 //마켓 컬리 - 기본 - 메뉴 로고 이미지
 export const HOM_MARKET_MENU_IMAGE_MAP = {
   자주산상품: MenuLogoMost,
@@ -50,7 +57,7 @@ export const HOM_MARKET_MENU_IMAGE_MAP = {
   설선물특가: MenuLogoSull,
   이벤트: MenuLogoEvent,
 };
-
+//마켓 컬리 - 패션 - 메뉴 로고 이미지
 export const HOM_FASHION_MENU_IMAGE_MAP = {
   랭킹: MenuLogoFashionBest,
   여성의류: MenuLogoFashionOuter,
@@ -67,6 +74,18 @@ export const HOM_FASHION_MENU_IMAGE_MAP = {
   오리지널: MenuLogoFashionOriginal,
 };
 
+export const HOM_BEAUTY_MENU_IMAGE_MAP = {
+  무료배송: MenuLogoDelivery,
+  최저가도전: MenuLogoChallenge,
+  선물추천: MenuLogoPresent,
+  단독기획: MenuLogoKurlyCard,
+  메이크업: MenuLogoMakeUp,
+  스킨케어: MenuLogoSkin,
+  립밤: MenuLogoLipBam,
+  남성: MenuLogoMan,
+};
+//**********메뉴 페이지 ***********/
+//마켓 컬리 메뉴 페이지 - 메뉴 로고 이미지
 export const MEN_MARKET_IMAGE_MAP = {
   월신상품: MenuLogoNew,
   더퍼플셀렉션: MenuLogoFresh,

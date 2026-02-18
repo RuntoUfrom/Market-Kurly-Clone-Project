@@ -18,7 +18,6 @@ import RoundMoneyIcon from "@/assets/menu/roundmenuicons/RoundMoneyIcon.png";
 import RoundRecommandIcon from "@/assets/menu/roundmenuicons/RoundRecommandIcon.png";
 import RoundSaleIcon from "@/assets/menu/roundmenuicons/RoundSaleIcon.png";
 import RoundShoppingIcon from "@/assets/menu/roundmenuicons/RoundShoppingIcon.png";
-6;
 import RoundSimpleDishIcon from "@/assets/menu/roundmenuicons/RoundSimpleDishIcon.png";
 import RoundSimpleIcon from "@/assets/menu/roundmenuicons/RoundSimpleIcon.png";
 
@@ -26,26 +25,32 @@ export const ROUND_MENU_IMAGE_MAP = {
   베스트: RoundBestIcon,
   간편식사: RoundSimpleIcon,
   신선코너: RoundFreshIcon,
-  뷰티: RoundBeautyIcon,
+
   최저가도전: RoundChallengeIcon,
-  컬리정육점: RoundMeatIcon,6
+  컬리정육점: RoundMeatIcon,
   인기급상승: RoundFamousIcon,
   컬리에만있는: RoundKurlyOnly,
   직원추천상품: RoundRecommandIcon,
   채소: RoundCarrotIcon,
   알뜰쇼핑: RoundShoppingIcon,
   마감세일: RoundSaleIcon,
-  반값세일: RoundHalfIcon,666666666666666666666666666666666666666666666666666666666666666666666666666666666666666666666666666666666666666666666666666666666666666666666666666666666666666666666
+  반값세일: RoundHalfIcon,
   만원의행복: RoundMoneyIcon,
   장보기초특가: RoundCheapIcon,
-  디저트: RoundDessertIcono,666666666666666666666666
-  할인: RoundDiscountIcon,666666666666666
-  패션: RoundFashionIcon,666666666666
-  정육: RoundFreshMearIcon,6666666666666666666666666666666666666666666666666666666666666666666666666666666666666666666
+  디저트: RoundDessertIcono,
+  할인: RoundDiscountIcon,
+  정육: RoundFreshMearIcon,
 
   리빙: RoundLivingIcon,
   특가: RoundMoneyIcon,
-
+  인기신상랭킹: RoundBestIcon,
+  제철신선: RoundCarrotIcon,
+  입점특가: RoundRecommandIcon,
+  요즘간식: RoundDessertIcono,
+  간편한끼: RoundSimpleDishIcon,
+  뷰티: RoundBeautyIcon,
+  주방리빙: RoundLivingIcon,
+  패션: RoundFashionIcon,
   쇼핑: RoundShoppingIcon,
   간편식사2: RoundSimpleDishIcon,
 };

@@ -42,7 +42,7 @@ const ProductImage = ({
         />
       )}
       {bottomBannerText && (
-        <div className="absolute bottom-0 left-0 right-0 bg-gray-800/40 text-white text-sm font-medium text-center py-2">
+        <div className="absolute bottom-0 left-0 right-0 bg-gray-800/40 text-white text-xs font-medium text-center py-2">
           {bottomBannerText}
         </div>
       )}

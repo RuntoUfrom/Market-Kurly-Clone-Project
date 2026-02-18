@@ -1,5 +1,6 @@
 import RoundMenuList from "@/components/common/layout/RoundMenuList";
 import { useState } from "react";
+import ProductListContainer from "@/components/common/container/ProductListContainer";
 const HOMNewContent = () => {
   const menulist = [
     "인기신상랭킹",
@@ -19,6 +20,7 @@ const HOMNewContent = () => {
         selectedSubMenu={selectmenu}
         onChange={setSelectMenu}
       />
+      <ProductListContainer category={"market"} />
     </div>
   );
 };
