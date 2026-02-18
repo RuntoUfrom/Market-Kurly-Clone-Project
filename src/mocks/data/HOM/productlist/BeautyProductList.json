@@ -11,7 +11,9 @@
     "category": ["메이크업", "베이스메이크업"],
     "shortDescription": "얇게 발리는 초밀착 커버 쿠션",
     "reviewCount": 2,
-    "eventBadge": true
+    "eventBadge": true,
+    "createdAt": "2025-12-10",
+    "salesCount": 340
   },
   {
     "productId": "PB0002",
@@ -25,7 +27,9 @@
     "category": ["클렌징", "워터"],
     "shortDescription": "민감 피부를 위한 순한 클렌징 워터",
     "reviewCount": 2,
-    "eventBadge": false
+    "eventBadge": false,
+    "createdAt": "2025-11-20",
+    "salesCount": 280
   },
   {
     "productId": "PB0003",
@@ -39,7 +43,9 @@
     "category": ["스킨케어", "마스크"],
     "shortDescription": "5중 히알루론산으로 깊은 수분 충전",
     "reviewCount": 2,
-    "eventBadge": true
+    "eventBadge": true,
+    "createdAt": "2026-01-05",
+    "salesCount": 195
   },
   {
     "productId": "PB0004",
@@ -53,7 +59,9 @@
     "category": ["클렌징", "밤/오일"],
     "shortDescription": "식물성 오일 기반 저자극 딥 클렌징",
     "reviewCount": 2,
-    "eventBadge": false
+    "eventBadge": false,
+    "createdAt": "2025-12-18",
+    "salesCount": 310
   },
   {
     "productId": "PB0005",
@@ -67,7 +75,9 @@
     "category": ["메이크업", "아이메이크업"],
     "shortDescription": "하루 종일 지속되는 자연스러운 눈썹 라인",
     "reviewCount": 2,
-    "eventBadge": false
+    "eventBadge": false,
+    "createdAt": "2025-11-15",
+    "salesCount": 160
   },
   {
     "productId": "PB0006",
@@ -81,7 +91,9 @@
     "category": ["스킨케어", "세럼"],
     "shortDescription": "콜라겐 캡슐이 톡 터지는 탄력 세럼",
     "reviewCount": 2,
-    "eventBadge": true
+    "eventBadge": true,
+    "createdAt": "2026-01-12",
+    "salesCount": 125
   },
   {
     "productId": "PB0007",
@@ -95,7 +107,9 @@
     "category": ["헤어케어", "샴푸"],
     "shortDescription": "두피 강화와 탈모 케어를 위한 프리미엄 샴푸",
     "reviewCount": 2,
-    "eventBadge": false
+    "eventBadge": false,
+    "createdAt": "2025-12-01",
+    "salesCount": 90
   },
   {
     "productId": "PB0008",
@@ -109,7 +123,9 @@
     "category": ["바디케어", "기타"],
     "shortDescription": "포도씨 오일의 영양 가득 핸드 & 립 세트",
     "reviewCount": 2,
-    "eventBadge": true
+    "eventBadge": true,
+    "createdAt": "2026-01-20",
+    "salesCount": 210
   },
   {
     "productId": "PB0009",
@@ -123,7 +139,9 @@
     "category": ["헤어케어", "트리트먼트"],
     "shortDescription": "아르간 오일 베이스의 글로벌 베스트 헤어 오일",
     "reviewCount": 2,
-    "eventBadge": false
+    "eventBadge": false,
+    "createdAt": "2025-11-28",
+    "salesCount": 175
   },
   {
     "productId": "PB0010",
@@ -137,7 +155,9 @@
     "category": ["메이크업", "베이스메이크업"],
     "shortDescription": "피부 속부터 빛나는 글로우 파운데이션",
     "reviewCount": 2,
-    "eventBadge": true
+    "eventBadge": true,
+    "createdAt": "2026-02-01",
+    "salesCount": 55
   },
   {
     "productId": "PB0011",
@@ -151,7 +171,9 @@
     "category": ["메이크업", "베이스메이크업"],
     "shortDescription": "촉촉한 글로우 쿠션 본품+리필 기획세트",
     "reviewCount": 2,
-    "eventBadge": true
+    "eventBadge": true,
+    "createdAt": "2026-01-15",
+    "salesCount": 145
   },
   {
     "productId": "PB0012",
@@ -165,7 +187,9 @@
     "category": ["메이크업", "블러셔/하이라이트"],
     "shortDescription": "달걀처럼 매끈한 크림 타입 블러셔",
     "reviewCount": 2,
-    "eventBadge": false
+    "eventBadge": false,
+    "createdAt": "2025-12-22",
+    "salesCount": 100
   },
   {
     "productId": "PB0013",
@@ -179,7 +203,9 @@
     "category": ["선케어", "선크림"],
     "shortDescription": "수분감 가득 톤업 효과 자외선 차단제",
     "reviewCount": 2,
-    "eventBadge": false
+    "eventBadge": false,
+    "createdAt": "2025-12-05",
+    "salesCount": 380
   },
   {
     "productId": "PB0014",
@@ -193,7 +219,9 @@
     "category": ["클렌징", "폼/젤"],
     "shortDescription": "민감 피부를 위한 저자극 밀크 클렌저",
     "reviewCount": 2,
-    "eventBadge": false
+    "eventBadge": false,
+    "createdAt": "2025-11-25",
+    "salesCount": 230
   },
   {
     "productId": "PB0015",
@@ -207,7 +235,9 @@
     "category": ["메이크업", "립메이크업"],
     "shortDescription": "벨벳 같은 사틴 질감의 고발색 립글로즈",
     "reviewCount": 2,
-    "eventBadge": true
+    "eventBadge": true,
+    "createdAt": "2026-01-08",
+    "salesCount": 185
   },
   {
     "productId": "PB0016",
@@ -221,7 +251,9 @@
     "category": ["메이크업", "립메이크업"],
     "shortDescription": "버터처럼 부드러운 글로우 컬러 립밤",
     "reviewCount": 2,
-    "eventBadge": false
+    "eventBadge": false,
+    "createdAt": "2025-12-15",
+    "salesCount": 250
   },
   {
     "productId": "PB0017",
@@ -235,7 +267,9 @@
     "category": ["메이크업", "아이메이크업"],
     "shortDescription": "프로 아티스트가 사랑하는 시그니처 아이셰도우",
     "reviewCount": 2,
-    "eventBadge": false
+    "eventBadge": false,
+    "createdAt": "2025-11-10",
+    "salesCount": 295
   },
   {
     "productId": "PB0018",
@@ -249,7 +283,9 @@
     "category": ["선케어", "선스틱"],
     "shortDescription": "시원한 쿨링감의 휴대용 선스틱 2개 세트",
     "reviewCount": 2,
-    "eventBadge": true
+    "eventBadge": true,
+    "createdAt": "2026-02-05",
+    "salesCount": 40
   },
   {
     "productId": "PB0019",
@@ -263,7 +299,9 @@
     "category": ["메이크업", "립메이크업"],
     "shortDescription": "알로에 보습 성분이 담긴 사틴 립글로즈",
     "reviewCount": 2,
-    "eventBadge": false
+    "eventBadge": false,
+    "createdAt": "2025-12-28",
+    "salesCount": 75
   },
   {
     "productId": "PB0020",
@@ -277,6 +315,8 @@
     "category": ["메이크업", "블러셔/하이라이트"],
     "shortDescription": "사랑스러운 혈색감을 더하는 치크밤 9색",
     "reviewCount": 2,
-    "eventBadge": true
+    "eventBadge": true,
+    "createdAt": "2026-01-25",
+    "salesCount": 360
   }
 ]

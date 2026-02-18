@@ -4,7 +4,7 @@ import MenuGrid from "@/components/common/MenuGrid";
 import { HOM_MARKET_MENU_IMAGE_MAP } from "@/constants/HOMMarketMenuImageMap";
 import Footer from "@/components/common/layout/Footer";
 import { useEffect, useState } from "react";
-import ProductScrollSectionContainer from "@/components/common/ProductScrollSectionContainer";
+import ProductScrollSectionContainer from "@/components/common/container/ProductScrollSectionContainer";
 import TimeDealContainer from "@/components/feature/HOM/TimeDealContainer";
 const HOMRecommandTab = () => {
   const [bannerList, setBannerList] = useState([]);
@@ -35,6 +35,7 @@ const HOMRecommandTab = () => {
           isBar={true}
           rowNum={2}
           menuList={Object.keys(HOM_MARKET_MENU_IMAGE_MAP)}
+          imageMap={HOM_MARKET_MENU_IMAGE_MAP}
           className="mx-2"
         />
         <ProductScrollSectionContainer

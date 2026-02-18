@@ -1,28 +1,60 @@
 import { http, HttpResponse } from "msw";
+//마켓 - DTI 페이지 사용 데이터
 import productDetailInfoData from "@/mocks/data/DTI/market/productDetailInfo.json";
 import productDetailQuestionData from "@/mocks/data/DTI/market/productDetailQuestion.json";
 import productDetailReviewData from "@/mocks/data/DTI/market/productDetailReview.json";
-
+//뷰티 - DTI 페이지 사용 데이터
+import beautyDetailInfoData from "@/mocks/data/DTI/beauty/beautyDetailInfo.json";
+import beautyDetailQuestionData from "@/mocks/data/DTI/beauty/beautyDetailQuestion.json";
+import beautyDetailReviewData from "@/mocks/data/DTI/beauty/beautyDetailReview.json";
+// 패션 - DTI 페이지 사용 데이터
+import fashionDetailInfoData from "@/mocks/data/DTI/fashion/fashionDetailInfo.json";
+import fashionDetailQuestionData from "@/mocks/data/DTI/fashion/fashionDetailQuestion.json";
+import fashionDetailReviewData from "@/mocks/data/DTI/fashion/fashionDetailReview.json";
 export const ProductDetailHandler = [
   http.post("/product/detail/info", async ({ request }) => {
     const body = await request.json();
-    const SelectedData = productDetailInfoData.find(
-      (product) => product.productId === body.productId,
+    const { productId } = body;
+    const category = productId.charAt(1);
+    const dataMap = {
+      M: productDetailInfoData,
+      B: beautyDetailInfoData,
+      F: fashionDetailInfoData,
+    };
+    const targetData = dataMap[category] || [];
+    const selectedData = targetData.find(
+      (product) => product.productId === productId,
     );
-    return HttpResponse.json(SelectedData || {});
+    return HttpResponse.json(selectedData || {});
   }),
   http.post("/product/detail/info/review", async ({ request }) => {
     const body = await request.json();
-    const SelectedData = productDetailReviewData.find(
-      (product) => product.productId === body.productId,
+    const { productId } = body;
+    const category = productId.charAt(1);
+    const dataMap = {
+      M: productDetailReviewData,
+      B: beautyDetailReviewData,
+      F: fashionDetailReviewData,
+    };
+    const targetData = dataMap[category] || [];
+    const selectedData = targetData.find(
+      (product) => product.productId === productId,
     );
-    return HttpResponse.json(SelectedData || {});
+    return HttpResponse.json(selectedData || {});
   }),
   http.post("/product/detail/info/inquiry", async ({ request }) => {
     const body = await request.json();
-    const SelectedData = productDetailQuestionData.find(
-      (product) => product.productId === body.productId,
+    const { productId } = body;
+    const category = productId.charAt(1);
+    const dataMap = {
+      M: productDetailQuestionData,
+      B: beautyDetailQuestionData,
+      F: fashionDetailQuestionData,
+    };
+    const targetData = dataMap[category] || [];
+    const selectedData = targetData.find(
+      (product) => product.productId === productId,
     );
-    return HttpResponse.json(SelectedData || {});
+    return HttpResponse.json(selectedData || {});
   }),
 ];

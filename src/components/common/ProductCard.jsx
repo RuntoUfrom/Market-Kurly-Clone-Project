@@ -42,10 +42,7 @@ const ProductCard = ({ product, layout = "vertical", rank = 1 }) => {
   // vertical 레이아웃 (가로 160px)
   if (layout === "vertical") {
     return (
-      <div
-        className=" w-2/3"
-        onClick={handleProductClick}
-      >
+      <div className=" w-2/3" onClick={handleProductClick}>
         <div className="flex flex-col gap-2 w-40 p-1 bg-white rounded-md m-2">
           {/* 상품 이미지 (4px 마진 효과) */}
           <ProductImage

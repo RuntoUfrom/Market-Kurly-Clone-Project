@@ -1,0 +1,873 @@
+[
+  {
+    "productId": "PF0001",
+    "productName": "[엘렌쥬얼리]14K 물방울 원터치 귀걸이",
+    "productImage": "PF0001-Thumb",
+    "questions": [
+      {
+        "isSecret": false,
+        "questionId": "PF0001-Q01",
+        "title": "당도 확인 문의",
+        "userName": "김철수",
+        "date": "2026-02-13",
+        "content": {
+          "question": "이번에 들어온 사과 당도가 어떤가요? 지난번보다 알이 좀 작아 보이는데 맛은 동일한지 궁금합니다.",
+          "answer": "안녕하세요 고객님! 이번 차수 상품은 일조량이 풍부하여 크기는 다소 작아졌으나 당도는 평균 14브릭스로 매우 높게 측정되었습니다."
+        }
+      },
+      {
+        "isSecret": true,
+        "questionId": "PF0001-Q02",
+        "title": "소재 관련 문의",
+        "userName": "박수빈",
+        "date": "2026-02-05",
+        "content": {
+          "question": "",
+          "answer": ""
+        }
+      },
+      {
+        "isSecret": false,
+        "questionId": "PF0001-Q03",
+        "title": "선물 포장 가능한가요?",
+        "userName": "이다연",
+        "date": "2026-01-28",
+        "content": {
+          "question": "생일 선물용으로 구매하려는데 선물 포장 서비스가 있나요?",
+          "answer": "안녕하세요, 고객님. 현재 별도 선물 포장 서비스는 제공되지 않으나, 제품 자체가 브랜드 전용 쥬얼리 케이스에 담겨 배송되어 선물용으로도 손색 없으십니다."
+        }
+      },
+      {
+        "isSecret": true,
+        "questionId": "PF0001-Q04",
+        "title": "교환 문의",
+        "userName": "최지현",
+        "date": "2026-01-20",
+        "content": {
+          "question": "",
+          "answer": ""
+        }
+      }
+    ]
+  },
+  {
+    "productId": "PF0002",
+    "productName": "[베흐트] 14K 하우트 스와로브스키 진주 귀걸이",
+    "productImage": "PF0002-Thumb",
+    "questions": [
+      {
+        "isSecret": true,
+        "questionId": "PF0002-Q01",
+        "title": "옵션 관련 문의",
+        "userName": "김예슬",
+        "date": "2026-01-15",
+        "content": {
+          "question": "",
+          "answer": ""
+        }
+      },
+      {
+        "isSecret": false,
+        "questionId": "PF0002-Q02",
+        "title": "진주 크기와 무게 문의",
+        "userName": "서지원",
+        "date": "2026-01-22",
+        "content": {
+          "question": "진주 지름이 어떻게 되나요? 귀걸이가 무거워서 귀가 처질까 걱정돼요.",
+          "answer": "안녕하세요, 고객님. 담수 진주 지름은 약 6mm이며, 전체 귀걸이 무게는 한 쪽 기준 약 1.8g으로 가벼운 편입니다. 장시간 착용 시에도 귀에 무리가 없도록 설계되었습니다."
+        }
+      },
+      {
+        "isSecret": true,
+        "questionId": "PF0002-Q03",
+        "title": "개인 착용 문의",
+        "userName": "오민정",
+        "date": "2026-02-01",
+        "content": {
+          "question": "",
+          "answer": ""
+        }
+      },
+      {
+        "isSecret": false,
+        "questionId": "PF0002-Q04",
+        "title": "스와로브스키 크리스탈 내구성 문의",
+        "userName": "한나연",
+        "date": "2026-02-10",
+        "content": {
+          "question": "스와로브스키 부분이 떨어지거나 흐릿해질 수 있나요? 관리 방법도 알고 싶어요.",
+          "answer": "안녕하세요, 고객님. 스와로브스키 크리스탈은 전용 세팅으로 고정되어 일상 착용에 매우 견고합니다. 광택 유지를 위해 착용 후 부드러운 천으로 닦아주시고, 향수나 화장품 접촉을 피해 주시면 오래 유지됩니다."
+        }
+      },
+      {
+        "isSecret": false,
+        "questionId": "PF0002-Q05",
+        "title": "재고 및 재입고 문의",
+        "userName": "윤채영",
+        "date": "2026-02-15",
+        "content": {
+          "question": "로즈골드 옵션이 품절인데 재입고 예정이 있나요?",
+          "answer": "안녕하세요, 고객님. 현재 로즈골드 옵션은 재고 확보 중이며, 2~3주 내 재입고 예정입니다. 상품 페이지에서 재입고 알림을 신청해 주시면 입고 시 안내드리겠습니다."
+        }
+      }
+    ]
+  },
+  {
+    "productId": "PF0003",
+    "productName": "[바이이이에르] 루나 페블 원터치 귀걸이 4종",
+    "productImage": "PF0003-Thumb",
+    "questions": [
+      {
+        "isSecret": false,
+        "questionId": "PF0003-Q01",
+        "title": "4종 구성 확인 문의",
+        "userName": "김도희",
+        "date": "2026-01-18",
+        "content": {
+          "question": "4종이 한 세트로 오는 건가요, 아니면 색상 중 1개를 선택하는 건가요?",
+          "answer": "안녕하세요, 고객님. 4종 모두 포함된 세트 상품입니다. silver, gold, rose gold, black 네 가지 컬러가 함께 구성되어 발송됩니다."
+        }
+      },
+      {
+        "isSecret": true,
+        "questionId": "PF0003-Q02",
+        "title": "불량 관련 문의",
+        "userName": "박정현",
+        "date": "2026-01-25",
+        "content": {
+          "question": "",
+          "answer": ""
+        }
+      },
+      {
+        "isSecret": false,
+        "questionId": "PF0003-Q03",
+        "title": "귀걸이 크기 문의",
+        "userName": "이수민",
+        "date": "2026-02-03",
+        "content": {
+          "question": "귀걸이 크기가 어떻게 되나요? 얼굴이 작은 편인데 너무 크면 어울리지 않을까 걱정돼요.",
+          "answer": "안녕하세요, 고객님. 귀걸이 지름은 약 8mm로 자그마한 원형 디자인입니다. 얼굴이 작으신 분들께도 잘 어울리는 미니멀한 사이즈로 데일리 착용에 적합합니다."
+        }
+      },
+      {
+        "isSecret": true,
+        "questionId": "PF0003-Q04",
+        "title": "반품 문의",
+        "userName": "정민아",
+        "date": "2026-02-09",
+        "content": {
+          "question": "",
+          "answer": ""
+        }
+      }
+    ]
+  },
+  {
+    "productId": "PF0004",
+    "productName": "[베흐트] 템포 프레임 손목시계 4종",
+    "productImage": "PF0004-Thumb",
+    "questions": [
+      {
+        "isSecret": false,
+        "questionId": "PF0004-Q01",
+        "title": "방수 가능 여부",
+        "userName": "조민아",
+        "date": "2026-01-22",
+        "content": {
+          "question": "손 씻을 때 물 닿아도 괜찮나요? 방수 등급이 어떻게 되나요?",
+          "answer": "안녕하세요, 고객님. 해당 시계는 3ATM 생활 방수가 적용되어 있어 손 씻기, 가벼운 빗물 등 일상적인 물 접촉에는 문제없습니다. 단, 수영이나 샤워 시 착용은 권장드리지 않습니다."
+        }
+      },
+      {
+        "isSecret": true,
+        "questionId": "PF0004-Q02",
+        "title": "A/S 관련 문의",
+        "userName": "황성준",
+        "date": "2026-01-30",
+        "content": {
+          "question": "",
+          "answer": ""
+        }
+      },
+      {
+        "isSecret": false,
+        "questionId": "PF0004-Q03",
+        "title": "가죽 밴드 교체 가능 여부",
+        "userName": "임지현",
+        "date": "2026-02-05",
+        "content": {
+          "question": "천연 가죽 밴드가 낡으면 교체할 수 있나요? 다른 소재 밴드로도 교체 가능한가요?",
+          "answer": "안녕하세요, 고객님. 밴드는 표준 18mm 규격으로, 시중에서 판매하는 호환 밴드로 교체 가능합니다. 가죽, 메탈, 실리콘 등 다양한 소재의 18mm 밴드를 구매하여 셀프 교체도 가능합니다."
+        }
+      },
+      {
+        "isSecret": false,
+        "questionId": "PF0004-Q04",
+        "title": "제품 보증 기간 문의",
+        "userName": "강도현",
+        "date": "2026-02-12",
+        "content": {
+          "question": "AS 보증 기간이 얼마나 되나요? 결함이 있을 경우 교환 가능한가요?",
+          "answer": "안녕하세요, 고객님. 구매일로부터 1년간 제품 보증이 제공됩니다. 제조 결함의 경우 교환 또는 수리 서비스를 받으실 수 있으며, 외부 충격이나 사용자 과실로 인한 파손은 보증 대상에서 제외됩니다."
+        }
+      },
+      {
+        "isSecret": true,
+        "questionId": "PF0004-Q05",
+        "title": "주문 취소 문의",
+        "userName": "오예진",
+        "date": "2026-02-16",
+        "content": {
+          "question": "",
+          "answer": ""
+        }
+      }
+    ]
+  },
+  {
+    "productId": "PF0005",
+    "productName": "[바이듀] 벨로아 셋업(그레이)",
+    "productImage": "PF0005-Thumb",
+    "questions": [
+      {
+        "isSecret": false,
+        "questionId": "PF0005-Q01",
+        "title": "세탁 방법 문의",
+        "userName": "신동욱",
+        "date": "2026-02-03",
+        "content": {
+          "question": "벨로아 소재라 세탁이 걱정되는데 세탁기 사용 가능한가요?",
+          "answer": "안녕하세요, 고객님. 해당 제품은 울 세탁 코스(30℃ 이하 찬물 손세탁 권장)로 세탁 가능합니다. 세탁기 사용 시 세탁망에 넣어 약한 세탁 코스로 사용해 주시고, 직접 건조기 사용은 삼가 주세요."
+        }
+      },
+      {
+        "isSecret": false,
+        "questionId": "PF0005-Q02",
+        "title": "상하의 별도 구매 가능한가요?",
+        "userName": "류정아",
+        "date": "2026-01-20",
+        "content": {
+          "question": "상의랑 하의 사이즈가 달라서 각각 따로 구매할 수 있나요?",
+          "answer": "안녕하세요, 고객님. 네, 상의와 하의 별도 선택 후 장바구니에 각각 담아 구매하실 수 있습니다. 사이즈 가이드를 참고하시어 상하의 각각 원하시는 사이즈로 선택해 주세요."
+        }
+      },
+      {
+        "isSecret": true,
+        "questionId": "PF0005-Q03",
+        "title": "사이즈 교환 문의",
+        "userName": "문채원",
+        "date": "2026-01-27",
+        "content": {
+          "question": "",
+          "answer": ""
+        }
+      },
+      {
+        "isSecret": true,
+        "questionId": "PF0005-Q04",
+        "title": "배송 관련 문의",
+        "userName": "백소연",
+        "date": "2026-02-10",
+        "content": {
+          "question": "",
+          "answer": ""
+        }
+      }
+    ]
+  },
+  {
+    "productId": "PF0006",
+    "productName": "[고드나트](셋업) 모노 커브 카라 블라우스 & 모노 플리츠 밴딩 스커트",
+    "productImage": "PF0006-Thumb",
+    "questions": [
+      {
+        "isSecret": false,
+        "questionId": "PF0006-Q01",
+        "title": "블라우스, 스커트 별도 구매 가능한가요?",
+        "userName": "김나영",
+        "date": "2026-01-17",
+        "content": {
+          "question": "블라우스만 따로 구매하거나 스커트만 구매할 수 있나요?",
+          "answer": "안녕하세요, 고객님. 블라우스와 스커트 각각 별도 구매가 가능합니다. 장바구니에서 원하시는 아이템과 사이즈를 선택하시어 주문해 주세요."
+        }
+      },
+      {
+        "isSecret": false,
+        "questionId": "PF0006-Q02",
+        "title": "소재 구겨짐 여부 문의",
+        "userName": "이유나",
+        "date": "2026-01-24",
+        "content": {
+          "question": "레이온 성분이 포함되어 있어서 구겨짐이 심하지 않을까요? 사무실에서 하루 종일 입기 좋을지 궁금해요.",
+          "answer": "안녕하세요, 고객님. 폴리에스터와 스판덱스 혼방으로 레이온의 구겨짐을 최소화했습니다. 오피스룩으로 착용하시기에 적합하며, 장시간 착용 후에도 큰 구겨짐 없이 깔끔한 실루엣이 유지됩니다."
+        }
+      },
+      {
+        "isSecret": true,
+        "questionId": "PF0006-Q03",
+        "title": "불량 교환 문의",
+        "userName": "박지수",
+        "date": "2026-02-01",
+        "content": {
+          "question": "",
+          "answer": ""
+        }
+      },
+      {
+        "isSecret": false,
+        "questionId": "PF0006-Q04",
+        "title": "커브 카라 형태 문의",
+        "userName": "최수진",
+        "date": "2026-02-08",
+        "content": {
+          "question": "커브 카라가 눕혀서 착용하는 건가요, 세워서 착용하는 건가요?",
+          "answer": "안녕하세요, 고객님. 모노 커브 카라는 자연스럽게 눕혀지는 플랫 카라 디자인입니다. 목선을 부드럽게 감싸주는 형태로 앞에서 봤을 때 우아한 느낌을 주며, 세워서 착용하기는 어렵습니다."
+        }
+      },
+      {
+        "isSecret": true,
+        "questionId": "PF0006-Q05",
+        "title": "반품 문의",
+        "userName": "정유림",
+        "date": "2026-02-14",
+        "content": {
+          "question": "",
+          "answer": ""
+        }
+      }
+    ]
+  },
+  {
+    "productId": "PF0007",
+    "productName": "[듀이듀이] 울 피케 니트 드레스 (2컬러)",
+    "productImage": "PF0007-Thumb",
+    "questions": [
+      {
+        "isSecret": true,
+        "questionId": "PF0007-Q01",
+        "title": "피부 트러블 문의",
+        "userName": "장수아",
+        "date": "2026-01-30",
+        "content": {
+          "question": "",
+          "answer": ""
+        }
+      },
+      {
+        "isSecret": false,
+        "questionId": "PF0007-Q02",
+        "title": "드레스 기장 문의",
+        "userName": "홍지현",
+        "date": "2026-01-22",
+        "content": {
+          "question": "키 160cm인데 드레스 기장이 어느 정도 나오나요?",
+          "answer": "안녕하세요, 고객님. Free 사이즈 기준 총장은 약 90cm입니다. 키 160cm이신 경우 무릎 조금 아래 기장으로 연출되어 균형 잡힌 실루엣이 나옵니다."
+        }
+      },
+      {
+        "isSecret": true,
+        "questionId": "PF0007-Q03",
+        "title": "교환 및 반품 문의",
+        "userName": "권지윤",
+        "date": "2026-02-06",
+        "content": {
+          "question": "",
+          "answer": ""
+        }
+      },
+      {
+        "isSecret": false,
+        "questionId": "PF0007-Q04",
+        "title": "안감 여부 문의",
+        "userName": "신예원",
+        "date": "2026-02-13",
+        "content": {
+          "question": "니트 드레스 안감이 있나요? 비쳐 보이지 않는지 걱정돼요.",
+          "answer": "안녕하세요, 고객님. 해당 드레스는 별도 안감 없이 니트 단품으로 구성되어 있습니다. 피케 텍스처 특성상 두께감이 있어 비침은 거의 없으나, 밝은 색상의 경우 속옷 라인이 비칠 수 있으니 누드 언더웨어 착용을 권장드립니다."
+        }
+      }
+    ]
+  },
+  {
+    "productId": "PF0008",
+    "productName": "[루시다] 멜란 트렌치 원피스 2 colors (택 1)",
+    "productImage": "PF0008-Thumb",
+    "questions": [
+      {
+        "isSecret": false,
+        "questionId": "PF0008-Q01",
+        "title": "벨트 탈착 가능한가요?",
+        "userName": "이다은",
+        "date": "2026-01-19",
+        "content": {
+          "question": "허리 벨트를 제거하고 착용할 수 있나요? 벨트 없이도 자연스러운 실루엣인가요?",
+          "answer": "안녕하세요, 고객님. 허리 벨트는 탈착 가능하며, 벨트 없이도 자연스러운 A라인 실루엣이 유지됩니다. 벨트를 매면 허리 라인이 강조되고, 없이 착용하면 여유로운 드레이프 핏으로 연출됩니다."
+        }
+      },
+      {
+        "isSecret": true,
+        "questionId": "PF0008-Q02",
+        "title": "배송 지연 문의",
+        "userName": "박서연",
+        "date": "2026-01-26",
+        "content": {
+          "question": "",
+          "answer": ""
+        }
+      },
+      {
+        "isSecret": false,
+        "questionId": "PF0008-Q03",
+        "title": "안감 여부 및 비침 문의",
+        "userName": "조혜린",
+        "date": "2026-02-03",
+        "content": {
+          "question": "원피스 안감이 있나요? 밝은 색상이라 비침이 걱정돼요.",
+          "answer": "안녕하세요, 고객님. 해당 원피스는 안감이 포함되어 있어 비침 걱정 없이 착용하실 수 있습니다. 특히 베이지 컬러 제품의 경우 속옷이 비치지 않도록 불투명한 안감을 적용하였습니다."
+        }
+      },
+      {
+        "isSecret": true,
+        "questionId": "PF0008-Q04",
+        "title": "불량 및 교환 문의",
+        "userName": "강민주",
+        "date": "2026-02-11",
+        "content": {
+          "question": "",
+          "answer": ""
+        }
+      }
+    ]
+  },
+  {
+    "productId": "PF0009",
+    "productName": "[R2W] 캐시미어 100 리나 터틀 니트 7color (택 1)",
+    "productImage": "PF0009-Thumb",
+    "questions": [
+      {
+        "isSecret": true,
+        "questionId": "PF0009-Q01",
+        "title": "세탁 관련 문의",
+        "userName": "한기태",
+        "date": "2026-02-05",
+        "content": {
+          "question": "",
+          "answer": ""
+        }
+      },
+      {
+        "isSecret": false,
+        "questionId": "PF0009-Q02",
+        "title": "사이즈 선택 문의",
+        "userName": "이서현",
+        "date": "2026-01-16",
+        "content": {
+          "question": "키 167cm, 몸무게 58kg인데 M 사이즈가 맞을까요? 루즈하게 입고 싶어요.",
+          "answer": "안녕하세요, 고객님. 해당 체형이시라면 M이 기본 핏으로, 여유 있게 루즈하게 입고 싶으시다면 L 사이즈를 추천드립니다. 캐시미어 제품 특성상 세탁 후 약간의 수축이 있을 수 있어 한 사이즈 크게 구매하시는 것도 좋습니다."
+        }
+      },
+      {
+        "isSecret": true,
+        "questionId": "PF0009-Q03",
+        "title": "주문 변경 문의",
+        "userName": "정민호",
+        "date": "2026-01-28",
+        "content": {
+          "question": "",
+          "answer": ""
+        }
+      },
+      {
+        "isSecret": false,
+        "questionId": "PF0009-Q04",
+        "title": "보풀 발생 여부 문의",
+        "userName": "김태희",
+        "date": "2026-02-12",
+        "content": {
+          "question": "캐시미어 제품은 보풀이 많이 생긴다고 들었는데, 이 제품도 보풀이 많이 생기나요?",
+          "answer": "안녕하세요, 고객님. 캐시미어 특성상 초반 착용 시 약간의 보풀이 생길 수 있으나, 초기 이후로는 크게 줄어듭니다. 보풀 제거기(린트 롤러)를 활용하시면 손쉽게 관리하실 수 있으며, 착용 후 통풍이 잘 되는 곳에 보관하시면 보풀 발생을 최소화할 수 있습니다."
+        }
+      }
+    ]
+  },
+  {
+    "productId": "PF0010",
+    "productName": "[R2W] 캐시미어 100 디에고 오픈 카라 니트 4color (택 1)",
+    "productImage": "PF0010-Thumb",
+    "questions": [
+      {
+        "isSecret": false,
+        "questionId": "PF0010-Q01",
+        "title": "오픈 카라 형태 문의",
+        "userName": "손유정",
+        "date": "2026-01-14",
+        "content": {
+          "question": "오픈 카라가 얼마나 파여 있나요? 파임이 너무 깊으면 사무실에서 입기 어려울 것 같아서요.",
+          "answer": "안녕하세요, 고객님. 오픈 카라 파임은 목에서 약 10cm 정도로, 쇄골이 살짝 드러나는 정도입니다. 깊게 파이지 않아 사무실에서도 이너 없이 착용 가능한 수위입니다."
+        }
+      },
+      {
+        "isSecret": true,
+        "questionId": "PF0010-Q02",
+        "title": "반품 관련 문의",
+        "userName": "박현우",
+        "date": "2026-01-23",
+        "content": {
+          "question": "",
+          "answer": ""
+        }
+      },
+      {
+        "isSecret": false,
+        "questionId": "PF0010-Q03",
+        "title": "사이즈 문의",
+        "userName": "최민지",
+        "date": "2026-02-01",
+        "content": {
+          "question": "키 170cm인데 S, M, L 중 어떤 사이즈가 적당한가요? 루즈하게 입고 싶지 않아요.",
+          "answer": "안녕하세요, 고객님. 키 170cm이시고 슬림한 핏을 원하신다면 M 사이즈를 추천드립니다. S는 다소 꼭 맞을 수 있으며, L은 여유 있는 오버핏으로 연출됩니다. 상세 페이지의 실측 치수를 참고해 주세요."
+        }
+      },
+      {
+        "isSecret": true,
+        "questionId": "PF0010-Q04",
+        "title": "교환 문의",
+        "userName": "임도연",
+        "date": "2026-02-09",
+        "content": {
+          "question": "",
+          "answer": ""
+        }
+      }
+    ]
+  },
+  {
+    "productId": "PF0011",
+    "productName": "[슬로우롤리] (5차리오더)(누빔ver) 뉴트럴 무드 부클 코트",
+    "productImage": "PF0011-Thumb",
+    "questions": [
+      {
+        "isSecret": false,
+        "questionId": "PF0011-Q01",
+        "title": "사이즈 선택 도움 요청",
+        "userName": "이가영",
+        "date": "2026-01-10",
+        "content": {
+          "question": "키 160cm 체중 52kg인데 S와 M 중 어떤 사이즈가 맞을까요?",
+          "answer": "안녕하세요, 고객님. 해당 코트는 오버핏 기획 제품으로 통상 한 사이즈 작게 선택하시길 권장드립니다. 고객님 체형에는 S 사이즈가 적합할 것 같으나, 안에 두꺼운 이너를 즐겨 입으신다면 M도 좋습니다."
+        }
+      },
+      {
+        "isSecret": true,
+        "questionId": "PF0011-Q02",
+        "title": "교환 문의",
+        "userName": "최다연",
+        "date": "2026-02-01",
+        "content": {
+          "question": "",
+          "answer": ""
+        }
+      },
+      {
+        "isSecret": false,
+        "questionId": "PF0011-Q03",
+        "title": "누빔 안감 두께 및 보온성 문의",
+        "userName": "김상현",
+        "date": "2026-01-18",
+        "content": {
+          "question": "누빔 안감이 얼마나 따뜻한가요? 영하 날씨에도 입을 수 있나요?",
+          "answer": "안녕하세요, 고객님. 누빔 안감은 경량 패딩 충전재가 내장된 형태로, 겉감 부클 소재와 함께 영하 5~10도 정도 날씨에서 이너 한 장과 함께 착용하시면 충분히 따뜻하게 입으실 수 있습니다. 극한의 추위에는 히트텍 등 기능성 이너 레이어링을 추천드립니다."
+        }
+      },
+      {
+        "isSecret": true,
+        "questionId": "PF0011-Q04",
+        "title": "배송 관련 문의",
+        "userName": "박유리",
+        "date": "2026-02-07",
+        "content": {
+          "question": "",
+          "answer": ""
+        }
+      },
+      {
+        "isSecret": false,
+        "questionId": "PF0011-Q05",
+        "title": "코트 기장 문의",
+        "userName": "오지혜",
+        "date": "2026-02-14",
+        "content": {
+          "question": "코트 기장이 얼마나 되나요? 키 155cm인데 너무 길지 않을까 걱정돼요.",
+          "answer": "안녕하세요, 고객님. S 사이즈 기준 코트 총장은 약 105cm입니다. 키 155cm이신 경우 무릎 아래 롱 기장으로 연출되며, 다리 라인을 길어 보이게 해주는 효과가 있어 오히려 작은 키에 더 잘 어울리는 스타일입니다."
+        }
+      }
+    ]
+  },
+  {
+    "productId": "PF0012",
+    "productName": "[슬로우롤리] 로이 보트넥 니트 3 Colors (택 1)",
+    "productImage": "PF0012-Thumb",
+    "questions": [
+      {
+        "isSecret": true,
+        "questionId": "PF0012-Q01",
+        "title": "불량 관련 문의",
+        "userName": "장지원",
+        "date": "2026-01-21",
+        "content": {
+          "question": "",
+          "answer": ""
+        }
+      },
+      {
+        "isSecret": false,
+        "questionId": "PF0012-Q02",
+        "title": "Free 사이즈 적합 체형 문의",
+        "userName": "한수민",
+        "date": "2026-01-29",
+        "content": {
+          "question": "Free 사이즈인데 S~M 적합이라고 되어 있어요. L 사이즈도 입을 수 있나요?",
+          "answer": "안녕하세요, 고객님. S~M 체형에 맞게 기획된 제품으로 L 체형이신 경우 소매 길이나 품이 다소 맞지 않을 수 있습니다. L 사이즈 착용을 원하신다면 상세 페이지의 실측 치수와 본인 치수를 비교 후 구매를 결정해 주세요."
+        }
+      },
+      {
+        "isSecret": true,
+        "questionId": "PF0012-Q03",
+        "title": "환불 문의",
+        "userName": "류지성",
+        "date": "2026-02-05",
+        "content": {
+          "question": "",
+          "answer": ""
+        }
+      },
+      {
+        "isSecret": false,
+        "questionId": "PF0012-Q04",
+        "title": "보트넥 파임 깊이 문의",
+        "userName": "임채영",
+        "date": "2026-02-12",
+        "content": {
+          "question": "보트넥 파임이 얼마나 넓게 파여 있나요? 어깨가 드러날 정도인지 궁금해요.",
+          "answer": "안녕하세요, 고객님. 보트넥 가로 폭은 약 28cm(어깨에서 어깨까지)이며, 목 아래 약 3cm 정도 파인 형태입니다. 어깨뼈 끝까지는 파이지 않아 어깨가 직접 노출되지는 않으나, 쇄골이 자연스럽게 드러나는 세련된 라인을 연출합니다."
+        }
+      }
+    ]
+  },
+  {
+    "productId": "PF0013",
+    "productName": "[R2W] 캐시미어 100 디에고 포켓 조거 팬츠 3color (택1)",
+    "productImage": "PF0013-Thumb",
+    "questions": [
+      {
+        "isSecret": false,
+        "questionId": "PF0013-Q01",
+        "title": "밴딩 사이즈 조절 가능한가요?",
+        "userName": "노지현",
+        "date": "2026-01-25",
+        "content": {
+          "question": "허리 사이즈가 커서 밴딩이 얼마나 늘어나는지 궁금해요.",
+          "answer": "안녕하세요, 고객님. 허리 밴딩은 약 10~12cm 정도 늘어나며, M 기준 안단면 허리 둘레는 약 66cm, 최대 78cm까지 수용 가능합니다. 자세한 실측 사이즈는 상품 상세 페이지를 참고해 주세요."
+        }
+      },
+      {
+        "isSecret": true,
+        "questionId": "PF0013-Q02",
+        "title": "교환 및 반품 문의",
+        "userName": "이준서",
+        "date": "2026-02-02",
+        "content": {
+          "question": "",
+          "answer": ""
+        }
+      },
+      {
+        "isSecret": false,
+        "questionId": "PF0013-Q03",
+        "title": "기장 및 밑단 처리 문의",
+        "userName": "김미선",
+        "date": "2026-02-09",
+        "content": {
+          "question": "조거 팬츠 기장이 어느 정도 되나요? 키 162cm인데 너무 길어서 밑단이 접히지 않을까요?",
+          "answer": "안녕하세요, 고객님. M 기준 총장은 약 97cm입니다. 키 162cm이신 경우 조거 밴딩 밑단이 발목에서 약 2~3cm 내려오는 길이로, 자연스러운 조거 룩이 연출됩니다. 밑단 접힘 없이 편하게 착용 가능하십니다."
+        }
+      },
+      {
+        "isSecret": true,
+        "questionId": "PF0013-Q04",
+        "title": "주문 취소 문의",
+        "userName": "정주혁",
+        "date": "2026-02-16",
+        "content": {
+          "question": "",
+          "answer": ""
+        }
+      }
+    ]
+  },
+  {
+    "productId": "PF0014",
+    "productName": "[메르시마리에] 웜포켓 스냅 본딩기모 데님 진 710947",
+    "productImage": "PF0014-Thumb",
+    "questions": [
+      {
+        "isSecret": true,
+        "questionId": "PF0014-Q01",
+        "title": "불량 및 교환 문의",
+        "userName": "조연수",
+        "date": "2026-02-08",
+        "content": {
+          "question": "",
+          "answer": ""
+        }
+      },
+      {
+        "isSecret": false,
+        "questionId": "PF0014-Q02",
+        "title": "사이즈 선택 문의",
+        "userName": "나혜영",
+        "date": "2026-01-19",
+        "content": {
+          "question": "허리 68cm, 힙 94cm인데 사이즈를 어떻게 선택하면 좋을까요?",
+          "answer": "안녕하세요, 고객님. 기준 치수를 참고하시면 허리 68cm는 27사이즈, 힙 94cm는 28사이즈 기준입니다. 두 치수 사이에 해당하시면 허리와 힙 중 더 큰 부위를 기준으로 선택하시길 권장드립니다. 기모 안감으로 다소 부피감이 있어 평소 사이즈보다 한 사이즈 크게 선택하시는 분들도 계십니다."
+        }
+      },
+      {
+        "isSecret": true,
+        "questionId": "PF0014-Q03",
+        "title": "환불 관련 문의",
+        "userName": "최도훈",
+        "date": "2026-01-27",
+        "content": {
+          "question": "",
+          "answer": ""
+        }
+      },
+      {
+        "isSecret": false,
+        "questionId": "PF0014-Q04",
+        "title": "스냅 포켓 용도 문의",
+        "userName": "황수진",
+        "date": "2026-02-15",
+        "content": {
+          "question": "스냅 포켓이라고 되어 있는데 어디에 위치해 있나요? 실용적으로 사용 가능한가요?",
+          "answer": "안녕하세요, 고객님. 스냅 포켓은 앞면 양쪽에 위치한 기존 포켓에 스냅 단추가 추가된 형태로, 물건이 떨어지지 않도록 안전하게 보관할 수 있습니다. 스마트폰, 카드 등을 넣기에 충분한 크기이며 실용성이 높습니다."
+        }
+      }
+    ]
+  },
+  {
+    "productId": "PF0015",
+    "productName": "[앤클라인]와이드 핀턱 슬렉스 N5HW16",
+    "productImage": "PF0015-Thumb",
+    "questions": [
+      {
+        "isSecret": true,
+        "questionId": "PF0015-Q01",
+        "title": "반품 문의",
+        "userName": "강민정",
+        "date": "2026-01-16",
+        "content": {
+          "question": "",
+          "answer": ""
+        }
+      },
+      {
+        "isSecret": false,
+        "questionId": "PF0015-Q02",
+        "title": "구겨짐 여부 문의",
+        "userName": "이재원",
+        "date": "2026-01-23",
+        "content": {
+          "question": "레이온 성분이 포함되어 있어 구겨짐이 심할 것 같은데, 오피스룩으로 입기 적합한가요?",
+          "answer": "안녕하세요, 고객님. 폴리에스터와 스판덱스 혼방으로 레이온의 구겨짐을 보완하여 하루 종일 착용해도 구김이 많지 않습니다. 핀턱 라인이 고정되어 있어 착용 내내 깔끔한 실루엣이 유지되므로 오피스룩으로 적합합니다."
+        }
+      },
+      {
+        "isSecret": true,
+        "questionId": "PF0015-Q03",
+        "title": "교환 문의",
+        "userName": "조유정",
+        "date": "2026-02-01",
+        "content": {
+          "question": "",
+          "answer": ""
+        }
+      },
+      {
+        "isSecret": false,
+        "questionId": "PF0015-Q04",
+        "title": "기장 및 키별 착용감 문의",
+        "userName": "박민서",
+        "date": "2026-02-11",
+        "content": {
+          "question": "키 155cm인데 M 사이즈를 사면 기장이 너무 길어서 수선이 필요할까요?",
+          "answer": "안녕하세요, 고객님. M 기준 총장은 약 100cm입니다. 키 155cm이신 경우 발등 위로 약간 덮이는 기장으로, 힐이나 두꺼운 밑창 신발과 코디하시면 자연스럽게 연출됩니다. 수선 없이 착용하시는 분들도 많으나 깔끔하게 입고 싶으시다면 3~5cm 정도 수선을 고려해 보세요."
+        }
+      },
+      {
+        "isSecret": true,
+        "questionId": "PF0015-Q05",
+        "title": "주문 취소 문의",
+        "userName": "임정현",
+        "date": "2026-02-17",
+        "content": {
+          "question": "",
+          "answer": ""
+        }
+      }
+    ]
+  },
+  {
+    "productId": "PF0016",
+    "productName": "[고드나트] 쿠로키 원워시드 인디고 데님 팬츠 (Japan fabric)",
+    "productImage": "PF0016-Thumb",
+    "questions": [
+      {
+        "isSecret": false,
+        "questionId": "PF0016-Q01",
+        "title": "첫 세탁 시 색 빠짐 문의",
+        "userName": "전민준",
+        "date": "2026-01-18",
+        "content": {
+          "question": "인디고 데님이라 첫 세탁 때 색이 많이 빠질까봐 걱정돼요.",
+          "answer": "안녕하세요, 고객님. 인디고 데님 특성상 초반 세탁 시 일부 색 빠짐이 있을 수 있습니다. 첫 세탁은 단독으로 뒤집어서 찬물 손세탁을 권장드리며, 식초 한 스푼을 넣으시면 색 빠짐 방지에 도움이 됩니다. 2~3회 세탁 후에는 안정화됩니다."
+        }
+      },
+      {
+        "isSecret": true,
+        "questionId": "PF0016-Q02",
+        "title": "불량 교환 문의",
+        "userName": "이수빈",
+        "date": "2026-01-26",
+        "content": {
+          "question": "",
+          "answer": ""
+        }
+      },
+      {
+        "isSecret": false,
+        "questionId": "PF0016-Q03",
+        "title": "일본 원단 특징 문의",
+        "userName": "한지훈",
+        "date": "2026-02-03",
+        "content": {
+          "question": "쿠로키 원단이 어떤 특징이 있나요? 일반 데님과 어떤 점이 다른가요?",
+          "answer": "안녕하세요, 고객님. 쿠로키(Kuroki)는 일본 유명 데님 원단 제조사로, 전통 셔틀룸(shuttle loom) 방식으로 짜여진 셀비지 데님을 생산합니다. 인디고 염색이 깊고 균일하며, 착용할수록 개인 착용 패턴에 따라 고유한 페이딩이 생겨 오래 입을수록 자기만의 빈티지 느낌이 살아납니다."
+        }
+      },
+      {
+        "isSecret": true,
+        "questionId": "PF0016-Q04",
+        "title": "환불 문의",
+        "userName": "최서우",
+        "date": "2026-02-10",
+        "content": {
+          "question": "",
+          "answer": ""
+        }
+      }
+    ]
+  }
+]

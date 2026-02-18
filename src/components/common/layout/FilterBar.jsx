@@ -16,18 +16,12 @@ const FilterBar = ({
   isNew = false,
   isWonderHotDeal = false,
   isBeautyFest = false,
+  filterList = [],
+  category,
+  onClick,
 }) => {
   let index = 0;
-  const filterList = [
-    "가격",
-    "브랜드",
-    "유형",
-    "혜택",
-    "출시",
-    "포장타입",
-    "배송",
-    "프로모션",
-  ];
+
   return (
     <div className="flex flex-row gap-2 overflow-x-auto scrollbar-hide">
       {isKurlyOnly && (
@@ -71,7 +65,13 @@ const FilterBar = ({
         </div>
       )}
       {filterList.map((item) => (
-        <FilterBtn key={item} label={item} />
+        <FilterBtn
+          key={item}
+          label={item}
+          filterList={filterList}
+          category={category}
+          onClick={() => onClick(item)}
+        />
       ))}
     </div>
   );

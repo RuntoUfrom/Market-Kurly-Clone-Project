@@ -4,7 +4,7 @@ import BaseTabBtn from "@/components/common/button/BaseTabBtn";
  * TabBtns - 여러 개 탭 버튼 그룹
  *
  * @param {object} props
- * @param {2|4|5|7} props.variant - 탭 개수
+ * @param {2|4|5|7|8} props.variant - 탭 개수
  * @param {string[]} props.labels - 탭에 표시할 텍스트 배열
  * @param {string} props.active - 현재 선택된 탭 라벨
  * @param {(label: string) => void} props.onChange - 탭 클릭 시 실행할 핸들러
@@ -26,7 +26,7 @@ const CustomTabBtns = ({
           key={idx}
           label={label}
           active={active === label}
-          onClick={onChange}
+          onClick={() => onChange(label)}
           color={color}
           stretch={variant < 7}
           small={variant >= 5}

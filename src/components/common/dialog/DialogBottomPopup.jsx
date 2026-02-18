@@ -42,9 +42,13 @@ const DialogBottomPopup = ({ layerIndex, callbackFunc, data, children }) => {
             : "pointer-events-none"
         }`}
       aria-hidden={layerIndex === lastIndex ? "false" : "true"}
+      onClick={dialogClose}
     >
       {/* 슬라이드 업 애니메이션 */}
-      <div className="bg-white w-full rounded-t-[20px] box-border animate-slide-up">
+      <div
+        className="bg-white w-full rounded-t-[20px] overflow-hidden box-border animate-slide-up"
+        onClick={(e) => e.stopPropagation()}
+      >
         {React.isValidElement(children) &&
           React.cloneElement(children, { dialogClose, data })}
       </div>

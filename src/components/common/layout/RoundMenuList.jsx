@@ -1,6 +1,5 @@
 import MenuCard from "@/components/common/button/MenuCard";
 import { ROUND_MENU_IMAGE_MAP } from "@/constants/roundMenuMap";
-import { useState } from "react";
 /**
  * 둥근 메뉴 리스트 컴포넌트 (가로 스크롤)
  *
@@ -20,13 +19,13 @@ const RoundMenuList = ({
     "직원추천상품",
   ],
   selectedSubMenu,
+  onChange,
 }) => {
-  const [selectmenu, setSelectMenu] = useState(selectedSubMenu || menulist[0]);
   const selectmenus = Object.entries(ROUND_MENU_IMAGE_MAP).filter(([label]) =>
     menulist.includes(label),
   );
   return (
-    <div className="border-b border-gray-200 bg-white">
+    <div className=" bg-white">
       <div className="flex px-4 py-4 gap-5 whitespace-nowrap auto-cols-[64px] overflow-x-auto scroll-snap-x-mandatory no-scrollbar">
         {selectmenus.map(([label, image]) => (
           <MenuCard
@@ -34,8 +33,8 @@ const RoundMenuList = ({
             key={label}
             label={label}
             isRounded={true}
-            isSelected={selectmenu === label}
-            onClick={() => setSelectMenu(label)}
+            isSelected={selectedSubMenu === label}
+            onClick={() => onChange?.(label)}
           />
         ))}
       </div>

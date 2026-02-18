@@ -8,10 +8,17 @@
     "originalPrice": 15900,
     "discountRate": 30,
     "isKurlyOnly": true,
-    "category": ["과일", "신선코너"],
+    "brandName": "컬리",
+    "isDawnDelivery": true,
+    "packagingType": "냉동",
+    "category": ["과일"],
+    "best": ["베스트", "신선코너", "컬리에만있는"],
+    "sale": ["알뜰쇼핑", "반값세일"],
     "shortDescription": "아삭한 식감과 달콤함이 일품인 사과",
     "reviewCount": 4,
-    "eventBadge": true
+    "eventBadge": true,
+    "createdAt": "2026-01-05",
+    "salesCount": 120
   },
   {
     "productId": "PM0002",
@@ -22,10 +29,17 @@
     "originalPrice": 35000,
     "discountRate": 20,
     "isKurlyOnly": false,
-    "category": ["차", "최저가도전"],
+    "brandName": "오설록",
+    "isDawnDelivery": true,
+    "packagingType": "상온",
+    "category": ["차"],
+    "best": ["베스트", "최저가도전"],
+    "sale": ["알뜰쇼핑"],
     "shortDescription": "깊고 진한 풍미의 오설록 티 10종",
     "reviewCount": 3,
-    "eventBadge": false
+    "eventBadge": false,
+    "createdAt": "2025-12-20",
+    "salesCount": 85
   },
   {
     "productId": "PM0003",
@@ -36,10 +50,17 @@
     "originalPrice": 1990,
     "discountRate": 0,
     "isKurlyOnly": false,
-    "category": ["채소", "신선코너"],
+    "brandName": "컬리",
+    "isDawnDelivery": true,
+    "packagingType": "냉장",
+    "category": ["채소"],
+    "best": ["베스트", "신선코너"],
+    "sale": ["신선&정육", "만원의행복"],
     "shortDescription": "매콤하고 알싸한 맛이 일품인 청양고추",
     "reviewCount": 4,
-    "eventBadge": false
+    "eventBadge": false,
+    "createdAt": "2026-01-10",
+    "salesCount": 210
   },
   {
     "productId": "PM0004",
@@ -50,10 +71,17 @@
     "originalPrice": 3990,
     "discountRate": 10,
     "isKurlyOnly": true,
-    "category": ["채소", "신선코너"],
+    "brandName": "팜송",
+    "isDawnDelivery": true,
+    "packagingType": "냉장",
+    "category": ["채소"],
+    "best": ["베스트", "신선코너", "컬리에만있는"],
+    "sale": ["신선&정육", "만원의행복"],
     "shortDescription": "달큰한 맛이 좋은 겨울 시금치",
     "reviewCount": 3,
-    "eventBadge": true
+    "eventBadge": true,
+    "createdAt": "2025-12-15",
+    "salesCount": 175
   },
   {
     "productId": "PM0005",
@@ -64,10 +92,17 @@
     "originalPrice": 6900,
     "discountRate": 5,
     "isKurlyOnly": true,
-    "category": ["과일", "신선코너"],
+    "brandName": "컬리",
+    "isDawnDelivery": true,
+    "packagingType": "냉장",
+    "category": ["과일"],
+    "best": ["베스트", "신선코너", "컬리에만있는"],
+    "sale": ["신선&정육"],
     "shortDescription": "껍질째 먹는 달콤한 씨없는 포도",
     "reviewCount": 5,
-    "eventBadge": false
+    "eventBadge": false,
+    "createdAt": "2026-02-01",
+    "salesCount": 60
   },
   {
     "productId": "PM0006",
@@ -78,10 +113,17 @@
     "originalPrice": 12900,
     "discountRate": 15,
     "isKurlyOnly": false,
-    "category": ["밀키트", "간편식사"],
+    "brandName": "사리원",
+    "isDawnDelivery": true,
+    "packagingType": "냉동",
+    "category": ["밀키트"],
+    "best": ["베스트", "간편식사"],
+    "sale": ["알뜰쇼핑"],
     "shortDescription": "유명 맛집 사리원의 맛 그대로",
     "reviewCount": 4,
-    "eventBadge": true
+    "eventBadge": true,
+    "createdAt": "2025-11-25",
+    "salesCount": 320
   },
   {
     "productId": "PM0007",
@@ -92,24 +134,38 @@
     "originalPrice": 3200,
     "discountRate": 0,
     "isKurlyOnly": false,
-    "category": ["음료", "최저가도전"],
+    "brandName": "오랑지나",
+    "isDawnDelivery": true,
+    "packagingType": "상온",
+    "category": ["음료"],
+    "best": ["베스트", "최저가도전"],
+    "sale": ["만원의행복", "장보기초특가"],
     "shortDescription": "상큼한 오렌지 과즙이 톡톡",
     "reviewCount": 3,
-    "eventBadge": false
+    "eventBadge": false,
+    "createdAt": "2026-01-15",
+    "salesCount": 95
   },
   {
     "productId": "PM0008",
     "productName": "양배추 1통",
     "productImage": "PM0008-Thumb",
     "topBadgeText": "",
-    "bottomBannerText": "알뜰쇼핑",
+    "bottomBannerText": "",
     "originalPrice": 3500,
     "discountRate": 20,
     "isKurlyOnly": true,
-    "category": ["채소", "신선코너"],
+    "brandName": "컬리",
+    "isDawnDelivery": true,
+    "packagingType": "냉장",
+    "category": ["채소"],
+    "best": ["베스트", "신선코너", "컬리에만있는", "인기급상승"],
+    "sale": ["알뜰쇼핑", "신선&정육"],
     "shortDescription": "속이 꽉 찬 국내산 양배추",
     "reviewCount": 4,
-    "eventBadge": false
+    "eventBadge": false,
+    "createdAt": "2025-12-28",
+    "salesCount": 250
   },
   {
     "productId": "PM0009",
@@ -120,10 +176,17 @@
     "originalPrice": 18900,
     "discountRate": 0,
     "isKurlyOnly": false,
-    "category": ["간식", "최저가도전"],
+    "brandName": "마즈",
+    "isDawnDelivery": true,
+    "packagingType": "상온",
+    "category": ["간식"],
+    "best": ["베스트", "최저가도전"],
+    "sale": [],
     "shortDescription": "귀여운 유리컵과 달콤한 초콜릿의 만남",
     "reviewCount": 3,
-    "eventBadge": true
+    "eventBadge": true,
+    "createdAt": "2026-02-05",
+    "salesCount": 45
   },
   {
     "productId": "PM0010",
@@ -134,10 +197,17 @@
     "originalPrice": 9900,
     "discountRate": 10,
     "isKurlyOnly": true,
-    "category": ["밀키트", "간편식사"],
+    "brandName": "압구정오징어",
+    "isDawnDelivery": true,
+    "packagingType": "냉동",
+    "category": ["밀키트"],
+    "best": ["베스트", "간편식사", "컬리에만있는"],
+    "sale": ["알뜰쇼핑"],
     "shortDescription": "쫄깃한 갑오징어와 매콤한 양념",
     "reviewCount": 3,
-    "eventBadge": true
+    "eventBadge": true,
+    "createdAt": "2025-12-10",
+    "salesCount": 150
   },
   {
     "productId": "PM0011",
@@ -148,10 +218,17 @@
     "originalPrice": 7900,
     "discountRate": 5,
     "isKurlyOnly": false,
-    "category": ["간식", "최저가도전"],
+    "brandName": "아우름",
+    "isDawnDelivery": false,
+    "packagingType": "냉동",
+    "category": ["간식"],
+    "best": ["베스트", "최저가도전", "인기급상승"],
+    "sale": ["만원의행복"],
     "shortDescription": "에어프라이어로 즐기는 바삭한 잉어빵",
     "reviewCount": 4,
-    "eventBadge": false
+    "eventBadge": false,
+    "createdAt": "2025-12-01",
+    "salesCount": 280
   },
   {
     "productId": "PM0012",
@@ -162,10 +239,17 @@
     "originalPrice": 24900,
     "discountRate": 25,
     "isKurlyOnly": true,
-    "category": ["정육", "컬리정육점"],
+    "brandName": "델리치오",
+    "isDawnDelivery": false,
+    "packagingType": "냉동",
+    "category": ["정육"],
+    "best": ["베스트", "컬리정육점", "컬리에만있는"],
+    "sale": ["알뜰쇼핑", "마감세일", "신선&정육"],
     "shortDescription": "부드럽고 고소한 호주산 LA갈비",
     "reviewCount": 4,
-    "eventBadge": true
+    "eventBadge": true,
+    "createdAt": "2025-11-20",
+    "salesCount": 190
   },
   {
     "productId": "PM0013",
@@ -176,10 +260,17 @@
     "originalPrice": 29900,
     "discountRate": 10,
     "isKurlyOnly": false,
-    "category": ["밀키트", "간편식사"],
+    "brandName": "사미헌",
+    "isDawnDelivery": false,
+    "packagingType": "냉동",
+    "category": ["밀키트"],
+    "best": ["베스트", "간편식사"],
+    "sale": ["알뜰쇼핑"],
     "shortDescription": "오랜 전통의 손맛이 담긴 갈비찜",
     "reviewCount": 3,
-    "eventBadge": true
+    "eventBadge": true,
+    "createdAt": "2025-12-25",
+    "salesCount": 110
   },
   {
     "productId": "PM0014",
@@ -190,10 +281,17 @@
     "originalPrice": 26900,
     "discountRate": 15,
     "isKurlyOnly": false,
-    "category": ["과일", "신선코너"],
+    "brandName": "담아본",
+    "isDawnDelivery": false,
+    "packagingType": "상온",
+    "category": ["과일"],
+    "best": ["베스트", "신선코너"],
+    "sale": ["알뜰쇼핑", "신선&정육"],
     "shortDescription": "제주에서 온 상큼달콤 한라봉",
     "reviewCount": 4,
-    "eventBadge": false
+    "eventBadge": false,
+    "createdAt": "2026-01-20",
+    "salesCount": 200
   },
   {
     "productId": "PM0015",
@@ -204,10 +302,17 @@
     "originalPrice": 8900,
     "discountRate": 20,
     "isKurlyOnly": false,
-    "category": ["음료", "최저가도전"],
+    "brandName": "테일러",
+    "isDawnDelivery": false,
+    "packagingType": "상온",
+    "category": ["음료"],
+    "best": ["베스트", "최저가도전"],
+    "sale": ["알뜰쇼핑", "마감세일"],
     "shortDescription": "진한 미국산 블루베리의 맛",
     "reviewCount": 3,
-    "eventBadge": false
+    "eventBadge": false,
+    "createdAt": "2025-11-30",
+    "salesCount": 130
   },
   {
     "productId": "PM0016",
@@ -218,10 +323,17 @@
     "originalPrice": 15900,
     "discountRate": 10,
     "isKurlyOnly": false,
-    "category": ["오일", "최저가도전"],
+    "brandName": "파미고",
+    "isDawnDelivery": false,
+    "packagingType": "상온",
+    "category": ["오일"],
+    "best": ["베스트", "최저가도전", "직원추천상품"],
+    "sale": ["장보기초특가"],
     "shortDescription": "스페인산 유기농 올리브 오일",
     "reviewCount": 3,
-    "eventBadge": false
+    "eventBadge": false,
+    "createdAt": "2025-12-05",
+    "salesCount": 70
   },
   {
     "productId": "PM0017",
@@ -232,10 +344,17 @@
     "originalPrice": 1500,
     "discountRate": 0,
     "isKurlyOnly": true,
-    "category": ["채소", "신선코너"],
+    "brandName": "컬리",
+    "isDawnDelivery": false,
+    "packagingType": "냉장",
+    "category": ["채소"],
+    "best": ["베스트", "신선코너", "컬리에만있는", "인기급상승"],
+    "sale": ["신선&정육", "만원의행복", "장보기초특가"],
     "shortDescription": "아삭하고 고소한 국산 콩나물",
     "reviewCount": 3,
-    "eventBadge": false
+    "eventBadge": false,
+    "createdAt": "2026-01-08",
+    "salesCount": 350
   },
   {
     "productId": "PM0018",
@@ -246,10 +365,17 @@
     "originalPrice": 5900,
     "discountRate": 20,
     "isKurlyOnly": false,
-    "category": ["밀키트", "간편식사"],
+    "brandName": "미미네",
+    "isDawnDelivery": false,
+    "packagingType": "냉동",
+    "category": ["밀키트"],
+    "best": ["베스트", "간편식사", "인기급상승"],
+    "sale": ["알뜰쇼핑", "마감세일", "만원의행복"],
     "shortDescription": "홍대 미미네 국물 떡볶이",
     "reviewCount": 4,
-    "eventBadge": true
+    "eventBadge": true,
+    "createdAt": "2025-11-15",
+    "salesCount": 420
   },
   {
     "productId": "PM0019",
@@ -260,10 +386,17 @@
     "originalPrice": 4900,
     "discountRate": 10,
     "isKurlyOnly": false,
-    "category": ["베이커리", "간편식사"],
+    "brandName": "더벨로",
+    "isDawnDelivery": false,
+    "packagingType": "냉동",
+    "category": ["베이커리"],
+    "best": ["베스트", "간편식사", "직원추천상품"],
+    "sale": ["만원의행복"],
     "shortDescription": "톡톡 씹히는 무화과와 고소한 통밀빵",
     "reviewCount": 3,
-    "eventBadge": false
+    "eventBadge": false,
+    "createdAt": "2026-01-25",
+    "salesCount": 80
   },
   {
     "productId": "PM0020",
@@ -274,9 +407,16 @@
     "originalPrice": 3200,
     "discountRate": 10,
     "isKurlyOnly": true,
-    "category": ["유제품", "최저가도전"],
+    "brandName": "제주우유",
+    "isDawnDelivery": false,
+    "packagingType": "냉장",
+    "category": ["유제품"],
+    "best": ["베스트", "최저가도전", "컬리에만있는"],
+    "sale": ["장보기초특가", "만원의행복"],
     "shortDescription": "제주 푸른 초원에서 자란 젖소의 우유",
     "reviewCount": 4,
-    "eventBadge": true
+    "eventBadge": true,
+    "createdAt": "2025-12-18",
+    "salesCount": 300
   }
 ]

@@ -1,0 +1,735 @@
+[
+  {
+    "productId": "PF0001",
+    "productName": "[엘렌쥬얼리]14K 물방울 원터치 귀걸이",
+    "productImage": "PF0001-Thumb",
+    "reviews": [
+      {
+        "reviewId": "PF0001-R01",
+        "isMembers": true,
+        "isBest": true,
+        "userName": "김남길",
+        "date": "2026-02-13",
+        "content": "맛이 좋아요 즐겁게 먹었습니다.",
+        "reviewImages": ["ReviewImage06-01", "ReviewImage06-02"]
+      }
+    ]
+  },
+  {
+    "productId": "PF0002",
+    "productName": "[베흐트] 14K 하우트 스와로브스키 진주 귀걸이",
+    "productImage": "PF0002-Thumb",
+    "reviews": [
+      {
+        "reviewId": "PF0002-R01",
+        "isMembers": true,
+        "isBest": true,
+        "userName": "이수진",
+        "date": "2026-01-28",
+        "content": "14K라 피부에 닿아도 알레르기 없이 착용이 편하고, 진주 빛이 은은하게 예뻐요. 스와로브스키 크리스탈과 조합이 너무 고급스러워서 생일 선물로 드렸더니 정말 좋아하셨어요!",
+        "reviewImages": ["ReviewImage02-01", "ReviewImage02-02"]
+      },
+      {
+        "reviewId": "PF0002-R02",
+        "isMembers": false,
+        "isBest": false,
+        "userName": "박채원",
+        "date": "2026-01-15",
+        "content": "빛을 받으면 크리스탈이 정말 예쁘게 반짝여요. 데일리로 끼고 다니기에 딱 좋은 사이즈고 원터치 잠금도 편리합니다.",
+        "reviewImages": []
+      },
+      {
+        "reviewId": "PF0002-R03",
+        "isMembers": true,
+        "isBest": false,
+        "userName": "최서윤",
+        "date": "2025-12-22",
+        "content": "엄마 생신 선물로 구매했어요. 포장도 예쁘게 해주시고 진주가 고급스러워서 연세 있으신 분도 부담 없이 착용하시기 좋아요. 너무 만족합니다.",
+        "reviewImages": ["ReviewImage02-03"]
+      },
+      {
+        "reviewId": "PF0002-R04",
+        "isMembers": true,
+        "isBest": false,
+        "userName": "김하연",
+        "date": "2025-12-10",
+        "content": "로즈골드로 주문했는데 색감이 너무 예뻐요. 귀걸이가 가벼워서 하루 종일 착용해도 귀가 안 아프고, 14K 각인도 꼼꼼하게 되어 있어서 신뢰가 갑니다.",
+        "reviewImages": []
+      }
+    ]
+  },
+  {
+    "productId": "PF0003",
+    "productName": "[바이이이에르] 루나 페블 원터치 귀걸이 4종",
+    "productImage": "PF0003-Thumb",
+    "reviews": [
+      {
+        "reviewId": "PF0003-R01",
+        "isMembers": true,
+        "isBest": true,
+        "userName": "정유진",
+        "date": "2026-02-05",
+        "content": "4종 세트라 선물하기 딱 좋아요. 매일 분위기 바꿔가며 낄 수 있고 변색도 없어서 너무 만족스럽습니다. 가성비 최고예요!",
+        "reviewImages": ["ReviewImage03-01", "ReviewImage03-02"]
+      },
+      {
+        "reviewId": "PF0003-R02",
+        "isMembers": true,
+        "isBest": false,
+        "userName": "한소희",
+        "date": "2026-01-20",
+        "content": "원터치 잠금이라 혼자서도 착용하기 너무 편해요. 오래 끼고 있어도 귀가 아프지 않고 디자인도 심플해서 어떤 옷에도 잘 어울려요.",
+        "reviewImages": []
+      },
+      {
+        "reviewId": "PF0003-R03",
+        "isMembers": false,
+        "isBest": false,
+        "userName": "오세훈",
+        "date": "2026-01-08",
+        "content": "여자친구 생일 선물로 샀는데 엄청 좋아했어요. 포장도 예쁘게 해주셔서 선물용으로 강력 추천합니다.",
+        "reviewImages": []
+      },
+      {
+        "reviewId": "PF0003-R04",
+        "isMembers": true,
+        "isBest": true,
+        "userName": "윤지아",
+        "date": "2025-12-28",
+        "content": "페블 디자인이 자연스러운 느낌이라 캐주얼룩에도 오피스룩에도 잘 어울려요. 316L 스테인리스라 알레르기 걱정 없이 매일 끼고 다닙니다. 4종 중 골드가 제일 예뻐요.",
+        "reviewImages": ["ReviewImage03-03", "ReviewImage03-04"]
+      },
+      {
+        "reviewId": "PF0003-R05",
+        "isMembers": false,
+        "isBest": false,
+        "userName": "이동건",
+        "date": "2025-11-30",
+        "content": "크리스마스 선물로 샀습니다. 가격 대비 퀄리티가 정말 좋고 케이스도 고급스러워서 따로 포장 안 해도 될 정도예요.",
+        "reviewImages": []
+      }
+    ]
+  },
+  {
+    "productId": "PF0004",
+    "productName": "[베흐트] 템포 프레임 손목시계 4종",
+    "productImage": "PF0004-Thumb",
+    "reviews": [
+      {
+        "reviewId": "PF0004-R01",
+        "isMembers": true,
+        "isBest": true,
+        "userName": "임채원",
+        "date": "2026-02-10",
+        "content": "시계가 묵직하면서도 세련됐어요. 사무실에서 차고 다니는데 주변 반응이 정말 좋습니다. 정장에도 캐주얼에도 다 잘 어울리고 방수도 돼서 일상생활에 불편함이 전혀 없어요.",
+        "reviewImages": ["ReviewImage04-01", "ReviewImage04-02"]
+      },
+      {
+        "reviewId": "PF0004-R02",
+        "isMembers": true,
+        "isBest": false,
+        "userName": "나윤서",
+        "date": "2026-01-25",
+        "content": "블랙 컬러로 샀는데 유리에 흠집도 잘 안 나고 견고해 보여서 마음에 들어요. 시간도 잘 맞고 배터리도 오래 가서 만족합니다.",
+        "reviewImages": []
+      },
+      {
+        "reviewId": "PF0004-R03",
+        "isMembers": false,
+        "isBest": false,
+        "userName": "장민호",
+        "date": "2026-01-12",
+        "content": "남편 결혼기념일 선물로 구매했어요. 가죽 밴드가 부드럽고 손목에 딱 맞게 조절이 가능해서 좋아하더라고요. 화이트 다이얼이 깔끔하고 세련된 느낌입니다.",
+        "reviewImages": ["ReviewImage04-03"]
+      },
+      {
+        "reviewId": "PF0004-R04",
+        "isMembers": true,
+        "isBest": false,
+        "userName": "송예은",
+        "date": "2025-12-20",
+        "content": "실버 컬러로 구매했는데 메탈릭한 광택이 고급스러워요. 시계 박스도 예쁘게 와서 선물하기 딱 좋습니다.",
+        "reviewImages": []
+      }
+    ]
+  },
+  {
+    "productId": "PF0005",
+    "productName": "[바이듀] 벨로아 셋업(그레이)",
+    "productImage": "PF0005-Thumb",
+    "reviews": [
+      {
+        "reviewId": "PF0005-R01",
+        "isMembers": true,
+        "isBest": true,
+        "userName": "윤석현",
+        "date": "2026-02-08",
+        "content": "벨로아 소재가 너무 부드럽고 따뜻해요. 상하의 세트라 코디 고민이 없고 그레이 컬러가 어떤 신발과도 잘 어울립니다. 집에서도 카페에서도 어색하지 않아서 자주 입게 돼요.",
+        "reviewImages": ["ReviewImage05-01", "ReviewImage05-02"]
+      },
+      {
+        "reviewId": "PF0005-R02",
+        "isMembers": false,
+        "isBest": false,
+        "userName": "강예린",
+        "date": "2026-01-22",
+        "content": "M 사이즈 구매했는데 사이즈 딱 맞아요. 바지 밴딩이 편하고 허리가 조이지 않아서 하루 종일 편안하게 입을 수 있어요.",
+        "reviewImages": []
+      },
+      {
+        "reviewId": "PF0005-R03",
+        "isMembers": true,
+        "isBest": false,
+        "userName": "조은빈",
+        "date": "2026-01-05",
+        "content": "재택근무할 때 입기 딱 좋아요. 편안한데 배달 올 때 나가도 부끄럽지 않은 정도로 깔끔합니다. 세탁 후에도 보풀이 안 생기고 형태 유지가 잘 돼요.",
+        "reviewImages": ["ReviewImage05-03"]
+      },
+      {
+        "reviewId": "PF0005-R04",
+        "isMembers": true,
+        "isBest": true,
+        "userName": "문태현",
+        "date": "2025-12-18",
+        "content": "벨로아 특유의 광택이 있어서 캐주얼하면서도 고급스러워 보여요. 상의만 따로 니트 안에 레이어드해서 입기도 좋고 활용도가 높은 셋업입니다.",
+        "reviewImages": []
+      }
+    ]
+  },
+  {
+    "productId": "PF0006",
+    "productName": "[고드나트](셋업) 모노 커브 카라 블라우스 & 모노 플리츠 밴딩 스커트",
+    "productImage": "PF0006-Thumb",
+    "reviews": [
+      {
+        "reviewId": "PF0006-R01",
+        "isMembers": true,
+        "isBest": true,
+        "userName": "문지혜",
+        "date": "2026-02-12",
+        "content": "오피스룩으로 입기에 너무 딱이에요. 블라우스 카라 디테일이 우아하고 스커트 플리츠가 적당히 잡혀 있어 슬림해 보이는 효과가 있어요. 소재도 고급스럽고 구겨짐도 적어서 아주 만족합니다.",
+        "reviewImages": ["ReviewImage06-01", "ReviewImage06-02"]
+      },
+      {
+        "reviewId": "PF0006-R02",
+        "isMembers": true,
+        "isBest": false,
+        "userName": "배서현",
+        "date": "2026-01-30",
+        "content": "셋업이라 세트로 입기도 좋고 분리해서 입어도 예뻐요. 블라우스는 청바지에도 잘 어울려서 데일리로 활용하기 좋습니다.",
+        "reviewImages": []
+      },
+      {
+        "reviewId": "PF0006-R03",
+        "isMembers": false,
+        "isBest": false,
+        "userName": "권유나",
+        "date": "2026-01-18",
+        "content": "면접용으로 구매했는데 아이보리 컬러가 깔끔하고 단정해 보여요. 스커트 밴딩이라 앉아있어도 편하고 플리츠가 움직일 때마다 자연스럽게 흔들려서 예쁩니다.",
+        "reviewImages": ["ReviewImage06-03"]
+      },
+      {
+        "reviewId": "PF0006-R04",
+        "isMembers": true,
+        "isBest": false,
+        "userName": "홍승아",
+        "date": "2025-12-28",
+        "content": "블랙 셋업 샀는데 격식 있는 자리에도 무난하게 입기 좋아요. 소재가 구김이 잘 안 가서 출장 때도 유용했습니다. 다른 컬러도 사고 싶어요.",
+        "reviewImages": []
+      },
+      {
+        "reviewId": "PF0006-R05",
+        "isMembers": true,
+        "isBest": true,
+        "userName": "양지원",
+        "date": "2025-12-15",
+        "content": "고드나트 브랜드 팬이라 기대하고 샀는데 역시 실망 없어요. 카라 라인이 얼굴형을 예쁘게 잡아주고 스커트 기장도 딱 적당해요. 컬리 단독이라 가격도 합리적이에요.",
+        "reviewImages": ["ReviewImage06-04", "ReviewImage06-05"]
+      }
+    ]
+  },
+  {
+    "productId": "PF0007",
+    "productName": "[듀이듀이] 울 피케 니트 드레스 (2컬러)",
+    "productImage": "PF0007-Thumb",
+    "reviews": [
+      {
+        "reviewId": "PF0007-R01",
+        "isMembers": true,
+        "isBest": true,
+        "userName": "황민재",
+        "date": "2026-02-06",
+        "content": "울 소재라 따뜻하고 피케 텍스처가 고급스러워요. 원피스 하나로 전체 코디가 완성되는 느낌이라 너무 좋아요. 부츠랑 코디하면 너무 예쁩니다!",
+        "reviewImages": ["ReviewImage07-01"]
+      },
+      {
+        "reviewId": "PF0007-R02",
+        "isMembers": false,
+        "isBest": false,
+        "userName": "류지현",
+        "date": "2026-01-20",
+        "content": "아이보리 컬러 샀는데 사진이랑 색상이 거의 똑같아요. 니트 소재인데 생각보다 얇지 않아서 겨울에도 충분히 따뜻하게 입을 수 있어요.",
+        "reviewImages": []
+      },
+      {
+        "reviewId": "PF0007-R03",
+        "isMembers": true,
+        "isBest": false,
+        "userName": "서다인",
+        "date": "2026-01-05",
+        "content": "Free 사이즈인데 66 체형까지는 무난하게 입을 수 있을 것 같아요. 피케 조직이라 일반 니트보다 늘어남이 적고 핏이 예쁘게 유지됩니다.",
+        "reviewImages": ["ReviewImage07-02", "ReviewImage07-03"]
+      },
+      {
+        "reviewId": "PF0007-R04",
+        "isMembers": true,
+        "isBest": false,
+        "userName": "한세연",
+        "date": "2025-12-12",
+        "content": "차콜 컬러 구매했는데 무난하면서도 세련돼 보여요. 기장이 무릎 아래까지 와서 안정감 있고 두꺼운 타이츠랑 같이 입으면 겨울에도 따뜻합니다.",
+        "reviewImages": []
+      }
+    ]
+  },
+  {
+    "productId": "PF0008",
+    "productName": "[루시다] 멜란 트렌치 원피스 2 colors (택 1)",
+    "productImage": "PF0008-Thumb",
+    "reviews": [
+      {
+        "reviewId": "PF0008-R01",
+        "isMembers": true,
+        "isBest": true,
+        "userName": "이현우",
+        "date": "2026-02-01",
+        "content": "멜란 소재가 주는 고급스러운 느낌이 너무 좋아요. 트렌치 디테일이 적당히 있어서 캐주얼하게도 포멀하게도 연출할 수 있어요. 봄가을 가장 자주 입을 것 같은 아이템이에요.",
+        "reviewImages": ["ReviewImage08-01", "ReviewImage08-02"]
+      },
+      {
+        "reviewId": "PF0008-R02",
+        "isMembers": true,
+        "isBest": false,
+        "userName": "김태양",
+        "date": "2026-01-18",
+        "content": "베이지 컬러로 주문했는데 정말 예뻐요. 허리 벨트로 체형 커버가 되고 기장이 적당해서 다리도 길어 보여요.",
+        "reviewImages": []
+      },
+      {
+        "reviewId": "PF0008-R03",
+        "isMembers": false,
+        "isBest": false,
+        "userName": "전소미",
+        "date": "2025-12-30",
+        "content": "네이비 컬러로 구매했어요. 어두운 색이지만 멜란 소재라 밋밋하지 않고 깊이감이 있어요. 실내에서는 살짝 따뜻하고 봄에 가디건 하나 걸치면 딱 좋을 것 같아요.",
+        "reviewImages": ["ReviewImage08-03"]
+      },
+      {
+        "reviewId": "PF0008-R04",
+        "isMembers": true,
+        "isBest": true,
+        "userName": "안혜진",
+        "date": "2025-12-15",
+        "content": "25% 할인이라 바로 질렀는데 역시 잘 산 것 같아요. 허리 벨트를 앞에서 묶으면 캐주얼하고 뒤에서 묶으면 깔끔해져서 분위기 전환이 가능합니다. S 사이즈 구매했고 155cm 기준 종아리 중간 기장이에요.",
+        "reviewImages": []
+      },
+      {
+        "reviewId": "PF0008-R05",
+        "isMembers": true,
+        "isBest": false,
+        "userName": "노은채",
+        "date": "2025-11-28",
+        "content": "결혼식 하객룩으로 입었는데 반응이 너무 좋았어요. 단정하면서도 트렌디하고 어디서 샀냐고 물어보시는 분이 많았어요.",
+        "reviewImages": []
+      }
+    ]
+  },
+  {
+    "productId": "PF0009",
+    "productName": "[R2W] 캐시미어 100 리나 터틀 니트 7color (택 1)",
+    "productImage": "PF0009-Thumb",
+    "reviews": [
+      {
+        "reviewId": "PF0009-R01",
+        "isMembers": true,
+        "isBest": true,
+        "userName": "박소연",
+        "date": "2026-02-14",
+        "content": "캐시미어 100%라 감촉이 말도 못하게 부드러워요. 한 번 입어보면 다른 니트는 못 입게 됩니다. 터틀넥이 적당히 높아서 목을 따뜻하게 감싸줘서 겨울 내내 이것만 입고 싶어요. 다른 컬러도 추가 구매 예정입니다!",
+        "reviewImages": ["ReviewImage09-01", "ReviewImage09-02"]
+      },
+      {
+        "reviewId": "PF0009-R02",
+        "isMembers": true,
+        "isBest": true,
+        "userName": "최준혁",
+        "date": "2026-01-30",
+        "content": "베이지로 샀는데 어떤 하의에도 다 잘 어울려요. 소재가 정말 고급스럽고 보풀도 잘 안 생겨서 오래 입어도 처음 같은 상태예요.",
+        "reviewImages": ["ReviewImage09-03"]
+      },
+      {
+        "reviewId": "PF0009-R03",
+        "isMembers": false,
+        "isBest": false,
+        "userName": "정유리",
+        "date": "2026-01-15",
+        "content": "7가지 컬러 중에 카멜 컬러 선택했는데 색이 너무 예뻐요. 선물 받은 것처럼 포장도 정성스럽게 해주셔서 감동이었어요.",
+        "reviewImages": []
+      },
+      {
+        "reviewId": "PF0009-R04",
+        "isMembers": true,
+        "isBest": false,
+        "userName": "김도영",
+        "date": "2025-12-28",
+        "content": "더스티 핑크 컬러로 샀는데 톤다운된 핑크라 부담 없이 입기 좋아요. 얇은데 보온력이 좋아서 코트 안에 입기 딱 좋습니다. 목 부분 접어서 입어도 예뻐요.",
+        "reviewImages": ["ReviewImage09-04"]
+      },
+      {
+        "reviewId": "PF0009-R05",
+        "isMembers": true,
+        "isBest": false,
+        "userName": "하민서",
+        "date": "2025-12-10",
+        "content": "아이보리, 차콜, 블랙 3개 색상 다 샀어요. 캐시미어 100%에 이 가격이면 정말 합리적이라고 생각합니다. 손세탁만 잘 해주면 오래 입을 수 있어요.",
+        "reviewImages": []
+      }
+    ]
+  },
+  {
+    "productId": "PF0010",
+    "productName": "[R2W] 캐시미어 100 디에고 오픈 카라 니트 4color (택 1)",
+    "productImage": "PF0010-Thumb",
+    "reviews": [
+      {
+        "reviewId": "PF0010-R01",
+        "isMembers": true,
+        "isBest": true,
+        "userName": "손지민",
+        "date": "2026-02-11",
+        "content": "오픈 카라 디자인이 라운드넥보다 훨씬 세련돼 보여요. 캐시미어 100%라 보들보들하고 가벼운데 따뜻해서 겨울 내내 입기 좋아요. 리나 터틀도 이미 가지고 있는데 둘 다 너무 마음에 들어요.",
+        "reviewImages": ["ReviewImage10-01", "ReviewImage10-02"]
+      },
+      {
+        "reviewId": "PF0010-R02",
+        "isMembers": true,
+        "isBest": false,
+        "userName": "윤재성",
+        "date": "2026-01-28",
+        "content": "차콜 컬러로 샀는데 정장에도 자연스럽게 어울려서 출근룩으로 자주 입어요. 사이즈는 M 구매했고 적당히 여유있게 맞아요.",
+        "reviewImages": []
+      },
+      {
+        "reviewId": "PF0010-R03",
+        "isMembers": true,
+        "isBest": false,
+        "userName": "이다윤",
+        "date": "2026-01-10",
+        "content": "오픈 카라라 목이 답답하지 않아서 터틀넥보다 이 스타일이 더 좋아요. 아이보리 컬러가 얼굴을 환하게 밝혀줘서 화사해 보이는 효과가 있어요.",
+        "reviewImages": ["ReviewImage10-03"]
+      },
+      {
+        "reviewId": "PF0010-R04",
+        "isMembers": false,
+        "isBest": false,
+        "userName": "구본혁",
+        "date": "2025-12-22",
+        "content": "남자인데 베이지 L 사이즈 구매했습니다. 캐시미어 100%라 그런지 정말 부드럽고 유니섹스로 입기 좋아요. 여자친구랑 커플로 입고 있습니다.",
+        "reviewImages": []
+      }
+    ]
+  },
+  {
+    "productId": "PF0011",
+    "productName": "[슬로우롤리] (5차리오더)(누빔ver) 뉴트럴 무드 부클 코트",
+    "productImage": "PF0011-Thumb",
+    "reviews": [
+      {
+        "reviewId": "PF0011-R01",
+        "isMembers": true,
+        "isBest": true,
+        "userName": "임수빈",
+        "date": "2026-02-15",
+        "content": "5차 리오더 이유가 있어요. 부클 소재가 너무 고급스럽고 누빔 안감 덕분에 생각보다 훨씬 따뜻해요. 오버핏이라 안에 두꺼운 니트 입어도 너무 잘 어울리고, 뉴트럴 컬러라 어떤 코디와도 찰떡이에요. 올 시즌 최고의 구매입니다!",
+        "reviewImages": ["ReviewImage11-01", "ReviewImage11-02", "ReviewImage11-03"]
+      },
+      {
+        "reviewId": "PF0011-R02",
+        "isMembers": true,
+        "isBest": true,
+        "userName": "김현정",
+        "date": "2026-01-30",
+        "content": "코트 하나로 전체 코디가 완성되는 느낌이에요. 4년 전에 같은 브랜드 코트 샀는데 아직도 입고 있어서 믿고 구매했고 역시 실망 없이 너무 만족합니다.",
+        "reviewImages": ["ReviewImage11-04"]
+      },
+      {
+        "reviewId": "PF0011-R03",
+        "isMembers": false,
+        "isBest": false,
+        "userName": "박준혁",
+        "date": "2026-01-15",
+        "content": "여자친구 선물로 구매했는데 너무 좋아하네요. 포장도 깔끔하고 코트 퀄리티가 가격 이상이라 가성비 좋아요.",
+        "reviewImages": []
+      },
+      {
+        "reviewId": "PF0011-R04",
+        "isMembers": true,
+        "isBest": false,
+        "userName": "차은우",
+        "date": "2025-12-28",
+        "content": "카멜 컬러로 샀는데 오트밀보다 조금 더 따뜻한 톤이에요. 부클 소재 특유의 볼륨감이 있어서 마른 체형이 좀 더 풍성해 보이는 효과가 있어요. S 사이즈 구매했고 160cm 기준 무릎 아래 기장입니다.",
+        "reviewImages": ["ReviewImage11-05"]
+      },
+      {
+        "reviewId": "PF0011-R05",
+        "isMembers": true,
+        "isBest": false,
+        "userName": "백서진",
+        "date": "2025-12-10",
+        "content": "오트밀 컬러 구매했어요. 영하 10도에도 누빔 안감 덕분에 따뜻하게 출퇴근하고 있어요. 무게도 생각보다 무겁지 않아서 어깨가 안 아파요. 강력 추천합니다!",
+        "reviewImages": []
+      }
+    ]
+  },
+  {
+    "productId": "PF0012",
+    "productName": "[슬로우롤리] 로이 보트넥 니트 3 Colors (택 1)",
+    "productImage": "PF0012-Thumb",
+    "reviews": [
+      {
+        "reviewId": "PF0012-R01",
+        "isMembers": true,
+        "isBest": true,
+        "userName": "강다솔",
+        "date": "2026-02-09",
+        "content": "보트넥 라인이 쇄골을 예쁘게 드러내줘서 너무 예뻐요. 두툼하지 않고 가벼운 무게감이라 레이어드하기도 좋고, 소재가 부드러워서 종일 입어도 피부 자극이 없어요.",
+        "reviewImages": ["ReviewImage12-01", "ReviewImage12-02"]
+      },
+      {
+        "reviewId": "PF0012-R02",
+        "isMembers": true,
+        "isBest": false,
+        "userName": "오지환",
+        "date": "2026-01-25",
+        "content": "크림 화이트 컬러로 구매했는데 깔끔하고 청바지, 슬랙스 모두 다 잘 어울려요. 보풀도 안 생기고 세탁해도 형태 유지가 잘 됩니다.",
+        "reviewImages": []
+      },
+      {
+        "reviewId": "PF0012-R03",
+        "isMembers": false,
+        "isBest": false,
+        "userName": "정하린",
+        "date": "2026-01-08",
+        "content": "라이트 그레이 구매했어요. 보트넥이라 어깨가 좁은 분들한테 특히 잘 어울릴 것 같아요. 코트 안에 입기에 두께가 적당하고 어깨 라인이 넓어 보이는 효과도 있어요.",
+        "reviewImages": ["ReviewImage12-03"]
+      },
+      {
+        "reviewId": "PF0012-R04",
+        "isMembers": true,
+        "isBest": false,
+        "userName": "민수현",
+        "date": "2025-12-20",
+        "content": "블랙이랑 크림 화이트 두 개 샀는데 둘 다 너무 예뻐요. Free 사이즈라 약간 루즈하게 떨어지는데 그 핏이 오히려 더 예쁩니다. 슬로우롤리 브랜드 믿고 삽니다.",
+        "reviewImages": []
+      }
+    ]
+  },
+  {
+    "productId": "PF0013",
+    "productName": "[R2W] 캐시미어 100 디에고 포켓 조거 팬츠 3color (택1)",
+    "productImage": "PF0013-Thumb",
+    "reviews": [
+      {
+        "reviewId": "PF0013-R01",
+        "isMembers": true,
+        "isBest": true,
+        "userName": "서예린",
+        "date": "2026-02-10",
+        "content": "캐시미어 100% 팬츠라는 게 믿기지 않을 만큼 실용적이에요. 조거 스타일이라 활동성도 좋고 캐시미어 특유의 부드러운 감촉이 피부에 닿을 때마다 너무 좋아요. 니트 셋업으로 입으면 너무 고급스러워 보여요.",
+        "reviewImages": ["ReviewImage13-01", "ReviewImage13-02"]
+      },
+      {
+        "reviewId": "PF0013-R02",
+        "isMembers": false,
+        "isBest": false,
+        "userName": "김도현",
+        "date": "2026-01-28",
+        "content": "차콜 컬러 선택했는데 어디에나 잘 어울려요. 밴딩이라 사이즈 부담 없이 착용할 수 있고 포켓이 있어 실용적입니다.",
+        "reviewImages": []
+      },
+      {
+        "reviewId": "PF0013-R03",
+        "isMembers": true,
+        "isBest": false,
+        "userName": "유하경",
+        "date": "2026-01-12",
+        "content": "리나 터틀 니트랑 셋업으로 입으려고 베이지 구매했어요. 색상 톤이 딱 맞아서 마치 세트인 것처럼 코디됩니다. 조거 팬츠인데 캐시미어라 고급스러워서 외출할 때도 부끄럽지 않아요.",
+        "reviewImages": ["ReviewImage13-03"]
+      },
+      {
+        "reviewId": "PF0013-R04",
+        "isMembers": true,
+        "isBest": true,
+        "userName": "이승우",
+        "date": "2025-12-25",
+        "content": "그레이 컬러 M 사이즈 구매했습니다. 포켓 디테일이 스웨트 팬츠 같으면서도 소재가 캐시미어라 격이 다릅니다. 집에서도 입고 가까운 외출도 가능해서 활용도가 정말 높아요.",
+        "reviewImages": []
+      },
+      {
+        "reviewId": "PF0013-R05",
+        "isMembers": false,
+        "isBest": false,
+        "userName": "장윤주",
+        "date": "2025-12-08",
+        "content": "세탁이 좀 까다롭긴 하지만 그만큼 입었을 때 만족감이 커요. 밴딩이 타이트하지 않아서 배에 자국도 안 남고 편하게 입을 수 있습니다.",
+        "reviewImages": []
+      }
+    ]
+  },
+  {
+    "productId": "PF0014",
+    "productName": "[메르시마리에] 웜포켓 스냅 본딩기모 데님 진 710947",
+    "productImage": "PF0014-Thumb",
+    "reviews": [
+      {
+        "reviewId": "PF0014-R01",
+        "isMembers": true,
+        "isBest": true,
+        "userName": "최아름",
+        "date": "2026-02-12",
+        "content": "기모 안감이 있어서 청바지인데 엄청 따뜻해요! 스냅 포켓이 실용적이고 본딩 처리로 바람도 잘 막아줘서 한겨울에도 청바지 입고 다닐 수 있게 됐어요. 핏도 날씬하게 잘 나오고 정말 추천합니다.",
+        "reviewImages": ["ReviewImage14-01", "ReviewImage14-02"]
+      },
+      {
+        "reviewId": "PF0014-R02",
+        "isMembers": true,
+        "isBest": false,
+        "userName": "이민호",
+        "date": "2026-01-30",
+        "content": "겨울용 청바지 찾다가 구매했는데 기모 두께가 적당해서 입었을 때 너무 두꺼워 보이지 않아요. 27사이즈 구매했고 허리는 딱 맞고 힙은 약간 여유있어요.",
+        "reviewImages": []
+      },
+      {
+        "reviewId": "PF0014-R03",
+        "isMembers": false,
+        "isBest": false,
+        "userName": "박진희",
+        "date": "2026-01-15",
+        "content": "데님 색상이 워싱감이 있어서 빈티지스럽고 세련돼 보여요. 기모 특유의 뻣뻣함이 없고 신축성도 있어서 활동하기 편합니다.",
+        "reviewImages": []
+      },
+      {
+        "reviewId": "PF0014-R04",
+        "isMembers": true,
+        "isBest": false,
+        "userName": "조태민",
+        "date": "2025-12-28",
+        "content": "다크 블루로 구매했는데 색감이 깊고 예뻐요. 기모 때문에 세탁이 걱정됐는데 세탁망에 넣고 돌렸더니 아무 문제 없었어요. 지금까지 5번 정도 세탁했는데 기모 상태도 양호합니다.",
+        "reviewImages": ["ReviewImage14-03"]
+      },
+      {
+        "reviewId": "PF0014-R05",
+        "isMembers": true,
+        "isBest": true,
+        "userName": "신아영",
+        "date": "2025-12-10",
+        "content": "25사이즈 입는데 피팅감 너무 좋아요. 스냅 포켓이 디자인 포인트가 되면서 실용적이기도 해서 일석이조예요. 미드 블루랑 다크 블루 고민하다가 미드 블루 샀는데 봄까지 입기 좋은 컬러인 것 같아요.",
+        "reviewImages": []
+      }
+    ]
+  },
+  {
+    "productId": "PF0015",
+    "productName": "[앤클라인]와이드 핀턱 슬렉스 N5HW16",
+    "productImage": "PF0015-Thumb",
+    "reviews": [
+      {
+        "reviewId": "PF0015-R01",
+        "isMembers": true,
+        "isBest": true,
+        "userName": "황지수",
+        "date": "2026-02-08",
+        "content": "와이드 핏인데 핀턱 덕분에 다리 라인이 날씬하고 길어 보여요. 허리 밴딩이라 사이즈 걱정 없이 편하게 입을 수 있고, 소재가 좋아서 구겨짐이 적어요. 사무실에서도 데이트룩으로도 활용도 최고입니다.",
+        "reviewImages": ["ReviewImage15-01", "ReviewImage15-02"]
+      },
+      {
+        "reviewId": "PF0015-R02",
+        "isMembers": true,
+        "isBest": false,
+        "userName": "류민석",
+        "date": "2026-01-22",
+        "content": "블랙 컬러로 구매했는데 어떤 상의에도 다 잘 어울려요. 기장이 딱 발등까지 와서 키 작은 분들도 다리 길어 보이는 효과 있어요. 재구매 의사 100%입니다.",
+        "reviewImages": []
+      },
+      {
+        "reviewId": "PF0015-R03",
+        "isMembers": false,
+        "isBest": false,
+        "userName": "남지우",
+        "date": "2026-01-05",
+        "content": "카멜 컬러로 구매했어요. 봄에 블라우스랑 입으려고 샀는데 색이 화사하고 따뜻한 느낌이에요. 와이드 핏이라 걸을 때마다 자연스럽게 흔들려서 우아해 보입니다.",
+        "reviewImages": ["ReviewImage15-03"]
+      },
+      {
+        "reviewId": "PF0015-R04",
+        "isMembers": true,
+        "isBest": false,
+        "userName": "양재원",
+        "date": "2025-12-18",
+        "content": "그레이 M 사이즈 구매했는데 핏이 정말 예뻐요. 핀턱 디테일이 허벅지 라인을 잡아줘서 와이드인데도 단정해 보여요. 앤클라인 브랜드라 퀄리티도 믿을 수 있어서 좋습니다.",
+        "reviewImages": []
+      }
+    ]
+  },
+  {
+    "productId": "PF0016",
+    "productName": "[고드나트] 쿠로키 원워시드 인디고 데님 팬츠 (Japan fabric)",
+    "productImage": "PF0016-Thumb",
+    "reviews": [
+      {
+        "reviewId": "PF0016-R01",
+        "isMembers": true,
+        "isBest": true,
+        "userName": "백지훈",
+        "date": "2026-02-05",
+        "content": "일본 원단이라 그런지 데님 퀄리티가 확실히 달라요. 쿠로키 원단 특유의 인디고 색감이 너무 아름답고 원워시 처리로 빈티지한 느낌이 살아있어요. 색 빠짐도 적고 입을수록 자기 몸에 맞게 길들여지는 느낌이라 오래 입을수록 더 좋아지는 청바지입니다.",
+        "reviewImages": ["ReviewImage16-01", "ReviewImage16-02"]
+      },
+      {
+        "reviewId": "PF0016-R02",
+        "isMembers": true,
+        "isBest": false,
+        "userName": "안소영",
+        "date": "2026-01-20",
+        "content": "처음에 뻣뻣하지 않을까 걱정했는데 생각보다 부드럽고 신축성도 적당해서 활동하기 불편하지 않아요. 인디고 블루 색상이 정말 예쁘고 세탁해도 색이 잘 유지됩니다.",
+        "reviewImages": []
+      },
+      {
+        "reviewId": "PF0016-R03",
+        "isMembers": true,
+        "isBest": true,
+        "userName": "고민수",
+        "date": "2026-01-05",
+        "content": "데님 마니아인데 쿠로키 원단 청바지를 이 가격에 살 수 있다니 놀라웠어요. 일본 셀비지 데님 특유의 고밀도 직조가 느껴지고 경년변화가 기대되는 청바지입니다. 28 사이즈 구매했고 약간 타이트하지만 길들이면 딱 맞을 것 같아요.",
+        "reviewImages": ["ReviewImage16-03", "ReviewImage16-04"]
+      },
+      {
+        "reviewId": "PF0016-R04",
+        "isMembers": false,
+        "isBest": false,
+        "userName": "임채린",
+        "date": "2025-12-15",
+        "content": "컬리 단독이라 다른 데서 못 사는 게 아쉬울 정도로 좋아요. 인디고 색감이 깊고 고급스럽고 스판이 1% 들어가서 움직임도 편합니다.",
+        "reviewImages": []
+      },
+      {
+        "reviewId": "PF0016-R05",
+        "isMembers": true,
+        "isBest": false,
+        "userName": "홍서연",
+        "date": "2025-11-28",
+        "content": "첫 세탁 때 식초 넣고 단독 세탁했더니 색 빠짐 거의 없었어요. Japan fabric 태그가 붙어 있어서 더 특별한 느낌이에요. 고드나트 브랜드 신뢰가 갑니다.",
+        "reviewImages": []
+      }
+    ]
+  }
+]

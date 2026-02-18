@@ -15,7 +15,7 @@ import useHistoryController from "@/hooks/controllers/useHistoryController";
 const BackHeader = ({ isSearch = false, isHome = false, label = "" }) => {
   const { moveTo } = useHistoryController();
   return (
-    <div className="flex items-center px-4 pt-4 gap-2">
+    <div className="flex items-center px-4 p-4 gap-2">
       <button
         onClick={() => {
           moveTo({ direction: "BACK", num: 1 });

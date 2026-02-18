@@ -1,10 +1,6 @@
 import RoundMenuList from "@/components/common/layout/RoundMenuList";
-import SortSelectBtn from "@/components/common/button/SortSelectBtn";
-import FilterIcon from "@/assets/common/icons/FilterIcon.svg";
-import FilterBar from "@/components/common/layout/FilterBar";
-import ProductVerticalScrollSection from "@/components/common/ProductVerticalScrollSection";
 import { useState } from "react";
-import MarketProductsMockData from "@/mocks/data/HOM/MarketProducts";
+import ProductListContainer from "@/components/common/container/ProductListContainer";
 
 const HOMBestContent = () => {
   const menulist = [
@@ -20,27 +16,19 @@ const HOMBestContent = () => {
   const [selectmenu, setSelectMenu] = useState(menulist[0]);
   return (
     <div>
-      <RoundMenuList menulist={menulist} selectedSubMenu={selectmenu} />
-      <div className="flex flex-row justify-between items-center m-2 mx-4 text-sm text-gray-600">
-        <span className="text-sm text-gray-600">총 123개</span>
-        <div className="flex flex-row items-center">
-          <SortSelectBtn label="추천순" />
-          <span className="text-sm text-gray-600">
-            필터
-            <img
-              src={FilterIcon}
-              alt="filter icon"
-              className="inline-block w-4 h-4"
-            />
-          </span>
-        </div>
-      </div>
-      <div className="mx-4">
-        <FilterBar isKurlyOnly={true} isNew={true} isBeautyFest={true} />
-      </div>
-      <div>
-        <ProductVerticalScrollSection products={MarketProductsMockData} />
-      </div>
+      <RoundMenuList
+        menulist={menulist}
+        selectedSubMenu={selectmenu}
+        onChange={setSelectMenu}
+      />
+      <ProductListContainer
+        category={"market"}
+        page={1}
+        limit={20}
+        isHOM={true}
+        subMenu={selectmenu}
+        tabKey="best"
+      />
     </div>
   );
 };

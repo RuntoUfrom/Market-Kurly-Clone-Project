@@ -4,6 +4,7 @@ import ProductImage from "@/components/common/ProductImage";
 import IconButton from "@/components/common/button/IconButton";
 import ChatIcon from "@/assets/common/icons/ChatIcon.svg";
 import ImageMappingHelper from "@/constants/ImageMappingHelper";
+import useHistoryController from "@/hooks/controllers/useHistoryController";
 
 /**
  * 타임 딜 섹션 컴포넌트
@@ -15,6 +16,7 @@ import ImageMappingHelper from "@/constants/ImageMappingHelper";
  */
 const TimeDealComponent = ({ product, endTime }) => {
   const {
+    productId,
     productName,
     productImage,
     topBadgeText,
@@ -23,21 +25,25 @@ const TimeDealComponent = ({ product, endTime }) => {
     originalPrice,
     reviewCount,
   } = product;
-
+  const { moveTo } = useHistoryController();
   const formatPrice = (price) => {
     return price?.toLocaleString() + "원";
   };
-
+  const handleProductClick = () => {
+    moveTo({
+      direction: "FORWARD",
+      menuId: "DTI001",
+      params: { productId },
+    });
+  };
+  const handleCartClick = (e) => {
+    e.stopPropagation(); // 🔑 부모 클릭 이벤트 차단
+    console.log(`장바구니에 추가: ${productId}`);
+    // TODO: 장바구니 페이지 구현 후 활성화
+    // moveTo({ direction: "FORWARD", menuId: "CART001" });
+  };
   return (
-    <div
-      onClick={() => {
-        console.log("TimeDeal 클릭");
-      }}
-    >
-      <SectionHeader
-        main="기회는 왔을때 잡아야한다"
-        description="타임딜을 놓치지말고 꼭~"
-      />
+    <div onClick={handleProductClick}>
       <div className="bg-white px-4">
         <DealTimer endTime={endTime} />
         {/**endTime 작성 예시 :2026-02-10T18:00:00 */}
@@ -49,7 +55,7 @@ const TimeDealComponent = ({ product, endTime }) => {
           />
         </div>
 
-        <div className="my-2">
+        <div className="my-2" onClick={handleCartClick}>
           <IconButton icon="CART" alt="담기 버튼" label="담기" />
         </div>
 

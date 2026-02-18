@@ -45,7 +45,7 @@ const MenuGrid = ({
             className="scroll-snap-start flex flex-col items-center"
           >
             <MenuCard
-              LogoImage={HOM_MARKET_MENU_IMAGE_MAP[item]}
+              LogoImage={(imageMap || HOM_MARKET_MENU_IMAGE_MAP)[item]}
               label={item}
               onClick={() => onMenuClick?.(item)}
             />

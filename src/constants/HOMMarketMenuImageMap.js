@@ -17,8 +17,23 @@ import MenuLogoEvent from "@/assets/menu/squaremenuicons/MenuLogoEvent.png";
 
 import MenuLogoBest from "@/assets/menu/squaremenuicons/MenuBestRank.png";
 
+//마켓 컬리 - 패션 - 메뉴 로고 이미지
+import MenuLogoFashionBag from "@/assets/menu/fashionmenuicons/MenuLogoFashionBag.png";
+import MenuLogoFashionBest from "@/assets/menu/fashionmenuicons/MenuLogoFashionBest.png";
+import MenuLogoFashionBrand from "@/assets/menu/fashionmenuicons/MenuLogoFashionBrand.png";
+import MenuLogoFashionDelivery from "@/assets/menu/fashionmenuicons/MenuLogoFashionDelivery.png";
+import MenuLogoFashionJuwely from "@/assets/menu/fashionmenuicons/MenuLogoFashionJuwely.png";
+import MenuLogoFashionKids from "@/assets/menu/fashionmenuicons/MenuLogoFashionKids.png";
+import MenuLogoFashionKurlyOnly from "@/assets/menu/fashionmenuicons/MenuLogoFashionKurlyOnly.png";
+import MenuLogoFashionLive from "@/assets/menu/fashionmenuicons/MenuLogoFashionLive.png";
+import MenuLogoFashionNew from "@/assets/menu/fashionmenuicons/MenuLogoFashionNew.png";
+import MenuLogoFashionOriginal from "@/assets/menu/fashionmenuicons/MenuLogoFashionOriginal.png";
+import MenuLogoFashionOuter from "@/assets/menu/fashionmenuicons/MenuLogoFashionOuter.png";
+import MenuLogoFashionSeason from "@/assets/menu/fashionmenuicons/MenuLogoFashionSeason.png";
+import MenuLogoFashionUnder from "@/assets/menu/fashionmenuicons/MenuLogoFashionUnder.png";
+
+//마켓 컬리 - 기본 - 메뉴 로고 이미지
 export const HOM_MARKET_MENU_IMAGE_MAP = {
-  //15 - 컬리 멤버스 이미지 다운이 안됨.
   자주산상품: MenuLogoMost,
   단독특가: MenuLogoOnly,
   선물추천: MenuLogoPresent,
@@ -34,6 +49,22 @@ export const HOM_MARKET_MENU_IMAGE_MAP = {
   최저가도전: MenuLogoChallenge,
   설선물특가: MenuLogoSull,
   이벤트: MenuLogoEvent,
+};
+
+export const HOM_FASHION_MENU_IMAGE_MAP = {
+  랭킹: MenuLogoFashionBest,
+  여성의류: MenuLogoFashionOuter,
+  신상품: MenuLogoFashionNew,
+  언더웨어: MenuLogoFashionUnder,
+  브랜드관: MenuLogoFashionBrand,
+  주얼리: MenuLogoFashionJuwely,
+  라이브: MenuLogoFashionLive,
+  가방지갑: MenuLogoFashionBag,
+  샛별배송: MenuLogoFashionDelivery,
+  키즈: MenuLogoFashionKids,
+  컬리단독: MenuLogoFashionKurlyOnly,
+  시즌잡화: MenuLogoFashionSeason,
+  오리지널: MenuLogoFashionOriginal,
 };
 
 export const MEN_MARKET_IMAGE_MAP = {

@@ -16,7 +16,7 @@ const ProductRankSection = ({ products = [] }) => {
   }
 
   return (
-    <div className="overflow-x-auto no-scrollbar">
+    <div className="overflow-x-auto overflow-y-hidden no-scrollbar">
       <div className="flex">
         {columns.map((col, colIdx) => (
           <div key={colIdx} className="flex flex-col">

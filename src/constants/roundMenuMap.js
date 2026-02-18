@@ -32,16 +32,19 @@ export const ROUND_MENU_IMAGE_MAP = {
   컬리에만있는: RoundKurlyOnly,
   직원추천상품: RoundRecommandIcon,
   채소: RoundCarrotIcon,
-  알뜰쇼핑: RoundCheapIcon,
+  알뜰쇼핑: RoundShoppingIcon,
+  마감세일: RoundSaleIcon,
+  반값세일: RoundHalfIcon,
+  만원의행복: RoundMoneyIcon,
+  장보기초특가: RoundCheapIcon,
   디저트: RoundDessertIcono,
   할인: RoundDiscountIcon,
   패션: RoundFashionIcon,
   정육: RoundFreshMearIcon,
-  반값전: RoundHalfIcon,
 
   리빙: RoundLivingIcon,
   특가: RoundMoneyIcon,
-  세일: RoundSaleIcon,
+
   쇼핑: RoundShoppingIcon,
   간편식사2: RoundSimpleDishIcon,
 };

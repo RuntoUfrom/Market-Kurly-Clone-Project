@@ -8,11 +8,25 @@ import ApiUtils from "@/utils/ApiUtils";
  * @param {number} [params.limit=10] - 페이지당 상품 수 (기본값: 10)
  * @returns {Promise<Object>} 상품 목록 및 페이지네이션 정보
  */
-export async function productListService({ category, page = 1, limit = 10 }) {
+export async function productListService({
+  category,
+  page = 1,
+  limit = 10,
+  sortOption = "추천순",
+  activeFilters = [],
+  isHOM,
+  subMenu,
+  tabKey,
+}) {
   const request = {
     category,
     page,
     limit,
+    sortOption,
+    activeFilters,
+    isHOM,
+    subMenu,
+    tabKey,
   };
   const response = await ApiUtils.sendPost("/product/list", request);
   return response;
