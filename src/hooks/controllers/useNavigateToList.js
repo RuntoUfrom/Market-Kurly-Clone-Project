@@ -1,10 +1,17 @@
 import useHistoryController from "./useHistoryController";
 
-export const navigateToList = ({ title, category }) => {
+const useNavigateToList = () => {
   const { moveTo } = useHistoryController();
-  moveTo({
-    direction: "FORWARD",
-    menuId: "LST001",
-    params: { title: title, category: category },
-  });
+
+  const goToList = (title, category) => {
+    moveTo({
+      direction: "FORWARD",
+      menuId: "LST001",
+      params: { title, category },
+    });
+  };
+
+  return { goToList };
 };
+
+export default useNavigateToList;

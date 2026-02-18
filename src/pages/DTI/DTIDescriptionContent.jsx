@@ -8,9 +8,21 @@ import MarketProductsMockData from "@/mocks/data/HOM/MarketProducts";
 import ProductSimpleSection from "@/components/common/ProductSimpleSection";
 import Footer from "@/components/common/layout/Footer";
 import ProductDetailNotice from "@/components/feature/DTI/ProductDetailNotice";
+import useNavigateToList from "@/hooks/controllers/useNavigateToList";
+import ProductScrollSectionContainer from "@/components/common/container/ProductScrollSectionContainer";
 
 //상품 설명 탭
 const DTIDescriptionContent = ({ product }) => {
+  const { goToList } = useNavigateToList();
+  let category = "";
+  if (product.productId.charAt(1) === "M") {
+    category = "market";
+  } else if (product.productId.charAt(1) === "B") {
+    category = "beauty";
+  } else if (product.productId.charAt(1) === "F") {
+    category = "fashion";
+  }
+
   return (
     <div className="flex flex-col bg-white">
       <div className="w-full h-80 overflow-hidden">
@@ -22,7 +34,7 @@ const DTIDescriptionContent = ({ product }) => {
       <ProductDetailInfo product={product} />
       <div className="w-5/6 mx-auto">
         <BasicSubmitButton
-          text="[신세계 푸드] 20% 쿠폰 받기"
+          text="[신세계] 20% 쿠폰 받기"
           variant="unfill"
           onClick={() => {
             console.log("쿠폰 받기 클릭 ");
@@ -51,12 +63,9 @@ const DTIDescriptionContent = ({ product }) => {
         <span>{product.brandName}</span>
       </div>
       <div className="bg-white pt-2">
-        <SectionHeader main="이 상품은 어때요?" />
-        <ProductScrollSection
-          products={MarketProductsMockData}
-          onClickMore={() => {
-            console.log("전체 보기 클릭");
-          }}
+        <ProductScrollSectionContainer
+          category={category}
+          title={"이런 상품은 어때요?"}
         />
       </div>
 

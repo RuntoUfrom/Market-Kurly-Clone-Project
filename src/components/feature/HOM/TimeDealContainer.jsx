@@ -17,10 +17,7 @@ const TimeDealContainer = ({ category = "market", main, description }) => {
   if (!dealData) return null;
   return (
     <div>
-      <SectionHeader
-        main="기회는 왔을때 잡아야한다"
-        description="타임딜을 놓치지말고 꼭~"
-      />
+      <SectionHeader main={main} description={description} />
       <TimeDealComponent product={dealData} endTime={dealData.endTime} />
     </div>
   );

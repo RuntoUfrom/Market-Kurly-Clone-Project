@@ -31,7 +31,7 @@ const IconButton = ({
     >
       <div className="flex items-center gap-2">
         <img src={iconvar} alt={alt} className="w-4 h-4" />
-        <div>{label}</div>
+        <div className="text-xs">{label}</div>
       </div>
     </button>
   );

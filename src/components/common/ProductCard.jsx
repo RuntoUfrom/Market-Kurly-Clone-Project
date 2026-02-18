@@ -92,13 +92,14 @@ const ProductCard = ({ product, layout = "vertical", rank = 1 }) => {
 
               <ProductInfo product={product} layout={layout} />
             </div>
-
-            <IconButton
-              icon="CART"
-              alt="담기 버튼"
-              label="담기"
-              onClick={handleCartClick}
-            />
+            <div className="py-2">
+              <IconButton
+                icon="CART"
+                alt="담기 버튼"
+                label="담기"
+                onClick={handleCartClick}
+              />
+            </div>
           </div>
         </div>
       </div>

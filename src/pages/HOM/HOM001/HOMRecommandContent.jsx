@@ -26,9 +26,6 @@ const HOMRecommandTab = () => {
           title="최대 혜택으로 준비하는 설선물"
           description="헬스부터 뷰티 선물까지 12% 쿠폰 추가 지급"
           emoji="🎁"
-          onClickMore={() => {
-            console.log("전체 보기 클릭 ");
-          }}
           page={1}
         />
         <MenuGrid
@@ -44,19 +41,17 @@ const HOMRecommandTab = () => {
           title="오늘의 최저가 도전"
           description="베스트템부터 SNS핫템까지!!"
           emoji="🔥"
-          onClickMore={() => {
-            console.log("전체 보기 클릭 ");
-          }}
         />
-        <TimeDealContainer category={"market"} />
+        <TimeDealContainer
+          category={"market"}
+          main={"최저가 타임딜"}
+          description={"다시는 돌아오지 않아요"}
+        />
         <ProductScrollSectionContainer
           category="market"
           title="최대 혜택으로 준비하는 설선물"
           description="헬스부터 뷰티 선물까지 12% 쿠폰 추가 지급"
           emoji="🎁"
-          onClickMore={() => {
-            console.log("전체 보기 클릭 ");
-          }}
           page={1}
         />
       </div>

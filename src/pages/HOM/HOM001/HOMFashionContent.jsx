@@ -39,7 +39,18 @@ const HOMFashionContent = () => {
         title={"투데이 피팅룸"}
         description="투데이 피팅 추천"
       />
-      <TimeDealContainer category="beauty" endTime="" />
+      <TimeDealContainer
+        category="fashion"
+        main={"다시는 오지 않은 트랜디함을 저렴하게"}
+        description={"저렴한 가격으로 누릴수 있는 패션의 행복"}
+      />
+      <ProductScrollSectionContainer
+        category="fashion"
+        page={2}
+        limit={10}
+        title={"따듯한 겨울 나기"}
+        description="겨울을 따듯하게 보내봐요"
+      />
       <Footer />
     </div>
   );
