@@ -4,67 +4,112 @@ import CheckUnFillIcon from "@/assets/common/icons/CheckUnfillIcon.svg";
 import CheckPurpleIcon from "@/assets/common/icons/CheckPurpleIcon.svg";
 import BasicSubmitButton from "../button/BasicSubmitButton";
 import CartAmount from "@/components/feature/CART/CartAmount";
-const CartProductList = [
-  {
-    productName: "풀무원 국산콩 두부",
-    productImage: "https://placehold.co/80x80",
-    productDescription: "",
-    productOriginalPrice: "2,980원",
-    productFinalPrice: "2,480원",
-    productQuantityLeft: 3,
-    productChecked: true,
-  },
-  {
-    productName: "CJ 비비고 왕교자",
-    productImage: "https://placehold.co/80x80",
-    productDescription: "CJ 비비고 왕교자",
-    productOriginalPrice: "12,900원",
-    productFinalPrice: "10,900원",
-    productQuantityLeft: null,
-    productChecked: true,
-  },
-  {
-    productName: "하림 닭가슴살",
-    productImage: "https://placehold.co/80x80",
-    productDescription: "하림 닭가슴살",
-    productOriginalPrice: "9,800원",
-    productFinalPrice: "7,900원",
-    productQuantityLeft: 5,
-    productChecked: false,
-  },
-];
+import useCartStore from "@/stores/useCartStore";
 
-const CartFullComponent = ({ data }) => {
-  const [selectProduct, setSelectProduct] = useState([]);
-  const [selectAll, setSelectAll] = useState(false);
-  const [finalPrice, setFinalPrice] = useState(0);
+const CartFullComponent = ({ dialogClose }) => {
+  const cartItems = useCartStore((state) => state.cartItems);
+  const removeFromCart = useCartStore((state) => state.removeFromCart);
+
+  const [selectProduct, setSelectProduct] = useState(() =>
+    cartItems.map((item) => item.productId),
+  ); //체크된 상품 productId 배열 (기본: 전체 선택)
+
+  const isAllSelected =
+    selectProduct.length === cartItems.length && cartItems.length > 0;
+
+  // 전체선택 토글
+  const handleSelectAll = () => {
+    if (isAllSelected) {
+      setSelectProduct([]);
+    } else {
+      setSelectProduct(cartItems.map((item) => item.productId));
+    }
+  };
+
+  // 개별 선택 토글
+  const handleToggleSelect = (productId) => {
+    setSelectProduct((prev) =>
+      prev.includes(productId)
+        ? prev.filter((id) => id !== productId)
+        : [...prev, productId],
+    );
+  };
+
+  // 선택삭제
+  const handleDeleteSelected = () => {
+    selectProduct.forEach((id) => removeFromCart(id));
+    setSelectProduct([]);
+  };
+
+  const handleConfirm = () => {
+    dialogClose({ confirmed: true });
+  };
+
+  // 선택된 상품의 최종 금액 계산
+  const calFinalPrice = () => {
+    const selectedItems = cartItems.filter((item) =>
+      selectProduct.includes(item.productId),
+    );
+    return selectedItems.reduce((total, item) => {
+      const actualPrice =
+        (item.originalPrice * (100 - item.discountRate)) / 100;
+      return total + actualPrice * item.quantity;
+    }, 0);
+  };
+
+  const calOriginalPrice = () => {
+    const selectedItems = cartItems.filter((item) =>
+      selectProduct.includes(item.productId),
+    );
+    return selectedItems.reduce((total, item) => {
+      const actualPrice = item.originalPrice;
+      return total + actualPrice * item.quantity;
+    }, 0);
+  };
+
   return (
     <div className="bg-gray-100 h-full flex flex-col">
-      <header className="shrink-0 bg-white">
-        <div className="flex flex-row gap-2 p-4 bg-white">
-          <div>X</div>
-          <div>장바구니</div>
+      <header className="shrink-0 bg-white ">
+        <div className="flex flex-row gap-2 p-4 bg-white items-center ">
+          <div onClick={handleConfirm}>X</div>
+          <div className="text-lg font-medium">장바구니</div>
         </div>
-        <div className="flex flex-row gap-2">
-          <img src={CheckUnFillIcon} />
-          <div>전체선택</div>
-          <div>선택삭제</div>
+        <div className="flex flex-row gap-2 justify-between px-4 pb-2 ">
+          <div className="flex flex-row gap-2 p-1" onClick={handleSelectAll}>
+            <img src={isAllSelected ? CheckPurpleIcon : CheckUnFillIcon} />
+            <div className="font-medium text-gray-700 text-base">전체선택</div>
+          </div>
+          <div
+            onClick={handleDeleteSelected}
+            className="font-medium text-gray-400 text-xs border px-2 rounded-2xl flex items-center justify-center"
+          >
+            선택삭제
+          </div>
         </div>
       </header>
 
-      <main className="flex-1 overflow-y-auto no-scrollbar p-4">
+      <main className="flex-1 overflow-y-auto no-scrollbar p-4 ">
         <div className="flex flex-col mb-6">
-          <div className="bg-white">
-            {CartProductList.map((product, index) => (
-              <ProductCartContent key={index} product={product} />
+          <div className="bg-white rounded-xl overflow-hidden">
+            {cartItems.map((product) => (
+              <ProductCartContent
+                key={product.productId}
+                product={product}
+                productChecked={selectProduct.includes(product.productId)}
+                onToggleSelect={handleToggleSelect}
+              />
             ))}
 
-            <div className="bg-gray-200 p-2 m-4 text-sm font-medium text-center rounded-md">
-              {`상품 ${finalPrice}원 + 배송비 무료`}
+            <div className="bg-gray-200 p-2 m-4 text-sm font-medium text-center rounded-xl">
+              {`상품 ${calFinalPrice() || 0}원 + 배송비 무료`}
             </div>
           </div>
         </div>
-        <CartAmount />
+        <CartAmount
+          finalPaymentAmount={calFinalPrice()}
+          totalProductAmount={calOriginalPrice()}
+          productDiscountAmount={calOriginalPrice() - calFinalPrice()}
+        />
       </main>
 
       <footer className="shrink-0 bg-white">

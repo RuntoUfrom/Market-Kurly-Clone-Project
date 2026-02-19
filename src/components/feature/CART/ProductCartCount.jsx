@@ -1,30 +1,33 @@
 import SubtractionIcon from "@/assets/common/icons/SubtractionIcon.svg";
 import PlusIcon from "@/assets/common/icons/PlusIcon.svg";
-import { useState } from "react";
+import useCartStore from "@/stores/useCartStore";
+
 /**
  * 장바구니 상품 수량 조절 컴포넌트
- * 현재는 내부 state로 count를 관리함.
+ * store의 quantity를 직접 사용하여 Single Source of Truth 유지
  */
-const ProductCartCount = () => {
-  const [count, setCount] = useState(0);
+const ProductCartCount = ({ quantity, productId }) => {
+  const updateQuantity = useCartStore((state) => state.updateQuantity);
+
   return (
     <div>
       <div className="bg-gray-300 flex flex-row justify-between w-20 rounded-2xl">
         <div
           onClick={() => {
-            if (count > 0) {
-              setCount(count - 1);
+            if (quantity > 1) {
+              updateQuantity(productId, quantity - 1);
             }
           }}
           className="w-7 h-7 flex flex-col justify-center p-2"
         >
           <img src={SubtractionIcon} alt="-" />
         </div>
-
-        <div className="w-7 h-7 flex flex-col justify-center p-2">{count}</div>
+        <div className="w-7 h-7 flex flex-col justify-center p-2">
+          {quantity}
+        </div>
         <div
           onClick={() => {
-            setCount(count + 1);
+            updateQuantity(productId, quantity + 1);
           }}
           className="w-7 h-7 flex flex-col justify-center p-2"
         >

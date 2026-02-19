@@ -3,6 +3,7 @@ import SearchIcon from "@/assets/common/icons/SearchIcon.svg";
 import HomeIcon from "@/assets/common/icons/HomeUnFillIcon.svg";
 import CartIcon from "@/assets/common/icons/CartIconGray.svg";
 import useHistoryController from "@/hooks/controllers/useHistoryController";
+import useNavigateToPlace from "@/hooks/controllers/useNavigateToPlace";
 
 /**
  * 뒤로가기 버튼이 있는 공통 헤더 컴포넌트
@@ -14,6 +15,8 @@ import useHistoryController from "@/hooks/controllers/useHistoryController";
  */
 const BackHeader = ({ isSearch = false, isHome = false, label = "" }) => {
   const { moveTo } = useHistoryController();
+  const { goToCart } = useNavigateToPlace();
+
   return (
     <div className="flex items-center px-4 p-4 gap-2">
       <button
@@ -32,7 +35,7 @@ const BackHeader = ({ isSearch = false, isHome = false, label = "" }) => {
       <div className="ml-auto flex gap-4">
         {isSearch && <img src={SearchIcon} />}
         {isHome && <img src={HomeIcon} />}
-        <img src={CartIcon} />
+        <img src={CartIcon} onClick={goToCart} />
       </div>
     </div>
   );

@@ -11,9 +11,10 @@ import Footer from "@/components/common/layout/Footer";
 import ProductScrollSectionContainer from "@/components/common/container/ProductScrollSectionContainer";
 import TimeDealContainer from "@/components/feature/HOM/TimeDealContainer";
 import ProductRankContainer from "@/components/common/container/ProductRankContainer";
+import useNavigateToPlace from "@/hooks/controllers/useNavigateToPlace";
 
 const HOMBeautyRecommandContent = () => {
-  const { goToList } = useNavigateToPlace();
+  //const { goToList } = useNavigateToPlace();
   const [bannerList, setBannerList] = useState([]);
 
   useEffect(() => {

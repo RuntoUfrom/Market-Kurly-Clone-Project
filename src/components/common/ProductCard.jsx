@@ -4,6 +4,7 @@ import ProductImage from "@/components/common/ProductImage";
 import IconButton from "@/components/common/button/IconButton";
 import CartIconGray from "@/assets/common/icons/CartIconGray.svg";
 import useHistoryController from "@/hooks/controllers/useHistoryController";
+import useCartStore from "@/stores/useCartStore";
 /**
  * 상품 정보를 보여주는 카드 컴포넌트
  *
@@ -18,6 +19,7 @@ import useHistoryController from "@/hooks/controllers/useHistoryController";
  */
 const ProductCard = ({ product, layout = "vertical", rank = 1 }) => {
   const { moveTo } = useHistoryController();
+  const { addToCart } = useCartStore();
   const {
     productId,
     productImage,
@@ -33,10 +35,8 @@ const ProductCard = ({ product, layout = "vertical", rank = 1 }) => {
     });
   };
   const handleCartClick = (e) => {
-    e.stopPropagation(); // 🔑 부모 클릭 이벤트 차단
-    console.log(`장바구니에 추가: ${productId}`);
-    // TODO: 장바구니 페이지 구현 후 활성화
-    // moveTo({ direction: "FORWARD", menuId: "CART001" });
+    e.stopPropagation();
+    addToCart({ ...product, quantity: 1 });
   };
 
   // vertical 레이아웃 (가로 160px)

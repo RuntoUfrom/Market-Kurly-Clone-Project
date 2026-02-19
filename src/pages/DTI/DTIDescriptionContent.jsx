@@ -12,7 +12,7 @@ import ProductScrollSectionContainer from "@/components/common/container/Product
 
 //상품 설명 탭
 const DTIDescriptionContent = ({ product }) => {
-  const { goToList } = useNavigateToPlace();
+  //const { goToList } = useNavigateToPlace();
   let category = "";
   if (product.productId.charAt(1) === "M") {
     category = "market";
