@@ -111,7 +111,7 @@ const ProductCard = ({ product, layout = "vertical", rank = 1 }) => {
     return (
       <div
         onClick={handleProductClick}
-        className="flex flex-row items-center w-94 h-18 p-2 gap-4 bg-white rounded-md m-2 justify-center"
+        className="flex flex-row items-center w-full h-18 p-2 gap-4 bg-white rounded-md justify-center"
       >
         <div className="w-14 h-14 shrink-0">
           <ProductImage productImage={productImage} />

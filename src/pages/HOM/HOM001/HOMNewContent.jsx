@@ -13,6 +13,14 @@ const HOMNewContent = () => {
     "패션",
   ];
   const [selectmenu, setSelectMenu] = useState(menulist[0]);
+  let productListCategory = "market";
+  if (selectmenu === "주방리빙") {
+    productListCategory = "living";
+  } else if (selectmenu === "뷰티") {
+    productListCategory = "beauty";
+  } else if (selectmenu === "패션") {
+    productListCategory = "fashion";
+  }
   return (
     <div>
       <RoundMenuList
@@ -20,7 +28,15 @@ const HOMNewContent = () => {
         selectedSubMenu={selectmenu}
         onChange={setSelectMenu}
       />
-      <ProductListContainer category={"market"} />
+
+      <ProductListContainer
+        category={productListCategory}
+        page={1}
+        limit={20}
+        isHOM={true}
+        subMenu={selectmenu}
+        tabKey="new"
+      />
     </div>
   );
 };

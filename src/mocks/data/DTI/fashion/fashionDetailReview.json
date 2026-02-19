@@ -10,7 +10,16 @@
         "isBest": true,
         "userName": "김남길",
         "date": "2026-02-13",
-        "content": "맛이 좋아요 즐겁게 먹었습니다.",
+        "content": "너무 예쁘고 결혼식 갈 때 최고였습니다.",
+        "reviewImages": ["ReviewImage06-01", "ReviewImage06-02"]
+      },
+      {
+        "reviewId": "PF0001-R02",
+        "isMembers": true,
+        "isBest": true,
+        "userName": "박진영",
+        "date": "2026-02-15",
+        "content": "귀걸이가 이렇게 예쁘다니 너무 좋아요",
         "reviewImages": ["ReviewImage06-01", "ReviewImage06-02"]
       }
     ]
@@ -450,7 +459,11 @@
         "userName": "임수빈",
         "date": "2026-02-15",
         "content": "5차 리오더 이유가 있어요. 부클 소재가 너무 고급스럽고 누빔 안감 덕분에 생각보다 훨씬 따뜻해요. 오버핏이라 안에 두꺼운 니트 입어도 너무 잘 어울리고, 뉴트럴 컬러라 어떤 코디와도 찰떡이에요. 올 시즌 최고의 구매입니다!",
-        "reviewImages": ["ReviewImage11-01", "ReviewImage11-02", "ReviewImage11-03"]
+        "reviewImages": [
+          "ReviewImage11-01",
+          "ReviewImage11-02",
+          "ReviewImage11-03"
+        ]
       },
       {
         "reviewId": "PF0011-R02",

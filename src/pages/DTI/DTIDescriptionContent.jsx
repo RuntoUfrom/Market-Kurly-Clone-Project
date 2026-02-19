@@ -2,17 +2,13 @@ import ProductImage from "@/components/common/ProductImage";
 import ProductDetailInfo from "@/components/feature/DTI/ProductDetailInfo";
 import ImageMappingHelper from "@/constants/ImageMappingHelper";
 import BasicSubmitButton from "@/components/common/button/BasicSubmitButton";
-import SectionHeader from "@/components/common/SectionHeader";
-import ProductScrollSection from "@/components/common/ProductScrollSection";
-import MarketProductsMockData from "@/mocks/data/HOM/MarketProducts";
-import ProductSimpleSection from "@/components/common/ProductSimpleSection";
 import Footer from "@/components/common/layout/Footer";
 import ProductDetailNotice from "@/components/feature/DTI/ProductDetailNotice";
 import ProductScrollSectionContainer from "@/components/common/container/ProductScrollSectionContainer";
+import ProductSimpleContainer from "@/components/common/container/ProductSimpleContainer";
 
 //상품 설명 탭
 const DTIDescriptionContent = ({ product }) => {
-  //const { goToList } = useNavigateToPlace();
   let category = "";
   if (product.productId.charAt(1) === "M") {
     category = "market";
@@ -67,15 +63,17 @@ const DTIDescriptionContent = ({ product }) => {
           title={"이런 상품은 어때요?"}
         />
       </div>
-
       <div className="bg-white pt-2">
-        <SectionHeader main="다른 사람이 함께 본 상품" />
-        <ProductSimpleSection products={MarketProductsMockData} />
+        <ProductSimpleContainer
+          category={category}
+          title={"다른 사람이 함께 본 상품"}
+          page={3}
+          limit={5}
+        />
       </div>
-
       <div className="my-2">
         <ProductDetailNotice
-          category={"MARKET"}
+          category={category}
           detailDescription={product.detailDescription}
         />
         <Footer />

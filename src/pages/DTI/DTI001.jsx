@@ -13,6 +13,7 @@ import {
 } from "@/api/services/DTI/productDetailService";
 import { useQuery, useQueryClient } from "@tanstack/react-query";
 import useHistoryController from "@/hooks/controllers/useHistoryController";
+
 const DTI001 = () => {
   const { getPageParams } = useHistoryController();
   const { params } = getPageParams();
@@ -46,7 +47,12 @@ const DTI001 = () => {
       case "상품설명":
         return <DTIDescriptionContent product={data} />;
       case "상세정보":
-        return <DTIDetailsContent detailDescription={data.detailDescription} />;
+        return (
+          <DTIDetailsContent
+            detailDescription={data.detailDescription}
+            productId={productId}
+          />
+        );
       case "후기":
         return <DTIReviewsContent productId={productId} />;
       case "문의":
@@ -59,7 +65,12 @@ const DTI001 = () => {
     <div className="h-full flex flex-col">
       {/* 상단 고정 영역 */}
       <header className="shrink-0 bg-white">
-        <BackHeader isSearch={true} isHome={true} label={data?.productName} />
+        <BackHeader
+          isSearch={true}
+          isHome={true}
+          label={data?.productName}
+          pageparam={productId}
+        />
         <CustomTabBtns
           variant={4}
           active={selectedTab}

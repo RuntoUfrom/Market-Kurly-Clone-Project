@@ -21,6 +21,13 @@ import RoundShoppingIcon from "@/assets/menu/roundmenuicons/RoundShoppingIcon.pn
 import RoundSimpleDishIcon from "@/assets/menu/roundmenuicons/RoundSimpleDishIcon.png";
 import RoundSimpleIcon from "@/assets/menu/roundmenuicons/RoundSimpleIcon.png";
 
+import RoundBeautyFamousIcon from "@/assets/menu/roundmenuicons/RoundBeautyFamous.png";
+import RoundBeautyFashionIcon from "@/assets/menu/roundmenuicons/RoundBeautyFashion.png";
+import RoundBeautyHairBodyIcon from "@/assets/menu/roundmenuicons/RoundBeautyHairBody.png";
+import RoundBeautyLuxuryIcon from "@/assets/menu/roundmenuicons/RoundBeautyLuxury.png";
+import RoundBeautyRankIcon from "@/assets/menu/roundmenuicons/RoundBeautyRank.png";
+import RoundBeautySkinIcon from "@/assets/menu/roundmenuicons/RoundBeautySkin.png";
+import RoundBeautyPresentIcon from "@/assets/menu/roundmenuicons/RoundBeautyPresent.png";
 export const ROUND_MENU_IMAGE_MAP = {
   베스트: RoundBestIcon,
   간편식사: RoundSimpleIcon,
@@ -53,6 +60,14 @@ export const ROUND_MENU_IMAGE_MAP = {
   패션: RoundFashionIcon,
   쇼핑: RoundShoppingIcon,
   간편식사2: RoundSimpleDishIcon,
+
+  신상랭킹: RoundBeautyRankIcon,
+  "헤어&바디": RoundBeautyHairBodyIcon,
+  스킨케어: RoundBeautySkinIcon,
+  럭셔리뷰티: RoundBeautyLuxuryIcon,
+  요즘인기: RoundBeautyFamousIcon,
+  "패션&잡화": RoundBeautyFashionIcon,
+  선물하기좋은: RoundBeautyPresentIcon,
 };
 
 export const ROUND_MENU_IMAGES = {

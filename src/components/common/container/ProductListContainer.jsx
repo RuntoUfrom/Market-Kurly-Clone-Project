@@ -1,6 +1,6 @@
 import { productListService } from "@/api/services/HOM/productListService";
 import { useQuery } from "@tanstack/react-query";
-import { useState, useMemo } from "react";
+import { useState } from "react";
 import SortSelectBtn from "../button/SortSelectBtn";
 import FilterIcon from "@/assets/common/icons/FilterIcon.svg";
 import FilterBar from "@/components/common/layout/FilterBar";
@@ -33,7 +33,6 @@ const ProductListContainer = ({
 }) => {
   const [sortOption, setSortOption] = useState("추천순");
   const [activeFilters, setActiveFilters] = useState([]);
-  const [activeTab, setActiveTab] = useState("");
   const { data } = useQuery({
     queryKey: [
       "products",
@@ -72,7 +71,7 @@ const ProductListContainer = ({
         title: "필터",
         filterList,
         category,
-        products: data?.allFilteredProducts ?? [],
+        products: data?.baseProducts ?? [],
         activeFilters,
         handleResetFilter,
         active,

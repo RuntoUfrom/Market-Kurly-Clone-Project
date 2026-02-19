@@ -25,29 +25,21 @@ export const ProductListHandler = [
       beauty: BeautyProductList,
       fashion: FashionProductList,
     };
-
+    //전체 상품 중 market/beauty/fashion 중 어떤 카테고리인지
     const allProducts = dataMap[category] ?? [];
+    //상단 탭바 [베스트|세일|신상] 중 어떤 탭인지
     let subMenuProducts = allProducts;
     if (subMenu && tabKey) {
       subMenuProducts = allProducts.filter((product) =>
         product[tabKey]?.includes(subMenu),
       );
     }
-    // console.log("🔍 [ProductListHandler] activeFilters:", activeFilters);
-    // console.log("🔍 [ProductListHandler] category:", category);
-    // console.log(
-    //   "🔍 [ProductListHandler] allProducts count:",
-    //   allProducts.length,
-    // );
+
     const filteredProduct = applyFilters(
       subMenuProducts,
       activeFilters,
       category,
       isHOM,
-    );
-    console.log(
-      "🔍 [ProductListHandler] filteredProduct count:",
-      filteredProduct.length,
     );
     const sortedProduct = sortProducts(filteredProduct, sortOption);
 
@@ -60,6 +52,7 @@ export const ProductListHandler = [
     return HttpResponse.json({
       data: paginatedData,
       allProducts: allProducts,
+      baseProducts: subMenuProducts,
       allFilteredProducts: filteredProduct,
       pagination: {
         currentPage: page,

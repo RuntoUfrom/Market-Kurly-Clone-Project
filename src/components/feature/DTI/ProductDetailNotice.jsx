@@ -1,5 +1,5 @@
 const PRODUCT_NOTICE_MAP = {
-  MARKET: [
+  market: [
     { key: "packagingType", label: "포장타입" },
     { key: "salesUnit", label: "판매단위" },
     { key: "weight", label: "중량/용량" },
@@ -7,20 +7,20 @@ const PRODUCT_NOTICE_MAP = {
     { key: "expirationDate", label: "소비기한" },
     { key: "origin", label: "원산지" },
   ],
-  BEAUTY: [
+  beauty: [
     { key: "productTitle", label: "제품명" },
     { key: "manufacturer", label: "제조업자" },
     { key: "origin", label: "제조국" },
     { key: "volume", label: "내용물의 용량" },
     { key: "mainIngredients", label: "주요 성분" },
   ],
-  FASHION: [
+  fashion: [
     { key: "productTitle", label: "제품명" },
     { key: "material", label: "소재" },
     { key: "color", label: "색상" },
     { key: "size", label: "치수" },
   ],
-  LIVING: [
+  living: [
     { key: "productTitle", label: "제품명" },
     { key: "material", label: "소재" },
     { key: "size", label: "크기" },
@@ -30,10 +30,10 @@ const PRODUCT_NOTICE_MAP = {
 
 const ProductDetailNotice = ({
   detailDescription = {},
-  category = "MARKET",
+  category = "market",
 }) => {
   const noticeLabels =
-    PRODUCT_NOTICE_MAP[category] ?? PRODUCT_NOTICE_MAP.MARKET;
+    PRODUCT_NOTICE_MAP[category] ?? PRODUCT_NOTICE_MAP.market;
   return (
     <div className="px-6 py-6 bg-white">
       <h3 className="text-base font-bold text-center mb-4">상품고시정보</h3>

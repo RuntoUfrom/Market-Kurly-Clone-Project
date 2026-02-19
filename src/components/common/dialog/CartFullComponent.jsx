@@ -87,30 +87,35 @@ const CartFullComponent = ({ dialogClose }) => {
           </div>
         </div>
       </header>
+      {cartItems.length > 0 ? (
+        <main className="flex-1 overflow-y-auto no-scrollbar p-4 ">
+          <div className="flex flex-col mb-6">
+            <div className="bg-white rounded-xl overflow-hidden">
+              {cartItems.map((product) => (
+                <ProductCartContent
+                  key={product.productId}
+                  product={product}
+                  productChecked={selectProduct.includes(product.productId)}
+                  onToggleSelect={handleToggleSelect}
+                />
+              ))}
 
-      <main className="flex-1 overflow-y-auto no-scrollbar p-4 ">
-        <div className="flex flex-col mb-6">
-          <div className="bg-white rounded-xl overflow-hidden">
-            {cartItems.map((product) => (
-              <ProductCartContent
-                key={product.productId}
-                product={product}
-                productChecked={selectProduct.includes(product.productId)}
-                onToggleSelect={handleToggleSelect}
-              />
-            ))}
-
-            <div className="bg-gray-200 p-2 m-4 text-sm font-medium text-center rounded-xl">
-              {`상품 ${calFinalPrice() || 0}원 + 배송비 무료`}
+              <div className="bg-gray-200 p-2 m-4 text-sm font-medium text-center rounded-xl">
+                {`상품 ${calFinalPrice() || 0}원 + 배송비 무료`}
+              </div>
             </div>
           </div>
+          <CartAmount
+            finalPaymentAmount={calFinalPrice()}
+            totalProductAmount={calOriginalPrice()}
+            productDiscountAmount={calOriginalPrice() - calFinalPrice()}
+          />
+        </main>
+      ) : (
+        <div className="flex-1 flex items-center justify-center text-gray-400">
+          담은 상품이 없어요
         </div>
-        <CartAmount
-          finalPaymentAmount={calFinalPrice()}
-          totalProductAmount={calOriginalPrice()}
-          productDiscountAmount={calOriginalPrice() - calFinalPrice()}
-        />
-      </main>
+      )}
 
       <footer className="shrink-0 bg-white">
         <BasicSubmitButton text="구매하기" variant="fill" />

@@ -13,7 +13,12 @@ import useNavigateToPlace from "@/hooks/controllers/useNavigateToPlace";
  * @param {boolean} [props.isHome=false] - 홈 아이콘 표시 여부
  * @param {string} [props.label=""] - 헤더 중앙 타이틀
  */
-const BackHeader = ({ isSearch = false, isHome = false, label = "" }) => {
+const BackHeader = ({
+  isSearch = false,
+  isHome = false,
+  label = "",
+  pageparam,
+}) => {
   const { moveTo } = useHistoryController();
   const { goToCart } = useNavigateToPlace();
 
@@ -21,7 +26,7 @@ const BackHeader = ({ isSearch = false, isHome = false, label = "" }) => {
     <div className="flex items-center px-4 p-4 gap-2">
       <button
         onClick={() => {
-          moveTo({ direction: "BACK", num: 1 });
+          moveTo({ direction: "BACK", num: 1, preParams: pageparam });
         }}
       >
         <img src={BackIcon} className="w-4 h-4" />

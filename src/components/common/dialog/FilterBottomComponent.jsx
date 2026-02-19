@@ -14,7 +14,7 @@ const FilterBottomComponent = ({ dialogClose, data }) => {
   const [selectTab, setSelectTab] = useState(
     data.active ?? data.filterList?.[0],
   );
-  const [checkFilter, setCheckFilter] = useState([]);
+  const [checkFilter, setCheckFilter] = useState(data.activeFilters ?? []);
   const handleToggle = (option) => {
     setCheckFilter((prev) =>
       prev.includes(option)
@@ -34,7 +34,7 @@ const FilterBottomComponent = ({ dialogClose, data }) => {
 
   const filteredCount = useMemo(() => {
     return applyFilters(data.products ?? [], checkFilter, data.category, data.isHOM).length;
-  }, [checkFilter, data.products, data.category]);
+  }, [checkFilter, data.products, data.category, data.isHOM]);
 
   const productCount = (products, option, selectTab) => {
     const counts = products.filter((product) =>

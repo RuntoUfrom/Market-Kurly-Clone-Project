@@ -1,6 +1,4 @@
 import ProductCard from "@/components/common/ProductCard";
-import SectionHeader from "@/components/common/SectionHeader";
-import MarketProductsMockData from "@/mocks/data/HOM/MarketProducts";
 import ImageMappingHelper from "@/constants/ImageMappingHelper";
 
 /**
@@ -12,7 +10,7 @@ import ImageMappingHelper from "@/constants/ImageMappingHelper";
 const ProductSimpleSection = ({ products = [] }) => {
   const displayedProducts = products.slice(0, 4); // 최대 4개 상품만 표시
   return (
-    <div className="flex flex-col mb-4 bg-white w-full">
+    <div className="flex flex-col mb-2 bg-white w-full px-3">
       {displayedProducts.map((product, index) => (
         <ProductCard
           key={index}
@@ -21,7 +19,6 @@ const ProductSimpleSection = ({ products = [] }) => {
             productImage: ImageMappingHelper[product.productImage],
           }}
           layout="simple-horizontal"
-          className="p-2"
         />
       ))}
     </div>

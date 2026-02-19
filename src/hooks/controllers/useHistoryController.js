@@ -40,7 +40,7 @@ const useHistoryController = () => {
   const goForward = (menuId, params, options) => {
     if (options !== -1) {
       addHistoryList(
-        createHistory(window.location.pathname, nowPageParams || {}),
+        createHistory(window.location.pathname, nowPageParams?.params || {}),
       );
     }
     setNowPageParams({
