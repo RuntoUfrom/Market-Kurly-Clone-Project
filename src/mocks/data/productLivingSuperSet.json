@@ -1,0 +1,1521 @@
+[
+  {
+    "productId": "PL0001",
+    "productName": "[3M] 스카치-브라이트 버블버블 일회용 롤수세미",
+    "productImage": "PL0001-Thumb",
+    "topBadgeText": "10% 쿠폰 증정",
+    "bottomBannerText": "최대혜택가 4000원",
+    "originalPrice": 8000,
+    "discountRate": 20,
+    "firstDiscountRate": 50,
+    "isDawnDelivery": true,
+    "brandName": "3M",
+    "isKurlyOnly": true,
+    "category": ["주방용품"],
+    "shortDescription": "도톰한 두께와 뛰어난 내구성으로 오래 쓰는 일회용 롤수세미",
+    "reviewCount": 2,
+    "eventBadge": true,
+    "rankingCategory": "주방용품",
+    "ranking": 1,
+    "reviews": [
+      {
+        "reviewId": "PL0001-R01",
+        "isMembers": true,
+        "isBest": true,
+        "userName": "김남길",
+        "content": "벌써 4년째 쓰는데 좋아요",
+        "reviewImages": ["ReviewImage01-01", "ReviewImage06-02"]
+      },
+      {
+        "reviewId": "PL0001-R02",
+        "isMembers": true,
+        "isBest": false,
+        "userName": "최영원",
+        "content": "인생이 행복해지는 비결은 끊임없이 작은선물을 받는 것이다.",
+        "reviewImages": ["ReviewImage06-01", "ReviewImage06-02"]
+      }
+    ],
+    "questions": [
+      {
+        "isSecret": false,
+        "questionId": "PL0001-Q02",
+        "title": "이게 맞나요",
+        "userName": "지성준",
+        "date": "2026-02-11",
+        "content": {
+          "question": "아니 너무 양이 적어요",
+          "answer": "안녕하세요 고객님\n미안해요, 제가 한개 훔쳤어요~"
+        }
+      }
+    ],
+    "detailDescription": {
+      "detailProductImage": "PL0001-Detail",
+      "productTitle": "[3M] 스카치-브라이트 버블버블 일회용 롤수세미",
+      "material": "금속",
+      "size": "20cm",
+      "manufacturer": "국산"
+    }
+  },
+  {
+    "productId": "PL0002",
+    "productName": "[덴비] 헤리티지 파스타 보울 4종 (택1)",
+    "productImage": "PL0002-Thumb",
+    "topBadgeText": "증정품 제공",
+    "bottomBannerText": "최대혜택가 6750원",
+    "originalPrice": 45000,
+    "discountRate": 15,
+    "isDawnDelivery": true,
+    "brandName": "덴비",
+    "isKurlyOnly": false,
+    "category": ["주방용품"],
+    "shortDescription": "영국 정통 도자기 브랜드 덴비의 시그니처 파스타 보울, 깊은 발색과 견고한 내구성",
+    "reviewCount": 4,
+    "eventBadge": true,
+    "rankingCategory": "주방용품",
+    "ranking": 7,
+    "reviews": [
+      {
+        "reviewId": "PL0002-R01",
+        "isMembers": true,
+        "isBest": true,
+        "userName": "박지수",
+        "content": "발색도 예쁘고 두께감이 정말 좋아요. 파스타 담으면 레스토랑 느낌 나요",
+        "reviewImages": ["ReviewImage02-01", "ReviewImage02-02"]
+      },
+      {
+        "reviewId": "PL0002-R02",
+        "isMembers": true,
+        "isBest": false,
+        "userName": "이민준",
+        "content": "덴비 제품 처음 써봤는데 무게감이 묵직하고 품질이 확실히 달라요",
+        "reviewImages": []
+      },
+      {
+        "reviewId": "PL0002-R03",
+        "isMembers": false,
+        "isBest": false,
+        "userName": "김서연",
+        "content": "선물용으로 샀는데 포장도 예쁘게 와서 너무 좋았어요",
+        "reviewImages": ["ReviewImage02-03"]
+      },
+      {
+        "reviewId": "PL0002-R04",
+        "isMembers": true,
+        "isBest": false,
+        "userName": "최지훈",
+        "content": "색상이 사진이랑 거의 똑같이 왔어요. 만족합니다",
+        "reviewImages": []
+      }
+    ],
+    "questions": [
+      {
+        "isSecret": false,
+        "questionId": "PL0002-Q01",
+        "title": "전자레인지 사용 가능한가요?",
+        "userName": "오수진",
+        "date": "2026-01-15",
+        "content": {
+          "question": "전자레인지 사용 가능한지 궁금합니다",
+          "answer": "안녕하세요 고객님, 덴비 제품은 전자레인지 사용 가능합니다."
+        }
+      },
+      {
+        "isSecret": false,
+        "questionId": "PL0002-Q02",
+        "title": "식기세척기 사용 가능한가요?",
+        "userName": "한동훈",
+        "date": "2026-01-20",
+        "content": {
+          "question": "식기세척기에 넣어도 될까요?",
+          "answer": "안녕하세요 고객님, 식기세척기 사용 가능합니다. 단, 고온 건조는 피해주세요."
+        }
+      },
+      {
+        "isSecret": true,
+        "questionId": "PL0002-Q03",
+        "title": "색상 교환 문의드립니다",
+        "userName": "정민서",
+        "date": "2026-02-01",
+        "content": {
+          "question": "색상 교환 가능한가요?",
+          "answer": "안녕하세요 고객님, 미개봉 상태라면 교환 가능합니다. 고객센터로 문의 부탁드립니다."
+        }
+      }
+    ],
+    "detailDescription": {
+      "detailProductImage": "PL0002-Detail",
+      "productTitle": "[덴비] 헤리티지 파스타 보울 4종 (택1)",
+      "material": "도자기",
+      "size": "직경 22cm",
+      "manufacturer": "영국산"
+    }
+  },
+  {
+    "productId": "PL0003",
+    "productName": "[발뮤다] NEW팟 전기 주전가 3종(화이트/블랙/실버 택1)",
+    "productImage": "PL0003-Thumb",
+    "topBadgeText": "기획전 진행중",
+    "bottomBannerText": "최대혜택가 44700원",
+    "originalPrice": 149000,
+    "discountRate": 10,
+    "firstDiscountRate": 30,
+    "isDawnDelivery": true,
+    "brandName": "발뮤다",
+    "isKurlyOnly": false,
+    "category": ["주방용품"],
+    "shortDescription": "발뮤다 특유의 미니멀 디자인과 빠른 보일 기능을 갖춘 프리미엄 전기주전자",
+    "reviewCount": 5,
+    "eventBadge": false,
+    "rankingCategory": "주방용품",
+    "ranking": 3,
+    "reviews": [
+      {
+        "reviewId": "PL0003-R01",
+        "isMembers": true,
+        "isBest": true,
+        "userName": "강민재",
+        "content": "디자인이 너무 예뻐서 주방 분위기가 달라졌어요. 매일 보면서 기분 좋아져요",
+        "reviewImages": ["ReviewImage03-01", "ReviewImage03-02"]
+      },
+      {
+        "reviewId": "PL0003-R02",
+        "isMembers": true,
+        "isBest": false,
+        "userName": "윤서영",
+        "content": "보일 속도가 엄청 빨라요. 아침에 커피 끓이는 시간이 반으로 줄었어요",
+        "reviewImages": []
+      },
+      {
+        "reviewId": "PL0003-R03",
+        "isMembers": false,
+        "isBest": false,
+        "userName": "박현우",
+        "content": "가격이 비싸지만 값어치 해요. 발뮤다 브랜드 퀄리티를 믿고 삽니다",
+        "reviewImages": ["ReviewImage03-03"]
+      },
+      {
+        "reviewId": "PL0003-R04",
+        "isMembers": true,
+        "isBest": false,
+        "userName": "김지아",
+        "content": "온도 조절 기능이 없는 게 아쉽긴 하지만 디자인만큼은 최고예요",
+        "reviewImages": []
+      },
+      {
+        "reviewId": "PL0003-R05",
+        "isMembers": true,
+        "isBest": false,
+        "userName": "이준혁",
+        "content": "발뮤다답게 만족스러운 구매였어요. 소음도 거의 없고 깔끔해요",
+        "reviewImages": []
+      }
+    ],
+    "questions": [
+      {
+        "isSecret": false,
+        "questionId": "PL0003-Q01",
+        "title": "용량이 얼마나 되나요?",
+        "userName": "송하윤",
+        "date": "2026-01-10",
+        "content": {
+          "question": "몇 리터짜리인지 알 수 있을까요?",
+          "answer": "안녕하세요 고객님, 해당 제품은 0.8L 용량입니다."
+        }
+      },
+      {
+        "isSecret": false,
+        "questionId": "PL0003-Q02",
+        "title": "AS는 어떻게 받나요?",
+        "userName": "임재원",
+        "date": "2026-01-22",
+        "content": {
+          "question": "고장 났을 때 AS 받는 방법이 궁금해요",
+          "answer": "안녕하세요 고객님, 발뮤다 공식 AS 센터 또는 당사 고객센터로 문의 부탁드립니다."
+        }
+      },
+      {
+        "isSecret": true,
+        "questionId": "PL0003-Q03",
+        "title": "파손 관련 문의",
+        "userName": "노지현",
+        "date": "2026-02-05",
+        "content": {
+          "question": "배송 중 파손된 것 같아요",
+          "answer": "안녕하세요 고객님, 불편을 드려 죄송합니다. 사진과 함께 고객센터로 접수 부탁드립니다."
+        }
+      }
+    ],
+    "detailDescription": {
+      "detailProductImage": "PL0003-Detail",
+      "productTitle": "[발뮤다] NEW팟 전기 주전가 3종(화이트/블랙/실버 택1)",
+      "material": "스테인리스, ABS수지",
+      "size": "0.8L",
+      "manufacturer": "중국산"
+    }
+  },
+  {
+    "productId": "PL0004",
+    "productName": "[덴비] 엘레먼츠 커피 비커 머그",
+    "productImage": "PL0004-Thumb",
+    "topBadgeText": "추가 적립금 증정",
+    "bottomBannerText": "최대혜택가 3200원",
+    "originalPrice": 32000,
+    "discountRate": 10,
+    "isDawnDelivery": true,
+    "brandName": "덴비",
+    "isKurlyOnly": true,
+    "category": ["주방용품"],
+    "shortDescription": "투명한 유리와 도자기의 조화, 커피 한 잔을 특별하게 만드는 비커 머그",
+    "reviewCount": 3,
+    "eventBadge": false,
+    "rankingCategory": "주방용품",
+    "ranking": 9,
+    "reviews": [
+      {
+        "reviewId": "PL0004-R01",
+        "isMembers": true,
+        "isBest": true,
+        "userName": "오민아",
+        "content": "투명한 유리 부분에 커피가 담기면 정말 예뻐요. 카페 감성 충만",
+        "reviewImages": ["ReviewImage04-01", "ReviewImage04-02"]
+      },
+      {
+        "reviewId": "PL0004-R02",
+        "isMembers": true,
+        "isBest": false,
+        "userName": "정호성",
+        "content": "이 머그로 마시면 커피가 더 맛있게 느껴져요. 매일 쓰고 있어요",
+        "reviewImages": []
+      },
+      {
+        "reviewId": "PL0004-R03",
+        "isMembers": false,
+        "isBest": false,
+        "userName": "한채원",
+        "content": "용량이 딱 적당하고 손잡이 없이도 잡기 편해요",
+        "reviewImages": ["ReviewImage04-03"]
+      }
+    ],
+    "questions": [
+      {
+        "isSecret": false,
+        "questionId": "PL0004-Q01",
+        "title": "전자레인지 사용 가능한가요?",
+        "userName": "장수빈",
+        "date": "2026-01-08",
+        "content": {
+          "question": "유리 부분 때문에 전자레인지에 넣어도 되는지 궁금해요",
+          "answer": "안녕하세요 고객님, 해당 제품은 전자레인지 사용 불가합니다. 도자기 손잡이 부분만 가능합니다."
+        }
+      },
+      {
+        "isSecret": false,
+        "questionId": "PL0004-Q02",
+        "title": "용량이 얼마나 되나요?",
+        "userName": "백지원",
+        "date": "2026-01-14",
+        "content": {
+          "question": "ml로 용량을 알 수 있을까요?",
+          "answer": "안녕하세요 고객님, 해당 제품은 약 350ml 용량입니다."
+        }
+      },
+      {
+        "isSecret": false,
+        "questionId": "PL0004-Q03",
+        "title": "세척이 편한가요?",
+        "userName": "유재현",
+        "date": "2026-01-28",
+        "content": {
+          "question": "유리 부분 세척할 때 불편하지 않나요?",
+          "answer": "안녕하세요 고객님, 입구가 넓어 세척이 편리합니다. 식기세척기도 사용 가능합니다."
+        }
+      },
+      {
+        "isSecret": true,
+        "questionId": "PL0004-Q04",
+        "title": "파손 문의",
+        "userName": "심재원",
+        "date": "2026-02-10",
+        "content": {
+          "question": "유리 부분이 배송 중에 깨진 것 같아요",
+          "answer": "안녕하세요 고객님, 불편을 드려 죄송합니다. 사진 첨부 후 고객센터로 접수 부탁드립니다."
+        }
+      }
+    ],
+    "detailDescription": {
+      "detailProductImage": "PL0004-Detail",
+      "productTitle": "[덴비] 엘레먼츠 커피 비커 머그",
+      "material": "도자기, 유리",
+      "size": "350ml",
+      "manufacturer": "영국산"
+    }
+  },
+  {
+    "productId": "PL0005",
+    "productName": "[3M] 스카치 무세제 큐브 클리너",
+    "productImage": "PL0005-Thumb",
+    "topBadgeText": "3+1 이벤트",
+    "bottomBannerText": "최대혜택가 1470원",
+    "originalPrice": 9800,
+    "discountRate": 15,
+    "isDawnDelivery": true,
+    "brandName": "3M",
+    "isKurlyOnly": false,
+    "category": ["잡화"],
+    "shortDescription": "물만 있으면 세제 없이 깨끗하게, 냄새 없는 3M 스카치 큐브 클리너",
+    "reviewCount": 4,
+    "eventBadge": true,
+    "rankingCategory": "잡화",
+    "ranking": 5,
+    "reviews": [
+      {
+        "reviewId": "PL0005-R01",
+        "isMembers": true,
+        "isBest": true,
+        "userName": "김태현",
+        "content": "물만 있으면 세정이 되니까 너무 편해요. 욕실 타일에 쓰니 새것 같아요",
+        "reviewImages": ["ReviewImage05-01"]
+      },
+      {
+        "reviewId": "PL0005-R02",
+        "isMembers": true,
+        "isBest": false,
+        "userName": "이소연",
+        "content": "냄새도 없고 찌든 때도 잘 지워져요. 매직블럭보다 오래 쓸 수 있어요",
+        "reviewImages": []
+      },
+      {
+        "reviewId": "PL0005-R03",
+        "isMembers": false,
+        "isBest": false,
+        "userName": "박준혁",
+        "content": "가격 대비 양이 조금 적어서 아쉽긴 한데 품질은 만족해요",
+        "reviewImages": []
+      },
+      {
+        "reviewId": "PL0005-R04",
+        "isMembers": true,
+        "isBest": false,
+        "userName": "최미라",
+        "content": "주방 타일에 사용하니 새것 같아졌어요. 재구매 결정했어요",
+        "reviewImages": ["ReviewImage05-02"]
+      }
+    ],
+    "questions": [
+      {
+        "isSecret": false,
+        "questionId": "PL0005-Q01",
+        "title": "음식이 닿는 부분에 써도 되나요?",
+        "userName": "서미영",
+        "date": "2026-01-05",
+        "content": {
+          "question": "냄비나 그릇 세척에도 사용 가능한가요?",
+          "answer": "안녕하세요 고객님, 식품에 직접 닿는 부분 세척보다는 주방 타일, 가스레인지 등 주방 주변 청소에 적합합니다."
+        }
+      },
+      {
+        "isSecret": false,
+        "questionId": "PL0005-Q02",
+        "title": "어떤 소재인가요?",
+        "userName": "윤채희",
+        "date": "2026-01-18",
+        "content": {
+          "question": "알레르기가 있는데 소재가 뭔지 알 수 있을까요?",
+          "answer": "안녕하세요 고객님, 해당 제품은 멜라민폼 소재로 만들어졌습니다."
+        }
+      },
+      {
+        "isSecret": false,
+        "questionId": "PL0005-Q03",
+        "title": "얼마나 오래 쓸 수 있나요?",
+        "userName": "조현준",
+        "date": "2026-02-03",
+        "content": {
+          "question": "한 개로 어느 정도 사용 가능한지 궁금해요",
+          "answer": "안녕하세요 고객님, 사용 빈도에 따라 다르지만 일반적으로 한 달 내외 사용 가능합니다."
+        }
+      }
+    ],
+    "detailDescription": {
+      "detailProductImage": "PL0005-Detail",
+      "productTitle": "[3M] 스카치 무세제 큐브 클리너",
+      "material": "멜라민폼, 나노실버",
+      "size": "7x7x7cm",
+      "manufacturer": "국산"
+    }
+  },
+  {
+    "productId": "PL0006",
+    "productName": "[3M] 그리너클린 펄프 강력용 수세미",
+    "productImage": "PL0006-Thumb",
+    "topBadgeText": "신규회원 혜택",
+    "bottomBannerText": "최대혜택가 1800원",
+    "originalPrice": 4500,
+    "discountRate": 10,
+    "firstDiscountRate": 40,
+    "isDawnDelivery": true,
+    "brandName": "3M",
+    "isKurlyOnly": false,
+    "category": ["주방용품"],
+    "shortDescription": "자연 유래 목재 펄프 소재로 만든 친환경 강력 수세미, 지구를 위한 설거지",
+    "reviewCount": 5,
+    "eventBadge": false,
+    "rankingCategory": "주방용품",
+    "ranking": 2,
+    "reviews": [
+      {
+        "reviewId": "PL0006-R01",
+        "isMembers": true,
+        "isBest": true,
+        "userName": "신지훈",
+        "content": "환경 생각하면서 쓸 수 있어서 좋아요. 거품도 잘 나고 닦이는 힘도 세요",
+        "reviewImages": ["ReviewImage06-01", "ReviewImage06-02"]
+      },
+      {
+        "reviewId": "PL0006-R02",
+        "isMembers": true,
+        "isBest": false,
+        "userName": "장미숙",
+        "content": "거품도 잘 나고 내구성도 좋아요. 일반 수세미 못지않게 오래 써요",
+        "reviewImages": []
+      },
+      {
+        "reviewId": "PL0006-R03",
+        "isMembers": true,
+        "isBest": false,
+        "userName": "이창민",
+        "content": "기존 수세미보다 부드러워서 코팅 프라이팬에 쓰기 좋아요",
+        "reviewImages": []
+      },
+      {
+        "reviewId": "PL0006-R04",
+        "isMembers": false,
+        "isBest": false,
+        "userName": "정유나",
+        "content": "생분해된다고 해서 걱정했는데 쓰는 동안은 전혀 문제없어요",
+        "reviewImages": ["ReviewImage06-03"]
+      },
+      {
+        "reviewId": "PL0006-R05",
+        "isMembers": true,
+        "isBest": false,
+        "userName": "한동욱",
+        "content": "친환경이라는 점에서 계속 재구매하게 될 것 같아요. 강추해요",
+        "reviewImages": []
+      }
+    ],
+    "questions": [
+      {
+        "isSecret": false,
+        "questionId": "PL0006-Q01",
+        "title": "기름때도 잘 지워지나요?",
+        "userName": "구민지",
+        "date": "2026-01-07",
+        "content": {
+          "question": "삼겹살 구운 프라이팬도 잘 닦이나요?",
+          "answer": "안녕하세요 고객님, 강력용으로 기름때 제거에도 효과적입니다. 중성세제와 함께 사용하시면 더 좋습니다."
+        }
+      },
+      {
+        "isSecret": false,
+        "questionId": "PL0006-Q02",
+        "title": "얼마나 오래 사용할 수 있나요?",
+        "userName": "문재성",
+        "date": "2026-01-16",
+        "content": {
+          "question": "사용 기간이 어떻게 되는지 궁금해요",
+          "answer": "안녕하세요 고객님, 매일 사용 기준 약 2~3주 정도 사용 가능합니다."
+        }
+      },
+      {
+        "isSecret": false,
+        "questionId": "PL0006-Q03",
+        "title": "일반 수세미랑 차이가 뭔가요?",
+        "userName": "배현수",
+        "date": "2026-01-25",
+        "content": {
+          "question": "일반 수세미 대신 써도 될까요?",
+          "answer": "안녕하세요 고객님, 목재 펄프 소재라 생분해 가능한 친환경 제품입니다. 일반 수세미와 동일하게 사용 가능합니다."
+        }
+      },
+      {
+        "isSecret": false,
+        "questionId": "PL0006-Q04",
+        "title": "냄새가 배지 않나요?",
+        "userName": "전희수",
+        "date": "2026-02-08",
+        "content": {
+          "question": "수세미 냄새 때문에 걱정되는데 어떤가요?",
+          "answer": "안녕하세요 고객님, 펄프 소재 특성상 냄새가 적게 배며, 사용 후 물기를 제거해 건조하시면 더욱 위생적으로 사용하실 수 있습니다."
+        }
+      }
+    ],
+    "detailDescription": {
+      "detailProductImage": "PL0006-Detail",
+      "productTitle": "[3M] 그리너클린 펄프 강력용 수세미",
+      "material": "목재 펄프",
+      "size": "13x9cm",
+      "manufacturer": "국산"
+    }
+  },
+  {
+    "productId": "PL0007",
+    "productName": "[니도] 구미베어 스트레스볼 말랑이 택1",
+    "productImage": "PL0007-Thumb",
+    "topBadgeText": "사은품 증정",
+    "bottomBannerText": "최대혜택가 1200원",
+    "originalPrice": 12000,
+    "discountRate": 10,
+    "isDawnDelivery": true,
+    "brandName": "니도",
+    "isKurlyOnly": false,
+    "category": ["취미"],
+    "shortDescription": "귀여운 구미베어 모양의 말랑말랑 스트레스 해소 볼, 손 안에서 힐링을",
+    "reviewCount": 3,
+    "eventBadge": false,
+    "rankingCategory": "취미",
+    "ranking": 8,
+    "reviews": [
+      {
+        "reviewId": "PL0007-R01",
+        "isMembers": true,
+        "isBest": true,
+        "userName": "김민아",
+        "content": "직장인 필수템이에요! 스트레스 받을 때 꾹꾹 누르면 확실히 풀려요",
+        "reviewImages": ["ReviewImage07-01"]
+      },
+      {
+        "reviewId": "PL0007-R02",
+        "isMembers": true,
+        "isBest": false,
+        "userName": "이준서",
+        "content": "너무 귀여워서 보기만 해도 힐링됩니다. 책상에 올려두니 기분이 좋아요",
+        "reviewImages": []
+      },
+      {
+        "reviewId": "PL0007-R03",
+        "isMembers": false,
+        "isBest": false,
+        "userName": "박세영",
+        "content": "아이도 좋아하고 어른도 좋아해요. 가족이 서로 차지하려 해요",
+        "reviewImages": ["ReviewImage07-02"]
+      }
+    ],
+    "questions": [
+      {
+        "isSecret": false,
+        "questionId": "PL0007-Q01",
+        "title": "어린이가 사용해도 안전한가요?",
+        "userName": "강수현",
+        "date": "2026-01-12",
+        "content": {
+          "question": "7살 아이한테 줘도 될까요?",
+          "answer": "안녕하세요 고객님, 3세 이상 어린이 사용 가능하나 보호자 지도 하에 사용을 권장합니다."
+        }
+      },
+      {
+        "isSecret": false,
+        "questionId": "PL0007-Q02",
+        "title": "끈적거리지 않나요?",
+        "userName": "임정현",
+        "date": "2026-01-19",
+        "content": {
+          "question": "오래 쥐고 있으면 손에 달라붙지 않나요?",
+          "answer": "안녕하세요 고객님, TPR 소재 특성상 미세하게 끈적할 수 있으나 손에 묻어나지 않습니다."
+        }
+      },
+      {
+        "isSecret": false,
+        "questionId": "PL0007-Q03",
+        "title": "색상은 랜덤인가요?",
+        "userName": "최현준",
+        "date": "2026-02-02",
+        "content": {
+          "question": "색상 선택이 가능한가요, 아니면 랜덤인가요?",
+          "answer": "안녕하세요 고객님, 상품 선택 시 원하시는 색상 선택 가능합니다."
+        }
+      }
+    ],
+    "detailDescription": {
+      "detailProductImage": "PL0007-Detail",
+      "productTitle": "[니도] 구미베어 스트레스볼 말랑이 택1",
+      "material": "TPR",
+      "size": "8x5cm",
+      "manufacturer": "중국산"
+    }
+  },
+  {
+    "productId": "PL0008",
+    "productName": "[3M] 스카치 옥수수 망사 수세미",
+    "productImage": "PL0008-Thumb",
+    "topBadgeText": "묶음구매 할인",
+    "bottomBannerText": "최대혜택가 190원",
+    "originalPrice": 3800,
+    "discountRate": 5,
+    "isDawnDelivery": true,
+    "brandName": "3M",
+    "isKurlyOnly": true,
+    "category": ["주방용품"],
+    "shortDescription": "옥수수 천연 소재로 만든 부드럽고 친환경적인 망사 수세미, 코팅 팬에 안심",
+    "reviewCount": 4,
+    "eventBadge": false,
+    "rankingCategory": "주방용품",
+    "ranking": 4,
+    "reviews": [
+      {
+        "reviewId": "PL0008-R01",
+        "isMembers": true,
+        "isBest": true,
+        "userName": "조민정",
+        "content": "옥수수 소재라 환경에도 좋고 설거지도 깔끔하게 잘 돼요. 재구매해요",
+        "reviewImages": ["ReviewImage08-01"]
+      },
+      {
+        "reviewId": "PL0008-R02",
+        "isMembers": true,
+        "isBest": false,
+        "userName": "강준하",
+        "content": "부드러워서 코팅 프라이팬에 안성맞춤이에요. 스크래치 걱정 없어요",
+        "reviewImages": []
+      },
+      {
+        "reviewId": "PL0008-R03",
+        "isMembers": false,
+        "isBest": false,
+        "userName": "서지원",
+        "content": "냄새가 잘 안 배서 더 위생적인 것 같아요. 합리적인 가격에 만족해요",
+        "reviewImages": []
+      },
+      {
+        "reviewId": "PL0008-R04",
+        "isMembers": true,
+        "isBest": false,
+        "userName": "윤혜진",
+        "content": "가격도 저렴하고 품질은 최고예요. 박스로 쟁여두고 쓰고 있어요",
+        "reviewImages": ["ReviewImage08-02"]
+      }
+    ],
+    "questions": [
+      {
+        "isSecret": false,
+        "questionId": "PL0008-Q01",
+        "title": "기름기 많은 것도 잘 닦이나요?",
+        "userName": "김진우",
+        "date": "2026-01-09",
+        "content": {
+          "question": "삼겹살 구운 뒤 기름기 있는 팬도 닦을 수 있나요?",
+          "answer": "안녕하세요 고객님, 기름기 제거는 가능하나 심한 찌든 때는 수세미보다 세척제와 함께 사용하시길 권장드립니다."
+        }
+      },
+      {
+        "isSecret": false,
+        "questionId": "PL0008-Q02",
+        "title": "사용 기간이 얼마나 되나요?",
+        "userName": "류민서",
+        "date": "2026-01-23",
+        "content": {
+          "question": "한 개로 얼마나 쓸 수 있나요?",
+          "answer": "안녕하세요 고객님, 사용 빈도에 따라 다르지만 일반적으로 2~3주 사용 가능합니다."
+        }
+      },
+      {
+        "isSecret": true,
+        "questionId": "PL0008-Q03",
+        "title": "반품 문의",
+        "userName": "황지현",
+        "date": "2026-02-07",
+        "content": {
+          "question": "미개봉 상태인데 반품 가능한가요?",
+          "answer": "안녕하세요 고객님, 미개봉 상태라면 수령 후 7일 이내 반품 가능합니다."
+        }
+      }
+    ],
+    "detailDescription": {
+      "detailProductImage": "PL0008-Detail",
+      "productTitle": "[3M] 스카치 옥수수 망사 수세미",
+      "material": "옥수수(PLA) 섬유",
+      "size": "12x9cm",
+      "manufacturer": "국산"
+    }
+  },
+  {
+    "productId": "PL0009",
+    "productName": "[더조선호텔] 시탄면 풀세트 이불 2종 택1",
+    "productImage": "PL0009-Thumb",
+    "topBadgeText": "한정 수량",
+    "bottomBannerText": "최대혜택가 79200원",
+    "originalPrice": 198000,
+    "discountRate": 20,
+    "firstDiscountRate": 40,
+    "isDawnDelivery": false,
+    "brandName": "더조선호텔",
+    "isKurlyOnly": false,
+    "category": ["이불배게"],
+    "shortDescription": "더 조선 호텔에서 직접 사용하는 프리미엄 시탄면 이불 풀세트, 호텔 숙면을 집에서",
+    "reviewCount": 5,
+    "eventBadge": false,
+    "rankingCategory": "이불배게",
+    "ranking": 6,
+    "reviews": [
+      {
+        "reviewId": "PL0009-R01",
+        "isMembers": true,
+        "isBest": true,
+        "userName": "김현정",
+        "content": "호텔에서 자는 느낌 그대로예요. 잠이 너무 잘 와요. 역대급 구매입니다",
+        "reviewImages": ["ReviewImage09-01", "ReviewImage09-02"]
+      },
+      {
+        "reviewId": "PL0009-R02",
+        "isMembers": true,
+        "isBest": false,
+        "userName": "이태양",
+        "content": "촉감이 너무 부드럽고 따뜻해요. 세탁 후에도 보송보송함이 유지돼요",
+        "reviewImages": []
+      },
+      {
+        "reviewId": "PL0009-R03",
+        "isMembers": false,
+        "isBest": false,
+        "userName": "박슬기",
+        "content": "세탁기로 빨았는데도 솜이 뭉치지 않고 처음과 똑같아요",
+        "reviewImages": ["ReviewImage09-03"]
+      },
+      {
+        "reviewId": "PL0009-R04",
+        "isMembers": true,
+        "isBest": false,
+        "userName": "최성호",
+        "content": "무게감이 적당해서 답답하지 않고 포근해요. 여름에도 쓸 수 있을 것 같아요",
+        "reviewImages": []
+      },
+      {
+        "reviewId": "PL0009-R05",
+        "isMembers": true,
+        "isBest": false,
+        "userName": "정수빈",
+        "content": "가격이 있지만 그만한 값어치를 해요. 오래 쓸 수 있을 것 같아서 투자했어요",
+        "reviewImages": []
+      }
+    ],
+    "questions": [
+      {
+        "isSecret": false,
+        "questionId": "PL0009-Q01",
+        "title": "세탁기 세탁이 가능한가요?",
+        "userName": "노수아",
+        "date": "2026-01-06",
+        "content": {
+          "question": "가정용 세탁기로 빨아도 되나요?",
+          "answer": "안녕하세요 고객님, 드라이클리닝을 권장하나 울 코스로 세탁기 세탁도 가능합니다."
+        }
+      },
+      {
+        "isSecret": false,
+        "questionId": "PL0009-Q02",
+        "title": "다른 사이즈도 있나요?",
+        "userName": "문재은",
+        "date": "2026-01-17",
+        "content": {
+          "question": "싱글 사이즈도 판매하나요?",
+          "answer": "안녕하세요 고객님, 싱글(150x200cm)과 퀸(200x210cm) 두 가지 사이즈로 판매 중입니다."
+        }
+      },
+      {
+        "isSecret": false,
+        "questionId": "PL0009-Q03",
+        "title": "배송 기간이 얼마나 걸리나요?",
+        "userName": "안정민",
+        "date": "2026-01-27",
+        "content": {
+          "question": "주문하면 며칠 후에 받을 수 있나요?",
+          "answer": "안녕하세요 고객님, 대형 상품 특성상 3~5 영업일 내 배송됩니다."
+        }
+      },
+      {
+        "isSecret": true,
+        "questionId": "PL0009-Q04",
+        "title": "색상 교환 문의",
+        "userName": "전재호",
+        "date": "2026-02-09",
+        "content": {
+          "question": "다른 색상으로 교환이 가능한가요?",
+          "answer": "안녕하세요 고객님, 미사용 상태라면 교환 가능합니다. 고객센터로 문의 부탁드립니다."
+        }
+      }
+    ],
+    "detailDescription": {
+      "detailProductImage": "PL0009-Detail",
+      "productTitle": "[더조선호텔] 시탄면 풀세트 이불 2종 택1",
+      "material": "시탄면 100%",
+      "size": "퀸 200x210cm",
+      "manufacturer": "국산"
+    }
+  },
+  {
+    "productId": "PL0010",
+    "productName": "[니도] 과일 스트레스볼 말랑이 택1",
+    "productImage": "PL0010-Thumb",
+    "topBadgeText": "오늘만 할인",
+    "bottomBannerText": "최대혜택가 1200원",
+    "originalPrice": 12000,
+    "discountRate": 10,
+    "isDawnDelivery": true,
+    "brandName": "니도",
+    "isKurlyOnly": false,
+    "category": ["취미"],
+    "shortDescription": "컬러풀한 과일 모양의 귀여운 말랑이 스트레스 해소 볼, 보기만 해도 기분 업",
+    "reviewCount": 3,
+    "eventBadge": false,
+    "rankingCategory": "취미",
+    "ranking": 10,
+    "reviews": [
+      {
+        "reviewId": "PL0010-R01",
+        "isMembers": true,
+        "isBest": true,
+        "userName": "임재연",
+        "content": "과일 모양이 너무 귀엽고 색감도 예뻐요. 책상에 놓으니 분위기가 밝아졌어요",
+        "reviewImages": ["ReviewImage10-01", "ReviewImage10-02"]
+      },
+      {
+        "reviewId": "PL0010-R02",
+        "isMembers": true,
+        "isBest": false,
+        "userName": "노지현",
+        "content": "쥐었다 폈다 하면서 스트레스 확 풀려요. 회사에 하나 더 사야겠어요",
+        "reviewImages": []
+      },
+      {
+        "reviewId": "PL0010-R03",
+        "isMembers": false,
+        "isBest": false,
+        "userName": "문성준",
+        "content": "아이들이 너무 좋아해요. 딸기 모양 사줬더니 눈을 못 떼네요",
+        "reviewImages": ["ReviewImage10-03"]
+      }
+    ],
+    "questions": [
+      {
+        "isSecret": false,
+        "questionId": "PL0010-Q01",
+        "title": "냄새가 나나요?",
+        "userName": "권채린",
+        "date": "2026-01-11",
+        "content": {
+          "question": "고무 냄새 같은 게 심하게 나지는 않나요?",
+          "answer": "안녕하세요 고객님, 처음에 약한 고무 냄새가 날 수 있으나 환기 후 사용하시면 사라집니다."
+        }
+      },
+      {
+        "isSecret": false,
+        "questionId": "PL0010-Q02",
+        "title": "색상 선택이 가능한가요?",
+        "userName": "안소윤",
+        "date": "2026-01-21",
+        "content": {
+          "question": "딸기, 오렌지 등 원하는 과일 모양 선택 가능한가요?",
+          "answer": "안녕하세요 고객님, 주문 시 원하시는 색상/모양 선택 가능합니다."
+        }
+      },
+      {
+        "isSecret": false,
+        "questionId": "PL0010-Q03",
+        "title": "어린 아이도 써도 되나요?",
+        "userName": "손재영",
+        "date": "2026-02-04",
+        "content": {
+          "question": "4살 아이한테 줘도 괜찮을까요?",
+          "answer": "안녕하세요 고객님, 3세 이상 사용 가능하나 보호자 지도 하에 사용 권장합니다."
+        }
+      }
+    ],
+    "detailDescription": {
+      "detailProductImage": "PL0010-Detail",
+      "productTitle": "[니도] 과일 스트레스볼 말랑이 택1",
+      "material": "TPR",
+      "size": "7x7cm",
+      "manufacturer": "중국산"
+    }
+  },
+  {
+    "productId": "PL0011",
+    "productName": "[니도] 원형 스트레스볼 말랑이 택1",
+    "productImage": "PL0011-Thumb",
+    "topBadgeText": "무료배송",
+    "bottomBannerText": "최대혜택가 950원",
+    "originalPrice": 9500,
+    "discountRate": 10,
+    "isDawnDelivery": true,
+    "brandName": "니도",
+    "isKurlyOnly": false,
+    "category": ["취미"],
+    "shortDescription": "다양한 색상으로 선택 가능한 원형 말랑이 스트레스 해소 볼, 손 운동에도 좋아요",
+    "reviewCount": 4,
+    "eventBadge": true,
+    "rankingCategory": "취미",
+    "ranking": 3,
+    "reviews": [
+      {
+        "reviewId": "PL0011-R01",
+        "isMembers": true,
+        "isBest": true,
+        "userName": "권나은",
+        "content": "손에 쥐고 있으면 스트레스가 스르르 풀려요. 업무 중에 계속 만지게 돼요",
+        "reviewImages": ["ReviewImage11-01"]
+      },
+      {
+        "reviewId": "PL0011-R02",
+        "isMembers": true,
+        "isBest": false,
+        "userName": "안재현",
+        "content": "집중력이 높아지는 것 같아요. 회의 중에 몰래 쥐고 있어요",
+        "reviewImages": []
+      },
+      {
+        "reviewId": "PL0011-R03",
+        "isMembers": false,
+        "isBest": false,
+        "userName": "송미래",
+        "content": "다양한 색상으로 골라 쓸 수 있어서 좋아요. 친구들한테도 선물했어요",
+        "reviewImages": []
+      },
+      {
+        "reviewId": "PL0011-R04",
+        "isMembers": true,
+        "isBest": false,
+        "userName": "홍준영",
+        "content": "손 크기에 딱 맞는 크기예요. 탄성도 적당해서 오래 쥐고 있어도 손이 안 아파요",
+        "reviewImages": ["ReviewImage11-02"]
+      }
+    ],
+    "questions": [
+      {
+        "isSecret": false,
+        "questionId": "PL0011-Q01",
+        "title": "색상 선택이 가능한가요?",
+        "userName": "민지현",
+        "date": "2026-01-13",
+        "content": {
+          "question": "원하는 색상을 선택해서 살 수 있나요?",
+          "answer": "안녕하세요 고객님, 주문 시 원하시는 색상 선택 가능합니다."
+        }
+      },
+      {
+        "isSecret": false,
+        "questionId": "PL0011-Q02",
+        "title": "알레르기 물질이 포함되나요?",
+        "userName": "이채원",
+        "date": "2026-01-24",
+        "content": {
+          "question": "라텍스 알레르기가 있는데 사용해도 되나요?",
+          "answer": "안녕하세요 고객님, TPR 소재로 라텍스 성분이 포함되지 않습니다."
+        }
+      },
+      {
+        "isSecret": true,
+        "questionId": "PL0011-Q03",
+        "title": "파손 문의",
+        "userName": "유재원",
+        "date": "2026-02-06",
+        "content": {
+          "question": "쥐다가 터져버렸어요",
+          "answer": "안녕하세요 고객님, 정상 사용 중 파손이라면 교환 가능합니다. 사진과 함께 고객센터로 접수 부탁드립니다."
+        }
+      }
+    ],
+    "detailDescription": {
+      "detailProductImage": "PL0011-Detail",
+      "productTitle": "[니도] 원형 스트레스볼 말랑이 택1",
+      "material": "TPR",
+      "size": "직경 7cm",
+      "manufacturer": "중국산"
+    }
+  },
+  {
+    "productId": "PL0012",
+    "productName": "[프로그] 고무장갑 컴포트 퍼플 3개입",
+    "productImage": "PL0012-Thumb",
+    "topBadgeText": "1+1 이벤트",
+    "bottomBannerText": "최대혜택가 2250원",
+    "originalPrice": 7500,
+    "discountRate": 10,
+    "firstDiscountRate": 30,
+    "isDawnDelivery": true,
+    "brandName": "프로그",
+    "isKurlyOnly": false,
+    "category": ["잡화"],
+    "shortDescription": "컬러풀한 퍼플 디자인에 편안한 착용감, 3개입으로 넉넉하게 쓰는 고무장갑",
+    "reviewCount": 3,
+    "eventBadge": false,
+    "rankingCategory": "잡화",
+    "ranking": 7,
+    "reviews": [
+      {
+        "reviewId": "PL0012-R01",
+        "isMembers": true,
+        "isBest": true,
+        "userName": "채수원",
+        "content": "3개입이라 오래 쓸 수 있어서 좋아요. 퍼플 색상이 너무 예뻐요",
+        "reviewImages": ["ReviewImage12-01"]
+      },
+      {
+        "reviewId": "PL0012-R02",
+        "isMembers": true,
+        "isBest": false,
+        "userName": "황미경",
+        "content": "착용감이 편하고 두께도 적당해서 설거지 할 때 물건을 잘 집을 수 있어요",
+        "reviewImages": []
+      },
+      {
+        "reviewId": "PL0012-R03",
+        "isMembers": false,
+        "isBest": false,
+        "userName": "류재현",
+        "content": "퍼플 색상이 주방 분위기를 살려줘요. 품질도 좋아서 오래 쓸 수 있어요",
+        "reviewImages": ["ReviewImage12-02"]
+      }
+    ],
+    "questions": [
+      {
+        "isSecret": false,
+        "questionId": "PL0012-Q01",
+        "title": "사이즈가 어떻게 되나요?",
+        "userName": "정재인",
+        "date": "2026-01-08",
+        "content": {
+          "question": "손이 작은 편인데 M 사이즈가 맞을까요?",
+          "answer": "안녕하세요 고객님, M 사이즈 기준 손 둘레 약 18~20cm에 적합합니다."
+        }
+      },
+      {
+        "isSecret": false,
+        "questionId": "PL0012-Q02",
+        "title": "라텍스 성분이 있나요?",
+        "userName": "박소라",
+        "date": "2026-01-19",
+        "content": {
+          "question": "라텍스 알레르기가 있어서 성분이 걱정돼요",
+          "answer": "안녕하세요 고객님, 해당 제품은 천연고무 소재로 라텍스 성분이 포함될 수 있습니다. 알레르기 체질이신 경우 주의를 요합니다."
+        }
+      },
+      {
+        "isSecret": false,
+        "questionId": "PL0012-Q03",
+        "title": "내구성이 얼마나 되나요?",
+        "userName": "김현수",
+        "date": "2026-02-01",
+        "content": {
+          "question": "한 개로 얼마나 쓸 수 있나요?",
+          "answer": "안녕하세요 고객님, 사용 빈도에 따라 다르지만 매일 사용 기준 약 1~2개월 사용 가능합니다."
+        }
+      }
+    ],
+    "detailDescription": {
+      "detailProductImage": "PL0012-Detail",
+      "productTitle": "[프로그] 고무장갑 컴포트 퍼플 3개입",
+      "material": "천연고무",
+      "size": "M 사이즈",
+      "manufacturer": "말레이시아산"
+    }
+  },
+  {
+    "productId": "PL0013",
+    "productName": "[아망떼] 순면 40수 스틸히어 호텔수건 2P",
+    "productImage": "PL0013-Thumb",
+    "topBadgeText": "컬리 단독 기획",
+    "bottomBannerText": "최대혜택가 4200원",
+    "originalPrice": 28000,
+    "discountRate": 15,
+    "isDawnDelivery": true,
+    "brandName": "아망떼",
+    "isKurlyOnly": true,
+    "category": ["욕실용품"],
+    "shortDescription": "40수 순면 소재로 만든 호텔급 수건, 매일 쓰는 일상을 조금 더 고급스럽게",
+    "reviewCount": 5,
+    "eventBadge": false,
+    "rankingCategory": "욕실용품",
+    "ranking": 1,
+    "reviews": [
+      {
+        "reviewId": "PL0013-R01",
+        "isMembers": true,
+        "isBest": true,
+        "userName": "고지원",
+        "content": "호텔에서 써본 수건 느낌 그대로예요. 집에서 매일 호텔 느낌 날 수 있어서 너무 좋아요",
+        "reviewImages": ["ReviewImage13-01", "ReviewImage13-02"]
+      },
+      {
+        "reviewId": "PL0013-R02",
+        "isMembers": true,
+        "isBest": false,
+        "userName": "마상준",
+        "content": "두꺼워서 물 흡수가 정말 잘 돼요. 샤워 후에 쾌적하게 닦을 수 있어요",
+        "reviewImages": []
+      },
+      {
+        "reviewId": "PL0013-R03",
+        "isMembers": false,
+        "isBest": false,
+        "userName": "배소희",
+        "content": "세탁해도 보풀이 안 생기고 흐물거리지 않아요. 오래 쓸 수 있을 것 같아요",
+        "reviewImages": ["ReviewImage13-03"]
+      },
+      {
+        "reviewId": "PL0013-R04",
+        "isMembers": true,
+        "isBest": false,
+        "userName": "이경민",
+        "content": "선물용으로 포장해서 드렸는데 받으신 분이 너무 좋아하셨어요",
+        "reviewImages": []
+      },
+      {
+        "reviewId": "PL0013-R05",
+        "isMembers": true,
+        "isBest": false,
+        "userName": "신현수",
+        "content": "2P라 가성비도 좋고 한 개는 두고 쓰고 한 개는 빨아 쓰기 딱 좋아요",
+        "reviewImages": []
+      }
+    ],
+    "questions": [
+      {
+        "isSecret": false,
+        "questionId": "PL0013-Q01",
+        "title": "세탁기 세탁 가능한가요?",
+        "userName": "오현정",
+        "date": "2026-01-10",
+        "content": {
+          "question": "일반 세탁기로 빨아도 되나요?",
+          "answer": "안녕하세요 고객님, 세탁기 세탁 가능합니다. 30도 이하 온도에서 세탁하시길 권장합니다."
+        }
+      },
+      {
+        "isSecret": false,
+        "questionId": "PL0013-Q02",
+        "title": "건조기 사용이 가능한가요?",
+        "userName": "한지우",
+        "date": "2026-01-22",
+        "content": {
+          "question": "건조기에 돌려도 되나요?",
+          "answer": "안녕하세요 고객님, 저온 건조 가능합니다. 고온 건조 시 수축될 수 있으니 주의 부탁드립니다."
+        }
+      },
+      {
+        "isSecret": false,
+        "questionId": "PL0013-Q03",
+        "title": "색상 종류가 어떻게 되나요?",
+        "userName": "황수진",
+        "date": "2026-02-01",
+        "content": {
+          "question": "어떤 색상들이 있나요?",
+          "answer": "안녕하세요 고객님, 화이트, 그레이, 베이지 3가지 색상으로 판매 중입니다."
+        }
+      },
+      {
+        "isSecret": true,
+        "questionId": "PL0013-Q04",
+        "title": "교환 문의",
+        "userName": "정하윤",
+        "date": "2026-02-12",
+        "content": {
+          "question": "색상이 마음에 들지 않아 교환하고 싶어요",
+          "answer": "안녕하세요 고객님, 미사용 상태라면 수령 후 7일 이내 교환 가능합니다."
+        }
+      }
+    ],
+    "detailDescription": {
+      "detailProductImage": "PL0013-Detail",
+      "productTitle": "[아망떼] 순면 40수 스틸히어 호텔수건 2P",
+      "material": "면 100%",
+      "size": "70x34cm",
+      "manufacturer": "국산"
+    }
+  },
+  {
+    "productId": "PL0014",
+    "productName": "[아망떼] 무소음 밴딩 베개커버",
+    "productImage": "PL0014-Thumb",
+    "topBadgeText": "적립금 2배",
+    "bottomBannerText": "최대혜택가 1990원",
+    "originalPrice": 19900,
+    "discountRate": 10,
+    "isDawnDelivery": true,
+    "brandName": "아망떼",
+    "isKurlyOnly": false,
+    "category": ["이불배게"],
+    "shortDescription": "소리 없이 착 감기는 밴딩 처리, 편안한 수면을 도와주는 무소음 베개커버",
+    "reviewCount": 4,
+    "eventBadge": true,
+    "rankingCategory": "이불배게",
+    "ranking": 5,
+    "reviews": [
+      {
+        "reviewId": "PL0014-R01",
+        "isMembers": true,
+        "isBest": true,
+        "userName": "전수아",
+        "content": "벨크로 없이 밴딩으로 고정돼서 소음이 아예 없어요. 수면 질이 좋아졌어요",
+        "reviewImages": ["ReviewImage14-01"]
+      },
+      {
+        "reviewId": "PL0014-R02",
+        "isMembers": true,
+        "isBest": false,
+        "userName": "우민혁",
+        "content": "소재가 부드럽고 촉감이 너무 좋아요. 세탁해도 쭈글거리지 않아요",
+        "reviewImages": []
+      },
+      {
+        "reviewId": "PL0014-R03",
+        "isMembers": false,
+        "isBest": false,
+        "userName": "구소영",
+        "content": "세탁 후에도 형태가 잘 유지돼요. 밴딩이 베개를 꽉 잡아줘서 벗겨지지 않아요",
+        "reviewImages": []
+      },
+      {
+        "reviewId": "PL0014-R04",
+        "isMembers": true,
+        "isBest": false,
+        "userName": "공재원",
+        "content": "심플한 디자인이라 어떤 베개에도 잘 어울려요. 재구매 의사 100%",
+        "reviewImages": ["ReviewImage14-02"]
+      }
+    ],
+    "questions": [
+      {
+        "isSecret": false,
+        "questionId": "PL0014-Q01",
+        "title": "세탁기 사용 가능한가요?",
+        "userName": "방수진",
+        "date": "2026-01-15",
+        "content": {
+          "question": "세탁기로 빨아도 되나요?",
+          "answer": "안녕하세요 고객님, 세탁기 세탁 가능합니다. 30도 이하 울 코스 사용을 권장드립니다."
+        }
+      },
+      {
+        "isSecret": false,
+        "questionId": "PL0014-Q02",
+        "title": "사이즈가 맞지 않으면 교환 가능한가요?",
+        "userName": "함지수",
+        "date": "2026-01-26",
+        "content": {
+          "question": "베개 규격이 50x70cm인데 맞을까요?",
+          "answer": "안녕하세요 고객님, 해당 제품은 표준 베개 사이즈 50x70cm에 맞게 제작되었습니다."
+        }
+      },
+      {
+        "isSecret": false,
+        "questionId": "PL0014-Q03",
+        "title": "건조기 사용이 가능한가요?",
+        "userName": "독고영재",
+        "date": "2026-02-08",
+        "content": {
+          "question": "건조기에 돌려도 될까요?",
+          "answer": "안녕하세요 고객님, 저온 건조 가능합니다. 고온 건조 시 밴딩 부분이 손상될 수 있으니 자연 건조를 권장합니다."
+        }
+      }
+    ],
+    "detailDescription": {
+      "detailProductImage": "PL0014-Detail",
+      "productTitle": "[아망떼] 무소음 밴딩 베개커버",
+      "material": "면 100%",
+      "size": "55x75cm",
+      "manufacturer": "국산"
+    }
+  },
+  {
+    "productId": "PL0015",
+    "productName": "[미닉스] 음식물 처리기 더플렌더MAX",
+    "productImage": "PL0015-Thumb",
+    "topBadgeText": "혜택 쿠폰 증정",
+    "bottomBannerText": "최대혜택가 97250원",
+    "originalPrice": 389000,
+    "discountRate": 15,
+    "firstDiscountRate": 25,
+    "isDawnDelivery": false,
+    "brandName": "미닉스",
+    "isKurlyOnly": false,
+    "category": ["주방용품"],
+    "shortDescription": "저소음 설계로 이웃집 눈치 없이, 빠르게 분쇄하는 미닉스 최신형 음식물 처리기",
+    "reviewCount": 3,
+    "eventBadge": true,
+    "rankingCategory": "주방용품",
+    "ranking": 9,
+    "reviews": [
+      {
+        "reviewId": "PL0015-R01",
+        "isMembers": true,
+        "isBest": true,
+        "userName": "방지훈",
+        "content": "소음이 예상보다 훨씬 조용해요. 밤에 써도 아랫집 눈치 안 봐도 될 것 같아요",
+        "reviewImages": ["ReviewImage15-01", "ReviewImage15-02"]
+      },
+      {
+        "reviewId": "PL0015-R02",
+        "isMembers": true,
+        "isBest": false,
+        "userName": "함소원",
+        "content": "음식물 쓰레기 냄새가 없어지니 주방이 정말 쾌적해졌어요. 강추합니다",
+        "reviewImages": []
+      },
+      {
+        "reviewId": "PL0015-R03",
+        "isMembers": false,
+        "isBest": false,
+        "userName": "이정현",
+        "content": "설치가 생각보다 쉽고 용량도 넉넉해서 만족해요. 물 사용도 적어요",
+        "reviewImages": ["ReviewImage15-03"]
+      }
+    ],
+    "questions": [
+      {
+        "isSecret": false,
+        "questionId": "PL0015-Q01",
+        "title": "전기요금이 많이 나오나요?",
+        "userName": "고민준",
+        "date": "2026-01-07",
+        "content": {
+          "question": "매일 쓰면 전기요금 부담이 될까요?",
+          "answer": "안녕하세요 고객님, 1회 사용 시 약 0.03kWh 소모로 전기요금 부담이 적습니다."
+        }
+      },
+      {
+        "isSecret": false,
+        "questionId": "PL0015-Q02",
+        "title": "처리 용량이 얼마나 되나요?",
+        "userName": "마지수",
+        "date": "2026-01-18",
+        "content": {
+          "question": "하루치 음식물 쓰레기를 한 번에 처리할 수 있나요?",
+          "answer": "안녕하세요 고객님, 1회 최대 2L 용량 처리 가능하며 4인 가족 기준 충분합니다."
+        }
+      },
+      {
+        "isSecret": false,
+        "questionId": "PL0015-Q03",
+        "title": "AS 서비스는 어떻게 받나요?",
+        "userName": "배재현",
+        "date": "2026-01-29",
+        "content": {
+          "question": "고장 났을 때 AS는 어떻게 받을 수 있나요?",
+          "answer": "안녕하세요 고객님, 구매 후 1년 무상 AS 제공됩니다. 미닉스 공식 AS 센터 또는 고객센터로 문의 부탁드립니다."
+        }
+      },
+      {
+        "isSecret": true,
+        "questionId": "PL0015-Q04",
+        "title": "설치 관련 문의",
+        "userName": "전준혁",
+        "date": "2026-02-11",
+        "content": {
+          "question": "설치 서비스도 제공되나요?",
+          "answer": "안녕하세요 고객님, 별도 설치 서비스는 제공되지 않으나 동봉된 설명서를 참고하시면 쉽게 설치 가능합니다."
+        }
+      }
+    ],
+    "detailDescription": {
+      "detailProductImage": "PL0015-Detail",
+      "productTitle": "[미닉스] 음식물 처리기 더플렌더MAX",
+      "material": "ABS수지, 스테인리스",
+      "size": "가로 30cm x 세로 30cm x 높이 25cm",
+      "manufacturer": "국산"
+    }
+  },
+  {
+    "productId": "PL0016",
+    "productName": "[덴비] 엘리멘츠 밥 국공기 택1",
+    "productImage": "PL0016-Thumb",
+    "topBadgeText": "사은품 증정",
+    "bottomBannerText": "최대혜택가 2800원",
+    "originalPrice": 28000,
+    "discountRate": 10,
+    "isDawnDelivery": true,
+    "brandName": "덴비",
+    "isKurlyOnly": true,
+    "category": ["주방용품"],
+    "shortDescription": "덴비 엘리멘츠 라인의 감각적인 밥공기와 국그릇, 식탁의 품격을 높여드립니다",
+    "reviewCount": 4,
+    "eventBadge": false,
+    "rankingCategory": "주방용품",
+    "ranking": 4,
+    "reviews": [
+      {
+        "reviewId": "PL0016-R01",
+        "isMembers": true,
+        "isBest": true,
+        "userName": "설현아",
+        "content": "식탁이 격이 달라지는 느낌이에요. 밥이 더 맛있어 보여요",
+        "reviewImages": ["ReviewImage16-01", "ReviewImage16-02"]
+      },
+      {
+        "reviewId": "PL0016-R02",
+        "isMembers": true,
+        "isBest": false,
+        "userName": "온주완",
+        "content": "무게가 있어서 안정감이 있고 세척도 편해요. 도자기 특유의 질감이 좋아요",
+        "reviewImages": []
+      },
+      {
+        "reviewId": "PL0016-R03",
+        "isMembers": false,
+        "isBest": false,
+        "userName": "주지훈",
+        "content": "색이 진짜 예뻐요. 집에 있는 그릇들이 다 초라해 보일 정도예요",
+        "reviewImages": ["ReviewImage16-03"]
+      },
+      {
+        "reviewId": "PL0016-R04",
+        "isMembers": true,
+        "isBest": false,
+        "userName": "진기주",
+        "content": "부모님 선물로 드렸더니 너무 좋아하셨어요. 포장도 고급스러워요",
+        "reviewImages": []
+      }
+    ],
+    "questions": [
+      {
+        "isSecret": false,
+        "questionId": "PL0016-Q01",
+        "title": "전자레인지 사용 가능한가요?",
+        "userName": "서준영",
+        "date": "2026-01-14",
+        "content": {
+          "question": "전자레인지에 돌려도 되나요?",
+          "answer": "안녕하세요 고객님, 덴비 엘리멘츠 라인은 전자레인지 사용 가능합니다."
+        }
+      },
+      {
+        "isSecret": false,
+        "questionId": "PL0016-Q02",
+        "title": "밥공기와 국그릇을 따로 살 수 있나요?",
+        "userName": "임채윤",
+        "date": "2026-01-25",
+        "content": {
+          "question": "밥공기만 2개 사고 싶은데 가능한가요?",
+          "answer": "안녕하세요 고객님, 밥공기와 국그릇을 각각 단품으로 선택하여 구매 가능합니다."
+        }
+      },
+      {
+        "isSecret": false,
+        "questionId": "PL0016-Q03",
+        "title": "식기세척기 사용 가능한가요?",
+        "userName": "고재현",
+        "date": "2026-02-05",
+        "content": {
+          "question": "식기세척기에 넣어도 되나요?",
+          "answer": "안녕하세요 고객님, 식기세척기 사용 가능합니다. 단, 고온 건조 코스는 피해주세요."
+        }
+      }
+    ],
+    "detailDescription": {
+      "detailProductImage": "PL0016-Detail",
+      "productTitle": "[덴비] 엘리멘츠 밥 국공기 택1",
+      "material": "도자기",
+      "size": "밥공기 직경 13cm / 국그릇 직경 14cm",
+      "manufacturer": "영국산"
+    }
+  }
+]
