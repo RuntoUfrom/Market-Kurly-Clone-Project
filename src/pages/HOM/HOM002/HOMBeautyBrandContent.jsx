@@ -37,7 +37,7 @@ const HOMBeautyBrandContent = () => {
       <div className="flex flex-col gap-2 p-2">
         <BeautyBrandSection
           main="설화수"
-          description="시간의 흐름에 지지 않는 아름다움을 위한 선택"
+          description="시간의 흐름에 지지 않는 아름다움을 위해"
           brandImageList={BrandImage.Sulwhasu}
         />
         <BeautyBrandSection
