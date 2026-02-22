@@ -1,6 +1,7 @@
 //실제로 페이지 파일로 바꿔주는 기능
 import { lazy, Suspense, useEffect } from "react";
 import Layout from "@/components/common/Layout";
+import LoadingSpinner from "@/components/common/layout/LoadingSpinner";
 
 // 컴포넌트 외부에서 모든 페이지 모듈을 미리 로드
 const pages = import.meta.glob("../pages/**/*.jsx");
@@ -24,7 +25,7 @@ const RouteComponent = ({ url, filePath, menuId }) => {
 
   return (
     <Layout>
-      <Suspense fallback={<div>로딩중...</div>}>
+      <Suspense fallback={<LoadingSpinner />}>
         <DynamicComponent />
       </Suspense>
     </Layout>

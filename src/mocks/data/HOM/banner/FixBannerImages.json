@@ -1,0 +1,56 @@
+[
+  {
+    "bannerId": 1,
+    "bannerImage": "DealFixBanner01",
+    "linkUrl": "/goods/100001",
+    "title": "특가 배너 1"
+  },
+  {
+    "bannerId": 2,
+    "bannerImage": "DealFixBanner02",
+    "linkUrl": "/goods/100002",
+    "title": "특가 배너 2"
+  },
+  {
+    "bannerId": 3,
+    "bannerImage": "DealFixBanner03",
+    "linkUrl": "/goods/100003",
+    "title": "특가 배너 3"
+  },
+  {
+    "bannerId": 4,
+    "bannerImage": "DealFixBanner04",
+    "linkUrl": "/goods/100004",
+    "title": "특가 배너 4"
+  },
+  {
+    "bannerId": 5,
+    "bannerImage": "DealFixBanner05",
+    "linkUrl": "/goods/100005",
+    "title": "특가 배너 5"
+  },
+  {
+    "bannerId": 6,
+    "bannerImage": "DealFixBanner06",
+    "linkUrl": "/goods/100006",
+    "title": "특가 배너 6"
+  },
+  {
+    "bannerId": 7,
+    "bannerImage": "DealFixBanner07",
+    "linkUrl": "/goods/100007",
+    "title": "특가 배너 7"
+  },
+  {
+    "bannerId": 8,
+    "bannerImage": "DealFixBanner08",
+    "linkUrl": "/goods/100008",
+    "title": "특가 배너 8"
+  },
+  {
+    "bannerId": 9,
+    "bannerImage": "DealFixBanner09",
+    "linkUrl": "/goods/100009",
+    "title": "특가 배너 9"
+  }
+]

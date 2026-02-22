@@ -1,0 +1,62 @@
+[
+  {
+    "bannerId": "BM0001",
+    "bannerImage": "MarketBanner01",
+    "linkUrl": "/event/100001",
+    "title": "마켓컬리 홈 배너 01"
+  },
+  {
+    "bannerId": "BM0002",
+    "bannerImage": "MarketBanner02",
+    "linkUrl": "/event/100002",
+    "title": "마켓컬리 홈 배너 02"
+  },
+  {
+    "bannerId": "BM0003",
+    "bannerImage": "MarketBanner03",
+    "linkUrl": "/event/100003",
+    "title": "마켓컬리 홈 배너 03"
+  },
+  {
+    "bannerId": "BM0004",
+    "bannerImage": "MarketBanner04",
+    "linkUrl": "/event/100004",
+    "title": "마켓컬리 홈 배너 04"
+  },
+  {
+    "bannerId": "BM0005",
+    "bannerImage": "MarketBanner05",
+    "linkUrl": "/event/100005",
+    "title": "마켓컬리 홈 배너 05"
+  },
+  {
+    "bannerId": "BM0006",
+    "bannerImage": "MarketBanner06",
+    "linkUrl": "/event/100006",
+    "title": "마켓컬리 홈 배너 06"
+  },
+  {
+    "bannerId": "BM0007",
+    "bannerImage": "MarketBanner07",
+    "linkUrl": "/event/100007",
+    "title": "마켓컬리 홈 배너 07"
+  },
+  {
+    "bannerId": "BM0008",
+    "bannerImage": "MarketBanner08",
+    "linkUrl": "/event/100008",
+    "title": "마켓컬리 홈 배너 08"
+  },
+  {
+    "bannerId": "BM0009",
+    "bannerImage": "MarketBanner09",
+    "linkUrl": "/event/100009",
+    "title": "마켓컬리 홈 배너 09"
+  },
+  {
+    "bannerId": "BM0010",
+    "bannerImage": "MarketBanner10",
+    "linkUrl": "/event/100010",
+    "title": "마켓컬리 홈 배너 10"
+  }
+]

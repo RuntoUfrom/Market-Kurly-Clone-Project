@@ -1,0 +1,8 @@
+{
+  "statusCode": 200,
+  "code": "TEST_DATA_SUCCESS",
+  "data": {
+    "id": 1,
+    "name": "샘플 데이터 테스트히히"
+  }
+}

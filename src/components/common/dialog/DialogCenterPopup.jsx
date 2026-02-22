@@ -23,13 +23,22 @@ const modalContent = {
   transform: "translate(-50%,-50%)",
   background: "white",
   width: "80%",
-  height: "40%" /* 화면의 높이의 절반까지만 늘어나도록 설정 */,
+  height: "50%" /* 내용에 맞게 자동 조절, 최대 화면 절반 */,
   overflowY: "auto" /* 내용이 넘칠 경우 스크롤 허용 */,
   padding: "20px",
   boxSizing: "border-box",
+  borderRadius: "10px",
 };
 
 // 센터 팝업을 감싸는 컴포넌트
+/**
+ * 중앙 컨텐츠 팝업 래퍼 컴포넌트 (스크롤 가능)
+ *
+ * @param {Object} props
+ * @param {number} props.layerIndex - 레이어 인덱스
+ * @param {function} [props.callbackFunc] - 팝업 닫힘 시 호출되는 콜백
+ * @param {React.ReactNode} props.children - 팝업 내부 컨텐츠
+ */
 function DialogCenterPopup({ layerIndex, callbackFunc, children }) {
   const { layerList, removeLayerList } = useLayerStore();
   const isClosedRef = useRef(false);
@@ -56,6 +65,9 @@ function DialogCenterPopup({ layerIndex, callbackFunc, children }) {
       ref={dialogRef}
       style={modalOverlay}
       aria-hidden={layerIndex === lastIndex ? "false" : "true"}
+      onClick={(e) => {
+        if (e.target === dialogRef.current) dialogClose();
+      }}
     >
       <div style={modalContent}>
         {/* eslint-disable react-hooks/refs */}

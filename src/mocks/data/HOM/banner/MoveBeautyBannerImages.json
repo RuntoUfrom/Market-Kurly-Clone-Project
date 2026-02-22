@@ -1,0 +1,62 @@
+[
+  {
+    "bannerId": "BB0001",
+    "bannerImage": "BeautyBanner01",
+    "linkUrl": "/event/200001",
+    "title": "뷰티컬리 홈 배너 01"
+  },
+  {
+    "bannerId": "BB0002",
+    "bannerImage": "BeautyBanner02",
+    "linkUrl": "/event/200002",
+    "title": "뷰티컬리 홈 배너 02"
+  },
+  {
+    "bannerId": "BB0003",
+    "bannerImage": "BeautyBanner03",
+    "linkUrl": "/event/200003",
+    "title": "뷰티컬리 홈 배너 03"
+  },
+  {
+    "bannerId": "BB0004",
+    "bannerImage": "BeautyBanner04",
+    "linkUrl": "/event/200004",
+    "title": "뷰티컬리 홈 배너 04"
+  },
+  {
+    "bannerId": "BB0005",
+    "bannerImage": "BeautyBanner05",
+    "linkUrl": "/event/200005",
+    "title": "뷰티컬리 홈 배너 05"
+  },
+  {
+    "bannerId": "BB0006",
+    "bannerImage": "BeautyBanner06",
+    "linkUrl": "/event/200006",
+    "title": "뷰티컬리 홈 배너 06"
+  },
+  {
+    "bannerId": "BB0007",
+    "bannerImage": "BeautyBanner07",
+    "linkUrl": "/event/200007",
+    "title": "뷰티컬리 홈 배너 07"
+  },
+  {
+    "bannerId": "BB0008",
+    "bannerImage": "BeautyBanner08",
+    "linkUrl": "/event/200008",
+    "title": "뷰티컬리 홈 배너 08"
+  },
+  {
+    "bannerId": "BB0009",
+    "bannerImage": "BeautyBanner09",
+    "linkUrl": "/event/200009",
+    "title": "뷰티컬리 홈 배너 09"
+  },
+  {
+    "bannerId": "BB0010",
+    "bannerImage": "BeautyBanner10",
+    "linkUrl": "/event/200010",
+    "title": "뷰티컬리 홈 배너 10"
+  }
+]

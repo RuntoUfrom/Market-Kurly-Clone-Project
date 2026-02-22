@@ -35,16 +35,20 @@ const DialogBottomPopup = ({ layerIndex, callbackFunc, data, children }) => {
   return (
     <div
       ref={dialogRef}
-      className={`fixed mx-auto w-full max-w-[430px] inset-0 bg-black/20 flex justify-center items-end z-[1000] overflow-hidden 
+      className={`fixed mx-auto w-full max-w-[400px] inset-0 bg-black/20 flex justify-center items-end z-[1000] overflow-hidden
         ${
           layerIndex === lastIndex
             ? "pointer-events-auto"
             : "pointer-events-none"
         }`}
       aria-hidden={layerIndex === lastIndex ? "false" : "true"}
+      onClick={dialogClose}
     >
       {/* 슬라이드 업 애니메이션 */}
-      <div className="bg-white w-full rounded-t-[20px] box-border animate-slide-up">
+      <div
+        className="bg-white w-full rounded-t-[20px] overflow-hidden box-border animate-slide-up"
+        onClick={(e) => e.stopPropagation()}
+      >
         {React.isValidElement(children) &&
           React.cloneElement(children, { dialogClose, data })}
       </div>

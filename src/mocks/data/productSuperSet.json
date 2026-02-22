@@ -1,0 +1,59 @@
+{
+  "productId": "PM0006",
+  "productName": "[차려낸] 햄 가득 송탄식 부대찌개",
+  "productImage": "MarketImage06",
+  "topBadgeText": "멤버스특가",
+  "bottomBannerText": "최저가8130원",
+  "originalPrice": 15900,
+  "discountRate": 30, //할인가 컴포넌트에서 계산
+  "firstDiscountRate": 50, //할인가 컴포넌트에서 계산
+  "isDawnDelivery": true,
+  "brandName": "차려낸",
+  "isKurlyOnly": true,
+  "category": ["밀키트", "베스트"],
+  "shortDescription": "햄으로 가득 채운 풍성한 냄비",
+  "reviewCount": 2,
+  "eventBadge": true,
+  "rankingCategory": "밀키트",
+  "ranking": 5,
+  "reviews": [
+    {
+      "reviewId": "PM0006-R01",
+      "isMembers": true,
+      "isBest": true,
+      "userName": "김남길",
+      "content": "맛이 좋아요 즐겁게 먹었습니다.",
+      "reviewImages": ["ReviewImage06-01", "ReviewImage06-02"]
+    },
+    {
+      "reviewId": "PM0006-R02",
+      "isMembers": true,
+      "isBest": false,
+      "userName": "최영원",
+      "content": "인생이 행복해지는 비결은 끊임없이 작은선물을 받는 것이다.",
+      "reviewImages": ["ReviewImage06-01", "ReviewImage06-02"]
+    }
+  ],
+  "questions": [
+    {
+      "isSecret": false,
+      "questionId": "PM0006-Q02",
+      "title": "치즈가 안들어있어요",
+      "userName": "지성준",
+      "date": "2026-02-11",
+      "content": {
+        "question": "2번째 시켰는데 왜 맨날 치즈를 빼먹고 그래요 섭섭하게",
+        "answer": "안녕하세요 고객님\n치즈를 그만 도둑고양이가 먹어버리고 말았어요."
+      } //지금 보니 isAnswer가 아니라, answer가 null여부로 판단해도될거 같음
+    }
+  ],
+  "detailDescription": {
+    "detailProductImage": "DetailImage-PM0006",
+    "packagingType": "냉동",
+    "salesUnit": "1팩",
+    "weight": "565g",
+    "allergyInfo": "이 제품은 우유, 대두, 밀, 땅콩을 사용한 제품과 같은 제조 시설에서 제조하고 있습니다.",
+    "expirationDate": "2026-09-20",
+    "origin": "국산"
+  }
+}

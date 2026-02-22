@@ -1,0 +1,95 @@
+//마켓 컬리 - 라운드 메뉴 로고 이미지
+import RoundBeautyIcon from "@/assets/menu/roundmenuicons/RoundBeautyIcon.png";
+import RoundBestIcon from "@/assets/menu/roundmenuicons/RoundBestIcon.png";
+import RoundCarrotIcon from "@/assets/menu/roundmenuicons/RoundCarrotIcon.png";
+import RoundChallengeIcon from "@/assets/menu/roundmenuicons/RoundChallengeIcon.png";
+import RoundCheapIcon from "@/assets/menu/roundmenuicons/RoundCheapIcon.png";
+import RoundDessertIcono from "@/assets/menu/roundmenuicons/RoundDessertIcono.png";
+import RoundDiscountIcon from "@/assets/menu/roundmenuicons/RoundDiscountIcon.png";
+import RoundFamousIcon from "@/assets/menu/roundmenuicons/RoundFamousIcon.png";
+import RoundFashionIcon from "@/assets/menu/roundmenuicons/RoundFashionIcon.png";
+import RoundFreshIcon from "@/assets/menu/roundmenuicons/RoundFreshIcon.png";
+import RoundFreshMearIcon from "@/assets/menu/roundmenuicons/RoundFreshMearIcon.png";
+import RoundHalfIcon from "@/assets/menu/roundmenuicons/RoundHalfIcon.png";
+import RoundKurlyOnly from "@/assets/menu/roundmenuicons/RoundKurlyOnly.png";
+import RoundLivingIcon from "@/assets/menu/roundmenuicons/RoundLivingIcon.png";
+import RoundMeatIcon from "@/assets/menu/roundmenuicons/RoundMeatIcon.png";
+import RoundMoneyIcon from "@/assets/menu/roundmenuicons/RoundMoneyIcon.png";
+import RoundRecommandIcon from "@/assets/menu/roundmenuicons/RoundRecommandIcon.png";
+import RoundSaleIcon from "@/assets/menu/roundmenuicons/RoundSaleIcon.png";
+import RoundShoppingIcon from "@/assets/menu/roundmenuicons/RoundShoppingIcon.png";
+import RoundSimpleDishIcon from "@/assets/menu/roundmenuicons/RoundSimpleDishIcon.png";
+import RoundSimpleIcon from "@/assets/menu/roundmenuicons/RoundSimpleIcon.png";
+
+import RoundBeautyFamousIcon from "@/assets/menu/roundmenuicons/RoundBeautyFamous.png";
+import RoundBeautyFashionIcon from "@/assets/menu/roundmenuicons/RoundBeautyFashion.png";
+import RoundBeautyHairBodyIcon from "@/assets/menu/roundmenuicons/RoundBeautyHairBody.png";
+import RoundBeautyLuxuryIcon from "@/assets/menu/roundmenuicons/RoundBeautyLuxury.png";
+import RoundBeautyRankIcon from "@/assets/menu/roundmenuicons/RoundBeautyRank.png";
+import RoundBeautySkinIcon from "@/assets/menu/roundmenuicons/RoundBeautySkin.png";
+import RoundBeautyPresentIcon from "@/assets/menu/roundmenuicons/RoundBeautyPresent.png";
+export const ROUND_MENU_IMAGE_MAP = {
+  베스트: RoundBestIcon,
+  간편식사: RoundSimpleIcon,
+  신선코너: RoundFreshIcon,
+
+  최저가도전: RoundChallengeIcon,
+  컬리정육점: RoundMeatIcon,
+  인기급상승: RoundFamousIcon,
+  컬리에만있는: RoundKurlyOnly,
+  직원추천상품: RoundRecommandIcon,
+  채소: RoundCarrotIcon,
+  알뜰쇼핑: RoundShoppingIcon,
+  마감세일: RoundSaleIcon,
+  반값세일: RoundHalfIcon,
+  만원의행복: RoundMoneyIcon,
+  장보기초특가: RoundCheapIcon,
+  디저트: RoundDessertIcono,
+  할인: RoundDiscountIcon,
+  정육: RoundFreshMearIcon,
+
+  리빙: RoundLivingIcon,
+  특가: RoundMoneyIcon,
+  인기신상랭킹: RoundBestIcon,
+  제철신선: RoundCarrotIcon,
+  입점특가: RoundRecommandIcon,
+  요즘간식: RoundDessertIcono,
+  간편한끼: RoundSimpleDishIcon,
+  뷰티: RoundBeautyIcon,
+  주방리빙: RoundLivingIcon,
+  패션: RoundFashionIcon,
+  쇼핑: RoundShoppingIcon,
+  간편식사2: RoundSimpleDishIcon,
+
+  신상랭킹: RoundBeautyRankIcon,
+  "헤어&바디": RoundBeautyHairBodyIcon,
+  스킨케어: RoundBeautySkinIcon,
+  럭셔리뷰티: RoundBeautyLuxuryIcon,
+  요즘인기: RoundBeautyFamousIcon,
+  "패션&잡화": RoundBeautyFashionIcon,
+  선물하기좋은: RoundBeautyPresentIcon,
+};
+
+export const ROUND_MENU_IMAGES = {
+  RoundBeautyIcon,
+  RoundBestIcon,
+  RoundCarrotIcon,
+  RoundChallengeIcon,
+  RoundCheapIcon,
+  RoundDessertIcono,
+  RoundDiscountIcon,
+  RoundFamousIcon,
+  RoundFashionIcon,
+  RoundFreshIcon,
+  RoundFreshMearIcon,
+  RoundHalfIcon,
+  RoundKurlyOnly,
+  RoundLivingIcon,
+  RoundMeatIcon,
+  RoundMoneyIcon,
+  RoundRecommandIcon,
+  RoundSaleIcon,
+  RoundShoppingIcon,
+  RoundSimpleDishIcon,
+  RoundSimpleIcon,
+};

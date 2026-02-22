@@ -1,0 +1,26 @@
+import BasicSubmitButton from "../button/BasicSubmitButton";
+import HeartIcon from "@/assets/common/icons/HeartIcon.png";
+import useNavigateToPlace from "@/hooks/controllers/useNavigateToPlace";
+/**
+ * 상품 상세 페이지 하단 구매 버튼 컴포넌트
+ */
+const DetailProductButton = () => {
+  const handleBuyClick = () => {
+    console.log("구매 버튼 클릭");
+  };
+  return (
+    <div className="flex flex-row w-full">
+      <div className="w-1/5 flex items-center justify-center">
+        <img src={HeartIcon} className="w-6 h-6" />
+      </div>
+      <div className="w-4/5 m-2">
+        <BasicSubmitButton
+          text="구매하기"
+          variant="fill"
+          onClick={handleBuyClick}
+        />
+      </div>
+    </div>
+  );
+};
+export default DetailProductButton;

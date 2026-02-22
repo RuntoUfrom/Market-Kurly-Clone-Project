@@ -1,0 +1,802 @@
+[
+  {
+    "productId": "PM0001",
+    "productName": "고랭지사과 1.3kg",
+    "productImage": "PM0001-Thumb",
+    "topBadgeText": "멤버스특가",
+    "bottomBannerText": "최저가8130원",
+    "originalPrice": 15900,
+    "discountRate": 30,
+    "firstDiscountRate": 50,
+    "isDawnDelivery": true,
+    "brandName": "컬리",
+    "isKurlyOnly": true,
+    "category": ["과일", "신선코너"],
+    "shortDescription": "아삭한 식감과 달콤함이 일품인 사과",
+    "reviewCount": 2,
+    "eventBadge": true,
+    "rankingCategory": "과일",
+    "ranking": 5,
+    "reviews": [
+      {
+        "reviewId": "PM0001-R01",
+        "isMembers": true,
+        "isBest": true,
+        "userName": "김남길",
+        "content": "맛이 좋아요 즐겁게 먹었습니다.",
+        "reviewImages": ["ReviewImage06-01", "ReviewImage06-02"]
+      },
+      {
+        "reviewId": "PM0001-R02",
+        "isMembers": true,
+        "isBest": false,
+        "userName": "최영원",
+        "content": "인생이 행복해지는 비결은 끊임없이 작은선물을 받는 것이다.",
+        "reviewImages": ["ReviewImage06-01", "ReviewImage06-02"]
+      }
+    ],
+    "questions": [
+      {
+        "isSecret": false,
+        "questionId": "PM0001-Q02",
+        "title": "사과가 이게 맞나요",
+        "userName": "지성준",
+        "date": "2026-02-11",
+        "content": {
+          "question": "2번째 시켰는데 왜 맨날 사과 한개를 빼먹고 그래요 섭섭하게",
+          "answer": "안녕하세요 고객님\n사과를 그만 도둑고양이가 먹어버리고 말았어요."
+        }
+      }
+    ],
+    "detailDescription": {
+      "detailProductImage": "PM0001-Detail",
+      "packagingType": "냉동",
+      "salesUnit": "1팩",
+      "weight": "565g",
+      "allergyInfo": "이 제품은 우유, 대두, 밀, 땅콩을 사용한 제품과 같은 제조 시설에서 제조하고 있습니다.",
+      "expirationDate": "2026-09-20",
+      "origin": "국산"
+    }
+  },
+  {
+    "productId": "PM0002",
+    "productName": "프리미엄 티 컬렉션 10종 선물세트",
+    "productImage": "PM0002-Thumb",
+    "topBadgeText": "선물추천",
+    "bottomBannerText": "최저가28,000원",
+    "originalPrice": 35000,
+    "discountRate": 20,
+    "firstDiscountRate": 0,
+    "isDawnDelivery": true,
+    "brandName": "오설록",
+    "isKurlyOnly": false,
+    "category": ["차", "최저가도전"],
+    "shortDescription": "깊고 진한 풍미의 오설록 티 10종",
+    "reviewCount": 15,
+    "eventBadge": false,
+    "rankingCategory": "차/음료",
+    "ranking": 1,
+    "reviews": [
+      {
+        "reviewId": "PM0002-R01",
+        "isMembers": true,
+        "isBest": true,
+        "userName": "이영희",
+        "content": "선물용으로 샀는데 너무 좋아하시네요.",
+        "reviewImages": ["ReviewImage06-01"]
+      }
+    ],
+    "questions": [],
+    "detailDescription": {
+      "detailProductImage": "PM0002-Detail",
+      "packagingType": "상온",
+      "salesUnit": "1박스",
+      "weight": "150g",
+      "allergyInfo": "해당 없음",
+      "expirationDate": "2026-12-31",
+      "origin": "국산"
+    }
+  },
+  {
+    "productId": "PM0003",
+    "productName": "청양고추 80g",
+    "productImage": "PM0003-Thumb",
+    "topBadgeText": "",
+    "bottomBannerText": "",
+    "originalPrice": 1990,
+    "discountRate": 0,
+    "firstDiscountRate": 0,
+    "isDawnDelivery": true,
+    "brandName": "컬리",
+    "isKurlyOnly": false,
+    "category": ["채소", "신선코너"],
+    "shortDescription": "매콤하고 알싸한 맛이 일품인 청양고추",
+    "reviewCount": 120,
+    "eventBadge": false,
+    "rankingCategory": "채소",
+    "ranking": 10,
+    "reviews": [
+      {
+        "reviewId": "PM0003-R01",
+        "isMembers": true,
+        "isBest": false,
+        "userName": "박철수",
+        "content": "신선하고 매콤합니다.",
+        "reviewImages": []
+      }
+    ],
+    "questions": [],
+    "detailDescription": {
+      "detailProductImage": "PM0003-Detail",
+      "packagingType": "냉장",
+      "salesUnit": "1봉",
+      "weight": "80g",
+      "allergyInfo": "해당 없음",
+      "expirationDate": "수령 후 5일 이내",
+      "origin": "국산"
+    }
+  },
+  {
+    "productId": "PM0004",
+    "productName": "포항초 시금치 250g",
+    "productImage": "PM0004-Thumb",
+    "topBadgeText": "제철",
+    "bottomBannerText": "",
+    "originalPrice": 3990,
+    "discountRate": 10,
+    "firstDiscountRate": 0,
+    "isDawnDelivery": true,
+    "brandName": "팜송",
+    "isKurlyOnly": true,
+    "category": ["채소", "신선코너"],
+    "shortDescription": "달큰한 맛이 좋은 겨울 시금치",
+    "reviewCount": 45,
+    "eventBadge": true,
+    "rankingCategory": "채소",
+    "ranking": 3,
+    "reviews": [
+      {
+        "reviewId": "PM0004-R01",
+        "isMembers": true,
+        "isBest": true,
+        "userName": "김미나",
+        "content": "무쳐먹으니 정말 맛있어요. 흙도 많이 없네요.",
+        "reviewImages": ["ReviewImage06-02"]
+      }
+    ],
+    "questions": [],
+    "detailDescription": {
+      "detailProductImage": "PM0004-Detail",
+      "packagingType": "냉장",
+      "salesUnit": "1봉",
+      "weight": "250g",
+      "allergyInfo": "해당 없음",
+      "expirationDate": "수령 후 3일 이내",
+      "origin": "국산"
+    }
+  },
+  {
+    "productId": "PM0005",
+    "productName": "로얄바인 한입 포도 500g",
+    "productImage": "PM0005-Thumb",
+    "topBadgeText": "신상품",
+    "bottomBannerText": "",
+    "originalPrice": 6900,
+    "discountRate": 5,
+    "firstDiscountRate": 0,
+    "isDawnDelivery": true,
+    "brandName": "컬리",
+    "isKurlyOnly": true,
+    "category": ["과일", "신선코너"],
+    "shortDescription": "껍질째 먹는 달콤한 씨없는 포도",
+    "reviewCount": 8,
+    "eventBadge": false,
+    "rankingCategory": "과일",
+    "ranking": 7,
+    "reviews": [
+      {
+        "reviewId": "PM0005-R01",
+        "isMembers": false,
+        "isBest": false,
+        "userName": "정수진",
+        "content": "아이들이 잘 먹어요. 달콤해요.",
+        "reviewImages": []
+      }
+    ],
+    "questions": [],
+    "detailDescription": {
+      "detailProductImage": "PM0005-Detail",
+      "packagingType": "냉장",
+      "salesUnit": "1팩",
+      "weight": "500g",
+      "allergyInfo": "해당 없음",
+      "expirationDate": "수령 후 5일 이내",
+      "origin": "국산"
+    }
+  },
+  {
+    "productId": "PM0006",
+    "productName": "소불고기 전골",
+    "productImage": "PM0006-Thumb",
+    "topBadgeText": "베스트",
+    "bottomBannerText": "",
+    "originalPrice": 12900,
+    "discountRate": 15,
+    "firstDiscountRate": 0,
+    "isDawnDelivery": true,
+    "brandName": "사리원",
+    "isKurlyOnly": false,
+    "category": ["밀키트", "간편식사"],
+    "shortDescription": "유명 맛집 사리원의 맛 그대로",
+    "reviewCount": 230,
+    "eventBadge": true,
+    "rankingCategory": "밀키트",
+    "ranking": 2,
+    "reviews": [
+      {
+        "reviewId": "PM0006-R01",
+        "isMembers": true,
+        "isBest": true,
+        "userName": "강현수",
+        "content": "국물이 진하고 고기도 부드러워요. 밥도둑입니다.",
+        "reviewImages": ["ReviewImage06-01"]
+      }
+    ],
+    "questions": [],
+    "detailDescription": {
+      "detailProductImage": "PM0006-Detail",
+      "packagingType": "냉동",
+      "salesUnit": "1팩",
+      "weight": "600g",
+      "allergyInfo": "소고기, 대두, 밀 포함",
+      "expirationDate": "2026-10-15",
+      "origin": "국산/호주산 혼합"
+    }
+  },
+  {
+    "productId": "PM0007",
+    "productName": "프랑스 오렌지 음료",
+    "productImage": "PM0007-Thumb",
+    "topBadgeText": "",
+    "bottomBannerText": "",
+    "originalPrice": 3200,
+    "discountRate": 0,
+    "firstDiscountRate": 0,
+    "isDawnDelivery": true,
+    "brandName": "오랑지나",
+    "isKurlyOnly": false,
+    "category": ["음료", "최저가도전"],
+    "shortDescription": "상큼한 오렌지 과즙이 톡톡",
+    "reviewCount": 56,
+    "eventBadge": false,
+    "rankingCategory": "음료",
+    "ranking": 8,
+    "reviews": [
+      {
+        "reviewId": "PM0007-R01",
+        "isMembers": true,
+        "isBest": false,
+        "userName": "유재석",
+        "content": "탄산이 강하지 않고 맛있네요.",
+        "reviewImages": []
+      }
+    ],
+    "questions": [],
+    "detailDescription": {
+      "detailProductImage": "PM0007-Detail",
+      "packagingType": "상온",
+      "salesUnit": "1병",
+      "weight": "420ml",
+      "allergyInfo": "해당 없음",
+      "expirationDate": "2026-11-20",
+      "origin": "프랑스"
+    }
+  },
+  {
+    "productId": "PM0008",
+    "productName": "양배추 1통",
+    "productImage": "PM0008-Thumb",
+    "topBadgeText": "",
+    "bottomBannerText": "알뜰쇼핑",
+    "originalPrice": 3500,
+    "discountRate": 20,
+    "firstDiscountRate": 0,
+    "isDawnDelivery": true,
+    "brandName": "컬리",
+    "isKurlyOnly": true,
+    "category": ["채소", "신선코너"],
+    "shortDescription": "속이 꽉 찬 국내산 양배추",
+    "reviewCount": 89,
+    "eventBadge": false,
+    "rankingCategory": "채소",
+    "ranking": 15,
+    "reviews": [
+      {
+        "reviewId": "PM0008-R01",
+        "isMembers": true,
+        "isBest": false,
+        "userName": "이광수",
+        "content": "싱싱하고 커서 좋아요. 쪄먹으니 달아요.",
+        "reviewImages": []
+      }
+    ],
+    "questions": [],
+    "detailDescription": {
+      "detailProductImage": "PM0008-Detail",
+      "packagingType": "냉장",
+      "salesUnit": "1통",
+      "weight": "1.5kg 내외",
+      "allergyInfo": "해당 없음",
+      "expirationDate": "수령 후 7일 이내",
+      "origin": "국산"
+    }
+  },
+  {
+    "productId": "PM0009",
+    "productName": "2026 앰엔앰즈 발렌타인데이 유리컵 기획 세트 2종",
+    "productImage": "PM0009-Thumb",
+    "topBadgeText": "한정판",
+    "bottomBannerText": "",
+    "originalPrice": 18900,
+    "discountRate": 0,
+    "firstDiscountRate": 0,
+    "isDawnDelivery": true,
+    "brandName": "마즈",
+    "isKurlyOnly": false,
+    "category": ["간식", "최저가도전"],
+    "shortDescription": "귀여운 유리컵과 달콤한 초콜릿의 만남",
+    "reviewCount": 5,
+    "eventBadge": true,
+    "rankingCategory": "간식",
+    "ranking": 4,
+    "reviews": [
+      {
+        "reviewId": "PM0009-R01",
+        "isMembers": true,
+        "isBest": true,
+        "userName": "송지효",
+        "content": "컵이 너무 귀여워요! 선물용으로 딱입니다.",
+        "reviewImages": ["ReviewImage06-01"]
+      }
+    ],
+    "questions": [],
+    "detailDescription": {
+      "detailProductImage": "PM0009-Detail",
+      "packagingType": "상온",
+      "salesUnit": "1세트",
+      "weight": "300g",
+      "allergyInfo": "우유, 대두 포함",
+      "expirationDate": "2027-02-14",
+      "origin": "해외"
+    }
+  },
+  {
+    "productId": "PM0010",
+    "productName": "갑오징어 볶음 2종 택1",
+    "productImage": "PM0010-Thumb",
+    "topBadgeText": "",
+    "bottomBannerText": "",
+    "originalPrice": 9900,
+    "discountRate": 10,
+    "firstDiscountRate": 0,
+    "isDawnDelivery": true,
+    "brandName": "압구정오징어",
+    "isKurlyOnly": true,
+    "category": ["밀키트", "간편식사"],
+    "shortDescription": "쫄깃한 갑오징어와 매콤한 양념",
+    "reviewCount": 34,
+    "eventBadge": false,
+    "rankingCategory": "밀키트",
+    "ranking": 6,
+    "reviews": [
+      {
+        "reviewId": "PM0010-R01",
+        "isMembers": true,
+        "isBest": false,
+        "userName": "하하",
+        "content": "밥 비벼 먹으면 꿀맛이에요. 맵기도 적당합니다.",
+        "reviewImages": []
+      }
+    ],
+    "questions": [],
+    "detailDescription": {
+      "detailProductImage": "PM0010-Detail",
+      "packagingType": "냉동",
+      "salesUnit": "1팩",
+      "weight": "300g",
+      "allergyInfo": "오징어, 대두, 밀 포함",
+      "expirationDate": "2026-08-15",
+      "origin": "국산"
+    }
+  },
+  {
+    "productId": "PM0011",
+    "productName": "용궁에서 온 잉어빵 3종 택1",
+    "productImage": "PM0011-Thumb",
+    "topBadgeText": "겨울간식",
+    "bottomBannerText": "",
+    "originalPrice": 7900,
+    "discountRate": 5,
+    "firstDiscountRate": 0,
+    "isDawnDelivery": true,
+    "brandName": "아우름",
+    "isKurlyOnly": false,
+    "category": ["간식", "최저가도전"],
+    "shortDescription": "에어프라이어로 즐기는 바삭한 잉어빵",
+    "reviewCount": 67,
+    "eventBadge": false,
+    "rankingCategory": "베이커리",
+    "ranking": 9,
+    "reviews": [
+      {
+        "reviewId": "PM0011-R01",
+        "isMembers": true,
+        "isBest": true,
+        "userName": "양세찬",
+        "content": "슈크림이 꽉 차 있어요. 아이들이 좋아합니다.",
+        "reviewImages": ["ReviewImage06-02"]
+      }
+    ],
+    "questions": [],
+    "detailDescription": {
+      "detailProductImage": "PM0011-Detail",
+      "packagingType": "냉동",
+      "salesUnit": "1봉",
+      "weight": "500g",
+      "allergyInfo": "밀, 우유, 계란 포함",
+      "expirationDate": "2026-06-30",
+      "origin": "국산"
+    }
+  },
+  {
+    "productId": "PM0012",
+    "productName": "호주산 목초 LA 꽃갈비 500g",
+    "productImage": "PM0012-Thumb",
+    "topBadgeText": "특가",
+    "bottomBannerText": "",
+    "originalPrice": 24900,
+    "discountRate": 25,
+    "firstDiscountRate": 0,
+    "isDawnDelivery": true,
+    "brandName": "델리치오",
+    "isKurlyOnly": true,
+    "category": ["정육", "컬리정육점"],
+    "shortDescription": "부드럽고 고소한 호주산 LA갈비",
+    "reviewCount": 42,
+    "eventBadge": true,
+    "rankingCategory": "정육",
+    "ranking": 5,
+    "reviews": [
+      {
+        "reviewId": "PM0012-R01",
+        "isMembers": true,
+        "isBest": true,
+        "userName": "전소민",
+        "content": "양념 재워서 구워먹으니 입에서 살살 녹아요.",
+        "reviewImages": ["ReviewImage06-01"]
+      }
+    ],
+    "questions": [],
+    "detailDescription": {
+      "detailProductImage": "PM0012-Detail",
+      "packagingType": "냉동",
+      "salesUnit": "1팩",
+      "weight": "500g",
+      "allergyInfo": "소고기",
+      "expirationDate": "2026-09-01",
+      "origin": "호주산"
+    }
+  },
+  {
+    "productId": "PM0013",
+    "productName": "전통 소갈비찜",
+    "productImage": "PM0013-Thumb",
+    "topBadgeText": "명절추천",
+    "bottomBannerText": "",
+    "originalPrice": 29900,
+    "discountRate": 10,
+    "firstDiscountRate": 0,
+    "isDawnDelivery": true,
+    "brandName": "사미헌",
+    "isKurlyOnly": false,
+    "category": ["밀키트", "간편식사"],
+    "shortDescription": "오랜 전통의 손맛이 담긴 갈비찜",
+    "reviewCount": 110,
+    "eventBadge": true,
+    "rankingCategory": "밀키트",
+    "ranking": 1,
+    "reviews": [
+      {
+        "reviewId": "PM0013-R01",
+        "isMembers": true,
+        "isBest": true,
+        "userName": "김종국",
+        "content": "간편하게 데우기만 하면 되니 편하고 맛있어요.",
+        "reviewImages": ["ReviewImage06-01"]
+      }
+    ],
+    "questions": [],
+    "detailDescription": {
+      "detailProductImage": "PM0013-Detail",
+      "packagingType": "냉동",
+      "salesUnit": "1팩",
+      "weight": "800g",
+      "allergyInfo": "소고기, 대두, 밀 포함",
+      "expirationDate": "2026-11-11",
+      "origin": "국산/호주산"
+    }
+  },
+  {
+    "productId": "PM0014",
+    "productName": "담아본 한라봉 3kg",
+    "productImage": "PM0014-Thumb",
+    "topBadgeText": "선물추천",
+    "bottomBannerText": "",
+    "originalPrice": 26900,
+    "discountRate": 15,
+    "firstDiscountRate": 0,
+    "isDawnDelivery": true,
+    "brandName": "담아본",
+    "isKurlyOnly": false,
+    "category": ["과일", "신선코너"],
+    "shortDescription": "제주에서 온 상큼달콤 한라봉",
+    "reviewCount": 30,
+    "eventBadge": false,
+    "rankingCategory": "과일",
+    "ranking": 4,
+    "reviews": [
+      {
+        "reviewId": "PM0014-R01",
+        "isMembers": true,
+        "isBest": false,
+        "userName": "지석진",
+        "content": "알도 굵고 싱싱하네요. 선물용으로 좋아요.",
+        "reviewImages": []
+      }
+    ],
+    "questions": [],
+    "detailDescription": {
+      "detailProductImage": "PM0014-Detail",
+      "packagingType": "상온",
+      "salesUnit": "1박스",
+      "weight": "3kg",
+      "allergyInfo": "해당 없음",
+      "expirationDate": "수령 후 7일 이내",
+      "origin": "국산(제주)"
+    }
+  },
+  {
+    "productId": "PM0015",
+    "productName": "테일러 블루베리쥬스",
+    "productImage": "PM0015-Thumb",
+    "topBadgeText": "",
+    "bottomBannerText": "",
+    "originalPrice": 8900,
+    "discountRate": 20,
+    "firstDiscountRate": 0,
+    "isDawnDelivery": true,
+    "brandName": "테일러",
+    "isKurlyOnly": false,
+    "category": ["음료", "최저가도전"],
+    "shortDescription": "진한 미국산 블루베리의 맛",
+    "reviewCount": 60,
+    "eventBadge": false,
+    "rankingCategory": "음료",
+    "ranking": 11,
+    "reviews": [
+      {
+        "reviewId": "PM0015-R01",
+        "isMembers": true,
+        "isBest": false,
+        "userName": "하하",
+        "content": "건강해지는 맛이에요. 아침마다 마십니다.",
+        "reviewImages": []
+      }
+    ],
+    "questions": [],
+    "detailDescription": {
+      "detailProductImage": "PM0015-Detail",
+      "packagingType": "상온",
+      "salesUnit": "1병",
+      "weight": "946ml",
+      "allergyInfo": "해당 없음",
+      "expirationDate": "2027-01-01",
+      "origin": "미국"
+    }
+  },
+  {
+    "productId": "PM0016",
+    "productName": "유기농 엑스트라버진 올리브오일",
+    "productImage": "PM0016-Thumb",
+    "topBadgeText": "유기농",
+    "bottomBannerText": "",
+    "originalPrice": 15900,
+    "discountRate": 10,
+    "firstDiscountRate": 0,
+    "isDawnDelivery": true,
+    "brandName": "파미고",
+    "isKurlyOnly": false,
+    "category": ["오일", "최저가도전"],
+    "shortDescription": "스페인산 유기농 올리브 오일",
+    "reviewCount": 25,
+    "eventBadge": false,
+    "rankingCategory": "오일",
+    "ranking": 12,
+    "reviews": [
+      {
+        "reviewId": "PM0016-R01",
+        "isMembers": true,
+        "isBest": false,
+        "userName": "송지효",
+        "content": "샐러드 드레싱으로 쓰기 좋아요. 향이 좋습니다.",
+        "reviewImages": []
+      }
+    ],
+    "questions": [],
+    "detailDescription": {
+      "detailProductImage": "PM0016-Detail",
+      "packagingType": "상온",
+      "salesUnit": "1병",
+      "weight": "500ml",
+      "allergyInfo": "해당 없음",
+      "expirationDate": "2026-12-31",
+      "origin": "스페인"
+    }
+  },
+  {
+    "productId": "PM0017",
+    "productName": "콩나물 200g",
+    "productImage": "PM0017-Thumb",
+    "topBadgeText": "",
+    "bottomBannerText": "",
+    "originalPrice": 1500,
+    "discountRate": 0,
+    "firstDiscountRate": 0,
+    "isDawnDelivery": true,
+    "brandName": "컬리",
+    "isKurlyOnly": true,
+    "category": ["채소", "신선코너"],
+    "shortDescription": "아삭하고 고소한 국산 콩나물",
+    "reviewCount": 150,
+    "eventBadge": false,
+    "rankingCategory": "채소",
+    "ranking": 20,
+    "reviews": [
+      {
+        "reviewId": "PM0017-R01",
+        "isMembers": false,
+        "isBest": false,
+        "userName": "김미나",
+        "content": "저렴하고 신선해요.",
+        "reviewImages": []
+      }
+    ],
+    "questions": [],
+    "detailDescription": {
+      "detailProductImage": "PM0017-Detail",
+      "packagingType": "냉장",
+      "salesUnit": "1봉",
+      "weight": "200g",
+      "allergyInfo": "해당 없음",
+      "expirationDate": "수령 후 3일 이내",
+      "origin": "국산"
+    }
+  },
+  {
+    "productId": "PM0018",
+    "productName": "미미네 옛날 떡볶이 1봉",
+    "productImage": "PM0018-Thumb",
+    "topBadgeText": "베스트",
+    "bottomBannerText": "",
+    "originalPrice": 5900,
+    "discountRate": 20,
+    "firstDiscountRate": 0,
+    "isDawnDelivery": true,
+    "brandName": "미미네",
+    "isKurlyOnly": false,
+    "category": ["밀키트", "간편식사"],
+    "shortDescription": "홍대 미미네 국물 떡볶이",
+    "reviewCount": 300,
+    "eventBadge": true,
+    "rankingCategory": "밀키트",
+    "ranking": 3,
+    "reviews": [
+      {
+        "reviewId": "PM0018-R01",
+        "isMembers": true,
+        "isBest": true,
+        "userName": "이영희",
+        "content": "추억의 맛이에요. 국물이 넉넉해서 좋아요.",
+        "reviewImages": ["ReviewImage06-01"]
+      }
+    ],
+    "questions": [],
+    "detailDescription": {
+      "detailProductImage": "PM0018-Detail",
+      "packagingType": "냉동",
+      "salesUnit": "1봉",
+      "weight": "350g",
+      "allergyInfo": "밀, 대두 포함",
+      "expirationDate": "2026-07-20",
+      "origin": "국산"
+    }
+  },
+  {
+    "productId": "PM0019",
+    "productName": "더벨로 무화과 통밀빵",
+    "productImage": "PM0019-Thumb",
+    "topBadgeText": "건강빵",
+    "bottomBannerText": "",
+    "originalPrice": 4900,
+    "discountRate": 10,
+    "firstDiscountRate": 0,
+    "isDawnDelivery": true,
+    "brandName": "더벨로",
+    "isKurlyOnly": false,
+    "category": ["베이커리", "간편식사"],
+    "shortDescription": "톡톡 씹히는 무화과와 고소한 통밀빵",
+    "reviewCount": 40,
+    "eventBadge": false,
+    "rankingCategory": "베이커리",
+    "ranking": 13,
+    "reviews": [
+      {
+        "reviewId": "PM0019-R01",
+        "isMembers": true,
+        "isBest": false,
+        "userName": "정수진",
+        "content": "건강한 맛이라 좋아요. 아침 식사 대용으로 굿.",
+        "reviewImages": []
+      }
+    ],
+    "questions": [],
+    "detailDescription": {
+      "detailProductImage": "PM0019-Detail",
+      "packagingType": "냉동",
+      "salesUnit": "1봉",
+      "weight": "200g",
+      "allergyInfo": "밀 포함",
+      "expirationDate": "2026-05-15",
+      "origin": "국산"
+    }
+  },
+  {
+    "productId": "PM0020",
+    "productName": "제주 목초 우유 무항생제 750ML",
+    "productImage": "PM0020-Thumb",
+    "topBadgeText": "KurlyOnly",
+    "bottomBannerText": "",
+    "originalPrice": 3200,
+    "discountRate": 10,
+    "firstDiscountRate": 0,
+    "isDawnDelivery": true,
+    "brandName": "제주우유",
+    "isKurlyOnly": true,
+    "category": ["유제품", "최저가도전"],
+    "shortDescription": "제주 푸른 초원에서 자란 젖소의 우유",
+    "reviewCount": 95,
+    "eventBadge": true,
+    "rankingCategory": "유제품",
+    "ranking": 7,
+    "reviews": [
+      {
+        "reviewId": "PM0020-R01",
+        "isMembers": true,
+        "isBest": true,
+        "userName": "박철수",
+        "content": "고소하고 진해요. 믿고 마십니다.",
+        "reviewImages": ["ReviewImage06-02"]
+      }
+    ],
+    "questions": [],
+    "detailDescription": {
+      "detailProductImage": "PM0020-Detail",
+      "packagingType": "냉장",
+      "salesUnit": "1병",
+      "weight": "750ml",
+      "allergyInfo": "우유",
+      "expirationDate": "수령 후 7일 이내",
+      "origin": "국산(제주)"
+    }
+  }
+]

@@ -3,6 +3,7 @@ import LayerUtils from "@/utils/LayerUtils";
 import SampleCenterDialogComponent from "@/components/common/dialog/SampleCenterDialogComponent";
 import SampleFullDialogComponent from "@/components/common/dialog/SampleFullDialogComponent";
 import SampleBottomComponent from "@/components/common/dialog/SampleBottomComponent";
+import AlertComponent from "@/components/common/dialog/AlertComponent";
 import Layout from "@/components/common/Layout";
 
 const LayerTestPage = () => {
@@ -14,7 +15,8 @@ const LayerTestPage = () => {
         <h1 className="text-2xl font-bold">레이어 팝업 테스트</h1>
         <button
           onClick={async () => {
-            const res = await LayerUtils.showCenterPopup(
+            const res = await LayerUtils.showPopup(
+              "CENTER",
               SampleCenterDialogComponent,
               {
                 data: {
@@ -31,7 +33,8 @@ const LayerTestPage = () => {
         </button>
         <button
           onClick={async () => {
-            const res = await LayerUtils.showFullPopup(
+            const res = await LayerUtils.showPopup(
+              "FULL",
               SampleFullDialogComponent,
               {
                 data: {
@@ -48,7 +51,8 @@ const LayerTestPage = () => {
         </button>
         <button
           onClick={async () => {
-            const res = await LayerUtils.showBottomPopup(
+            const res = await LayerUtils.showPopup(
+              "BOTTOM",
               SampleBottomComponent,
               {
                 data: {
@@ -67,6 +71,18 @@ const LayerTestPage = () => {
           className="px-4 py-2 bg-blue-500 text-white rounded hover:bg-blue-600"
         >
           BottomPopup
+        </button>
+        <button
+          onClick={async () => {
+            const res = await LayerUtils.showAlert(
+              "간단한 Alert 타이틀",
+              "조금은 복잡한 Alert 예시",
+            );
+            console.log("Bottom Popup 결과:", res);
+          }}
+          className="px-4 py-2 bg-blue-500 text-white rounded hover:bg-blue-600"
+        >
+          Alert 띄우기
         </button>
         <button
           onClick={() => moveTo({ direction: "FORWARD", menuId: "Index" })}

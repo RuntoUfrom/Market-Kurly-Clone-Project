@@ -1,4 +1,7 @@
+import ProductCard from "@/components/common/ProductCard";
+import ProductInfo from "@/components/common/ProductInfo";
 import useHistoryController from "@/hooks/controllers/useHistoryController";
+
 const INDEX = () => {
   const { moveTo } = useHistoryController();
 
@@ -28,6 +31,20 @@ const INDEX = () => {
         className="px-4 py-2 bg-blue-500 text-white rounded hover:bg-blue-600"
       >
         컴포넌트 리스트 페이지
+      </button>
+      <button
+        onClick={() =>
+          moveTo({ direction: "FORWARD", menuId: "MockingServerTestPage" })
+        }
+        className="px-4 py-2 bg-blue-500 text-white rounded hover:bg-blue-600"
+      >
+        API 모킹 테스트 페이지
+      </button>
+      <button
+        onClick={() => moveTo({ direction: "FORWARD", menuId: "PageTestPage" })}
+        className="px-4 py-2 bg-blue-500 text-white rounded hover:bg-blue-600"
+      >
+        페이지 정의
       </button>
     </div>
   );

@@ -1,0 +1,1066 @@
+[
+  {
+    "productId": "PB0001",
+    "productName": "[헤라] New 블랙 쿠션 파운데이션 7종 택1",
+    "productImage": "PB0001-Thumb",
+    "questions": [
+      {
+        "isSecret": false,
+        "questionId": "PB0001-Q01",
+        "title": "사과가 이게 맞나요",
+        "userName": "지성준",
+        "date": "2026-02-11",
+        "content": {
+          "question": "2번째 시켰는데 왜 맨날 사과 한개를 빼먹고 그래요 섭섭하게",
+          "answer": "안녕하세요 고객님\n사과를 그만 도둑고양이가 먹어버리고 말았어요."
+        }
+      },
+      {
+        "isSecret": false,
+        "questionId": "PB0001-Q02",
+        "title": "호수 선택이 어려워요",
+        "userName": "김서연",
+        "date": "2026-02-09",
+        "content": {
+          "question": "평소 21호 쓰는데 여기서도 21호가 맞을까요?",
+          "answer": "안녕하세요 고객님\n헤라 블랙 쿠션은 일반적인 호수 체계와 동일하며, 21호는 밝은 베이지톤입니다."
+        }
+      },
+      {
+        "isSecret": true,
+        "questionId": "PB0001-Q03",
+        "title": "리필 구매 가능한가요?",
+        "userName": "박지민",
+        "date": "2026-02-05",
+        "content": {
+          "question": "본품 없이 리필만 따로 구매할 수 있나요?",
+          "answer": "안녕하세요 고객님\n현재 해당 상품은 본품+리필 세트 구성으로만 판매되고 있습니다."
+        }
+      },
+      {
+        "isSecret": false,
+        "questionId": "PB0001-Q04",
+        "title": "유통기한 문의",
+        "userName": "최은지",
+        "date": "2026-01-28",
+        "content": {
+          "question": "현재 판매 중인 제품의 유통기한이 언제까지인가요?",
+          "answer": "안녕하세요 고객님\n현재 입고된 제품의 유통기한은 2028년 3월까지입니다."
+        }
+      }
+    ]
+  },
+  {
+    "productId": "PB0002",
+    "productName": "[바이오더마] H20 센시비오 클렌징 워터",
+    "productImage": "PB0002-Thumb",
+    "questions": [
+      {
+        "isSecret": false,
+        "questionId": "PB0002-Q01",
+        "title": "용량이 궁금해요",
+        "userName": "홍서연",
+        "date": "2026-02-08",
+        "content": {
+          "question": "500ml 맞나요? 사진이랑 용량이 다른 것 같아서요.",
+          "answer": "안녕하세요 고객님\n해당 제품은 500ml 정품입니다. 확인 부탁드립니다."
+        }
+      },
+      {
+        "isSecret": false,
+        "questionId": "PB0002-Q02",
+        "title": "워터프루프 클렌징 되나요?",
+        "userName": "강민주",
+        "date": "2026-02-04",
+        "content": {
+          "question": "워터프루프 마스카라도 지워지나요?",
+          "answer": "안녕하세요 고객님\n센시비오 클렌징 워터는 가벼운 메이크업 제거에 적합하며, 워터프루프 제품은 전용 리무버를 함께 사용하시길 권장드립니다."
+        }
+      },
+      {
+        "isSecret": true,
+        "questionId": "PB0002-Q03",
+        "title": "1+1 기획 관련 문의",
+        "userName": "이소율",
+        "date": "2026-01-30",
+        "content": {
+          "question": "1+1 기획이면 500ml 2개가 오는 건가요?",
+          "answer": "안녕하세요 고객님\n네, 맞습니다. 500ml 본품 2개가 발송됩니다."
+        }
+      },
+      {
+        "isSecret": false,
+        "questionId": "PB0002-Q04",
+        "title": "아이 메이크업 리무버로 사용 가능한가요",
+        "userName": "윤채원",
+        "date": "2026-01-25",
+        "content": {
+          "question": "눈 주변에 사용해도 자극이 없나요?",
+          "answer": "안녕하세요 고객님\n센시비오 라인은 민감 피부용으로 개발되어 눈 주변에도 사용 가능합니다. 다만 눈에 직접 들어가지 않도록 주의해주세요."
+        }
+      },
+      {
+        "isSecret": false,
+        "questionId": "PB0002-Q05",
+        "title": "정품 인증 여부",
+        "userName": "배하늘",
+        "date": "2026-01-20",
+        "content": {
+          "question": "병행수입인가요 정식수입인가요?",
+          "answer": "안녕하세요 고객님\n공식 수입원을 통한 정식수입 정품입니다."
+        }
+      }
+    ]
+  },
+  {
+    "productId": "PB0003",
+    "productName": "[토리든] 다이브인 저분자 히알루로산 마스크팩",
+    "productImage": "PB0003-Thumb",
+    "questions": [
+      {
+        "isSecret": true,
+        "questionId": "PB0003-Q01",
+        "title": "민감성 피부에도 괜찮나요?",
+        "userName": "오민지",
+        "date": "2026-01-25",
+        "content": {
+          "question": "아토피가 있는 편인데 사용해도 될까요?",
+          "answer": "안녕하세요 고객님\n저자극 포뮬러로 민감 피부에도 사용 가능하나, 개인 피부 상태에 따라 패치 테스트를 권장드립니다."
+        }
+      },
+      {
+        "isSecret": false,
+        "questionId": "PB0003-Q02",
+        "title": "사용 빈도 추천",
+        "userName": "김유진",
+        "date": "2026-02-01",
+        "content": {
+          "question": "매일 사용해도 괜찮은 건가요?",
+          "answer": "안녕하세요 고객님\n매일 사용 가능하지만, 주 2~3회 사용을 권장드립니다."
+        }
+      },
+      {
+        "isSecret": false,
+        "questionId": "PB0003-Q03",
+        "title": "시트 재질이 궁금해요",
+        "userName": "정다혜",
+        "date": "2026-01-18",
+        "content": {
+          "question": "시트가 텐셀인가요 면인가요?",
+          "answer": "안녕하세요 고객님\n텐셀 시트를 사용하여 밀착력이 우수하고 자극이 적습니다."
+        }
+      },
+      {
+        "isSecret": false,
+        "questionId": "PB0003-Q04",
+        "title": "보관 방법 문의",
+        "userName": "임서현",
+        "date": "2026-01-12",
+        "content": {
+          "question": "냉장보관하면 더 좋은가요?",
+          "answer": "안녕하세요 고객님\n냉장보관 시 쿨링 효과가 있어 모공 관리에 도움이 됩니다. 상온보관도 가능합니다."
+        }
+      }
+    ]
+  },
+  {
+    "productId": "PB0004",
+    "productName": "[마녀공장] 퓨어 클렌징 오일",
+    "productImage": "PB0004-Thumb",
+    "questions": [
+      {
+        "isSecret": false,
+        "questionId": "PB0004-Q01",
+        "title": "유통기한 확인 부탁드려요",
+        "userName": "최민서",
+        "date": "2026-02-01",
+        "content": {
+          "question": "제조일자 혹은 유통기한이 언제까지인지 궁금합니다.",
+          "answer": "안녕하세요 고객님\n현재 입고된 제품의 유통기한은 2027년 8월입니다."
+        }
+      },
+      {
+        "isSecret": false,
+        "questionId": "PB0004-Q02",
+        "title": "젖은 손으로 사용 가능한가요",
+        "userName": "이나연",
+        "date": "2026-01-27",
+        "content": {
+          "question": "샤워 중에 젖은 손으로 사용해도 클렌징이 되나요?",
+          "answer": "안녕하세요 고객님\n마른 손, 마른 얼굴에 사용하시는 것을 권장드립니다. 젖은 상태에서는 유화가 잘 되지 않을 수 있습니다."
+        }
+      },
+      {
+        "isSecret": true,
+        "questionId": "PB0004-Q03",
+        "title": "피부 트러블 관련 문의",
+        "userName": "한수빈",
+        "date": "2026-01-22",
+        "content": {
+          "question": "사용 후 좁쌀 여드름이 올라왔는데 정상인가요?",
+          "answer": "안녕하세요 고객님\n오일 클렌징 초기에 모공 속 노폐물이 배출되며 일시적으로 나타날 수 있습니다. 지속될 경우 사용을 중단하시고 전문의 상담을 권장드립니다."
+        }
+      },
+      {
+        "isSecret": false,
+        "questionId": "PB0004-Q04",
+        "title": "더블 클렌징 필요 여부",
+        "userName": "박은서",
+        "date": "2026-01-15",
+        "content": {
+          "question": "클렌징 오일만으로 충분한가요? 폼클렌저도 써야 하나요?",
+          "answer": "안녕하세요 고객님\n메이크업을 하신 경우 오일 클렌징 후 폼클렌저로 더블 클렌징을 권장드립니다."
+        }
+      },
+      {
+        "isSecret": false,
+        "questionId": "PB0004-Q05",
+        "title": "펌프 불량 문의",
+        "userName": "조예린",
+        "date": "2026-01-10",
+        "content": {
+          "question": "펌프가 잘 안 눌려지는데 불량인가요?",
+          "answer": "안녕하세요 고객님\n배송 중 펌프 잠금이 되어 있을 수 있습니다. 펌프 상단을 반시계 방향으로 돌려 잠금 해제 후 사용해주세요."
+        }
+      }
+    ]
+  },
+  {
+    "productId": "PB0005",
+    "productName": "[보비브라운] 롱-웨어 브로우 펜슬",
+    "productImage": "PB0005-Thumb",
+    "questions": [
+      {
+        "isSecret": false,
+        "questionId": "PB0005-Q01",
+        "title": "색상 추천 부탁드려요",
+        "userName": "문채원",
+        "date": "2026-01-30",
+        "content": {
+          "question": "염색을 안 한 자연 검정 머리인데 어떤 색상이 어울릴까요?",
+          "answer": "안녕하세요 고객님\n자연 검정 머리에는 에스프레소 또는 다크 브라운 색상을 추천드립니다."
+        }
+      },
+      {
+        "isSecret": false,
+        "questionId": "PB0005-Q02",
+        "title": "심 교체 가능 여부",
+        "userName": "서예진",
+        "date": "2026-01-26",
+        "content": {
+          "question": "심만 따로 리필 구매가 가능한가요?",
+          "answer": "안녕하세요 고객님\n해당 제품은 리필 심이 별도로 판매되지 않습니다. 본품으로 재구매 부탁드립니다."
+        }
+      },
+      {
+        "isSecret": false,
+        "questionId": "PB0005-Q03",
+        "title": "지속력이 궁금해요",
+        "userName": "양하은",
+        "date": "2026-01-20",
+        "content": {
+          "question": "땀을 많이 흘리는 편인데 지속력이 어떤가요?",
+          "answer": "안녕하세요 고객님\n롱-웨어 포뮬러로 최대 12시간 지속되며, 땀과 물에도 강한 편입니다."
+        }
+      }
+    ]
+  },
+  {
+    "productId": "PB0006",
+    "productName": "[에스트라] 리제덤 365 탄력속광 캡슐세럼",
+    "productImage": "PB0006-Thumb",
+    "questions": [
+      {
+        "isSecret": false,
+        "questionId": "PB0006-Q01",
+        "title": "수유 중 사용 가능한가요?",
+        "userName": "임소연",
+        "date": "2026-02-05",
+        "content": {
+          "question": "수유 중인데 레티놀 성분이 있는지 궁금합니다.",
+          "answer": "안녕하세요 고객님\n해당 제품에는 레티놀 성분이 포함되어 있지 않습니다. 다만, 수유 중 사용 시 전문의 상담을 권장드립니다."
+        }
+      },
+      {
+        "isSecret": false,
+        "questionId": "PB0006-Q02",
+        "title": "사용 순서 문의",
+        "userName": "고은채",
+        "date": "2026-02-02",
+        "content": {
+          "question": "토너 다음에 바로 사용하면 되나요?",
+          "answer": "안녕하세요 고객님\n토너 → 세럼 → 크림 순서로 사용하시면 됩니다. 토너 직후에 사용해주세요."
+        }
+      },
+      {
+        "isSecret": true,
+        "questionId": "PB0006-Q03",
+        "title": "캡슐이 녹지 않아요",
+        "userName": "나윤아",
+        "date": "2026-01-28",
+        "content": {
+          "question": "캡슐이 피부에서 잘 안 녹는 것 같은데 정상인가요?",
+          "answer": "안녕하세요 고객님\n캡슐을 손끝으로 가볍게 눌러 터뜨린 후 문질러 흡수시켜 주세요. 정상적인 사용법입니다."
+        }
+      },
+      {
+        "isSecret": false,
+        "questionId": "PB0006-Q04",
+        "title": "냉장보관 필요 여부",
+        "userName": "신채린",
+        "date": "2026-01-22",
+        "content": {
+          "question": "개봉 후 냉장보관해야 하나요?",
+          "answer": "안녕하세요 고객님\n직사광선을 피해 서늘한 곳에 상온보관하시면 됩니다. 냉장보관은 필수가 아닙니다."
+        }
+      },
+      {
+        "isSecret": false,
+        "questionId": "PB0006-Q05",
+        "title": "개봉 후 사용기한",
+        "userName": "류지현",
+        "date": "2026-01-15",
+        "content": {
+          "question": "개봉 후 얼마 안에 써야 하나요?",
+          "answer": "안녕하세요 고객님\n개봉 후 12개월 이내 사용을 권장드립니다."
+        }
+      }
+    ]
+  },
+  {
+    "productId": "PB0007",
+    "productName": "[아베다] 인바티 울트라 어드밴스트 라이트 샴푸",
+    "productImage": "PB0007-Thumb",
+    "questions": [
+      {
+        "isSecret": false,
+        "questionId": "PB0007-Q01",
+        "title": "지성 두피에도 괜찮은가요?",
+        "userName": "김도윤",
+        "date": "2026-01-28",
+        "content": {
+          "question": "두피가 기름진 편인데 라이트 버전으로 충분할까요?",
+          "answer": "안녕하세요 고객님\n라이트 버전은 지성~중성 두피에 적합하며, 가볍고 산뜻한 마무리감을 제공합니다."
+        }
+      },
+      {
+        "isSecret": false,
+        "questionId": "PB0007-Q02",
+        "title": "탈모 효과 문의",
+        "userName": "이현준",
+        "date": "2026-01-24",
+        "content": {
+          "question": "실제로 탈모에 효과가 있나요?",
+          "answer": "안녕하세요 고객님\n두피 환경을 개선하여 모발이 건강하게 자랄 수 있도록 도와주는 제품입니다. 의약품이 아니므로 탈모 치료 효과를 보장하지는 않습니다."
+        }
+      },
+      {
+        "isSecret": false,
+        "questionId": "PB0007-Q03",
+        "title": "컨디셔너도 같이 써야 하나요",
+        "userName": "장서준",
+        "date": "2026-01-18",
+        "content": {
+          "question": "샴푸만 단독으로 써도 되나요?",
+          "answer": "안녕하세요 고객님\n샴푸만으로도 사용 가능하지만, 같은 라인의 컨디셔너를 함께 사용하시면 더 좋은 효과를 기대하실 수 있습니다."
+        }
+      },
+      {
+        "isSecret": true,
+        "questionId": "PB0007-Q04",
+        "title": "두피 자극 문의",
+        "userName": "백승현",
+        "date": "2026-01-12",
+        "content": {
+          "question": "사용 후 두피가 따가운데 정상인가요?",
+          "answer": "안녕하세요 고객님\n살리실산 성분이 포함되어 있어 민감한 두피에는 일시적 자극이 있을 수 있습니다. 지속될 경우 사용을 중단해주세요."
+        }
+      }
+    ]
+  },
+  {
+    "productId": "PB0008",
+    "productName": "[꼬달리] 비노테라피스트 핸드크림 & 립밤 듀오",
+    "productImage": "PB0008-Thumb",
+    "questions": [
+      {
+        "isSecret": false,
+        "questionId": "PB0008-Q01",
+        "title": "향이 강한 편인가요?",
+        "userName": "한소희",
+        "date": "2026-02-10",
+        "content": {
+          "question": "향에 민감한데 향이 강한 편인가요?",
+          "answer": "안녕하세요 고객님\n은은한 플로럴 향으로, 강하지 않아 향에 민감하신 분들도 편하게 사용하실 수 있습니다."
+        }
+      },
+      {
+        "isSecret": false,
+        "questionId": "PB0008-Q02",
+        "title": "선물 포장 가능 여부",
+        "userName": "구미래",
+        "date": "2026-02-06",
+        "content": {
+          "question": "선물용으로 사려는데 포장이 되어서 오나요?",
+          "answer": "안녕하세요 고객님\n기획세트 전용 박스에 포장되어 배송됩니다. 별도 선물포장 서비스는 제공되지 않습니다."
+        }
+      },
+      {
+        "isSecret": false,
+        "questionId": "PB0008-Q03",
+        "title": "립밤 색상 유무",
+        "userName": "전예은",
+        "date": "2026-01-30",
+        "content": {
+          "question": "립밤에 색상이 있나요 아니면 무색인가요?",
+          "answer": "안녕하세요 고객님\n무색 투명 타입으로, 입술 본연의 색을 살려줍니다."
+        }
+      }
+    ]
+  },
+  {
+    "productId": "PB0009",
+    "productName": "[모로칸오일] 모로칸오일 헤어 트리트먼트",
+    "productImage": "PB0009-Thumb",
+    "questions": [
+      {
+        "isSecret": false,
+        "questionId": "PB0009-Q01",
+        "title": "정품 여부 확인",
+        "userName": "이현서",
+        "date": "2026-02-03",
+        "content": {
+          "question": "병행수입 제품인가요 정식수입인가요?",
+          "answer": "안녕하세요 고객님\n해당 제품은 공식 수입원을 통한 정식수입 정품입니다."
+        }
+      },
+      {
+        "isSecret": false,
+        "questionId": "PB0009-Q02",
+        "title": "사용량 문의",
+        "userName": "김서윤",
+        "date": "2026-01-29",
+        "content": {
+          "question": "한 번에 얼마나 사용하면 되나요? 긴 머리 기준이요.",
+          "answer": "안녕하세요 고객님\n긴 머리 기준 2~3방울 정도를 모발 중간~끝 부분에 발라주시면 됩니다."
+        }
+      },
+      {
+        "isSecret": true,
+        "questionId": "PB0009-Q03",
+        "title": "두피에 발라도 되나요",
+        "userName": "송지우",
+        "date": "2026-01-22",
+        "content": {
+          "question": "두피에 직접 발라도 괜찮나요?",
+          "answer": "안녕하세요 고객님\n헤어 오일은 모발 중간~끝 부분에 사용하시는 것을 권장드립니다. 두피에 직접 바르시면 유분감이 과해질 수 있습니다."
+        }
+      },
+      {
+        "isSecret": false,
+        "questionId": "PB0009-Q04",
+        "title": "라이트 버전과 차이",
+        "userName": "윤서아",
+        "date": "2026-01-16",
+        "content": {
+          "question": "일반 버전과 라이트 버전 차이가 뭔가요?",
+          "answer": "안녕하세요 고객님\n일반 버전은 굵고 손상된 모발에, 라이트 버전은 가늘고 밝은 색 모발에 적합합니다. 해당 제품은 일반 버전입니다."
+        }
+      },
+      {
+        "isSecret": false,
+        "questionId": "PB0009-Q05",
+        "title": "열기구 사용 전에 발라도 되나요",
+        "userName": "정민지",
+        "date": "2026-01-10",
+        "content": {
+          "question": "고데기나 드라이기 사용 전에 발라도 괜찮나요?",
+          "answer": "안녕하세요 고객님\n열 보호 기능이 있어 드라이기나 고데기 사용 전에 바르시면 열 손상 예방에 도움이 됩니다."
+        }
+      }
+    ]
+  },
+  {
+    "productId": "PB0010",
+    "productName": "[헤라] 리플렉션 스킨 글로우 파운데이션",
+    "productImage": "PB0010-Thumb",
+    "questions": [
+      {
+        "isSecret": false,
+        "questionId": "PB0010-Q01",
+        "title": "호수 선택 기준이 궁금해요",
+        "userName": "민지원",
+        "date": "2026-02-12",
+        "content": {
+          "question": "21호와 23호 사이에서 고민 중인데 밝은 편이면 뭐가 좋을까요?",
+          "answer": "안녕하세요 고객님\n밝은 피부톤이시라면 21호를 추천드립니다. 자연스러운 밝은 베이지톤입니다."
+        }
+      },
+      {
+        "isSecret": false,
+        "questionId": "PB0010-Q02",
+        "title": "지성 피부에도 적합한가요",
+        "userName": "차예린",
+        "date": "2026-02-08",
+        "content": {
+          "question": "글로우 타입인데 지성 피부에 너무 번들거리지 않나요?",
+          "answer": "안녕하세요 고객님\n글로우 타입이지만 유분 조절력이 있어 지성 피부에도 사용 가능합니다. 프라이머와 함께 사용하시면 더 좋습니다."
+        }
+      },
+      {
+        "isSecret": false,
+        "questionId": "PB0010-Q03",
+        "title": "블랙 쿠션과 차이점",
+        "userName": "오지수",
+        "date": "2026-02-03",
+        "content": {
+          "question": "블랙 쿠션이랑 비교하면 어떤 차이가 있나요?",
+          "answer": "안녕하세요 고객님\n블랙 쿠션은 커버력 중심의 매트 마무리이고, 글로우 파운데이션은 광채와 수분감 중심의 촉촉한 마무리입니다."
+        }
+      },
+      {
+        "isSecret": true,
+        "questionId": "PB0010-Q04",
+        "title": "성분 관련 알레르기 문의",
+        "userName": "백소연",
+        "date": "2026-01-25",
+        "content": {
+          "question": "니켈 알레르기가 있는데 사용해도 되나요?",
+          "answer": "안녕하세요 고객님\n전성분표를 확인 후 사용을 권장드리며, 불안하실 경우 팔 안쪽 패치 테스트 후 사용해주세요."
+        }
+      }
+    ]
+  },
+  {
+    "productId": "PB0011",
+    "productName": "[자빈드서울] 윙크 쿠션글로우 기획",
+    "productImage": "PB0011-Thumb",
+    "questions": [
+      {
+        "isSecret": true,
+        "questionId": "PB0011-Q01",
+        "title": "기획세트 구성 문의",
+        "userName": "백지호",
+        "date": "2026-02-07",
+        "content": {
+          "question": "기획세트에 퍼프도 포함되어 있나요?",
+          "answer": "안녕하세요 고객님\n본품 1개, 리필 1개, 전용 퍼프 2개가 포함된 기획세트입니다."
+        }
+      },
+      {
+        "isSecret": false,
+        "questionId": "PB0011-Q02",
+        "title": "리필 호환 여부",
+        "userName": "김하율",
+        "date": "2026-02-03",
+        "content": {
+          "question": "다른 브랜드 쿠션 케이스에 리필이 호환되나요?",
+          "answer": "안녕하세요 고객님\n자빈드서울 전용 케이스에만 호환되며, 타 브랜드 케이스와는 호환되지 않습니다."
+        }
+      },
+      {
+        "isSecret": false,
+        "questionId": "PB0011-Q03",
+        "title": "컬리온리 제품인가요",
+        "userName": "송민아",
+        "date": "2026-01-28",
+        "content": {
+          "question": "이 기획세트는 마켓컬리에서만 살 수 있는 건가요?",
+          "answer": "안녕하세요 고객님\n네, 해당 기획세트는 마켓컬리 단독 구성입니다."
+        }
+      },
+      {
+        "isSecret": false,
+        "questionId": "PB0011-Q04",
+        "title": "커버력 문의",
+        "userName": "황예서",
+        "date": "2026-01-20",
+        "content": {
+          "question": "잡티 커버가 잘 되나요? 글로우 타입이라 커버력이 약할까 걱정돼요.",
+          "answer": "안녕하세요 고객님\n중간 정도의 커버력을 제공하며, 레이어링으로 커버력 조절이 가능합니다."
+        }
+      }
+    ]
+  },
+  {
+    "productId": "PB0012",
+    "productName": "[프레시안] 에그라이크 크림 블러셔",
+    "productImage": "PB0012-Thumb",
+    "questions": [
+      {
+        "isSecret": false,
+        "questionId": "PB0012-Q01",
+        "title": "웜톤에 어울리는 색상은?",
+        "userName": "김수아",
+        "date": "2026-01-22",
+        "content": {
+          "question": "웜톤 봄인데 어떤 색상이 잘 어울릴까요?",
+          "answer": "안녕하세요 고객님\n웜톤 봄 타입에는 코랄핑크 또는 피치 색상을 추천드립니다."
+        }
+      },
+      {
+        "isSecret": false,
+        "questionId": "PB0012-Q02",
+        "title": "파우더 위에 사용 가능한가요",
+        "userName": "이서윤",
+        "date": "2026-01-18",
+        "content": {
+          "question": "파우더 세팅 후에 크림 블러셔를 올려도 되나요?",
+          "answer": "안녕하세요 고객님\n파우더 위에 올리면 밀림이 생길 수 있어, 파우더 세팅 전에 사용하시는 것을 권장드립니다."
+        }
+      },
+      {
+        "isSecret": false,
+        "questionId": "PB0012-Q03",
+        "title": "용기 디자인 문의",
+        "userName": "정유나",
+        "date": "2026-01-14",
+        "content": {
+          "question": "실제로 달걀 모양인가요? 휴대하기 편한가요?",
+          "answer": "안녕하세요 고객님\n달걀 형태의 콤팩트한 디자인으로 파우치에 쏙 들어가 휴대가 편리합니다."
+        }
+      },
+      {
+        "isSecret": true,
+        "questionId": "PB0012-Q04",
+        "title": "색상 교환 문의",
+        "userName": "노하린",
+        "date": "2026-01-08",
+        "content": {
+          "question": "색상이 생각보다 진한데 교환 가능한가요?",
+          "answer": "안녕하세요 고객님\n미개봉 상품에 한해 수령일로부터 7일 이내 교환 가능합니다. 고객센터로 문의 부탁드립니다."
+        }
+      }
+    ]
+  },
+  {
+    "productId": "PB0013",
+    "productName": "[달바] 워터풀 톤업 선크림 50ml",
+    "productImage": "PB0013-Thumb",
+    "questions": [
+      {
+        "isSecret": false,
+        "questionId": "PB0013-Q01",
+        "title": "SPF가 몇인가요?",
+        "userName": "김태희",
+        "date": "2026-02-09",
+        "content": {
+          "question": "자외선 차단 지수가 SPF 몇인지 궁금합니다.",
+          "answer": "안녕하세요 고객님\nSPF50+ PA++++ 등급으로, 강력한 자외선 차단 효과를 제공합니다."
+        }
+      },
+      {
+        "isSecret": false,
+        "questionId": "PB0013-Q02",
+        "title": "백탁 현상 문의",
+        "userName": "박수빈",
+        "date": "2026-02-05",
+        "content": {
+          "question": "피부가 어두운 편인데 백탁이 심한가요?",
+          "answer": "안녕하세요 고객님\n톤업 효과가 있어 약간의 보정 효과는 있으나, 자연스럽게 흡수되어 심한 백탁은 없습니다."
+        }
+      },
+      {
+        "isSecret": false,
+        "questionId": "PB0013-Q03",
+        "title": "메이크업 베이스 대용 가능한가요",
+        "userName": "안지현",
+        "date": "2026-01-28",
+        "content": {
+          "question": "이거 하나만 바르고 파운데이션 바로 올려도 되나요?",
+          "answer": "안녕하세요 고객님\n톤업 기능과 보습력이 있어 메이크업 베이스 대용으로 사용 가능합니다."
+        }
+      },
+      {
+        "isSecret": true,
+        "questionId": "PB0013-Q04",
+        "title": "눈 주변 사용 가능 여부",
+        "userName": "최다인",
+        "date": "2026-01-20",
+        "content": {
+          "question": "눈 주변에 발라도 자극이 없나요?",
+          "answer": "안녕하세요 고객님\n저자극 포뮬러이나, 눈 점막 부위에는 사용을 피해주세요."
+        }
+      },
+      {
+        "isSecret": false,
+        "questionId": "PB0013-Q05",
+        "title": "덧바름 주기 문의",
+        "userName": "장서영",
+        "date": "2026-01-14",
+        "content": {
+          "question": "야외 활동 시 몇 시간마다 덧발라야 하나요?",
+          "answer": "안녕하세요 고객님\n야외 활동 시 2~3시간 간격으로 덧발라 주시는 것을 권장드립니다."
+        }
+      }
+    ]
+  },
+  {
+    "productId": "PB0014",
+    "productName": "[에스트라] 아토베리어 365클렌징 밀크 200ml",
+    "productImage": "PB0014-Thumb",
+    "questions": [
+      {
+        "isSecret": true,
+        "questionId": "PB0014-Q01",
+        "title": "아기 피부에도 사용 가능한가요?",
+        "userName": "최서진",
+        "date": "2026-01-19",
+        "content": {
+          "question": "24개월 아기한테 써도 괜찮을까요?",
+          "answer": "안녕하세요 고객님\n저자극 제품이나 영유아 사용 시 소아과 전문의 상담 후 사용을 권장드립니다."
+        }
+      },
+      {
+        "isSecret": false,
+        "questionId": "PB0014-Q02",
+        "title": "메이크업 클렌징도 되나요",
+        "userName": "한서진",
+        "date": "2026-01-15",
+        "content": {
+          "question": "가벼운 메이크업 클렌징도 가능한가요?",
+          "answer": "안녕하세요 고객님\n가벼운 선크림이나 베이스 메이크업 정도는 클렌징 가능합니다. 진한 메이크업은 전용 리무버를 먼저 사용해주세요."
+        }
+      },
+      {
+        "isSecret": false,
+        "questionId": "PB0014-Q03",
+        "title": "물 없이 사용 가능한가요",
+        "userName": "구민서",
+        "date": "2026-01-10",
+        "content": {
+          "question": "밀크 타입이면 워터리스 클렌징이 가능한가요?",
+          "answer": "안녕하세요 고객님\n물 없이 화장솜으로 닦아내는 방식으로도 사용 가능하며, 물로 헹구셔도 됩니다."
+        }
+      }
+    ]
+  },
+  {
+    "productId": "PB0015",
+    "productName": "[아르마니뷰티] 립 마에스트로 사틴 립글로즈",
+    "productImage": "PB0015-Thumb",
+    "questions": [
+      {
+        "isSecret": false,
+        "questionId": "PB0015-Q01",
+        "title": "400번 색상 재입고 문의",
+        "userName": "조아현",
+        "date": "2026-02-13",
+        "content": {
+          "question": "400번 색상이 품절인데 재입고 예정이 있나요?",
+          "answer": "안녕하세요 고객님\n현재 입고 일정 확인 중이며, 입고 시 알림 신청을 해두시면 안내 드리겠습니다."
+        }
+      },
+      {
+        "isSecret": false,
+        "questionId": "PB0015-Q02",
+        "title": "건조함 여부 문의",
+        "userName": "서채연",
+        "date": "2026-02-08",
+        "content": {
+          "question": "사틴 타입이면 입술이 건조하지 않나요?",
+          "answer": "안녕하세요 고객님\n사틴 질감으로 매트보다 촉촉하며, 보습 성분이 포함되어 건조감이 적습니다."
+        }
+      },
+      {
+        "isSecret": true,
+        "questionId": "PB0015-Q03",
+        "title": "지속력 문의",
+        "userName": "양수아",
+        "date": "2026-02-02",
+        "content": {
+          "question": "식사 후에도 색이 남아 있나요?",
+          "answer": "안녕하세요 고객님\n사틴 타입 특성상 식사 시 자연스럽게 빠질 수 있으나, 입술 안쪽에 은은한 스테인이 남습니다."
+        }
+      },
+      {
+        "isSecret": false,
+        "questionId": "PB0015-Q04",
+        "title": "쿨톤 추천 색상",
+        "userName": "임채원",
+        "date": "2026-01-25",
+        "content": {
+          "question": "쿨톤에 어울리는 색상 번호 추천 부탁드려요.",
+          "answer": "안녕하세요 고객님\n쿨톤에는 500번(로즈베리), 501번(플럼) 색상을 추천드립니다."
+        }
+      }
+    ]
+  },
+  {
+    "productId": "PB0016",
+    "productName": "[랑콤] 립 이돌 버터 글로우 립밤",
+    "productImage": "PB0016-Thumb",
+    "questions": [
+      {
+        "isSecret": false,
+        "questionId": "PB0016-Q01",
+        "title": "성분 관련 문의",
+        "userName": "차유나",
+        "date": "2026-02-06",
+        "content": {
+          "question": "비건 제품인가요? 동물성 성분이 있는지 궁금합니다.",
+          "answer": "안녕하세요 고객님\n해당 제품에는 비즈왁스(밀랍)가 포함되어 있어 비건 제품은 아닙니다."
+        }
+      },
+      {
+        "isSecret": false,
+        "questionId": "PB0016-Q02",
+        "title": "발색 정도 문의",
+        "userName": "노서윤",
+        "date": "2026-02-02",
+        "content": {
+          "question": "립밤인데 색상이 진하게 나오나요?",
+          "answer": "안녕하세요 고객님\n은은한 컬러감으로 자연스럽게 발색됩니다. 여러 번 레이어링하시면 발색을 조절하실 수 있습니다."
+        }
+      },
+      {
+        "isSecret": false,
+        "questionId": "PB0016-Q03",
+        "title": "보습력 지속시간",
+        "userName": "문지아",
+        "date": "2026-01-26",
+        "content": {
+          "question": "입술이 많이 건조한데 보습이 오래 가나요?",
+          "answer": "안녕하세요 고객님\n시어버터와 로즈힙오일이 함유되어 약 4~5시간 보습이 유지됩니다."
+        }
+      },
+      {
+        "isSecret": true,
+        "questionId": "PB0016-Q04",
+        "title": "알레르기 성분 문의",
+        "userName": "배하은",
+        "date": "2026-01-18",
+        "content": {
+          "question": "꿀 알레르기가 있는데 밀랍 성분이 괜찮을까요?",
+          "answer": "안녕하세요 고객님\n밀랍(비즈왁스)은 꿀과는 다른 성분이나, 꿀 알레르기가 있으시면 사용 전 패치 테스트를 권장드립니다."
+        }
+      }
+    ]
+  },
+  {
+    "productId": "PB0017",
+    "productName": "[맥] 맥 아이셰도우 19종 택1",
+    "productImage": "PB0017-Thumb",
+    "questions": [
+      {
+        "isSecret": false,
+        "questionId": "PB0017-Q01",
+        "title": "매트 질감 색상 추천",
+        "userName": "한소율",
+        "date": "2026-01-15",
+        "content": {
+          "question": "매트 타입 중 데일리로 쓰기 좋은 색상 추천 부탁드려요.",
+          "answer": "안녕하세요 고객님\n매트 타입 중 소프트 브라운, 코르크, 브룰레가 데일리용으로 인기가 많습니다."
+        }
+      },
+      {
+        "isSecret": false,
+        "questionId": "PB0017-Q02",
+        "title": "팬 교체 가능 여부",
+        "userName": "오채영",
+        "date": "2026-01-12",
+        "content": {
+          "question": "맥 팔레트에 끼울 수 있는 팬 형태인가요?",
+          "answer": "안녕하세요 고객님\n네, 맥 전용 팔레트에 호환 가능한 팬 형태입니다."
+        }
+      },
+      {
+        "isSecret": false,
+        "questionId": "PB0017-Q03",
+        "title": "가루 날림 문의",
+        "userName": "신유나",
+        "date": "2026-01-08",
+        "content": {
+          "question": "쉬머 타입은 가루 날림이 심한가요?",
+          "answer": "안녕하세요 고객님\n맥 아이셰도우는 프레스 기술이 우수하여 가루 날림이 적은 편입니다. 브러시로 살짝 털어내고 사용하시면 더 좋습니다."
+        }
+      },
+      {
+        "isSecret": true,
+        "questionId": "PB0017-Q04",
+        "title": "색상 교환 문의",
+        "userName": "류지원",
+        "date": "2026-01-05",
+        "content": {
+          "question": "개봉했는데 색상이 화면과 달라요. 교환 되나요?",
+          "answer": "안녕하세요 고객님\n개봉 후 사용하지 않은 경우 수령일로부터 7일 이내 교환 가능합니다. 모니터 환경에 따라 색상 차이가 있을 수 있는 점 양해 부탁드립니다."
+        }
+      },
+      {
+        "isSecret": false,
+        "questionId": "PB0017-Q05",
+        "title": "프라이머 필요 여부",
+        "userName": "강서현",
+        "date": "2026-01-02",
+        "content": {
+          "question": "아이 프라이머 없이 사용해도 괜찮나요?",
+          "answer": "안녕하세요 고객님\n프라이머 없이도 사용 가능하지만, 프라이머를 사용하시면 발색과 지속력이 더 좋아집니다."
+        }
+      }
+    ]
+  },
+  {
+    "productId": "PB0018",
+    "productName": "[아르마니뷰티] 쿨링 선스틱 듀오",
+    "productImage": "PB0018-Thumb",
+    "questions": [
+      {
+        "isSecret": false,
+        "questionId": "PB0018-Q01",
+        "title": "차단 지수 문의",
+        "userName": "윤다혜",
+        "date": "2026-02-14",
+        "content": {
+          "question": "SPF와 PA 등급이 어떻게 되나요?",
+          "answer": "안녕하세요 고객님\nSPF50+ PA++++ 등급으로, 강한 자외선에도 효과적으로 차단해줍니다."
+        }
+      },
+      {
+        "isSecret": false,
+        "questionId": "PB0018-Q02",
+        "title": "메이크업 위에 덧바름 가능한가요",
+        "userName": "정예원",
+        "date": "2026-02-10",
+        "content": {
+          "question": "화장한 얼굴 위에 바로 덧발라도 밀리지 않나요?",
+          "answer": "안녕하세요 고객님\n스틱 타입으로 메이크업 위에 가볍게 덧바르기 좋으며, 밀림이 적습니다."
+        }
+      },
+      {
+        "isSecret": false,
+        "questionId": "PB0018-Q03",
+        "title": "쿨링감 지속 시간",
+        "userName": "김나연",
+        "date": "2026-02-06",
+        "content": {
+          "question": "쿨링감이 바른 후 얼마나 지속되나요?",
+          "answer": "안녕하세요 고객님\n멘톨 성분으로 바르는 즉시 시원한 느낌이 있으며, 약 10~15분간 쿨링감이 유지됩니다."
+        }
+      },
+      {
+        "isSecret": true,
+        "questionId": "PB0018-Q04",
+        "title": "민감 피부 사용 문의",
+        "userName": "장하윤",
+        "date": "2026-01-30",
+        "content": {
+          "question": "멘톨 때문에 피부가 빨개질 수 있나요?",
+          "answer": "안녕하세요 고객님\n민감 피부의 경우 멘톨 성분에 자극을 느끼실 수 있습니다. 팔 안쪽에 먼저 테스트 후 사용을 권장드립니다."
+        }
+      }
+    ]
+  },
+  {
+    "productId": "PB0019",
+    "productName": "[김정문알로에] 립 마에스트로 사틴 립글로즈",
+    "productImage": "PB0019-Thumb",
+    "questions": [
+      {
+        "isSecret": false,
+        "questionId": "PB0019-Q01",
+        "title": "알로에 함량이 궁금해요",
+        "userName": "박유진",
+        "date": "2026-02-02",
+        "content": {
+          "question": "알로에 성분이 몇 퍼센트 함유되어 있나요?",
+          "answer": "안녕하세요 고객님\n알로에베라잎즙이 전체 성분 중 약 15% 함유되어 있습니다."
+        }
+      },
+      {
+        "isSecret": false,
+        "questionId": "PB0019-Q02",
+        "title": "색상 종류 문의",
+        "userName": "이은빈",
+        "date": "2026-01-28",
+        "content": {
+          "question": "색상이 몇 가지 있나요?",
+          "answer": "안녕하세요 고객님\n현재 로즈핑크, 코랄, 누드베이지 총 3가지 색상이 준비되어 있습니다."
+        }
+      },
+      {
+        "isSecret": true,
+        "questionId": "PB0019-Q03",
+        "title": "입술 트러블 문의",
+        "userName": "최현서",
+        "date": "2026-01-22",
+        "content": {
+          "question": "사용 후 입술이 부르트는데 정상인가요?",
+          "answer": "안녕하세요 고객님\n특정 성분에 대한 개인 반응일 수 있습니다. 사용을 중단하시고 증상이 지속되면 전문의 상담을 권장드립니다."
+        }
+      },
+      {
+        "isSecret": false,
+        "questionId": "PB0019-Q04",
+        "title": "유통기한 문의",
+        "userName": "강수현",
+        "date": "2026-01-15",
+        "content": {
+          "question": "개봉 후 유통기한이 어떻게 되나요?",
+          "answer": "안녕하세요 고객님\n개봉 후 12개월 이내 사용을 권장드립니다."
+        }
+      }
+    ]
+  },
+  {
+    "productId": "PB0020",
+    "productName": "[릴리바이레드] 러브빔 치크밤 9종 택1",
+    "productImage": "PB0020-Thumb",
+    "questions": [
+      {
+        "isSecret": false,
+        "questionId": "PB0020-Q01",
+        "title": "쿨톤 추천 색상 문의",
+        "userName": "유서현",
+        "date": "2026-02-04",
+        "content": {
+          "question": "쿨톤 여름에 어울리는 색상 추천 부탁드려요.",
+          "answer": "안녕하세요 고객님\n쿨톤 여름 타입에는 03 로즈밤, 05 라일락밤 색상을 추천드립니다."
+        }
+      },
+      {
+        "isSecret": false,
+        "questionId": "PB0020-Q02",
+        "title": "립 & 치크 겸용인가요",
+        "userName": "신은서",
+        "date": "2026-01-30",
+        "content": {
+          "question": "이거 입술에도 바를 수 있나요?",
+          "answer": "안녕하세요 고객님\n립 & 치크 겸용 제품으로 입술에도 사용 가능합니다."
+        }
+      },
+      {
+        "isSecret": true,
+        "questionId": "PB0020-Q03",
+        "title": "발색 차이 문의",
+        "userName": "임소율",
+        "date": "2026-01-24",
+        "content": {
+          "question": "온라인 사진과 실물 발색이 다를 수 있나요?",
+          "answer": "안녕하세요 고객님\n모니터 환경에 따라 색상 차이가 있을 수 있습니다. 실제 발색은 사진보다 자연스러운 편입니다."
+        }
+      },
+      {
+        "isSecret": false,
+        "questionId": "PB0020-Q04",
+        "title": "밤 타입 지속력 문의",
+        "userName": "고예린",
+        "date": "2026-01-18",
+        "content": {
+          "question": "밤 타입이면 금방 날아가지 않나요?",
+          "answer": "안녕하세요 고객님\n밀착력이 좋아 약 3~4시간 지속되며, 자연스럽게 빠지는 편이라 수시로 덧바르시면 좋습니다."
+        }
+      },
+      {
+        "isSecret": false,
+        "questionId": "PB0020-Q05",
+        "title": "9종 전체 색상 목록 문의",
+        "userName": "백지민",
+        "date": "2026-01-10",
+        "content": {
+          "question": "9종 색상이 각각 어떤 건지 알 수 있을까요?",
+          "answer": "안녕하세요 고객님\n01 피치밤, 02 코랄밤, 03 로즈밤, 04 체리밤, 05 라일락밤, 06 플럼밤, 07 브릭밤, 08 누드밤, 09 베리밤 총 9종입니다."
+        }
+      }
+    ]
+  }
+]

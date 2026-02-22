@@ -1,0 +1,905 @@
+[
+  {
+    "productId": "PF0001",
+    "productName": "[엘렌쥬얼리]14K 물방울 원터치 귀걸이",
+    "productImage": "PF0001-Thumb",
+    "topBadgeText": "멤버스특가",
+    "bottomBannerText": "최저가8130원",
+    "originalPrice": 760000,
+    "discountRate": 10,
+    "firstDiscountRate": 15,
+    "isDawnDelivery": true,
+    "brandName": "엘렌쥬얼리",
+    "isKurlyOnly": true,
+    "category": ["주얼리"],
+    "reviewCount": 2,
+    "eventBadge": true,
+    "rankingCategory": "주얼리",
+    "ranking": 5,
+    "createdAt": "2026-01-05",
+    "salesCount": 120,
+    "reviews": [
+      {
+        "reviewId": "PF0001-R01",
+        "isMembers": true,
+        "isBest": true,
+        "userName": "김남길",
+        "content": "맛이 좋아요 즐겁게 먹었습니다.",
+        "reviewImages": ["ReviewImage06-01", "ReviewImage06-02"]
+      },
+      {
+        "reviewId": "PF0001-R02",
+        "isMembers": true,
+        "isBest": false,
+        "userName": "최영원",
+        "content": "인생이 행복해지는 비결은 끊임없이 작은선물을 받는 것이다.",
+        "reviewImages": ["ReviewImage06-01", "ReviewImage06-02"]
+      }
+    ],
+    "questions": [
+      {
+        "isSecret": false,
+        "questionId": "PF0001-Q02",
+        "title": "사과가 이게 맞나요",
+        "userName": "지성준",
+        "date": "2026-02-11",
+        "content": {
+          "question": "2번째 시켰는데 왜 맨날 사과 한개를 빼먹고 그래요 섭섭하게",
+          "answer": "안녕하세요 고객님\n사과를 그만 도둑고양이가 먹어버리고 말았어요."
+        }
+      }
+    ],
+    "detailDescription": {
+      "detailProductImage": "PF0001-Detail",
+      "productTitle": "[엘렌쥬얼리]14K 물방울 원터치 귀걸이",
+      "material": "금",
+      "color": "gold",
+      "size": "공통"
+    }
+  },
+  {
+    "productId": "PF0002",
+    "productName": "[베흐트] 14K 하우트 스와로브스키 진주 귀걸이",
+    "productImage": "PF0002-Thumb",
+    "topBadgeText": "멤버스특가",
+    "bottomBannerText": "최저가70,560원",
+    "originalPrice": 98000,
+    "discountRate": 20,
+    "firstDiscountRate": 10,
+    "isDawnDelivery": true,
+    "brandName": "베흐트",
+    "isKurlyOnly": false,
+    "category": ["주얼리", "귀걸이"],
+    "reviewCount": 47,
+    "eventBadge": false,
+    "rankingCategory": "주얼리",
+    "ranking": 2,
+    "createdAt": "2025-11-20",
+    "salesCount": 534,
+    "reviews": [
+      {
+        "reviewId": "PF0002-R01",
+        "isMembers": true,
+        "isBest": true,
+        "userName": "이수진",
+        "content": "14K라 피부에 닿아도 알레르기 없이 착용이 편하고, 진주 빛이 은은하게 예뻐요. 스와로브스키 크리스탈과 조합이 너무 고급스러워서 생일 선물로 드렸더니 정말 좋아하셨어요!",
+        "reviewImages": ["ReviewImage02-01", "ReviewImage02-02"]
+      },
+      {
+        "reviewId": "PF0002-R02",
+        "isMembers": false,
+        "isBest": false,
+        "userName": "박채원",
+        "content": "빛을 받으면 크리스탈이 정말 예쁘게 반짝여요. 데일리로 끼고 다니기에 딱 좋은 사이즈고 원터치 잠금도 편리합니다.",
+        "reviewImages": []
+      }
+    ],
+    "questions": [
+      {
+        "isSecret": false,
+        "questionId": "PF0002-Q01",
+        "title": "색상 옵션 문의",
+        "userName": "김예슬",
+        "date": "2026-01-15",
+        "content": {
+          "question": "골드 색상 외에 실버나 로즈골드도 선택 가능한가요?",
+          "answer": "안녕하세요, 고객님. 현재 옐로우 골드와 로즈골드 두 가지 색상으로 운영되고 있으며, 장바구니에서 옵션 선택이 가능합니다."
+        }
+      }
+    ],
+    "detailDescription": {
+      "detailProductImage": "PF0002-Detail",
+      "productTitle": "[베흐트] 14K 하우트 스와로브스키 진주 귀걸이",
+      "material": "14K 골드, 스와로브스키 크리스탈, 담수 진주",
+      "color": "gold / rose gold",
+      "size": "공통"
+    }
+  },
+  {
+    "productId": "PF0003",
+    "productName": "[바이이이에르] 루나 페블 원터치 귀걸이 4종",
+    "productImage": "PF0003-Thumb",
+    "topBadgeText": null,
+    "bottomBannerText": "최저가32,640원",
+    "originalPrice": 48000,
+    "discountRate": 15,
+    "firstDiscountRate": 20,
+    "isDawnDelivery": true,
+    "brandName": "바이이이에르",
+    "isKurlyOnly": false,
+    "category": ["주얼리", "귀걸이"],
+    "reviewCount": 132,
+    "eventBadge": true,
+    "rankingCategory": "주얼리",
+    "ranking": 3,
+    "createdAt": "2025-10-08",
+    "salesCount": 1204,
+    "reviews": [
+      {
+        "reviewId": "PF0003-R01",
+        "isMembers": true,
+        "isBest": true,
+        "userName": "정유진",
+        "content": "4종 세트라 선물하기 딱 좋아요. 매일 분위기 바꿔가며 낄 수 있고 변색도 없어서 너무 만족스럽습니다. 가성비 최고예요!",
+        "reviewImages": ["ReviewImage03-01", "ReviewImage03-02"]
+      },
+      {
+        "reviewId": "PF0003-R02",
+        "isMembers": true,
+        "isBest": false,
+        "userName": "한소희",
+        "content": "원터치 잠금이라 혼자서도 착용하기 너무 편해요. 오래 끼고 있어도 귀가 아프지 않고 디자인도 심플해서 어떤 옷에도 잘 어울려요.",
+        "reviewImages": []
+      },
+      {
+        "reviewId": "PF0003-R03",
+        "isMembers": false,
+        "isBest": false,
+        "userName": "오세훈",
+        "content": "여자친구 생일 선물로 샀는데 엄청 좋아했어요. 포장도 예쁘게 해주셔서 선물용으로 강력 추천합니다.",
+        "reviewImages": []
+      }
+    ],
+    "questions": [],
+    "detailDescription": {
+      "detailProductImage": "PF0003-Detail",
+      "productTitle": "[바이이이에르] 루나 페블 원터치 귀걸이 4종",
+      "material": "스테인리스 스틸 (316L), 에폭시 코팅",
+      "color": "silver / gold / rose gold / black",
+      "size": "공통"
+    }
+  },
+  {
+    "productId": "PF0004",
+    "productName": "[베흐트] 템포 프레임 손목시계 4종",
+    "productImage": "PF0004-Thumb",
+    "topBadgeText": "KURLY ONLY",
+    "bottomBannerText": "최저가218,025원",
+    "originalPrice": 285000,
+    "discountRate": 10,
+    "firstDiscountRate": 15,
+    "isDawnDelivery": false,
+    "brandName": "베흐트",
+    "isKurlyOnly": true,
+    "category": ["주얼리", "액세서리"],
+    "reviewCount": 88,
+    "eventBadge": false,
+    "rankingCategory": "시계/액세서리",
+    "ranking": 1,
+    "createdAt": "2025-12-01",
+    "salesCount": 742,
+    "reviews": [
+      {
+        "reviewId": "PF0004-R01",
+        "isMembers": true,
+        "isBest": true,
+        "userName": "임채원",
+        "content": "시계가 묵직하면서도 세련됐어요. 사무실에서 차고 다니는데 주변 반응이 정말 좋습니다. 정장에도 캐주얼에도 다 잘 어울리고 방수도 돼서 일상생활에 불편함이 전혀 없어요.",
+        "reviewImages": ["ReviewImage04-01", "ReviewImage04-02"]
+      },
+      {
+        "reviewId": "PF0004-R02",
+        "isMembers": true,
+        "isBest": false,
+        "userName": "나윤서",
+        "content": "블랙 컬러로 샀는데 유리에 흠집도 잘 안 나고 견고해 보여서 마음에 들어요. 시간도 잘 맞고 배터리도 오래 가서 만족합니다.",
+        "reviewImages": []
+      }
+    ],
+    "questions": [
+      {
+        "isSecret": false,
+        "questionId": "PF0004-Q01",
+        "title": "방수 가능 여부",
+        "userName": "조민아",
+        "date": "2026-01-22",
+        "content": {
+          "question": "손 씻을 때 물 닿아도 괜찮나요? 방수 등급이 어떻게 되나요?",
+          "answer": "안녕하세요, 고객님. 해당 시계는 3ATM 생활 방수가 적용되어 있어 손 씻기, 가벼운 빗물 등 일상적인 물 접촉에는 문제없습니다. 단, 수영이나 샤워 시 착용은 권장드리지 않습니다."
+        }
+      }
+    ],
+    "detailDescription": {
+      "detailProductImage": "PF0004-Detail",
+      "productTitle": "[베흐트] 템포 프레임 손목시계 4종",
+      "material": "스테인리스 스틸 케이스, 미네랄 글라스, 천연 가죽 밴드",
+      "color": "black / white / silver / gold",
+      "size": "케이스 지름 38mm"
+    }
+  },
+  {
+    "productId": "PF0005",
+    "productName": "[바이듀] 벨로아 셋업(그레이)",
+    "productImage": "PF0005-Thumb",
+    "topBadgeText": "멤버스특가",
+    "bottomBannerText": "최저가92,160원",
+    "originalPrice": 128000,
+    "discountRate": 20,
+    "firstDiscountRate": 10,
+    "isDawnDelivery": true,
+    "brandName": "바이듀",
+    "isKurlyOnly": false,
+    "category": ["원피스/셋업", "셋업"],
+    "reviewCount": 63,
+    "eventBadge": false,
+    "rankingCategory": "셋업",
+    "ranking": 1,
+    "createdAt": "2025-11-05",
+    "salesCount": 619,
+    "reviews": [
+      {
+        "reviewId": "PF0005-R01",
+        "isMembers": true,
+        "isBest": true,
+        "userName": "윤석현",
+        "content": "벨로아 소재가 너무 부드럽고 따뜻해요. 상하의 세트라 코디 고민이 없고 그레이 컬러가 어떤 신발과도 잘 어울립니다. 집에서도 카페에서도 어색하지 않아서 자주 입게 돼요.",
+        "reviewImages": ["ReviewImage05-01", "ReviewImage05-02"]
+      },
+      {
+        "reviewId": "PF0005-R02",
+        "isMembers": false,
+        "isBest": false,
+        "userName": "강예린",
+        "content": "M 사이즈 구매했는데 사이즈 딱 맞아요. 바지 밴딩이 편하고 허리가 조이지 않아서 하루 종일 편안하게 입을 수 있어요.",
+        "reviewImages": []
+      }
+    ],
+    "questions": [
+      {
+        "isSecret": false,
+        "questionId": "PF0005-Q01",
+        "title": "세탁 방법 문의",
+        "userName": "신동욱",
+        "date": "2026-02-03",
+        "content": {
+          "question": "벨로아 소재라 세탁이 걱정되는데 세탁기 사용 가능한가요?",
+          "answer": "안녕하세요, 고객님. 해당 제품은 울 세탁 코스(30℃ 이하 찬물 손세탁 권장)로 세탁 가능합니다. 세탁기 사용 시 세탁망에 넣어 약한 세탁 코스로 사용해 주시고, 직접 건조기 사용은 삼가 주세요."
+        }
+      }
+    ],
+    "detailDescription": {
+      "detailProductImage": "PF0005-Detail",
+      "productTitle": "[바이듀] 벨로아 셋업(그레이)",
+      "material": "폴리에스터 80%, 스판덱스 20%",
+      "color": "gray",
+      "size": "S / M / L (상하의 별도 선택)"
+    }
+  },
+  {
+    "productId": "PF0006",
+    "productName": "[고드나트](셋업) 모노 커브 카라 블라우스 & 모노 플리츠 밴딩 스커트",
+    "productImage": "PF0006-Thumb",
+    "topBadgeText": "KURLY ONLY",
+    "bottomBannerText": "최저가120,870원",
+    "originalPrice": 158000,
+    "discountRate": 15,
+    "firstDiscountRate": 10,
+    "isDawnDelivery": true,
+    "brandName": "고드나트",
+    "isKurlyOnly": true,
+    "category": ["원피스/셋업", "셋업", "블라우스", "스커트"],
+    "reviewCount": 54,
+    "eventBadge": true,
+    "rankingCategory": "셋업",
+    "ranking": 2,
+    "createdAt": "2025-12-15",
+    "salesCount": 488,
+    "reviews": [
+      {
+        "reviewId": "PF0006-R01",
+        "isMembers": true,
+        "isBest": true,
+        "userName": "문지혜",
+        "content": "오피스룩으로 입기에 너무 딱이에요. 블라우스 카라 디테일이 우아하고 스커트 플리츠가 적당히 잡혀 있어 슬림해 보이는 효과가 있어요. 소재도 고급스럽고 구겨짐도 적어서 아주 만족합니다.",
+        "reviewImages": ["ReviewImage06-01", "ReviewImage06-02"]
+      },
+      {
+        "reviewId": "PF0006-R02",
+        "isMembers": true,
+        "isBest": false,
+        "userName": "배서현",
+        "content": "셋업이라 세트로 입기도 좋고 분리해서 입어도 예뻐요. 블라우스는 청바지에도 잘 어울려서 데일리로 활용하기 좋습니다.",
+        "reviewImages": []
+      }
+    ],
+    "questions": [],
+    "detailDescription": {
+      "detailProductImage": "PF0006-Detail",
+      "productTitle": "[고드나트](셋업) 모노 커브 카라 블라우스 & 모노 플리츠 밴딩 스커트",
+      "material": "폴리에스터 65%, 레이온 30%, 스판덱스 5%",
+      "color": "ivory / black",
+      "size": "S / M / L (상하의 별도 선택)"
+    }
+  },
+  {
+    "productId": "PF0007",
+    "productName": "[듀이듀이] 울 피케 니트 드레스 (2컬러)",
+    "productImage": "PF0007-Thumb",
+    "topBadgeText": null,
+    "bottomBannerText": "최저가100,890원",
+    "originalPrice": 118000,
+    "discountRate": 10,
+    "firstDiscountRate": 5,
+    "isDawnDelivery": true,
+    "brandName": "듀이듀이",
+    "isKurlyOnly": false,
+    "category": ["원피스/셋업", "원피스", "드레스"],
+    "reviewCount": 39,
+    "eventBadge": false,
+    "rankingCategory": "원피스",
+    "ranking": 1,
+    "createdAt": "2025-10-22",
+    "salesCount": 387,
+    "reviews": [
+      {
+        "reviewId": "PF0007-R01",
+        "isMembers": true,
+        "isBest": true,
+        "userName": "황민재",
+        "content": "울 소재라 따뜻하고 피케 텍스처가 고급스러워요. 원피스 하나로 전체 코디가 완성되는 느낌이라 너무 좋아요. 부츠랑 코디하면 너무 예쁩니다!",
+        "reviewImages": ["ReviewImage07-01"]
+      },
+      {
+        "reviewId": "PF0007-R02",
+        "isMembers": false,
+        "isBest": false,
+        "userName": "류지현",
+        "content": "아이보리 컬러 샀는데 사진이랑 색상이 거의 똑같아요. 니트 소재인데 생각보다 얇지 않아서 겨울에도 충분히 따뜻하게 입을 수 있어요.",
+        "reviewImages": []
+      }
+    ],
+    "questions": [
+      {
+        "isSecret": false,
+        "questionId": "PF0007-Q01",
+        "title": "울 소재 알레르기 문의",
+        "userName": "장수아",
+        "date": "2026-01-30",
+        "content": {
+          "question": "울 알레르기가 있는데 안에 이너티 입으면 착용 가능할까요?",
+          "answer": "안녕하세요, 고객님. 울 성분에 민감하신 분들은 이너웨어 착용을 권장드립니다. 소매 부분도 소매 안쪽으로 이너가 노출되지 않는 디자인이라 편하게 착용하실 수 있을 것 같습니다."
+        }
+      }
+    ],
+    "detailDescription": {
+      "detailProductImage": "PF0007-Detail",
+      "productTitle": "[듀이듀이] 울 피케 니트 드레스 (2컬러)",
+      "material": "울 80%, 아크릴 20%",
+      "color": "ivory / charcoal",
+      "size": "Free (S~M 적합)"
+    }
+  },
+  {
+    "productId": "PF0008",
+    "productName": "[루시다] 멜란 트렌치 원피스 2 colors (택 1)",
+    "productImage": "PF0008-Thumb",
+    "topBadgeText": "멤버스특가",
+    "bottomBannerText": "최저가62,475원",
+    "originalPrice": 98000,
+    "discountRate": 25,
+    "firstDiscountRate": 15,
+    "isDawnDelivery": true,
+    "brandName": "루시다",
+    "isKurlyOnly": false,
+    "category": ["원피스/셋업", "원피스"],
+    "reviewCount": 72,
+    "eventBadge": true,
+    "rankingCategory": "원피스",
+    "ranking": 3,
+    "createdAt": "2025-09-18",
+    "salesCount": 856,
+    "reviews": [
+      {
+        "reviewId": "PF0008-R01",
+        "isMembers": true,
+        "isBest": true,
+        "userName": "이현우",
+        "content": "멜란 소재가 주는 고급스러운 느낌이 너무 좋아요. 트렌치 디테일이 적당히 있어서 캐주얼하게도 포멀하게도 연출할 수 있어요. 봄가을 가장 자주 입을 것 같은 아이템이에요.",
+        "reviewImages": ["ReviewImage08-01", "ReviewImage08-02"]
+      },
+      {
+        "reviewId": "PF0008-R02",
+        "isMembers": true,
+        "isBest": false,
+        "userName": "김태양",
+        "content": "베이지 컬러로 주문했는데 정말 예뻐요. 허리 벨트로 체형 커버가 되고 기장이 적당해서 다리도 길어 보여요.",
+        "reviewImages": []
+      }
+    ],
+    "questions": [],
+    "detailDescription": {
+      "detailProductImage": "PF0008-Detail",
+      "productTitle": "[루시다] 멜란 트렌치 원피스 2 colors (택 1)",
+      "material": "폴리에스터 60%, 레이온 35%, 스판덱스 5%",
+      "color": "beige / navy",
+      "size": "S / M / L"
+    }
+  },
+  {
+    "productId": "PF0009",
+    "productName": "[R2W] 캐시미어 100 리나 터틀 니트 7color (택 1)",
+    "productImage": "PF0009-Thumb",
+    "topBadgeText": "KURLY ONLY",
+    "bottomBannerText": "최저가156,960원",
+    "originalPrice": 218000,
+    "discountRate": 20,
+    "firstDiscountRate": 10,
+    "isDawnDelivery": true,
+    "brandName": "R2W",
+    "isKurlyOnly": true,
+    "category": ["상의", "니트"],
+    "reviewCount": 215,
+    "eventBadge": false,
+    "rankingCategory": "니트/스웨터",
+    "ranking": 1,
+    "createdAt": "2025-09-30",
+    "salesCount": 2341,
+    "reviews": [
+      {
+        "reviewId": "PF0009-R01",
+        "isMembers": true,
+        "isBest": true,
+        "userName": "박소연",
+        "content": "캐시미어 100%라 감촉이 말도 못하게 부드러워요. 한 번 입어보면 다른 니트는 못 입게 됩니다. 터틀넥이 적당히 높아서 목을 따뜻하게 감싸줘서 겨울 내내 이것만 입고 싶어요. 다른 컬러도 추가 구매 예정입니다!",
+        "reviewImages": ["ReviewImage09-01", "ReviewImage09-02"]
+      },
+      {
+        "reviewId": "PF0009-R02",
+        "isMembers": true,
+        "isBest": true,
+        "userName": "최준혁",
+        "content": "베이지로 샀는데 어떤 하의에도 다 잘 어울려요. 소재가 정말 고급스럽고 보풀도 잘 안 생겨서 오래 입어도 처음 같은 상태예요.",
+        "reviewImages": ["ReviewImage09-03"]
+      },
+      {
+        "reviewId": "PF0009-R03",
+        "isMembers": false,
+        "isBest": false,
+        "userName": "정유리",
+        "content": "7가지 컬러 중에 카멜 컬러 선택했는데 색이 너무 예뻐요. 선물 받은 것처럼 포장도 정성스럽게 해주셔서 감동이었어요.",
+        "reviewImages": []
+      }
+    ],
+    "questions": [
+      {
+        "isSecret": false,
+        "questionId": "PF0009-Q01",
+        "title": "건조기 사용 가능한가요?",
+        "userName": "한기태",
+        "date": "2026-02-05",
+        "content": {
+          "question": "캐시미어라 세탁 후 건조기 사용하면 수축될까요?",
+          "answer": "안녕하세요, 고객님. 캐시미어 제품은 건조기 사용 시 수축 및 변형이 발생할 수 있습니다. 손세탁 후 수건에 눌러 물기를 제거하고 통풍이 잘 되는 곳에 평평하게 눕혀 건조해 주시길 권장드립니다."
+        }
+      }
+    ],
+    "detailDescription": {
+      "detailProductImage": "PF0009-Detail",
+      "productTitle": "[R2W] 캐시미어 100 리나 터틀 니트 7color (택 1)",
+      "material": "캐시미어 100%",
+      "color": "ivory / beige / camel / gray / charcoal / black / dusty pink",
+      "size": "S / M / L"
+    }
+  },
+  {
+    "productId": "PF0010",
+    "productName": "[R2W] 캐시미어 100 디에고 오픈 카라 니트 4color (택 1)",
+    "productImage": "PF0010-Thumb",
+    "topBadgeText": "KURLY ONLY",
+    "bottomBannerText": "최저가151,470원",
+    "originalPrice": 198000,
+    "discountRate": 15,
+    "firstDiscountRate": 10,
+    "isDawnDelivery": true,
+    "brandName": "R2W",
+    "isKurlyOnly": true,
+    "category": ["상의", "니트"],
+    "reviewCount": 178,
+    "eventBadge": false,
+    "rankingCategory": "니트/스웨터",
+    "ranking": 2,
+    "createdAt": "2025-10-10",
+    "salesCount": 1873,
+    "reviews": [
+      {
+        "reviewId": "PF0010-R01",
+        "isMembers": true,
+        "isBest": true,
+        "userName": "손지민",
+        "content": "오픈 카라 디자인이 라운드넥보다 훨씬 세련돼 보여요. 캐시미어 100%라 보들보들하고 가벼운데 따뜻해서 겨울 내내 입기 좋아요. 리나 터틀도 이미 가지고 있는데 둘 다 너무 마음에 들어요.",
+        "reviewImages": ["ReviewImage10-01", "ReviewImage10-02"]
+      },
+      {
+        "reviewId": "PF0010-R02",
+        "isMembers": true,
+        "isBest": false,
+        "userName": "윤재성",
+        "content": "차콜 컬러로 샀는데 정장에도 자연스럽게 어울려서 출근룩으로 자주 입어요. 사이즈는 M 구매했고 적당히 여유있게 맞아요.",
+        "reviewImages": []
+      }
+    ],
+    "questions": [],
+    "detailDescription": {
+      "detailProductImage": "PF0010-Detail",
+      "productTitle": "[R2W] 캐시미어 100 디에고 오픈 카라 니트 4color (택 1)",
+      "material": "캐시미어 100%",
+      "color": "ivory / beige / charcoal / black",
+      "size": "S / M / L"
+    }
+  },
+  {
+    "productId": "PF0011",
+    "productName": "[슬로우롤리] (5차리오더)(누빔ver) 뉴트럴 무드 부클 코트",
+    "productImage": "PF0011-Thumb",
+    "topBadgeText": "멤버스특가",
+    "bottomBannerText": "최저가340,290원",
+    "originalPrice": 398000,
+    "discountRate": 10,
+    "firstDiscountRate": 5,
+    "isDawnDelivery": false,
+    "brandName": "슬로우롤리",
+    "isKurlyOnly": false,
+    "category": ["상의", "아우터", "코트"],
+    "reviewCount": 309,
+    "eventBadge": true,
+    "rankingCategory": "아우터/코트",
+    "ranking": 1,
+    "createdAt": "2025-10-01",
+    "salesCount": 3102,
+    "reviews": [
+      {
+        "reviewId": "PF0011-R01",
+        "isMembers": true,
+        "isBest": true,
+        "userName": "임수빈",
+        "content": "5차 리오더 이유가 있어요. 부클 소재가 너무 고급스럽고 누빔 안감 덕분에 생각보다 훨씬 따뜻해요. 오버핏이라 안에 두꺼운 니트 입어도 너무 잘 어울리고, 뉴트럴 컬러라 어떤 코디와도 찰떡이에요. 올 시즌 최고의 구매입니다!",
+        "reviewImages": [
+          "ReviewImage11-01",
+          "ReviewImage11-02",
+          "ReviewImage11-03"
+        ]
+      },
+      {
+        "reviewId": "PF0011-R02",
+        "isMembers": true,
+        "isBest": true,
+        "userName": "김현정",
+        "content": "코트 하나로 전체 코디가 완성되는 느낌이에요. 4년 전에 같은 브랜드 코트 샀는데 아직도 입고 있어서 믿고 구매했고 역시 실망 없이 너무 만족합니다.",
+        "reviewImages": ["ReviewImage11-04"]
+      },
+      {
+        "reviewId": "PF0011-R03",
+        "isMembers": false,
+        "isBest": false,
+        "userName": "박준혁",
+        "content": "여자친구 선물로 구매했는데 너무 좋아하네요. 포장도 깔끔하고 코트 퀄리티가 가격 이상이라 가성비 좋아요.",
+        "reviewImages": []
+      }
+    ],
+    "questions": [
+      {
+        "isSecret": false,
+        "questionId": "PF0011-Q01",
+        "title": "사이즈 선택 도움 요청",
+        "userName": "이가영",
+        "date": "2026-01-10",
+        "content": {
+          "question": "키 160cm 체중 52kg인데 S와 M 중 어떤 사이즈가 맞을까요?",
+          "answer": "안녕하세요, 고객님. 해당 코트는 오버핏 기획 제품으로 통상 한 사이즈 작게 선택하시길 권장드립니다. 고객님 체형에는 S 사이즈가 적합할 것 같으나, 안에 두꺼운 이너를 즐겨 입으신다면 M도 좋습니다."
+        }
+      },
+      {
+        "isSecret": true,
+        "questionId": "PF0011-Q02",
+        "title": "교환 문의",
+        "userName": "최다연",
+        "date": "2026-02-01",
+        "content": {
+          "question": "",
+          "answer": ""
+        }
+      }
+    ],
+    "detailDescription": {
+      "detailProductImage": "PF0011-Detail",
+      "productTitle": "[슬로우롤리] (5차리오더)(누빔ver) 뉴트럴 무드 부클 코트",
+      "material": "겉감: 폴리에스터 60%, 울 40% / 안감: 폴리에스터 100% (누빔)",
+      "color": "camel / oatmeal",
+      "size": "S / M / L"
+    }
+  },
+  {
+    "productId": "PF0012",
+    "productName": "[슬로우롤리] 로이 보트넥 니트 3 Colors (택 1)",
+    "productImage": "PF0012-Thumb",
+    "topBadgeText": null,
+    "bottomBannerText": "최저가92,160원",
+    "originalPrice": 128000,
+    "discountRate": 20,
+    "firstDiscountRate": 10,
+    "isDawnDelivery": true,
+    "brandName": "슬로우롤리",
+    "isKurlyOnly": false,
+    "category": ["상의", "니트"],
+    "reviewCount": 91,
+    "eventBadge": false,
+    "rankingCategory": "니트/스웨터",
+    "ranking": 4,
+    "createdAt": "2025-11-01",
+    "salesCount": 978,
+    "reviews": [
+      {
+        "reviewId": "PF0012-R01",
+        "isMembers": true,
+        "isBest": true,
+        "userName": "강다솔",
+        "content": "보트넥 라인이 쇄골을 예쁘게 드러내줘서 너무 예뻐요. 두툼하지 않고 가벼운 무게감이라 레이어드하기도 좋고, 소재가 부드러워서 종일 입어도 피부 자극이 없어요.",
+        "reviewImages": ["ReviewImage12-01", "ReviewImage12-02"]
+      },
+      {
+        "reviewId": "PF0012-R02",
+        "isMembers": true,
+        "isBest": false,
+        "userName": "오지환",
+        "content": "크림 화이트 컬러로 구매했는데 깔끔하고 청바지, 슬랙스 모두 다 잘 어울려요. 보풀도 안 생기고 세탁해도 형태 유지가 잘 됩니다.",
+        "reviewImages": []
+      }
+    ],
+    "questions": [],
+    "detailDescription": {
+      "detailProductImage": "PF0012-Detail",
+      "productTitle": "[슬로우롤리] 로이 보트넥 니트 3 Colors (택 1)",
+      "material": "울 50%, 아크릴 30%, 나일론 20%",
+      "color": "cream white / light gray / black",
+      "size": "Free (S~M 적합)"
+    }
+  },
+  {
+    "productId": "PF0013",
+    "productName": "[R2W] 캐시미어 100 디에고 포켓 조거 팬츠 3color (택1)",
+    "productImage": "PF0013-Thumb",
+    "topBadgeText": "KURLY ONLY",
+    "bottomBannerText": "최저가136,170원",
+    "originalPrice": 178000,
+    "discountRate": 15,
+    "firstDiscountRate": 10,
+    "isDawnDelivery": true,
+    "brandName": "R2W",
+    "isKurlyOnly": true,
+    "category": ["하의", "바지"],
+    "reviewCount": 126,
+    "eventBadge": false,
+    "rankingCategory": "바지",
+    "ranking": 3,
+    "createdAt": "2025-10-15",
+    "salesCount": 1245,
+    "reviews": [
+      {
+        "reviewId": "PF0013-R01",
+        "isMembers": true,
+        "isBest": true,
+        "userName": "서예린",
+        "content": "캐시미어 100% 팬츠라는 게 믿기지 않을 만큼 실용적이에요. 조거 스타일이라 활동성도 좋고 캐시미어 특유의 부드러운 감촉이 피부에 닿을 때마다 너무 좋아요. 니트 셋업으로 입으면 너무 고급스러워 보여요.",
+        "reviewImages": ["ReviewImage13-01", "ReviewImage13-02"]
+      },
+      {
+        "reviewId": "PF0013-R02",
+        "isMembers": false,
+        "isBest": false,
+        "userName": "김도현",
+        "content": "차콜 컬러 선택했는데 어디에나 잘 어울려요. 밴딩이라 사이즈 부담 없이 착용할 수 있고 포켓이 있어 실용적입니다.",
+        "reviewImages": []
+      }
+    ],
+    "questions": [
+      {
+        "isSecret": false,
+        "questionId": "PF0013-Q01",
+        "title": "밴딩 사이즈 조절 가능한가요?",
+        "userName": "노지현",
+        "date": "2026-01-25",
+        "content": {
+          "question": "허리 사이즈가 커서 밴딩이 얼마나 늘어나는지 궁금해요.",
+          "answer": "안녕하세요, 고객님. 허리 밴딩은 약 10~12cm 정도 늘어나며, M 기준 안단면 허리 둘레는 약 66cm, 최대 78cm까지 수용 가능합니다. 자세한 실측 사이즈는 상품 상세 페이지를 참고해 주세요."
+        }
+      }
+    ],
+    "detailDescription": {
+      "detailProductImage": "PF0013-Detail",
+      "productTitle": "[R2W] 캐시미어 100 디에고 포켓 조거 팬츠 3color (택1)",
+      "material": "캐시미어 100%",
+      "color": "beige / gray / charcoal",
+      "size": "S / M / L"
+    }
+  },
+  {
+    "productId": "PF0014",
+    "productName": "[메르시마리에] 웜포켓 스냅 본딩기모 데님 진 710947",
+    "productImage": "PF0014-Thumb",
+    "topBadgeText": "멤버스특가",
+    "bottomBannerText": "최저가60,520원",
+    "originalPrice": 89000,
+    "discountRate": 20,
+    "firstDiscountRate": 15,
+    "isDawnDelivery": true,
+    "brandName": "메르시마리에",
+    "isKurlyOnly": false,
+    "category": ["하의", "바지", "데님"],
+    "reviewCount": 204,
+    "eventBadge": true,
+    "rankingCategory": "바지",
+    "ranking": 2,
+    "createdAt": "2025-10-20",
+    "salesCount": 2087,
+    "reviews": [
+      {
+        "reviewId": "PF0014-R01",
+        "isMembers": true,
+        "isBest": true,
+        "userName": "최아름",
+        "content": "기모 안감이 있어서 청바지인데 엄청 따뜻해요! 스냅 포켓이 실용적이고 본딩 처리로 바람도 잘 막아줘서 한겨울에도 청바지 입고 다닐 수 있게 됐어요. 핏도 날씬하게 잘 나오고 정말 추천합니다.",
+        "reviewImages": ["ReviewImage14-01", "ReviewImage14-02"]
+      },
+      {
+        "reviewId": "PF0014-R02",
+        "isMembers": true,
+        "isBest": false,
+        "userName": "이민호",
+        "content": "겨울용 청바지 찾다가 구매했는데 기모 두께가 적당해서 입었을 때 너무 두꺼워 보이지 않아요. 27사이즈 구매했고 허리는 딱 맞고 힙은 약간 여유있어요.",
+        "reviewImages": []
+      },
+      {
+        "reviewId": "PF0014-R03",
+        "isMembers": false,
+        "isBest": false,
+        "userName": "박진희",
+        "content": "데님 색상이 워싱감이 있어서 빈티지스럽고 세련돼 보여요. 기모 특유의 뻣뻣함이 없고 신축성도 있어서 활동하기 편합니다.",
+        "reviewImages": []
+      }
+    ],
+    "questions": [
+      {
+        "isSecret": false,
+        "questionId": "PF0014-Q01",
+        "title": "세탁 시 기모 손상 여부",
+        "userName": "조연수",
+        "date": "2026-02-08",
+        "content": {
+          "question": "기모 데님이라 세탁기 돌리면 기모가 뭉치거나 손상될 것 같아서요.",
+          "answer": "안녕하세요, 고객님. 세탁 시 뒤집어서 30℃ 이하 찬물로 세탁망에 넣어 약한 코스로 세탁해 주세요. 기모 부분 보호를 위해 건조기 사용은 삼가시고 통풍이 잘 되는 그늘에서 건조해 주시길 권장드립니다."
+        }
+      }
+    ],
+    "detailDescription": {
+      "detailProductImage": "PF0014-Detail",
+      "productTitle": "[메르시마리에] 웜포켓 스냅 본딩기모 데님 진 710947",
+      "material": "겉감: 면 98%, 스판덱스 2% / 안감: 폴리에스터 100% (기모)",
+      "color": "mid blue / dark blue",
+      "size": "25 / 26 / 27 / 28 / 29 / 30"
+    }
+  },
+  {
+    "productId": "PF0015",
+    "productName": "[앤클라인]와이드 핀턱 슬렉스 N5HW16",
+    "productImage": "PF0015-Thumb",
+    "topBadgeText": null,
+    "bottomBannerText": "최저가55,080원",
+    "originalPrice": 72000,
+    "discountRate": 15,
+    "firstDiscountRate": 10,
+    "isDawnDelivery": true,
+    "brandName": "앤클라인",
+    "isKurlyOnly": false,
+    "category": ["하의", "바지", "슬랙스"],
+    "reviewCount": 167,
+    "eventBadge": false,
+    "rankingCategory": "바지",
+    "ranking": 4,
+    "createdAt": "2025-08-25",
+    "salesCount": 1659,
+    "reviews": [
+      {
+        "reviewId": "PF0015-R01",
+        "isMembers": true,
+        "isBest": true,
+        "userName": "황지수",
+        "content": "와이드 핏인데 핀턱 덕분에 다리 라인이 날씬하고 길어 보여요. 허리 밴딩이라 사이즈 걱정 없이 편하게 입을 수 있고, 소재가 좋아서 구겨짐이 적어요. 사무실에서도 데이트룩으로도 활용도 최고입니다.",
+        "reviewImages": ["ReviewImage15-01", "ReviewImage15-02"]
+      },
+      {
+        "reviewId": "PF0015-R02",
+        "isMembers": true,
+        "isBest": false,
+        "userName": "류민석",
+        "content": "블랙 컬러로 구매했는데 어떤 상의에도 다 잘 어울려요. 기장이 딱 발등까지 와서 키 작은 분들도 다리 길어 보이는 효과 있어요. 재구매 의사 100%입니다.",
+        "reviewImages": []
+      }
+    ],
+    "questions": [],
+    "detailDescription": {
+      "detailProductImage": "PF0015-Detail",
+      "productTitle": "[앤클라인]와이드 핀턱 슬렉스 N5HW16",
+      "material": "폴리에스터 70%, 레이온 25%, 스판덱스 5%",
+      "color": "black / gray / camel / ivory",
+      "size": "S / M / L / XL"
+    }
+  },
+  {
+    "productId": "PF0016",
+    "productName": "[고드나트] 쿠로키 원워시드 인디고 데님 팬츠 (Japan fabric)",
+    "productImage": "PF0016-Thumb",
+    "topBadgeText": "KURLY ONLY",
+    "bottomBannerText": "최저가109,440원",
+    "originalPrice": 128000,
+    "discountRate": 10,
+    "firstDiscountRate": 5,
+    "isDawnDelivery": false,
+    "brandName": "고드나트",
+    "isKurlyOnly": true,
+    "category": ["하의", "바지", "데님"],
+    "reviewCount": 143,
+    "eventBadge": false,
+    "rankingCategory": "바지",
+    "ranking": 1,
+    "createdAt": "2025-09-05",
+    "salesCount": 1102,
+    "reviews": [
+      {
+        "reviewId": "PF0016-R01",
+        "isMembers": true,
+        "isBest": true,
+        "userName": "백지훈",
+        "content": "일본 원단이라 그런지 데님 퀄리티가 확실히 달라요. 쿠로키 원단 특유의 인디고 색감이 너무 아름답고 원워시 처리로 빈티지한 느낌이 살아있어요. 색 빠짐도 적고 입을수록 자기 몸에 맞게 길들여지는 느낌이라 오래 입을수록 더 좋아지는 청바지입니다.",
+        "reviewImages": ["ReviewImage16-01", "ReviewImage16-02"]
+      },
+      {
+        "reviewId": "PF0016-R02",
+        "isMembers": true,
+        "isBest": false,
+        "userName": "안소영",
+        "content": "처음에 뻣뻣하지 않을까 걱정했는데 생각보다 부드럽고 신축성도 적당해서 활동하기 불편하지 않아요. 인디고 블루 색상이 정말 예쁘고 세탁해도 색이 잘 유지됩니다.",
+        "reviewImages": []
+      }
+    ],
+    "questions": [
+      {
+        "isSecret": false,
+        "questionId": "PF0016-Q01",
+        "title": "첫 세탁 시 색 빠짐 문의",
+        "userName": "전민준",
+        "date": "2026-01-18",
+        "content": {
+          "question": "인디고 데님이라 첫 세탁 때 색이 많이 빠질까봐 걱정돼요.",
+          "answer": "안녕하세요, 고객님. 인디고 데님 특성상 초반 세탁 시 일부 색 빠짐이 있을 수 있습니다. 첫 세탁은 단독으로 뒤집어서 찬물 손세탁을 권장드리며, 식초 한 스푼을 넣으시면 색 빠짐 방지에 도움이 됩니다. 2~3회 세탁 후에는 안정화됩니다."
+        }
+      }
+    ],
+    "detailDescription": {
+      "detailProductImage": "PF0016-Detail",
+      "productTitle": "[고드나트] 쿠로키 원워시드 인디고 데님 팬츠 (Japan fabric)",
+      "material": "면 99%, 스판덱스 1% (일본 쿠로키 원단)",
+      "color": "indigo",
+      "size": "25 / 26 / 27 / 28 / 29 / 30"
+    }
+  }
+]

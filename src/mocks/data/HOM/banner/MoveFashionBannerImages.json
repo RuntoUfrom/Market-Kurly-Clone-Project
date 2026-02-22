@@ -1,0 +1,62 @@
+[
+  {
+    "bannerId": "BF0001",
+    "bannerImage": "FashionBanner01",
+    "linkUrl": "/event/300001",
+    "title": "패션컬리 홈 배너 01"
+  },
+  {
+    "bannerId": "BF0002",
+    "bannerImage": "FashionBanner02",
+    "linkUrl": "/event/300002",
+    "title": "패션컬리 홈 배너 02"
+  },
+  {
+    "bannerId": "BF0003",
+    "bannerImage": "FashionBanner03",
+    "linkUrl": "/event/300003",
+    "title": "패션컬리 홈 배너 03"
+  },
+  {
+    "bannerId": "BF0004",
+    "bannerImage": "FashionBanner04",
+    "linkUrl": "/event/300004",
+    "title": "패션컬리 홈 배너 04"
+  },
+  {
+    "bannerId": "BF0005",
+    "bannerImage": "FashionBanner05",
+    "linkUrl": "/event/300005",
+    "title": "패션컬리 홈 배너 05"
+  },
+  {
+    "bannerId": "BF0006",
+    "bannerImage": "FashionBanner06",
+    "linkUrl": "/event/300006",
+    "title": "패션컬리 홈 배너 06"
+  },
+  {
+    "bannerId": "BF0007",
+    "bannerImage": "FashionBanner07",
+    "linkUrl": "/event/300007",
+    "title": "패션컬리 홈 배너 07"
+  },
+  {
+    "bannerId": "BF0008",
+    "bannerImage": "FashionBanner08",
+    "linkUrl": "/event/300008",
+    "title": "패션컬리 홈 배너 08"
+  },
+  {
+    "bannerId": "BF0009",
+    "bannerImage": "FashionBanner09",
+    "linkUrl": "/event/300009",
+    "title": "패션컬리 홈 배너 09"
+  },
+  {
+    "bannerId": "BF0010",
+    "bannerImage": "FashionBanner10",
+    "linkUrl": "/event/300010",
+    "title": "패션컬리 홈 배너 10"
+  }
+]

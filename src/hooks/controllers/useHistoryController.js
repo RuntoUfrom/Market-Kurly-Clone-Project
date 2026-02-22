@@ -2,6 +2,23 @@ import { useNavigate } from "react-router-dom";
 import useHistoryStore, { createHistory } from "@/stores/useHistoryStore";
 import menuDataJson from "@/routes/MenuInfo.json";
 
+// goBack → popstate 핸들러로 데이터를 전달하기 위한 임시 저장소
+let _pendingBackNum = 0;
+let _pendingPreParams = {};
+
+/**
+ * popstate 핸들러에서 호출하여 goBack이 저장한 num, preParams를 꺼내고 초기화
+ * - goBack 경유: { num: 설정값, preParams: 설정값 }
+ * - 브라우저 뒤로 버튼: { num: 0, preParams: {} } → 핸들러에서 기본값 1 사용
+ */
+export const consumePendingBack = () => {
+  const num = _pendingBackNum;
+  const preParams = _pendingPreParams;
+  _pendingBackNum = 0;
+  _pendingPreParams = {};
+  return { num, preParams };
+};
+
 // 앱의 Core한 로직을 실행하기 위한 공통 Hook
 const useHistoryController = () => {
   const navigate = useNavigate();
@@ -9,7 +26,6 @@ const useHistoryController = () => {
     historyList,
     nowPageParams,
     addHistoryList,
-    removeHistoryList,
     clearHistoryList,
     setNowPageParams,
     getHistoryList,
@@ -24,7 +40,7 @@ const useHistoryController = () => {
   const goForward = (menuId, params, options) => {
     if (options !== -1) {
       addHistoryList(
-        createHistory(window.location.pathname, nowPageParams || {}),
+        createHistory(window.location.pathname, nowPageParams?.params || {}),
       );
     }
     setNowPageParams({
@@ -45,50 +61,27 @@ const useHistoryController = () => {
 
   /**
    * 뒤로 페이지 이동 함수
+   * - store 업데이트는 popstate 핸들러(Layout.jsx)에서 처리
+   * - navigate(-num)이 popstate 이벤트를 발생시키면 핸들러가 동작
    * @param num (num) - 뒤로갈 페이지의 갯수
    * @param preParams  - 뒤로갈 페이지에 전달할 파라미터 정보
    */
   const goBack = (num, preParams) => {
-    console.log("=== goBack 시작 ===");
-    console.log(
-      "뒤로가기 전 historyList:",
-      JSON.parse(JSON.stringify(historyList)),
-    );
-    console.log("뒤로갈 페이지 수:", num);
-
-    let lastUrl = "";
-
     if (historyList.length >= num) {
-      // 바로 직전 num번째 요소를 가져옴
-      const prev = historyList[historyList.length - num];
-      console.log("이동할 이전 페이지:", prev);
-
-      if (prev?.url) {
-        lastUrl = prev.url;
-        setNowPageParams({
-          params: prev.nowparams || {},
-          preParams,
-        });
-      }
-
-      removeHistoryList(num);
+      // popstate 핸들러에서 꺼내 쓸 수 있도록 임시 저장
+      _pendingBackNum = num;
+      _pendingPreParams = preParams || {};
+      navigate(-num);
     } else {
-      console.log("히스토리 부족 - 홈으로 이동");
+      // 히스토리 부족 - 홈으로 이동 (PUSH이므로 popstate 발생 안 함)
       clearHistoryList();
       setNowPageParams({ params: {}, preParams });
+      navigate("/");
     }
-
-    console.log(`네비게이션: -> ${lastUrl || "/"}`);
-    console.log("=== goBack 완료 ===");
-    getHistoryList(); //확인용 주석
-
-    navigate(lastUrl || "/");
   };
 
-  /**
-   * 현재 페이지의 파라미터 정보를 얻는 함수
-   */
   const getPageParams = () => {
+    //Store에 넣어둔 nowPageParam의 데이터를 가져여오는 함수
     return nowPageParams;
   };
 
