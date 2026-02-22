@@ -25,6 +25,7 @@ const FILTER_MAP = {
 };
 const ProductListContainer = ({
   category,
+  label,
   page = 1,
   limit = 20,
   isHOM,
@@ -37,6 +38,7 @@ const ProductListContainer = ({
     queryKey: [
       "products",
       category,
+      label,
       page,
       (limit = 20),
       sortOption,
@@ -48,6 +50,7 @@ const ProductListContainer = ({
     queryFn: () =>
       productListService({
         category,
+        label,
         page,
         limit,
         sortOption,
@@ -102,7 +105,7 @@ const ProductListContainer = ({
           </div>
         </div>
       </div>
-      <div className="mx-4 mt-2">
+      <div className="mx-4 mt-1 ">
         <FilterBar
           isKurlyOnly={true}
           isNew={true}

@@ -23,7 +23,7 @@ const FilterBar = ({
   let index = 0;
 
   return (
-    <div className="flex flex-row gap-2 overflow-x-auto scrollbar-hide">
+    <div className="flex flex-row gap-2 overflow-x-auto scrollbar-hide bg-white py-2">
       {isKurlyOnly && (
         <div className="shrink-0 rounded-full bg-linear-to-r from-purple-500 to-sky-300 p-[1.5px]">
           <button

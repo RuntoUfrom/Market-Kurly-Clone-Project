@@ -9,7 +9,9 @@ export const TimeDealHandler = [
     } else if (category === "beauty") {
       return HttpResponse.json(TimeDealEventData[1]);
     } else if (category === "fashion") {
-      return HttpResponse.json(TimeDealEventData[2]);
+      return HttpResponse.json(TimeDealEventData[4]);
+    } else if (category === "living") {
+      return HttpResponse.json(TimeDealEventData[3]);
     }
   }),
 ];

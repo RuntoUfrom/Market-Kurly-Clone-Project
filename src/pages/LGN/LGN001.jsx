@@ -22,7 +22,7 @@ const LGN001 = () => {
   };
 
   return (
-    <div className="flex flex-col h-full">
+    <div className="flex flex-col h-full bg-white">
       <div className="flex items-center justify-between px-4 py-3 bg-white">
         <button
           onClick={() => moveTo({ direction: "BACK" })}

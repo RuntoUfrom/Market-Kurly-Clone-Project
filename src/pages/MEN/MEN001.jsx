@@ -4,7 +4,7 @@ import { useState } from "react";
 import MENBeautyContent from "@/pages/MEN/MENBeautyContent";
 import MENMarketContent from "@/pages/MEN/MENMarketContent";
 import NaviBar from "@/components/common/layout/NaviBar";
-import MenuGrid from "@/components/common/MenuGrid";
+
 const MEN001 = () => {
   const MarketKurlyTabList = ["마켓컬리", "뷰티컬리"];
   const [selectedTab, setSelectedTab] = useState("마켓컬리");

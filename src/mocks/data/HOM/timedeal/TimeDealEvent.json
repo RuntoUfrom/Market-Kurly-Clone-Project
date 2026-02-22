@@ -30,6 +30,36 @@
     "endTime": "2026-02-20T18:00:00"
   },
   {
+    "productId": "PL0009",
+    "productName": "[더조선호텔] 시탄면 풀세트 이불 2종 택1",
+    "productImage": "PL0009-Thumb",
+    "topBadgeText": "한정 수량",
+    "bottomBannerText": "최대혜택가 79200원",
+    "originalPrice": 198000,
+    "discountRate": 20,
+    "isKurlyOnly": false,
+    "category": ["이불배게"],
+    "shortDescription": "더 조선 호텔에서 직접 사용하는 프리미엄 시탄면 이불 풀세트, 호텔 숙면을 집에서",
+    "reviewCount": 5,
+    "eventBadge": false,
+    "endTime": "2026-02-22T18:00:00"
+  },
+  {
+    "productId": "PL0015",
+    "productName": "[미닉스] 음식물 처리기 더플렌더MAX",
+    "productImage": "PL0015-Thumb",
+    "topBadgeText": "혜택 쿠폰 증정",
+    "bottomBannerText": "최대혜택가 97250원",
+    "originalPrice": 389000,
+    "discountRate": 15,
+    "isKurlyOnly": false,
+    "category": ["주방용품"],
+    "shortDescription": "저소음 설계로 이웃집 눈치 없이, 빠르게 분쇄하는 미닉스 최신형 음식물 처리기",
+    "reviewCount": 3,
+    "eventBadge": true,
+    "endTime": "2026-02-23T18:00:00"
+  },
+  {
     "productId": "PF0014",
     "productName": "[메르시마리에] 웜포켓 스냅 본딩기모 데님 진 710947",
     "productImage": "PF0014-Thumb",

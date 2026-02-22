@@ -5,7 +5,7 @@ import IconButton from "@/components/common/button/IconButton";
 import ChatIcon from "@/assets/common/icons/ChatIcon.svg";
 import ImageMappingHelper from "@/constants/ImageMappingHelper";
 import useHistoryController from "@/hooks/controllers/useHistoryController";
-
+import useCartStore from "@/stores/useCartStore";
 /**
  * 타임 딜 섹션 컴포넌트
  * 타이머와 상품 정보를 표시함.
@@ -26,6 +26,7 @@ const TimeDealComponent = ({ product, endTime }) => {
     reviewCount,
   } = product;
   const { moveTo } = useHistoryController();
+  const { addToCart } = useCartStore();
   const formatPrice = (price) => {
     return price?.toLocaleString() + "원";
   };
@@ -36,11 +37,14 @@ const TimeDealComponent = ({ product, endTime }) => {
       params: { productId },
     });
   };
+  const cartData = {
+    ...product,
+    productImage: ImageMappingHelper[product?.productImage],
+  };
+
   const handleCartClick = (e) => {
-    e.stopPropagation(); // 🔑 부모 클릭 이벤트 차단
-    console.log(`장바구니에 추가: ${productId}`);
-    // TODO: 장바구니 페이지 구현 후 활성화
-    // moveTo({ direction: "FORWARD", menuId: "CART001" });
+    e.stopPropagation();
+    addToCart({ ...cartData, quantity: 1 });
   };
   return (
     <div onClick={handleProductClick}>
@@ -61,7 +65,7 @@ const TimeDealComponent = ({ product, endTime }) => {
 
         <p className="text-gray-800 text-base font-medium">
           {productName?.length > 16
-            ? productName.slice(0, 16) + "..."
+            ? productName.slice(0, 30) + "..."
             : productName}
         </p>
         <p>

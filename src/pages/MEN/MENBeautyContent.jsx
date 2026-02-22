@@ -3,9 +3,21 @@ import MenuNavBtn from "@/components/feature/MEN/MenuNavBtn";
 import MenuGrid from "@/components/common/MenuGrid";
 import { useState, useRef } from "react";
 import { MEN_BEAUTY_IMAGE_MAP } from "@/constants/HOMMarketMenuImageMap";
+import useHistoryController from "@/hooks/controllers/useHistoryController";
+
 const MENBeautyContent = () => {
   const [selectMenu, SetSelectMenu] = useState(MarketBeautyMap[0].mainTab);
   const menuRefs = useRef({});
+  const { moveTo } = useHistoryController();
+
+  const handleNavClick = ({ label }) => {
+    moveTo({
+      direction: "FORWARD",
+      menuId: "LST001",
+      params: { title: label, label: label, category: "beauty" },
+    });
+  };
+
   return (
     <div className="h-full flex flex-col">
       <div className="bg-white pb-1 shrink-0">
@@ -49,9 +61,14 @@ const MENBeautyContent = () => {
                 emoji={item.Icon}
                 label={item.mainTab}
                 isMainTab={true}
+                onClick={() => handleNavClick({ label: item.mainTab })}
               />
               {item.SubTabList.map((subtab) => (
-                <MenuNavBtn key={subtab} label={subtab} />
+                <MenuNavBtn
+                  key={subtab}
+                  label={subtab}
+                  onClick={() => handleNavClick({ label: subtab })}
+                />
               ))}
             </div>
           ))}

@@ -17,6 +17,7 @@ const DTIInquiryContent = ({ productId }) => {
       <div className="bg-white px-4 p-2 flex flex-col gap-2">
         {data?.questions?.map((item) => (
           <ProductQuestion
+            key={item.questionId}
             isSecret={item.isSecret}
             title={item.title}
             userName={item.userName}

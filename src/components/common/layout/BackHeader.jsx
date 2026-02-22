@@ -39,7 +39,18 @@ const BackHeader = ({
       )}
       <div className="ml-auto flex gap-4">
         {isSearch && <img src={SearchIcon} />}
-        {isHome && <img src={HomeIcon} />}
+        {isHome && (
+          <img
+            src={HomeIcon}
+            onClick={() =>
+              moveTo({
+                direction: "FORWARD",
+                options: -1,
+                menuId: "HOM",
+              })
+            }
+          />
+        )}
         <img src={CartIcon} onClick={goToCart} />
       </div>
     </div>

@@ -1,9 +1,13 @@
 import BasicSubmitButton from "../button/BasicSubmitButton";
 import HeartIcon from "@/assets/common/icons/HeartIcon.png";
+import useNavigateToPlace from "@/hooks/controllers/useNavigateToPlace";
 /**
  * 상품 상세 페이지 하단 구매 버튼 컴포넌트
  */
 const DetailProductButton = () => {
+  const handleBuyClick = () => {
+    console.log("구매 버튼 클릭");
+  };
   return (
     <div className="flex flex-row w-full">
       <div className="w-1/5 flex items-center justify-center">
@@ -13,9 +17,7 @@ const DetailProductButton = () => {
         <BasicSubmitButton
           text="구매하기"
           variant="fill"
-          onClick={() => {
-            console.log("구매하기 버튼 클릭");
-          }}
+          onClick={handleBuyClick}
         />
       </div>
     </div>

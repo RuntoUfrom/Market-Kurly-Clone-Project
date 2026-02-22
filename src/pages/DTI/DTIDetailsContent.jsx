@@ -10,6 +10,8 @@ const DTIDetailsContent = ({ detailDescription = {}, productId }) => {
     category = "beauty";
   } else if (productId.charAt(1) === "F") {
     category = "fashion";
+  } else if (productId.charAt(1) === "L") {
+    category = "living";
   }
   return (
     <div className="flex flex-col justify-center bg-white">

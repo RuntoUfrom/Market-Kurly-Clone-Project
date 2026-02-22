@@ -10,6 +10,7 @@ import ApiUtils from "@/utils/ApiUtils";
  */
 export async function productListService({
   category,
+  label,
   page = 1,
   limit = 10,
   sortOption = "추천순",
@@ -20,6 +21,7 @@ export async function productListService({
 }) {
   const request = {
     category,
+    label,
     page,
     limit,
     sortOption,

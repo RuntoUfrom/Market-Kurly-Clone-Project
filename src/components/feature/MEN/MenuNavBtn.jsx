@@ -6,9 +6,9 @@
  * @param {string} props.label - 카테고리 이름
  * @param {boolean} props.isMainTab - 메인 탭 여부 (강조 스타일 및 화살표 표시)
  */
-const MenuNavBtn = ({ emoji = "", label, isMainTab = false }) => {
+const MenuNavBtn = ({ emoji = "", label, isMainTab = false, onClick }) => {
   return (
-    <div>
+    <div onClick={onClick}>
       <div className="flex items-center justify-between p-5 py-2 bg-white">
         <div className="flex items-center gap-1">
           {emoji && <span>{emoji}</span>}

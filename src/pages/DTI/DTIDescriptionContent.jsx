@@ -16,6 +16,8 @@ const DTIDescriptionContent = ({ product }) => {
     category = "beauty";
   } else if (product.productId.charAt(1) === "F") {
     category = "fashion";
+  } else if (product.productId.charAt(1) === "L") {
+    category = "living";
   }
 
   return (
@@ -37,7 +39,7 @@ const DTIDescriptionContent = ({ product }) => {
         />
       </div>
       {/* 상품 정보 그리드 */}
-      <div className="w-full grid grid-cols-[80px_1fr] gap-y-4 text-sm px-4 py-4 border-t border-gray-100 bg-white">
+      <div className="w-full grid grid-cols-[80px_1fr] gap-y-4 text-sm px-4 py-4 bg-white">
         <span className="text-gray-500 font-medium">배송</span>
         <div>
           <p className="font-medium">

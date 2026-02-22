@@ -11,6 +11,11 @@ import beautyDetailReviewData from "@/mocks/data/DTI/beauty/beautyDetailReview.j
 import fashionDetailInfoData from "@/mocks/data/DTI/fashion/fashionDetailInfo.json";
 import fashionDetailQuestionData from "@/mocks/data/DTI/fashion/fashionDetailQuestion.json";
 import fashionDetailReviewData from "@/mocks/data/DTI/fashion/fashionDetailReview.json";
+//리빙 - DTI 페이지 사용 데이터
+import livingDetailInfoData from "@/mocks/data/DTI/living/livingDetailInfo.json";
+import livingDetailQuestionData from "@/mocks/data/DTI/living/livingDetailQuestion.json";
+import livingDetailReviewData from "@/mocks/data/DTI/living/livingDetailReview.json";
+
 export const ProductDetailHandler = [
   http.post("/product/detail/info", async ({ request }) => {
     const body = await request.json();
@@ -20,6 +25,7 @@ export const ProductDetailHandler = [
       M: productDetailInfoData,
       B: beautyDetailInfoData,
       F: fashionDetailInfoData,
+      L: livingDetailInfoData,
     };
     const targetData = dataMap[category] || [];
     const selectedData = targetData.find(
@@ -35,6 +41,7 @@ export const ProductDetailHandler = [
       M: productDetailReviewData,
       B: beautyDetailReviewData,
       F: fashionDetailReviewData,
+      L: livingDetailReviewData,
     };
     const targetData = dataMap[category] || [];
     const selectedData = targetData.find(
@@ -50,6 +57,7 @@ export const ProductDetailHandler = [
       M: productDetailQuestionData,
       B: beautyDetailQuestionData,
       F: fashionDetailQuestionData,
+      L: livingDetailQuestionData,
     };
     const targetData = dataMap[category] || [];
     const selectedData = targetData.find(

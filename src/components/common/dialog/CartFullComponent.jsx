@@ -77,7 +77,7 @@ const CartFullComponent = ({ dialogClose }) => {
         <div className="flex flex-row gap-2 justify-between px-4 pb-2 ">
           <div className="flex flex-row gap-2 p-1" onClick={handleSelectAll}>
             <img src={isAllSelected ? CheckPurpleIcon : CheckUnFillIcon} />
-            <div className="font-medium text-gray-700 text-base">전체선택</div>
+            <div className="font-medium text-gray-700 text-sm">전체선택</div>
           </div>
           <div
             onClick={handleDeleteSelected}

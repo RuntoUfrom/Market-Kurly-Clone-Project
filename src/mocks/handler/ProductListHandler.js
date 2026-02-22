@@ -2,6 +2,7 @@ import { http, HttpResponse } from "msw";
 import MarketProductList from "@/mocks/data/HOM/productlist/MarketProductList.json";
 import BeautyProductList from "@/mocks/data/HOM/productlist/BeautyProductList.json";
 import FashionProductList from "@/mocks/data/HOM/productlist/FashionProductList.json";
+import LivingProductList from "@/mocks/data/HOM/productlist/LivingProductList.json";
 import { sortProducts } from "@/mocks/utils/sortProduct";
 import { applyFilters } from "@/mocks/utils/filterProducts";
 
@@ -10,6 +11,7 @@ export const ProductListHandler = [
     const body = await request.json();
     const {
       category,
+      label,
       page,
       limit,
       sortOption,
@@ -24,9 +26,14 @@ export const ProductListHandler = [
       market: MarketProductList,
       beauty: BeautyProductList,
       fashion: FashionProductList,
+      living: LivingProductList,
     };
     //전체 상품 중 market/beauty/fashion 중 어떤 카테고리인지
-    const allProducts = dataMap[category] ?? [];
+    const categoryProducts = dataMap[category] ?? [];
+    // label이 있으면 해당 세부 카테고리로 필터링
+    const allProducts = label
+      ? categoryProducts.filter((p) => p.category?.includes(label))
+      : categoryProducts;
     //상단 탭바 [베스트|세일|신상] 중 어떤 탭인지
     let subMenuProducts = allProducts;
     if (subMenu && tabKey) {

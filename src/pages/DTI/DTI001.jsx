@@ -13,6 +13,7 @@ import {
 } from "@/api/services/DTI/productDetailService";
 import { useQuery, useQueryClient } from "@tanstack/react-query";
 import useHistoryController from "@/hooks/controllers/useHistoryController";
+import ImageMappingHelper from "@/constants/ImageMappingHelper";
 
 const DTI001 = () => {
   const { getPageParams } = useHistoryController();
@@ -31,10 +32,12 @@ const DTI001 = () => {
       queryClient.prefetchQuery({
         queryKey: ["productDetailReview", productId],
         queryFn: () => productDetailReviewService({ productId }),
+        staleTime: 1000 * 60 * 3,
       });
       queryClient.prefetchQuery({
         queryKey: ["productDetailInquiry", productId],
         queryFn: () => productDetailInquiryService({ productId }),
+        staleTime: 1000 * 60 * 3,
       });
     }
   }, [data, productId, queryClient]);
@@ -42,6 +45,7 @@ const DTI001 = () => {
   const handleTabChange = (label) => {
     setSelectedTab(label);
   };
+
   const renderTab = () => {
     switch (selectedTab) {
       case "상품설명":
@@ -61,6 +65,11 @@ const DTI001 = () => {
         return null;
     }
   };
+  const cartData = {
+    ...data,
+    productImage: ImageMappingHelper[data?.productImage],
+  };
+
   return (
     <div className="h-full flex flex-col">
       {/* 상단 고정 영역 */}
@@ -86,7 +95,7 @@ const DTI001 = () => {
 
       {/* 하단 고정 영역 */}
       <footer className="shrink-0 bg-white">
-        <PurChaseBar />
+        <PurChaseBar product={cartData} />
       </footer>
     </div>
   );
