@@ -22,6 +22,10 @@ const ProductImage = ({
   if (rounded === false) {
     roundvar = "";
   }
+  let eventBadgevar = "bottom-1";
+  if (bottomBannerText !== "") {
+    eventBadgevar = "bottom-8";
+  }
   return (
     <div className={`relative w-full h-full overflow-hidden ${roundvar}`}>
       <img
@@ -38,7 +42,7 @@ const ProductImage = ({
         <img
           src={ProductImageBedge}
           alt="상품 이미지레이어 배지"
-          className="absolute bottom-10 left-1 w-16 h-16"
+          className={`absolute ${eventBadgevar} left-1 w-16 h-16`}
         />
       )}
       {bottomBannerText && (

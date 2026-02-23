@@ -2,7 +2,6 @@ import { useState } from "react";
 import CustomTabBtns from "@/components/common/layout/CustomTabBtns";
 import HomHeader from "@/components/common/layout/HomHeader";
 import NaviBar from "@/components/common/layout/NaviBar";
-
 import HOMRecommandContent from "@/pages/HOM/HOM001/HOMRecommandContent";
 import HOMBestContent from "@/pages/HOM/HOM001/HOMBestContent";
 import HOMSaleContent from "@/pages/HOM/HOM001/HOMSaleContent";

@@ -1,17 +1,12 @@
 import MoveBanner from "@/components/common/MoveBanner";
 import MenuGrid from "@/components/common/MenuGrid";
 import { HOM_BEAUTY_MENU_IMAGE_MAP } from "@/constants/HOMMarketMenuImageMap";
-import SectionHeader from "@/components/common/SectionHeader";
-import ProductScrollSection from "@/components/common/ProductScrollSection";
-import MarketProductsMockData from "@/mocks/data/HOM/MarketProducts";
-import ProductRankSection from "@/components/common/ProductRankSection";
 import { useEffect, useState } from "react";
 import { moveBannerService } from "@/api/services/HOM/bannerService";
 import Footer from "@/components/common/layout/Footer";
 import ProductScrollSectionContainer from "@/components/common/container/ProductScrollSectionContainer";
 import TimeDealContainer from "@/components/feature/HOM/TimeDealContainer";
 import ProductRankContainer from "@/components/common/container/ProductRankContainer";
-import useNavigateToPlace from "@/hooks/controllers/useNavigateToPlace";
 
 const HOMBeautyRecommandContent = () => {
   //const { goToList } = useNavigateToPlace();

@@ -1,6 +1,5 @@
 import ProductCard from "./ProductCard";
 import ImageMappingHelper from "@/constants/ImageMappingHelper";
-
 /**
  * 상품 랭킹 섹션 컴포넌트
  *

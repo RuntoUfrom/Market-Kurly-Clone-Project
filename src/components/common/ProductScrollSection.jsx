@@ -1,11 +1,8 @@
 import ProductCard from "@/components/common/ProductCard";
 import ImageMappingHelper from "@/constants/ImageMappingHelper";
 import NextPurpleIcon from "@/assets/common/icons/NextPurpleIcon.svg";
-import MenuCard from "@/components/common/button/MenuCard";
-import { useState, useEffect } from "react";
 /**
  * 가로 스크롤 가능한 상품 목록 섹션 컴포넌트
- *
  * @param {Object} props
  * @param {Array} [props.products=[]] - 표시할 상품 데이터 목록 (최대 10개 표시)
  * @param {function} props.onClickMore - '전체보기' 버튼 클릭 시 호출되는 핸들러

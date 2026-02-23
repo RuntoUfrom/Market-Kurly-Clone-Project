@@ -4,7 +4,6 @@ import { useEffect, useState } from "react";
 import Footer from "@/components/common/layout/Footer";
 import MenuGrid from "@/components/common/MenuGrid";
 import { HOM_FASHION_MENU_IMAGE_MAP } from "@/constants/HOMMarketMenuImageMap";
-import ProductRankSection from "@/components/common/ProductRankSection";
 import ProductRankContainer from "@/components/common/container/ProductRankContainer";
 import ProductScrollSectionContainer from "@/components/common/container/ProductScrollSectionContainer";
 import TimeDealContainer from "@/components/feature/HOM/TimeDealContainer";

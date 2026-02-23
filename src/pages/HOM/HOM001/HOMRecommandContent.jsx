@@ -25,7 +25,7 @@ const HOMRecommandTab = () => {
           category="market"
           title="최대 혜택으로 준비하는 설선물"
           description="헬스부터 뷰티 선물까지 12% 쿠폰 추가 지급"
-          emoji="🎁"
+          emoji="💝"
           page={1}
         />
         <MenuGrid
@@ -51,7 +51,7 @@ const HOMRecommandTab = () => {
           category="market"
           title="최대 혜택으로 준비하는 설선물"
           description="헬스부터 뷰티 선물까지 12% 쿠폰 추가 지급"
-          emoji="🎁"
+          emoji="💝"
           page={1}
         />
       </div>
