@@ -28,12 +28,20 @@ const FilterBottomComponent = ({ dialogClose, data }) => {
   const handleReset = () => {
     setCheckFilter([]);
   };
+  const handleUndoFilter = (item) => {
+    setCheckFilter(checkFilter.filter((filter) => filter !== item));
+  };
   const handleTab = (label) => {
     setSelectTab(label);
   };
 
   const filteredCount = useMemo(() => {
-    return applyFilters(data.products ?? [], checkFilter, data.category, data.isHOM).length;
+    return applyFilters(
+      data.products ?? [],
+      checkFilter,
+      data.category,
+      data.isHOM,
+    ).length;
   }, [checkFilter, data.products, data.category, data.isHOM]);
 
   const productCount = (products, option, selectTab) => {
@@ -61,15 +69,17 @@ const FilterBottomComponent = ({ dialogClose, data }) => {
       </header>
       <main className="flex-1 overflow-y-auto no-scrollbar">
         <div className="p-4 flex flex-col gap-4">
-          {FILTER_OPTIONS_MAP(data.category, data.isHOM)[selectTab]?.map((option) => (
-            <CheckBox
-              key={`${selectTab}-${option}`}
-              isCheck={checkFilter.includes(option)}
-              label={option}
-              number={productCount(data.products, option, selectTab)}
-              onChange={() => handleToggle(option)}
-            />
-          ))}
+          {FILTER_OPTIONS_MAP(data.category, data.isHOM)[selectTab]?.map(
+            (option) => (
+              <CheckBox
+                key={`${selectTab}-${option}`}
+                isCheck={checkFilter.includes(option)}
+                label={option}
+                number={productCount(data.products, option, selectTab)}
+                onChange={() => handleToggle(option)}
+              />
+            ),
+          )}
         </div>
       </main>
       <footer className="shrink-0 bg-white flex flex-col gap-2 mx-4">
@@ -81,6 +91,7 @@ const FilterBottomComponent = ({ dialogClose, data }) => {
             <div
               key={item}
               className="font-base text-primary/40 text-sm shrink-0"
+              onClick={() => handleUndoFilter(item)}
             >
               {`${item} X`}
             </div>

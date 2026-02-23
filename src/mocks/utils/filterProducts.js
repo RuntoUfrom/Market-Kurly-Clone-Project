@@ -115,6 +115,20 @@ export const BRAND_OPTIONS = {
     "김정문알로에",
     "릴리바이레드",
   ],
+  fashion: [
+    "엘렌쥬얼리",
+    "베흐트",
+    "바이이이에르",
+    "듀이듀이",
+    "루시다",
+    "R2W",
+    "메르시마리에",
+    "슬로우롤리",
+    "앤클라인",
+    "바이듀",
+    "고드나트",
+  ],
+  living: ["니도", "3M", "아망떼", "프로그", "덴비"],
 };
 
 export const FILTER_OPTIONS_MAP = (category, isHOM = false) => ({
@@ -203,8 +217,6 @@ export const matchesFilter = (product, tab, option) => {
  */
 export const applyFilters = (products, checkFilter, category, isHOM) => {
   const optionsMap = FILTER_OPTIONS_MAP(category, isHOM);
-  console.log("🔍 [applyFilters] checkFilter:", checkFilter);
-  console.log("🔍 [applyFilters] category:", category);
   if (checkFilter.length === 0) return products;
 
   // 탭별로 선택된 옵션 분류
@@ -213,7 +225,6 @@ export const applyFilters = (products, checkFilter, category, isHOM) => {
     const selected = checkFilter.filter((o) => options.includes(o));
     if (selected.length > 0) filterByTab[tab] = selected;
   }
-  console.log("🔍 [applyFilters] filterByTab:", filterByTab);
 
   // 탭 간 AND, 탭 내 OR
   const filtered = products.filter((product) => {
@@ -221,6 +232,6 @@ export const applyFilters = (products, checkFilter, category, isHOM) => {
       return selected.some((opt) => matchesFilter(product, tab, opt));
     });
   });
-  console.log("🔍 [applyFilters] filtered count:", filtered.length);
+
   return filtered;
 };
