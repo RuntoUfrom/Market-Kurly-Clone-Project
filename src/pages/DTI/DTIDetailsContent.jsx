@@ -27,7 +27,6 @@ const DTIDetailsContent = ({ detailDescription = {}, productId }) => {
         category={category}
         detailDescription={detailDescription}
       />
-      <div></div>
     </div>
   );
 };

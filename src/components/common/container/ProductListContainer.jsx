@@ -22,6 +22,8 @@ const FILTER_MAP = {
     "배송",
   ],
   market: ["가격", "브랜드", "유형", "혜택", "출시", "포장타입", "배송"],
+  fashion: ["가격", "브랜드", "유형", "혜택", "출시", "포장타입", "배송"],
+  living: ["가격", "브랜드", "유형", "혜택", "출시", "포장타입", "배송"],
 };
 const ProductListContainer = ({
   category,
@@ -31,9 +33,12 @@ const ProductListContainer = ({
   isHOM,
   subMenu,
   tabKey,
+  isNew = true,
 }) => {
   const [sortOption, setSortOption] = useState("추천순");
   const [activeFilters, setActiveFilters] = useState([]);
+  const [newToggle, setNewToggle] = useState(false);
+  const [kurlyOnlyToggle, setKurlyOnlyToggle] = useState(false);
   const { data } = useQuery({
     queryKey: [
       "products",
@@ -84,6 +89,25 @@ const ProductListContainer = ({
     if (result?.confirmed) setActiveFilters(result.checkFilter);
   };
 
+  const handleKurlyOnly = () => {
+    if (kurlyOnlyToggle === false) {
+      setActiveFilters([...activeFilters, "KurlyOnly"]);
+      setKurlyOnlyToggle(true);
+    } else {
+      setActiveFilters(activeFilters.filter((item) => item !== "KurlyOnly"));
+      setKurlyOnlyToggle(false);
+    }
+  };
+  const handleNewProduct = () => {
+    if (newToggle === false) {
+      setActiveFilters([...activeFilters, "신상품"]);
+      setNewToggle(true);
+    } else {
+      setActiveFilters(activeFilters.filter((item) => item !== "신상품"));
+      setNewToggle(false);
+    }
+  };
+
   return (
     <div className="bg-white">
       <div className="flex flex-row justify-between items-center mx-4 text-sm">
@@ -108,11 +132,13 @@ const ProductListContainer = ({
       <div className="mx-4 mt-1 ">
         <FilterBar
           isKurlyOnly={true}
-          isNew={true}
+          isNew={isNew}
           isBeautyFest={category === "beauty"}
           filterList={filterList}
           category={category}
           onClick={handleFilterOpen}
+          clickKurlyOnly={handleKurlyOnly}
+          clickNewProduct={handleNewProduct}
         />
       </div>
       <div>

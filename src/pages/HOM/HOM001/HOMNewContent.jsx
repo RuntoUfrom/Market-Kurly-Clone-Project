@@ -36,6 +36,7 @@ const HOMNewContent = () => {
         isHOM={true}
         subMenu={selectmenu}
         tabKey="new"
+        isNew={false}
       />
     </div>
   );

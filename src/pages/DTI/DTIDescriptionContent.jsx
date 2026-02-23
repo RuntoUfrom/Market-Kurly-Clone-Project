@@ -78,7 +78,6 @@ const DTIDescriptionContent = ({ product }) => {
           category={category}
           detailDescription={product.detailDescription}
         />
-        <Footer />
       </div>
     </div>
   );

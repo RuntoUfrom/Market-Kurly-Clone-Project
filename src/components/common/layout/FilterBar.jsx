@@ -19,16 +19,16 @@ const FilterBar = ({
   filterList = [],
   category,
   onClick,
+  clickKurlyOnly,
+  clickNewProduct,
 }) => {
-  let index = 0;
-
   return (
     <div className="flex flex-row gap-2 overflow-x-auto scrollbar-hide bg-white py-2">
       {isKurlyOnly && (
         <div className="shrink-0 rounded-full bg-linear-to-r from-purple-500 to-sky-300 p-[1.5px]">
           <button
             className="inline-flex items-center gap-1 py-1.5 px-3 bg-white font-medium text-sm rounded-full text-primary hover:bg-gray-50"
-            onClick={() => console.log("필터 컬리 온리")}
+            onClick={clickKurlyOnly}
           >
             Kurly Only
           </button>
@@ -38,7 +38,7 @@ const FilterBar = ({
         <div className="shrink-0 rounded-full bg-linear-to-r from-purple-500 to-sky-300 p-[1.5px]">
           <button
             className="inline-flex items-center gap-1 py-1.5 px-3 bg-white font-medium text-sm rounded-full text-primary hover:bg-gray-50"
-            onClick={() => console.log("신상품 필터")}
+            onClick={clickNewProduct}
           >
             신상품
           </button>

@@ -5,11 +5,11 @@ import CartFullComponent from "@/components/common/dialog/CartFullComponent";
 const useNavigateToPlace = () => {
   const { moveTo } = useHistoryController();
 
-  const goToList = (title, category) => {
+  const goToList = (title, category, isHome) => {
     moveTo({
       direction: "FORWARD",
       menuId: "LST001",
-      params: { title, category },
+      params: { title, category, isHome },
     });
   };
 

@@ -11,7 +11,7 @@ import productImage from "@/assets/productimages/foodmarket/thumbnail/PM0001-Thu
 import ProductCard from "@/components/common/ProductCard";
 import NaviBar from "@/components/common/layout/NaviBar";
 import MoveBanner from "@/components/common/MoveBanner";
-import MARKET_BANNER_MAP from "@/mocks/data/HOM/MoveMarketBannerImages.json";
+import MARKET_BANNER_MAP from "@/mocks/data/HOM/banner/MoveMarketBannerImages.json";
 import FilterBtn from "@/components/common/button/FilterBtn";
 import BackHeader from "@/components/common/layout/BackHeader";
 import FilterBar from "@/components/common/layout/FilterBar";
@@ -57,26 +57,15 @@ const product = {
 const mockProduct = {
   ranking: 1,
   rankingCategory: "채소",
-  // 2. 샛별 배송 여부
   isDawnDelivery: true,
-  // 3. 브랜드명
   brandName: "농부의 아침",
-  // 4. 상품 이름
   productName: "[실속] 유기농 파프리카 2입",
-  // 5. 상품 설명 (상세 요약)
   shortDescription: "아삭한 식감과 풍부한 영양을 담은 친환경 파프리카",
-  // 6. 상품 원산지
-  origin: "국산",
-  // 7. 할인율 (%)
+  detailDescription: { origin: "국산" },
   discountRate: 20,
-  // 8. 할인 후 가격 (판매가)
-  salesPrice: 3200,
-  // 9. 원가
   originalPrice: 4000,
-  // 10. 첫 구매 시 할인율 (%)
-  firstPurchaseDiscountRate: 90,
-  // 11. 첫 구매 시 할인가
-  firstPurchasePrice: 400,
+  firstDiscountRate: 90,
+  reviewCount: 150,
   productImage: "MarketImage01",
 };
 const mockbrand = [
@@ -153,7 +142,7 @@ const CommonComponentsPage = () => {
           description="헬스부터 뷰티선물 까지 12% 쿠폰 추가 지급"
           isButtonAll={true}
           onClick={() => console.log("전체보기 클릭")}
-          imogi={"💜"}
+          emoji={"💜"}
         />
       ),
     },
@@ -326,7 +315,7 @@ const CommonComponentsPage = () => {
       id: "MenuNavBtn",
       label: "MenuNavBtn",
       component: (
-        <MenuNavBtn label="2월의 원더컬리" emoji="🔥" mainTab={true} />
+        <MenuNavBtn label="2월의 원더컬리" emoji="🔥" isMainTab={true} />
       ),
     },
     {
@@ -367,14 +356,17 @@ const CommonComponentsPage = () => {
       component: (
         <ProductCartContent
           product={{
+            productId: 1,
             productName: " [KF365] 1+등급 무항생제 대란 20구",
             productImage: productImage,
-            productDescription: "무항생제 인증을 받은 대란",
-            productOriginalPrice: 8000,
-            productFinalPrice: 6500,
+            shortDescription: "무항생제 인증을 받은 대란",
+            originalPrice: 8000,
+            discountRate: 20,
             productQuantityLeft: 1,
-            productChecked: false,
+            quantity: 1,
           }}
+          productChecked={false}
+          onToggleSelect={() => {}}
         />
       ),
     },
@@ -435,7 +427,7 @@ const CommonComponentsPage = () => {
           isBest={true}
           isMembers={true}
           userName="김남길"
-          imageList={[
+          reviewImages={[
             "MarketImage01",
             "MarketImage02",
             "MarketImage03",
