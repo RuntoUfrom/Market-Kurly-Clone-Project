@@ -1,6 +1,5 @@
 import React, { useEffect, useRef } from "react";
 import useLayerStore from "@/stores/useLayerStore";
-
 /**
  * 바텀시트 팝업 컴포넌트
  *

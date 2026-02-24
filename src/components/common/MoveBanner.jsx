@@ -4,7 +4,6 @@ import ImageMappingHelper from "@/constants/ImageMappingHelper";
 
 /**
  * 자동으로 슬라이드되는 배너 컴포넌트
- *
  * @param {Object} props
  * @param {Array<{bannerImage: string, title: string}>} [props.bannerList=[]] - 배너 데이터 목록
  */

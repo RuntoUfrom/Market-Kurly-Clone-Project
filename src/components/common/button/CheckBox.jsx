@@ -1,6 +1,5 @@
 import CheckedIcon from "@/assets/common/icons/CheckPurpleIcon.svg";
 import UnCheckIcon from "@/assets/common/icons/CheckUnfillIcon.svg";
-
 /**
  * 체크박스 컴포넌트
  *

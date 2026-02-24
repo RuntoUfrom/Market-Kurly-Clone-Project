@@ -2,7 +2,6 @@ import ProductImage from "@/components/common/ProductImage";
 import ProductDetailInfo from "@/components/feature/DTI/ProductDetailInfo";
 import ImageMappingHelper from "@/constants/ImageMappingHelper";
 import BasicSubmitButton from "@/components/common/button/BasicSubmitButton";
-import Footer from "@/components/common/layout/Footer";
 import ProductDetailNotice from "@/components/feature/DTI/ProductDetailNotice";
 import ProductScrollSectionContainer from "@/components/common/container/ProductScrollSectionContainer";
 import ProductSimpleContainer from "@/components/common/container/ProductSimpleContainer";
